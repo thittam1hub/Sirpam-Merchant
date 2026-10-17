@@ -1,0 +1,2317 @@
+{
+  "@@locale": "kn",
+  "udhaarReminderMessage": "ನಮಸ್ಕಾರ {name}, {stall} ನಲ್ಲಿ ನಿಮ್ಮ ಬಾಕಿ ಮೊತ್ತ Rs {amount}. ದಯವಿಟ್ಟು ಪಾವತಿಸಿ. ಧನ್ಯವಾದಗಳು.{link}",
+  "@udhaarReminderMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "stall": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "appTitle": "VendorOS",
+  "navHome": "ಹೋಮ್",
+  "navUdhaar": "ಉದ್ಧಾರ",
+  "navSoundbox": "ಧ್ವನಿ",
+  "navMandi": "ಮಂಡಿ",
+  "navSales": "ಮಾರಾಟ",
+  "navGroupOverview": "ಅವಲೋಕನ",
+  "navGroupSell": "ಮಾರಾಟ",
+  "navGroupOperations": "ಗ್ರಾಹಕರು & ನಿರ್ವಹಣೆ",
+  "navGroupBusiness": "ವ್ಯಾಪಾರ",
+  "navGroupTeam": "ತಂಡ",
+  "navGroupSystem": "ಸಿಸ್ಟಮ್",
+  "moreLabel": "ಇನ್ನಷ್ಟು",
+  "menuLoanReport": "ಸಾಲದ ವರದಿ",
+  "menuCartLocation": "ಗಾಡಿಯ ಸ್ಥಳ",
+  "menuSettings": "ಸೆಟ್ಟಿಂಗ್ಸ್",
+  "notFoundTitle": "ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ",
+  "goHome": "ಹೋಮ್‌ಗೆ ಹೋಗಿ",
+  "ok": "ಸರಿ",
+  "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ…",
+  "storageWriteFailedKey": "ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ ({key}) — ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+  "@storageWriteFailedKey": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "storageWriteFailed": "ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ — ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+  "micUnavailable": "ಮೈಕ್ರೊಫೋನ್ ಲಭ್ಯವಿಲ್ಲ — ದಯವಿಟ್ಟು ನೇರವಾಗಿ ನಮೂದಿಸಿ",
+  "voiceNothingHeard": "ಏನೂ ಕೇಳಿಸಲಿಲ್ಲ — ದಯವಿಟ್ಟು ಮತ್ತೆ ಮಾತನಾಡಿ",
+  "voiceNoAmount": "ಮೊತ್ತ ಕೇಳಿಸಲಿಲ್ಲ — \"50 ರೂಪಾಯಿ ಟೊಮೇಟೊ\" ಎಂದು ಹೇಳಿ",
+  "voiceZeroAmount": "ಮೊತ್ತ ಸೊನ್ನೆ ಆಗಿರಬಾರದು",
+  "modeCash": "ನಗದು",
+  "modeUpi": "UPI",
+  "modeCredit": "ಉದ್ಧಾರ",
+  "saleRecorded": "{mode} ₹{amount} ದಾಖಲಾಗಿದೆ",
+  "@saleRecorded": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayTotalSemantic": "ಇಂದಿನ ಒಟ್ಟು ವ್ಯಾಪಾರ {amount} ರೂಪಾಯಿ",
+  "@todayTotalSemantic": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayCollection": "ಇಂದಿನ ಕಲೆಕ್ಷನ್",
+  "quickEntry": "ಕ್ವಿಕ್ ಎಂಟ್ರಿ",
+  "todayEntries": "ಇಂದಿನ ಎಂಟ್ರಿಗಳು",
+  "noEntriesYet": "ಇನ್ನೂ ಯಾವುದೇ ಎಂಟ್ರಿ ಇಲ್ಲ — ಮೈಕ್ ಒತ್ತಿ ಮಾತನಾಡಿ",
+  "listeningTapToStop": "ಕೇಳಿಸಿಕೊಳ್ಳುತ್ತಿದೆ, ನಿಲ್ಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ",
+  "tapToSpeak": "ದಾಖಲಿಸಲು ಮಾತನಾಡಿ",
+  "listening": "ಕೇಳಿಸಿಕೊಳ್ಳುತ್ತಿದೆ…",
+  "speakToRecord": "🎙️ ದಾಖಲಿಸಲು ಮಾತನಾಡಿ",
+  "voiceHint": "\"50 ರೂಪಾಯಿ ಟೊಮೆಟೊ ಕ್ಯಾಶ್\" / \"ರವಿಗೆ 200 ಉದ್ರಿ\"",
+  "addSale": "ಮಾರಾಟ ಸೇರಿಸಿ",
+  "saleSemantic": "{label} {amount} ರೂಪಾಯಿ, {item}",
+  "@saleSemantic": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "ಅಳಿಸಿ",
+  "locationServiceOff": "ಲೊಕೇಶನ್ ಸರ್ವಿಸ್ ಆಫ್ ಆಗಿದೆ",
+  "locationPermissionDenied": "ಲೊಕೇಶನ್ ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ",
+  "broadcastLive": "ಲೈವ್ ಪ್ರಸಾರದಲ್ಲಿದೆ",
+  "locationSearching": "ಲೊಕೇಶನ್ ಹುಡುಕಲಾಗುತ್ತಿದೆ…",
+  "permissionDenied": "ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ",
+  "unavailable": "ಲಭ್ಯವಿಲ್ಲ",
+  "broadcastStopped": "ಪ್ರಸಾರ ನಿಲ್ಲಿಸಲಾಗಿದೆ",
+  "locationNotFetched": "ಲೊಕೇಶನ್ ಇನ್ನೂ ಸಿಕ್ಕಿಲ್ಲ",
+  "stopBroadcast": "ಪ್ರಸಾರ ನಿಲ್ಲಿಸಿ",
+  "startBroadcast": "ಪ್ರಸಾರ ಶುರುಮಾಡಿ",
+  "sendToCustomer": "ಗ್ರಾಹಕರಿಗೆ ಕಳುಹಿಸಿ",
+  "shareLocationHint": "ಇವತ್ತಿನ ಗಾಡಿಯ ಜಾಗವನ್ನು WhatsApp ನಲ್ಲಿ ಶೇರ್ ಮಾಡಿ.",
+  "ourCart": "ನಮ್ಮ ಗಾಡಿ",
+  "cartLocationMessage": "{stall} ಇವತ್ತು ಇಲ್ಲಿದೆ 👇\n{url}",
+  "@cartLocationMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "shareOnWhatsapp": "WhatsApp ನಲ್ಲಿ ಶೇರ್ ಮಾಡಿ",
+  "openInMaps": "Maps ನಲ್ಲಿ ತೆರೆಯಿರಿ",
+  "mandiKeyRejected": "data.gov.in ರಿಕ್ವೆಸ್ಟ್ ತಿರಸ್ಕರಿಸಿದೆ — API key ಪರಿಶೀಲಿಸಿ ({status})",
+  "@mandiKeyRejected": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionFailed": "ಕನೆಕ್ಷನ್ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@connectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "mandiTitle": "ಮಾರುಕಟ್ಟೆ ದರಗಳು",
+  "refresh": "ರಿಫ್ರೆಶ್",
+  "mandiLoading": "ಮಾರುಕಟ್ಟೆ ದರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+  "fetchFailed": "ಮಾಹಿತಿ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+  "apiKeyNeeded": "data.gov.in API key ಅಗತ್ಯವಿದೆ",
+  "apiKeyNeededBody": "ಲೈವ್ APMC ದರಗಳಿಗಾಗಿ ಉಚಿತ data.gov.in API key ಪಡೆದು ಸೆಟ್ಟಿಂಗ್ಸ್‌ನಲ್ಲಿ ಸೇರಿಸಿ. ಯಾವುದೇ ಅಂದಾಜು ದರಗಳನ್ನು ತೋರಿಸಲಾಗುವುದಿಲ್ಲ.",
+  "refreshFailed": "ರಿಫ್ರೆಶ್ ಮಾಡುವುದು ವಿಫಲವಾಗಿದೆ",
+  "lastUpdated": "ಕೊನೆಯ ಅಪ್ಡೇಟ್: {time}",
+  "@lastUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "searchVegetable": "ತರಕಾರಿ ಹುಡುಕಿ",
+  "loanReportHeading": "ಬಿಸಿನೆಸ್ ಲೋನ್ ರಿಪೋರ್ಟ್",
+  "reportFailed": "ವರದಿ ವಿಫಲವಾಗಿದೆ: {error}",
+  "@reportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "daysWindow": "{days, plural, =1{1 ದಿನ} other{{days} ದಿನಗಳು}}",
+  "@daysWindow": {
+    "placeholders": {
+      "days": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "totalBusiness": "ಒಟ್ಟು ವ್ಯಾಪಾರ",
+  "digitalShare": "ಡಿಜಿಟಲ್ ಪಾಲು",
+  "avgDailyIncome": "ಸರಾಸರಿ ದಿನದ ಆದಾಯ",
+  "recordedDays": "ದಾಖಲಾದ ದಿನಗಳು",
+  "sha256Checksum": "SHA-256 ಚೆಕ್‌ಸಮ್",
+  "noSalesYet": "ಇನ್ನೂ ಯಾವುದೇ ಮಾರಾಟ ದಾಖಲಾಗಿಲ್ಲ — ರಿಪೋರ್ಟ್ ಪಡೆಯಲು ಮೊದಲು ಮಾರಾಟವನ್ನು ದಾಖಲಿಸಿ.",
+  "viewPdf": "PDF ನೋಡಿ",
+  "sendToBank": "ಬ್ಯಾಂಕ್‌ಗೆ ಕಳುಹಿಸಿ",
+  "stallName": "ಸ್ಟಾಲ್ ಹೆಸರು",
+  "ownerName": "ಮಾಲೀಕರ ಹೆಸರು",
+  "upiVpaLabel": "UPI VPA (ಉದಾ: name@okaxis)",
+  "mobileNumber": "ಮೊಬೈಲ್ ನಂಬರ್",
+  "mandiMarket": "ಮಾರುಕಟ್ಟೆ (APMC)",
+  "mandiApiKeyLabel": "data.gov.in API ಕೀ",
+  "apiKeyHelp": "ಕೀ ಪಡೆಯಲು data.gov.in ನಲ್ಲಿ ಉಚಿತವಾಗಿ ನೋಂದಾಯಿಸಿ. ಕೀ ಇಲ್ಲದೆ ಲೈವ್ ಬೆಲೆಗಳು ಕಾಣಿಸುವುದಿಲ್ಲ.",
+  "soundboxAnnounce": "ಸೌಂಡ್‌ಬಾಕ್ಸ್ ಅನೌನ್ಸ್‌ಮೆಂಟ್",
+  "save": "ಉಳಿಸಿ",
+  "soundboxSpeech": "{amount} ರೂಪಾಯಿ ಬಂದಿದೆ",
+  "@soundboxSpeech": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "soundboxTitle": "ಸೌಂಡ್‌ಬಾಕ್ಸ್",
+  "soundboxSubtitle": "UPI ಪಾವತಿಗಳ ಮಾಹಿತಿ ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲೇ ಧ್ವನಿ ಮೂಲಕ ಕೇಳಿ",
+  "watchedApps": "ಗಮನಿಸುವ ಆಪ್‌ಗಳು",
+  "soundboxTestHint": "ಪರೀಕ್ಷೆ: \"250 ರೂಪಾಯಿ ಬಂದಿದೆ\" ಎಂದು ಧ್ವನಿ ಬರುತ್ತದೆ",
+  "speak": "ಹೇಳಿ",
+  "announcedPayments": "ಅನೌನ್ಸ್ ಆದ ಪಾವತಿಗಳು",
+  "noUpiYet": "ಇನ್ನೂ ಯಾವುದೇ UPI ಪಾವತಿ ಬಂದಿಲ್ಲ",
+  "soundboxRunning": "ಸೌಂಡ್‌ಬಾಕ್ಸ್ ಚಾಲನೆಯಲ್ಲಿದೆ",
+  "notificationAccessNeeded": "ನೋಟಿಫಿಕೇಶನ್ ಅನುಮತಿ ಬೇಕು",
+  "soundboxAndroidHint": "PhonePe, Paytm, Google Pay ಮತ್ತು BHIM ಪಾವತಿಗಳು ಆಟೋಮ್ಯಾಟಿಕ್ ಆಗಿ ಧ್ವನಿ ಮೂಲಕ ತಿಳಿಯುತ್ತವೆ.",
+  "soundboxGrantHint": "Android ಸೆಟ್ಟಿಂಗ್ಸ್‌ನಲ್ಲಿ VendorOS ಗೆ ನೋಟಿಫಿಕೇಶನ್ ಅನುಮತಿ ನೀಡಿ.",
+  "grantAccess": "ಅನುಮತಿ ನೀಡಿ",
+  "iosUnavailable": "iOS ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+  "webUnavailable": "ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+  "iosSoundboxNote": "Apple ನ ನಿರ್ಬಂಧಗಳಿಂದಾಗಿ ಇತರ ಆಪ್‌ಗಳ ನೋಟಿಫಿಕೇಶನ್ ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ. ಮ್ಯಾನುವಲ್ ಅಥವಾ ಧ್ವನಿ ಎಂಟ್ರಿ ಮಾತ್ರ ಲಭ್ಯ.",
+  "webSoundboxNote": "ಬ್ರೌಸರ್ ಇತರ ಆಪ್‌ಗಳ UPI ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ. ಸೌಂಡ್‌ಬಾಕ್ಸ್‌ಗಾಗಿ Android APK ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ.",
+  "serverSoundbox": "ಬಿಸಿನೆಸ್ UPI ಸೌಂಡ್‌ಬಾಕ್ಸ್",
+  "serverSoundboxNote": "ನಿಮ್ಮ ಪಾವತಿ ಪ್ರೊವೈಡರ್ ದೃಢಪಡಿಸಿದ ಪಾವತಿಗಳು ಇಲ್ಲಿ ಅನೌನ್ಸ್ ಆಗುತ್ತವೆ. ಈ ಫೋನ್‌ನಲ್ಲಿ ಧ್ವನಿ ಬರುವವರೆಗೆ ಪಾವತಿ ಸರ್ವರ್‌ನಲ್ಲಿ ಕಾಯ್ದಿರುತ್ತದೆ, ಯಾವುದೂ ಮಿಸ್ ಆಗಲ್ಲ.",
+  "notPaired": "ಈ ಫೋನ್ ಇನ್ನೂ ಯಾವುದೇ ಬಿಸಿನೆಸ್ UPI ಖಾತೆಗೆ ಲಿಂಕ್ ಆಗಿಲ್ಲ.",
+  "pairingCode": "ಪೇರಿಂಗ್ ಕೋಡ್",
+  "pair": "ಫೋನ್ ಲಿಂಕ್ ಮಾಡಿ",
+  "unpair": "ಅನ್‌ಲಿಂಕ್ ಮಾಡಿ",
+  "pairedWith": "{name} ಗೆ ಲಿಂಕ್ ಆಗಿದೆ",
+  "@pairedWith": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "syncNow": "ಈಗ ಚೆಕ್ ಮಾಡಿ",
+  "lastChecked": "ಕೊನೆಯ ಬಾರಿ ಚೆಕ್ ಮಾಡಿದ್ದು: {time}",
+  "@lastChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "neverChecked": "ಇನ್ನೂ ಚೆಕ್ ಮಾಡಿಲ್ಲ",
+  "soundboxStale": "ಇತ್ತೀಚೆಗೆ ಸರ್ವರ್ ಸಂಪರ್ಕ ಸಿಕ್ಕಿಲ್ಲ. ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ.",
+  "queuedPayments": "{count, plural, =0{ಯಾವುದೂ ಬಾಕಿ ಇಲ್ಲ} =1{ಅನೌನ್ಸ್ ಮಾಡಲು 1 ಪಾವತಿ ಬಾಕಿ ಇದೆ} other{ಅನೌನ್ಸ್ ಮಾಡಲು {count} ಪಾವತಿಗಳು ಬಾಕಿ ಇವೆ}}",
+  "@queuedPayments": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "notificationSoundbox": "ನೋಟಿಫಿಕೇಶನ್ ಸೌಂಡ್‌ಬಾಕ್ಸ್ (ಬದಲಿ)",
+  "udhaarTitle": "ಉದ್ದರಿ ಪುಸ್ತಕ",
+  "udhaarSubtitle": "ಗ್ರಾಹಕರ ಬಾಕಿ",
+  "totalOutstanding": "ಒಟ್ಟು ಬಾಕಿ",
+  "customerCount": "{count, plural, =0{ಗ್ರಾಹಕರಿಲ್ಲ} =1{1 ಗ್ರಾಹಕ} other{{count} ಗ್ರಾಹಕರು}}",
+  "@customerCount": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "filterBy": "ಫಿಲ್ಟರ್: {name}",
+  "@filterBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "clearFilter": "ಫಿಲ್ಟರ್ ತೆಗೆಯಿರಿ",
+  "upiSetupHint": "UPI ಕೇಳಲು ಸೆಟ್ಟಿಂಗ್ಸ್‌ನಲ್ಲಿ ನಿಮ್ಮ VPA ಮತ್ತು ಅಂಗಡಿ ಹೆಸರು ಸೇರಿಸಿ.",
+  "noOutstanding": "ಯಾವ ಬಾಕಿಯೂ ಇಲ್ಲ",
+  "cannotOpen": "ತೆರೆಯಲು ಆಗುತ್ತಿಲ್ಲ: {scheme}",
+  "@cannotOpen": {
+    "placeholders": {
+      "scheme": {
+        "type": "String"
+      }
+    }
+  },
+  "askUpi": "UPI ಕೇಳಿ",
+  "collect": "ವಸೂಲಿ ಮಾಡಿ",
+  "cancel": "ರದ್ದುಮಾಡಿ",
+  "language": "ಭಾಷೆ",
+  "languageChanged": "ಭಾಷೆ ಬದಲಾಗಿದೆ",
+  "whatsapp": "WhatsApp",
+  "creditNote": "ಉದ್ದರಿ {name}",
+  "@creditNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultStallName": "VendorOS ಸ್ಟಾಲ್",
+  "merchantOnboardingTitle": "ಬಿಸಿನೆಸ್ UPI ರಿಜಿಸ್ಟರ್ ಮಾಡಿ",
+  "merchantOnboardingSubtitle": "ನಿಮ್ಮ ಬಿಸಿನೆಸ್ ಖಾತೆಯನ್ನು ಸೌಂಡ್‌ಬಾಕ್ಸ್‌ಗೆ ಲಿಂಕ್ ಮಾಡಿ",
+  "merchantStepsHint": "ನಿಮ್ಮ PhonePe for Business ಅಥವಾ Paytm for Business ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಿಂದ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ. ನಿಮಗೆ ಪೇರಿಂಗ್ ಕೋಡ್ ಸಿಗುತ್ತದೆ ಮತ್ತು ಈ ಫೋನ್ ತಕ್ಷಣ ಲಿಂಕ್ ಆಗುತ್ತದೆ.",
+  "howToGetBusinessUpi": "ಬಿಸಿನೆಸ್ UPI ಖಾತೆ ಪಡೆಯುವುದು ಹೇಗೆ?",
+  "merchantFormIncomplete": "ಬಿಸಿನೆಸ್ ಹೆಸರು, ಮರ್ಚೆಂಟ್ ID ಮತ್ತು ಸೀಕ್ರೆಟ್ ಕೀ ಭರ್ತಿ ಮಾಡಿ.",
+  "merchantRegistered": "ಬಿಸಿನೆಸ್ ರಿಜಿಸ್ಟರ್ ಆಗಿದೆ",
+  "pairingCodeSaveHint": "ಈ ಪೇರಿಂಗ್ ಕೋಡ್ ಉಳಿಸಿಕೊಳ್ಳಿ. ಎರಡನೇ ಫೋನ್ ಲಿಂಕ್ ಮಾಡಲು ಇದನ್ನು ಬಳಸಿ.",
+  "callbackUrlLabel": "ಪ್ರೊವೈಡರ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗಾಗಿ Callback URL",
+  "backToSoundbox": "ಸೌಂಡ್‌ಬಾಕ್ಸ್‌ಗೆ ಹಿಂತಿರುಗಿ",
+  "copy": "ಕಾಪಿ ಮಾಡಿ",
+  "copied": "ಕಾಪಿ ಮಾಡಲಾಗಿದೆ",
+  "provider": "ಪೇಮೆಂಟ್ ಪ್ರೊವೈಡರ್",
+  "providerPhonePe": "PhonePe",
+  "providerPaytm": "Paytm",
+  "businessName": "ಬಿಸಿನೆಸ್ ಹೆಸರು",
+  "businessNameHint": "ವರದಿಗಳಲ್ಲಿ ಬರುವ ಮತ್ತು ಅನೌನ್ಸ್ ಆಗುವ ಹೆಸರು",
+  "businessVpa": "ಬಿಸಿನೆಸ್ UPI ವಿಳಾಸ",
+  "businessVpaHint": "stallname@ybl",
+  "merchantIdLabel": "ಮರ್ಚೆಂಟ್ ID (MID)",
+  "merchantIdHint": "ಪ್ರೊವೈಡರ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಿಂದ",
+  "saltKeyLabel": "Salt key",
+  "saltKeyHint": "PhonePe salt key",
+  "saltIndexLabel": "Salt index",
+  "webhookTokenLabel": "Webhook token",
+  "webhookTokenHint": "Paytm ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಲ್ಲಿ ಹಾಕುವ ಬಲವಾದ ಪಾಸ್‌ವರ್ಡ್",
+  "secretStorageNote": "ಸೀಕ್ರೆಟ್ ಕೀಯನ್ನು ಸರ್ವರ್‌ನಲ್ಲಿ ಮಾತ್ರ ಸೇವ್ ಮಾಡಲಾಗುತ್ತದೆ, ಆ್ಯಪ್‌ನಲ್ಲಿ ಇದು ಮತ್ತೆ ಕಾಣಿಸುವುದಿಲ್ಲ.",
+  "registerBusiness": "ಬಿಸಿನೆಸ್ UPI ನೋಂದಾಯಿಸಿ",
+  "helpTitle": "ಸಹಾಯ",
+  "helpSubtitle": "ಬಿಸಿನೆಸ್ UPI ಮತ್ತು ಸೌಂಡ್‌ಬಾಕ್ಸ್ ಮಾಹಿತಿ",
+  "helpWhyTitle": "ಬಿಸಿನೆಸ್ UPI ಖಾತೆ ಏಕೆ ಬೇಕು?",
+  "helpWhyBody": "ವೈಯಕ್ತಿಕ UPI ಐಡಿಯಿಂದ ಸರ್ವರ್‌ಗೆ ಪಾವತಿ ದೃಢೀಕರಣ ಸಿಗುವುದಿಲ್ಲ, ಇದರಿಂದ ಸೌಂಡ್‌ಬಾಕ್ಸ್ ಅನೌನ್ಸ್‌ಮೆಂಟ್ ತಪ್ಪಿಹೋಗಬಹುದು. ಬಿಸಿನೆಸ್ ಖಾತೆಯು ಪ್ರತಿಯೊಂದು ಪಾವತಿಯನ್ನು VendorOSಗೆ ಕಳುಹಿಸುತ್ತದೆ, ಹಾಗಾಗಿ ಸೌಂಡ್‌ಬಾಕ್ಸ್‌ನಲ್ಲಿ ಮಿಸ್ ಆಗುವುದಿಲ್ಲ.",
+  "helpDocsTitle": "ಬೇಕಾಗುವ ದಾಖಲೆಗಳು",
+  "helpDocsAadhaar": "ಆಧಾರ್ ನಂಬರ್ ಮತ್ತು ಅದಕ್ಕೆ ಲಿಂಕ್ ಆಗಿರುವ ಮೊಬೈಲ್ ನಂಬರ್",
+  "helpDocsPan": "PAN ಕಾರ್ಡ್ (ಸಣ್ಣ ಅಂಗಡಿಗೆ ಪರ್ಸನಲ್ PAN ಸಾಕು)",
+  "helpDocsBank": "ಹಣ ಜಮೆಯಾಗಲು ಬ್ಯಾಂಕ್ ಖಾತೆ ನಂಬರ್ ಮತ್ತು IFSC",
+  "helpDocsShop": "ಅಂಗಡಿ ಹೆಸರು, ವಿಳಾಸ ಮತ್ತು ಅಂಗಡಿಯ ಫೋಟೋ",
+  "helpRegisterTitle": "ಪ್ರೊವೈಡರ್ ಜೊತೆ ನೋಂದಾಯಿಸಿ",
+  "helpRegisterStep1": "Play Storeನಿಂದ PhonePe for Business ಅಥವಾ Paytm for Business ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ.",
+  "helpRegisterStep2": "ಮೊಬೈಲ್ ನಂಬರ್‌ನಿಂದ ಸೈನ್ ಅಪ್ ಮಾಡಿ ಆಧಾರ್ ಮತ್ತು PAN ಮೂಲಕ KYC ಮುಗಿಸಿ.",
+  "helpRegisterStep3": "ಹಣ ಜಮೆಯಾಗಲು ಬ್ಯಾಂಕ್ ಖಾತೆ ಸೇರಿಸಿ, ಉಚಿತ QR ಸ್ಟಿಕ್ಕರ್ ಪಡೆಯಿರಿ.",
+  "helpRegisterStep4": "ಆ್ಯಪ್‌ನಲ್ಲಿ ಕಾಣಿಸುವ ಬಿಸಿನೆಸ್ UPI ಐಡಿಯನ್ನು ಬರೆದಿಟ್ಟುಕೊಳ್ಳಿ (ಉದಾ: stallname@ybl).",
+  "helpKeysTitle": "Merchant ID ಮತ್ತು ಸೀಕ್ರೆಟ್ ಕೀ",
+  "helpKeysPhonePe": "PhonePe: ಬಿಸಿನೆಸ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತೆರೆದು Developer settingsಗೆ ಹೋಗಿ merchant id, salt key ಮತ್ತು salt index ಕಾಪಿ ಮಾಡಿ.",
+  "helpKeysPaytm": "Paytm: ಬಿಸಿನೆಸ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ತೆರೆದು Developer settingsಗೆ ಹೋಗಿ MID ಕಾಪಿ ಮಾಡಿ ಮತ್ತು ಬಲವಾದ webhook token ಕ್ರಿಯೇಟ್ ಮಾಡಿ ಇಲ್ಲಿ ನಮೂದಿಸಿ.",
+  "helpKeysCallback": "ಪಾವತಿಗಳು VendorOSಗೆ ತಲುಪಲು ರಿಜಿಸ್ಟ್ರೇಶನ್ ನಂತರ ಕಾಣಿಸುವ ಕಾಲ್‌ಬ್ಯಾಕ್ URL ಅನ್ನು ಪ್ರೊವೈಡರ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಲ್ಲಿ ಪೇಸ್ಟ್ ಮಾಡಿ.",
+  "helpLinkTitle": "ಈ ಫೋನ್ ಲಿಂಕ್ ಮಾಡಿ",
+  "helpLinkStep1": "Soundbox ತೆರೆದು 'ಬಿಸಿನೆಸ್ UPI ನೋಂದಾಯಿಸಿ' ಟ್ಯಾಪ್ ಮಾಡಿ.",
+  "helpLinkStep2": "ಫಾರ್ಮ್ ಭರ್ತಿ ಮಾಡಿ; ಫೋನ್ ತಾನಾಗಿಯೇ ಲಿಂಕ್ ಆಗಿ ಪೇರಿಂಗ್ ಕೋಡ್ ತೋರಿಸುತ್ತದೆ.",
+  "helpLinkStep3": "ಇನ್ನೊಂದು ಫೋನ್ ಲಿಂಕ್ ಮಾಡಲು, ಅದರಲ್ಲಿ Soundbox ತೆರೆದು ಈ ಪೇರಿಂಗ್ ಕೋಡ್ ಹಾಕಿ.",
+  "helpSafetyTitle": "ಸುರಕ್ಷಿತವಾಗಿಡಿ",
+  "helpSafetyBody": "Salt key ಅಥವಾ webhook token ಅನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ. VendorOS ಇದನ್ನು ಸರ್ವರ್‌ನಲ್ಲಿ ಮಾತ್ರ ಇಡುತ್ತದೆ ಮತ್ತು ಮತ್ತೆಂದೂ ತೋರಿಸುವುದಿಲ್ಲ.",
+  "menuInventory": "ದಾಸ್ತಾನು",
+  "productsTitle": "ಪ್ರಾಡಕ್ಟ್‌ಗಳು",
+  "productsSubtitle": "ಕ್ಯಾಟಲಾಗ್ ಮತ್ತು ಸ್ಟಾಕ್",
+  "productsSearchHint": "ಹೆಸರು ಅಥವಾ ಕೋಡ್ ಹುಡುಕಿ",
+  "productsEmpty": "ಯಾವುದೇ ಪ್ರಾಡಕ್ಟ್ ಇಲ್ಲ. ನಿಮ್ಮ ಮೊದಲ ಐಟಂ ಸೇರಿಸಿ.",
+  "productsAdd": "ಪ್ರಾಡಕ್ಟ್ ಸೇರಿಸಿ",
+  "productsAllChip": "ಎಲ್ಲಾ",
+  "productsLowStockChip": "ಕಡಿಮೆ ಸ್ಟಾಕ್",
+  "productEditTitle": "ಪ್ರಾಡಕ್ಟ್ ಎಡಿಟ್ ಮಾಡಿ",
+  "productMissing": "ಈ ಪ್ರಾಡಕ್ಟ್ ಪಟ್ಟಿಯಲ್ಲಿಲ್ಲ.",
+  "productSaved": "ಸೇವ್ ಆಗಿದೆ",
+  "productArchived": "ಪ್ರಾಡಕ್ಟ್ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+  "formInvalid": "ಪ್ರಾಡಕ್ಟ್ ಹೆಸರು ನಮೂದಿಸಿ",
+  "fieldName": "ಹೆಸರು",
+  "fieldLocalName": "ತಮಿಳಿನಲ್ಲಿ ಹೆಸರು",
+  "fieldCode": "ಕೋಡ್",
+  "fieldCodeHint": "ಬಾರ್‌ಕೋಡ್, ಹೊಸದಕ್ಕಾಗಿ ಖಾಲಿ ಬಿಡಿ",
+  "fieldCategory": "ಕ್ಯಾಟಗರಿ",
+  "fieldUnit": "ಯೂನಿಟ್",
+  "fieldCost": "ಖರೀದಿ ಬೆಲೆ",
+  "fieldPrice": "ಮಾರಾಟ ಬೆಲೆ",
+  "fieldReorder": "ರೀ-ಆರ್ಡರ್ ಲೆವೆಲ್",
+  "saveLabel": "ಸೇವ್",
+  "discardTitle": "ಬದಲಾವಣೆ ರದ್ದುಮಾಡಬೇಕೆ?",
+  "discardBody": "ಸೇವ್ ಮಾಡದ ಬದಲಾವಣೆಗಳಿವೆ.",
+  "discardKeep": "ಎಡಿಟ್ ಮಾಡಿ",
+  "discardLeave": "ಬಿಟ್ಟುಬಿಡಿ",
+  "cancelLabel": "ರದ್ದು",
+  "deleteLabel": "ಡಿಲೀಟ್",
+  "confirmLabel": "ಖಚಿತಪಡಿಸಿ",
+  "qtyLabel": "ಪ್ರಮಾಣ",
+  "unitCostLabel": "ಯೂನಿಟ್ ಬೆಲೆ",
+  "expiryLabel": "ಎಕ್ಸ್‌ಪೈರಿ (ದಿನಗಳಲ್ಲಿ)",
+  "unitKg": "ಕೆಜಿ",
+  "unitGram": "ಗ್ರಾಂ",
+  "unitPiece": "ಪೀಸ್",
+  "unitLitre": "ಲೀಟರ್",
+  "unitBundle": "ಕಟ್ಟು",
+  "detailSell": "ಮಾರಾಟ",
+  "detailRestock": "ಸ್ಟಾಕ್ ಸೇರಿಸಿ",
+  "detailWastage": "ವೇಸ್ಟೇಜ್",
+  "detailCorrect": "ಸ್ಟಾಕ್ ಎಣಿಕೆ",
+  "detailBatches": "ಬ್ಯಾಚ್‌ಗಳು",
+  "detailHistory": "ಹಿಸ್ಟರಿ",
+  "detailLabel": "ಲೇಬಲ್ ಪ್ರಿಂಟ್",
+  "historyEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಸ್ಟಾಕ್ ವಹಿವಾಟು ಇಲ್ಲ",
+  "soldRecorded": "ಮಾರಾಟ ದಾಖಲಾಗಿದೆ",
+  "restocked": "ಸ್ಟಾಕ್ ಸೇರಿಸಲಾಗಿದೆ",
+  "wastageRecorded": "ವೇಸ್ಟೇಜ್ ದಾಖಲಾಗಿದೆ",
+  "stockCorrected": "ಸ್ಟಾಕ್ ಅಪ್ಡೇಟ್ ಆಗಿದೆ",
+  "movementPurchase": "ಖರೀದಿ",
+  "movementSale": "ಮಾರಾಟ",
+  "movementWastage": "ವೇಸ್ಟೇಜ್",
+  "movementReturn": "ರಿಟರ್ನ್",
+  "movementCorrection": "ತಿದ್ದುಪಡಿ",
+  "expiredTag": "ಎಕ್ಸ್‌ಪೈರ್ ಆಗಿದೆ",
+  "expiryTodayTag": "ಇಂದೇ ಎಕ್ಸ್‌ಪೈರಿ",
+  "noExpiry": "ಎಕ್ಸ್‌ಪೈರಿ ಇಲ್ಲ",
+  "batchesTitle": "ಬ್ಯಾಚ್‌ಗಳು",
+  "batchesSubtitle": "ಎಕ್ಸ್‌ಪೈರಿ ಪರಿಶೀಲನೆ",
+  "batchesEmpty": "ಯಾವುದೇ ಬ್ಯಾಚ್‌ಗಳಿಲ್ಲ",
+  "stockTitle": "ಸ್ಟಾಕ್",
+  "stockSubtitle": "ಮೌಲ್ಯ, ಅಲರ್ಟ್‌ಗಳು ಮತ್ತು ಎಕ್ಸ್‌ಪೈರಿ",
+  "stockValuation": "ಸ್ಟಾಕ್ ಮೌಲ್ಯ",
+  "stockProfit": "ಲಾಭ (30 ದಿನ)",
+  "stockWastage": "ವೇಸ್ಟೇಜ್ (30 ದಿನ)",
+  "stockLowTitle": "ಕಡಿಮೆಯಾಗುತ್ತಿದೆ",
+  "stockExpiryTitle": "ಎಕ್ಸ್‌ಪೈರಿ",
+  "stockNothingLow": "ಯಾವ ಸ್ಟಾಕ್ ಕೂಡ ಕಡಿಮೆಯಾಗಿಲ್ಲ",
+  "stockNoExpiry": "ಎಕ್ಸ್‌ಪೈರಿ ದಿನಾಂಕವಿರುವ ಬ್ಯಾಚ್‌ಗಳಿಲ್ಲ",
+  "stockReorderNow": "ರೀ-ಆರ್ಡರ್ ಲಿಸ್ಟ್ ಕಳಿಸಿ",
+  "suppliersTitle": "ಸಪ್ಲೈಯರ್‌ಗಳು",
+  "suppliersSubtitle": "ರೀ-ಆರ್ಡರ್ ಕಾಂಟ್ಯಾಕ್ಟ್‌ಗಳು",
+  "suppliersEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಸಪ್ಲೈಯರ್‌ಗಳಿಲ್ಲ",
+  "supplierAdd": "ಸಪ್ಲೈಯರ್ ಸೇರಿಸಿ",
+  "supplierName": "ಹೆಸರು",
+  "supplierPhone": "ಫೋನ್",
+  "supplierNote": "ನೋಟ್",
+  "supplierWhatsapp": "WhatsApp",
+  "scanTitle": "ಸ್ಕ್ಯಾನ್",
+  "scanSubtitle": "ಬಾರ್‌ಕೋಡ್ ಅಥವಾ QR",
+  "scanUnsupported": "ಕ್ಯಾಮೆರಾ ಸ್ಕ್ಯಾನಿಂಗ್ ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ. ಕೆಳಗೆ ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ.",
+  "scanPermission": "ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ನೀಡಿ",
+  "scanManualHint": "ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ ಅಥವಾ ಪೇಸ್ಟ್ ಮಾಡಿ",
+  "scanCreateFromCode": "ಈ ಕೋಡ್‌ನೊಂದಿಗೆ ಪ್ರಾಡಕ್ಟ್ ಸೇರಿಸಿ",
+  "labelsTitle": "ಲೇಬಲ್‌ಗಳು",
+  "labelsSubtitle": "QR ಮತ್ತು ಬಾರ್‌ಕೋಡ್ ಲೇಬಲ್ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "labelsSelect": "ಪ್ರಾಡಕ್ಟ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "labelsSize": "ಲೇಬಲ್ ಸೈಜ್",
+  "labelsSymbology": "ಕೋಡ್ ಮಾದರಿ",
+  "labelsCopies": "ಪ್ರತಿಗಳು",
+  "labelsPrint": "ಶೀಟ್ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "labelsThermal": "ಪ್ರಿಂಟರ್ ಕೋಡ್ ಕಾಪಿ ಮಾಡಿ",
+  "labelsCopied": "ಪ್ರಿಂಟರ್ ಕೋಡ್ ಕಾಪಿ ಆಗಿದೆ",
+  "labelsNone": "ಕನಿಷ್ಠ ಒಂದು ಐಟಂ ಆಯ್ಕೆಮಾಡಿ",
+  "symbolQr": "QR",
+  "symbolBarcode": "ಬಾರ್‌ಕೋಡ್",
+  "paymentQrTitle": "ಪಾವತಿ QR",
+  "paymentQrSubtitle": "ಗ್ರಾಹಕರು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಹಣ ನೀಡಬಹುದು",
+  "paymentQrAmountHint": "ಮೊತ್ತ (ಬೇಕಿದ್ದರೆ)",
+  "paymentQrNeedVpa": "ಮೊದಲು ಸೆಟ್ಟಿಂಗ್ಸ್‌ನಲ್ಲಿ ನಿಮ್ಮ UPI ID ಹಾಕಿ.",
+  "paymentQrOpenSettings": "ಸೆಟ್ಟಿಂಗ್ಸ್ ತೆರೆಯಿರಿ",
+  "paymentQrPoster": "ಪೋಸ್ಟರ್ ಸೇವ್ ಮಾಡಿ",
+  "paymentQrCopy": "ಲಿಂಕ್ ಕಾಪಿ ಮಾಡಿ",
+  "paymentQrCopied": "ಲಿಂಕ್ ಕಾಪಿ ಆಗಿದೆ",
+  "paymentQrNote": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದಾಗ ಗ್ರಾಹಕರ UPI ಆ್ಯಪ್ ತೆರೆಯುತ್ತದೆ. ಸೌಂಡ್‌ಬಾಕ್ಸ್ ಹೇಳಿದ ಮೇಲೆಯೇ ಪಾವತಿ ಆಗಿದೆ ಎಂದು ತಿಳಿಯಿರಿ.",
+  "stockOnHand": "ಸ್ಟಾಕ್‌ನಲ್ಲಿದೆ: {qty}",
+  "@stockOnHand": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "marginLabel": "ಮಾರ್ಜಿನ್ {pct}%",
+  "@marginLabel": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "expirySoonTag": "{days, plural, =0{Today} one{1 day} other{{days} days}}",
+  "@expirySoonTag": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiryWatchCount": "{count, plural, =0{ಯಾವುದೂ ಬೇಗ ಎಕ್ಸ್‌ಪೈರ್ ಆಗಲ್ಲ} one{1 ಬ್ಯಾಚ್ ಗಮನಿಸಬೇಕು} other{{count} ಬ್ಯಾಚ್ ಗಮನಿಸಬೇಕು}}",
+  "@expiryWatchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "batchLine": "{qty} ಉಳಿದಿದೆ · ಒಂದಕ್ಕೆ {cost}",
+  "@batchLine": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "sellShortfall": "ಸ್ಟಾಕ್‌ನಲ್ಲಿ {qty} ಮಾತ್ರ ಇತ್ತು — ಅಷ್ಟನ್ನೇ ಸೇರಿಸಲಾಗಿದೆ",
+  "@sellShortfall": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "productArchiveConfirm": "ಕ್ಯಾಟಲಾಗ್‌ನಿಂದ {name} ತೆಗೆದುಹಾಕಬೇಕೆ?",
+  "@productArchiveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reorderMessage": "{stall}: ದಯವಿಟ್ಟು {items} ಕಳುಹಿಸಿ",
+  "@reorderMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrPayingTo": "{vpa} ಗೆ ಪಾವತಿ",
+  "@paymentQrPayingTo": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "scanUnknownCode": "{code} ಕೋಡ್‌ನಲ್ಲಿ ಯಾವುದೇ ಐಟಂ ಇಲ್ಲ",
+  "@scanUnknownCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "profileTitle": "ವ್ಯಾಪಾರದ ವಿವರ",
+  "vendorCategory": "ವ್ಯಾಪಾರದ ಬಗೆ",
+  "categoryCart": "ತಳ್ಳುಗಾಡಿ",
+  "categoryStall": "ಗಾಡಿ / ಅಂಗಡಿ",
+  "categoryHotel": "ಹೋಟೆಲ್ / ತಿಂಡಿ ಅಂಗಡಿ",
+  "categoryService": "ಸರ್ವೀಸ್ ಕೆಲಸ",
+  "nicheLabel": "ನೀವು ಏನು ಮಾರುತ್ತೀರಿ ಅಥವಾ ಮಾಡುತ್ತೀರಿ?",
+  "districtLabel": "ಜಿಲ್ಲೆ",
+  "talukLabel": "ತಾಲೂಕು / ಊರು",
+  "marketAreaLabel": "ಮಾರ್ಕೆಟ್ / ಏರಿಯಾ",
+  "fssaiLabel": "FSSAI ನಂಬರ್ (ಆಹಾರ ವ್ಯಾಪಾರ)",
+  "udyamLabel": "UDYAM ನೋಂದಣಿ (ಬೇಕಿದ್ದರೆ)",
+  "workingHoursLabel": "ವ್ಯಾಪಾರದ ಸಮಯ",
+  "perishableLabel": "ಬೇಗ ಹಾಳಾಗುವ ವಸ್ತುಗಳು",
+  "profilePromptTitle": "ನಿಮ್ಮ ವ್ಯಾಪಾರದ ಪ್ರೊಫೈಲ್ ಸೆಟ್ ಮಾಡಿ",
+  "profilePromptBody": "ನೀವು ಏನನ್ನು ಮಾರಾಟ ಮಾಡುತ್ತೀರಿ ಎಂದು ತಿಳಿಸಿ, ಆ್ಯಪ್ ನಿಮಗೆ ಬೇಕಾದುದನ್ನಷ್ಟೇ ತೋರಿಸುತ್ತದೆ.",
+  "profilePromptAction": "ಸೆಟ್ ಮಾಡಿ",
+  "profileSaved": "ಪ್ರೊಫೈಲ್ ಸೇವ್ ಆಗಿದೆ",
+  "expensesTitle": "ಖರ್ಚುಗಳು",
+  "expensesSubtitle": "ಹಾಲು, ಗ್ಯಾಸ್, ತಿಂಡಿ, ಬಾಡಿಗೆ — ನೀವು ನೀಡಿದ ಖರ್ಚುಗಳು",
+  "expenseToday": "ಇಂದಿನ ಖರ್ಚು",
+  "expenseAdd": "ಖರ್ಚು ಸೇರಿಸಿ",
+  "expenseAmount": "ಮೊತ್ತ",
+  "expenseNote": "ವಿವರ (ಬೇಕಿದ್ದರೆ)",
+  "expenseTodayList": "ಇಂದಿನ ಖರ್ಚುಗಳು",
+  "expenseEmpty": "ಇಂದು ಯಾವುದೇ ಖರ್ಚು ದಾಖಲಾಗಿಲ್ಲ",
+  "expenseMilk": "ಹಾಲು",
+  "expenseGas": "ಗ್ಯಾಸ್",
+  "expenseSnacks": "ತಿಂಡಿ",
+  "expenseProvisions": "ದಿನಸಿ",
+  "expenseWages": "ಕೂಲಿ",
+  "expenseRent": "ಬಾಡಿಗೆ",
+  "expenseElectricity": "ಕರೆಂಟ್ ಬಿಲ್",
+  "expenseTransport": "ಸಾರಿಗೆ",
+  "expenseOther": "ಇತರೆ",
+  "recurringTitle": "ದೈನಂದಿನ ಸಾಮಾನುಗಳು",
+  "recurringAdd": "ಸಾಮಾನು ಸೇರಿಸಿ",
+  "recurringName": "ಸಾಮಾನಿನ ಹೆಸರು",
+  "recurringEmpty": "ಹಾಲಿನ ಕ್ಯಾನ್ ಅಥವಾ ತಿಂಡಿಗಳನ್ನು ಇಲ್ಲಿ ಸೇವ್ ಮಾಡಿ, ಒಂದೇ ಕ್ಲಿಕ್‌ನಲ್ಲಿ ಲೆಕ್ಕಕ್ಕೆ ಹಾಕಿ.",
+  "dayCloseTitle": "ದಿನ ಮುಕ್ತಾಯ",
+  "dayCloseExpectedCash": "ಗಲ್ಲಾದಲ್ಲಿ ಇರಬೇಕಾದ ಹಣ",
+  "dayCloseBreakdown": "ಇಂದಿನ ವಹಿವಾಟು",
+  "dayCloseCollected": "ವಸೂಲಾದ ಸಾಲ",
+  "dayCloseWastage": "ವೇಸ್ಟೇಜ್",
+  "dayCloseProfit": "ಇಂದಿನ ಲಾಭ",
+  "dayCloseCount": "ಗಲ್ಲಾ ಎಣಿಸಿ",
+  "dayCloseCountedCash": "ಎಣಿಸಿದ ಹಣ",
+  "dayCloseSave": "ದಿನ ಮುಕ್ತಾಯಗೊಳಿಸಿ",
+  "dayCloseDiscounts": "ನೀಡಿದ ಡಿಸ್ಕೌಂಟ್",
+  "dayCloseTax": "ಸಂಗ್ರಹಿಸಿದ ತೆರಿಗೆ",
+  "dayCloseLastToken": "ಕೊನೆಯ ಟೋಕನ್",
+  "dayCloseVoided": "ರದ್ದುಮಾಡಿದ ಬಿಲ್‌ಗಳು",
+  "dayCloseExport": "ದಿನದ PDF ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+  "dayCloseVariancePosted": "ಕ್ಯಾಶ್ ವ್ಯತ್ಯಾಸ ಲೆಡ್ಜರ್‌ಗೆ ಸೇರಿಸಲಾಗಿದೆ.",
+  "dayCloseExportFailed": "ದಿನದ ಸಾರಾಂಶ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ.",
+  "dayCloseMatch": "ಕ್ಯಾಶ್ ಸರಿಯಾಗಿ ಹೊಂದಿಕೆಯಾಗಿದೆ.",
+  "dayCloseSurplus": "{amount} ಹೆಚ್ಚಾಗಿದೆ",
+  "@dayCloseSurplus": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseShort": "{amount} ಕಡಿಮೆಯಾಗಿದೆ",
+  "@dayCloseShort": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsTitle": "ವರದಿಗಳು",
+  "insightsSubtitle": "ದಿನ, ವಾರ, ತಿಂಗಳು ಮತ್ತು ವರ್ಷ",
+  "windowDay": "ದಿನ",
+  "windowWeek": "ವಾರ",
+  "windowMonth": "ತಿಂಗಳು",
+  "windowYear": "ವರ್ಷ",
+  "insightsTurnover": "ವಹಿವಾಟು",
+  "insightsCosts": "ಖರ್ಚು",
+  "insightsProfit": "ಲಾಭ",
+  "insightsAvgDay": "ದಿನಕ್ಕೆ ಸರಾಸರಿ",
+  "insightsByDay": "ದಿನದಿಂದ ದಿನಕ್ಕೆ",
+  "insightsBestDay": "ಅತ್ಯುತ್ತಮ ದಿನ",
+  "insightsTopItems": "ಹೆಚ್ಚು ಮಾರಾಟವಾದವು",
+  "insightsCostSplit": "ಹಣ ಎಲ್ಲಿ ಖರ್ಚಾಗಿದೆ",
+  "insightsEmpty": "ಈ ಅವಧಿಯಲ್ಲಿ ಯಾವುದೇ ದಾಖಲೆಯಿಲ್ಲ",
+  "insightsMarginAlert": "ಮಾರ್ಜಿನ್ ಎಚ್ಚರಿಕೆ",
+  "insightsMarginBody": "ಈ ಐಟಂಗಳು ಅಸಲು ಬೆಲೆಯ ಹತ್ತಿರವೇ ಮಾರಾಟವಾಗುತ್ತಿವೆ. ಬೆಲೆ ಏರಿಸಿ ಅಥವಾ ಖರ್ಚು ಕಡಿಮೆ ಮಾಡಿ.",
+  "insightsMarginRow": "ಅಸಲು {cost} · ಬೆಲೆ {price}",
+  "@insightsMarginRow": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleTitle": "ತ್ವರಿತ ಮಾರಾಟ",
+  "quickSaleSubtitle": "ಒಂದು ಕಪ್‌ಗೆ ಒಂದು ಟ್ಯಾಪ್ — ದೊಡ್ಡ ಆರ್ಡರ್‌ಗೆ ಲಾಂಗ್ ಪ್ರೆಸ್ ಮಾಡಿ",
+  "quickSaleQty": "ಪ್ರಮಾಣ",
+  "quickSaleQtyTitle": "ಎಷ್ಟು {item}?",
+  "@quickSaleQtyTitle": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleDone": "{item} · {amount} ದಾಖಲಾಗಿದೆ",
+  "@quickSaleDone": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSemantic": "{amount} ಗೆ ಒಂದು {item} ಮಾರಿ",
+  "@quickSaleSemantic": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleEmpty": "ತ್ವರಿತ ಮೆನು ಬಳಸಲು ಬೆಲೆಯೊಂದಿಗೆ ಐಟಂಗಳನ್ನು ಸೇರಿಸಿ.",
+  "starterPackAction": "ನನ್ನ ಅಂಗಡಿಗೆ ಸ್ಟಾರ್ಟರ್ ಕಿಟ್ ಲೋಡ್ ಮಾಡಿ",
+  "starterTea": "ಟೀ",
+  "starterCoffee": "ಕಾಫಿ",
+  "starterBun": "ಬನ್",
+  "starterBiscuit": "ಬಿಸ್ಕೆಟ್",
+  "starterBajji": "ಬಜ್ಜಿ",
+  "starterMilkSupply": "ಹಾಲು ಕ್ಯಾನ್‌ಗಳು",
+  "starterSnackSupply": "ಸ್ನ್ಯಾಕ್ಸ್ ಟ್ರೇ",
+  "menuDailyWork": "ದಿನನಿತ್ಯದ ಕೆಲಸ",
+  "stockOut": "ಸ್ಟಾಕ್ ಖಾಲಿಯಾಗಿದೆ",
+  "ordersTitle": "ಆರ್ಡರ್‌ಗಳು",
+  "ordersSubtitle": "ಕೌಂಟರ್ ಮತ್ತು QR ಆರ್ಡರ್‌ಗಳು, ಲೈವ್",
+  "orderCounterNew": "ಹೊಸ ಕೌಂಟರ್ ಆರ್ಡರ್",
+  "orderTable": "ಟೇಬಲ್",
+  "orderRemoveItem": "ಒಂದು ತೆಗೆಯಿರಿ",
+  "orderAddItem": "ಒಂದು ಸೇರಿಸಿ",
+  "orderCancelReason": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡಲು ಕಾರಣ",
+  "orderCancel": "ಆರ್ಡರ್ ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ",
+  "orderLive": "ಲೈವ್",
+  "orderHistory": "ಹಿಸ್ಟರಿ",
+  "orderEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಆರ್ಡರ್‌ಗಳಿಲ್ಲ.",
+  "orderNew": "ಹೊಸದು",
+  "orderPreparing": "ರೆಡಿಯಾಗುತ್ತಿದೆ",
+  "orderServed": "ಸರ್ವ್ ಆಗಿದೆ",
+  "orderPaid": "ಪಾವತಿಸಲಾಗಿದೆ",
+  "orderCancelled": "ಕ್ಯಾನ್ಸಲ್ ಆಗಿದೆ",
+  "orderAccept": "ಸ್ವೀಕರಿಸಿ",
+  "orderServe": "ಸರ್ವ್ ಮಾಡಿ",
+  "orderBulkAccept": "ಎಲ್ಲ ಹೊಸದನ್ನು ಸ್ವೀಕರಿಸಿ",
+  "orderBulkServe": "ರೆಡಿ ಇರುವುದನ್ನು ಸರ್ವ್ ಮಾಡಿ",
+  "orderBill": "ಬಿಲ್",
+  "orderTokenShort": "ಟೋಕನ್",
+  "kotTitle": "ಕಿಚನ್",
+  "kotSubtitle": "ಮುಂದೆ ಏನು ತಯಾರಿಸಬೇಕು",
+  "kotEmpty": "ಕಿಚನ್ ಕ್ಯೂ ಖಾಲಿಯಾಗಿದೆ.",
+  "kotDone": "ರೆಡಿಯಾಗಿದೆ",
+  "billTitle": "ಬಿಲ್",
+  "billNumberLabel": "ಬಿಲ್",
+  "billSubtotal": "ಸಬ್‌ಟೋಟಲ್",
+  "billDiscount": "ಡಿಸ್ಕೌಂಟ್",
+  "billDiscountFlat": "ಡಿಸ್ಕೌಂಟ್ ಮೊತ್ತ",
+  "billDiscountPct": "ಡಿಸ್ಕೌಂಟ್ %",
+  "billTax": "GST",
+  "billTaxable": "ಟ್ಯಾಕ್ಸಬಲ್ ಮೊತ್ತ",
+  "billCgst": "CGST",
+  "billSgst": "SGST",
+  "billIgst": "IGST",
+  "shopGstRegistered": "GST ನೋಂದಾಯಿತ ಅಂಗಡಿ",
+  "shopGstRegisteredHint": "ಬಿಲ್‌ಗಳಲ್ಲಿ CGST/SGST ವಿವರ ಮತ್ತು ಐಟಂ HSN ಕೋಡ್‌ಗಳು ಕಾಣಿಸುತ್ತವೆ",
+  "shopPriceIncludesTax": "ಬೆಲೆಗಳಲ್ಲಿ ಈಗಾಗಲೇ ತೆರಿಗೆ ಸೇರಿದೆ",
+  "productTaxRate": "GST ದರ %",
+  "productHsn": "HSN / SAC ಕೋಡ್",
+  "productTaxHint": "ಅಂಗಡಿ ದರ ಬಳಸಲು ಖಾಲಿ ಬಿಡಿ",
+  "billRounding": "ರೌಂಡಿಂಗ್",
+  "billTotal": "ಒಟ್ಟು",
+  "billPaid": "ಪಾವತಿಸಿದ್ದು",
+  "billBalance": "ಬಾಕಿ",
+  "billReprint": "ರೀಪ್ರಿಂಟ್",
+  "billShare": "ಶೇರ್",
+  "billThanks": "ಧನ್ಯವಾದ, ಮತ್ತೆ ಬನ್ನಿ",
+  "billCustomer": "ಗ್ರಾಹಕರು",
+  "billSplit": "ಪಾವತಿ",
+  "billRoundToRupee": "ರೂಪಾಯಿಗೆ ರೌಂಡ್ ಮಾಡಿ",
+  "billFillCash": "ಬಾಕಿ ಮೊತ್ತವನ್ನು ನಗದಾಗಿ ಹಾಕಿ",
+  "billFullyPaid": "ಪೂರ್ತಿ ಪಾವತಿಸಲಾಗಿದೆ",
+  "billSettle": "ಬಿಲ್ ಸೆಟಲ್ ಮಾಡಿ",
+  "close": "ಮುಚ್ಚಿ",
+  "billPreview": "ಪೇಪರ್ ಪ್ರಿವ್ಯೂ",
+  "billVoid": "ಬಿಲ್ ರದ್ದು ಮಾಡಿ",
+  "billVoidTitle": "ಈ ಬಿಲ್ ರದ್ದು ಮಾಡಿ",
+  "billVoidHint": "ಬಿಲ್ ಸಂಖ್ಯೆ ಹಾಗೇ ಇರುತ್ತದೆ ಮತ್ತು ಲೆಡ್ಜರ್ ನಮೂದುಗಳನ್ನು ವಾಪಸ್ ಮಾಡಲಾಗುತ್ತದೆ.",
+  "billVoidReason": "ಕಾರಣ",
+  "billVoidReasonRequired": "ಬಿಲ್ ರದ್ದು ಮಾಡಲು ಕಾರಣ ಬೇಕು",
+  "billVoided": "ಬಿಲ್ ರದ್ದು ಮಾಡಲಾಗಿದೆ",
+  "billVoidFailed": "ಈ ಬಿಲ್ ರದ್ದು ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ",
+  "billAudit": "ಬಿಲ್ ಹಿಸ್ಟರಿ",
+  "menuTitle": "QR ಮೆನು",
+  "menuSubtitle": "ಗ್ರಾಹಕರು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದಾಗ ಕಾಣಿಸುವುದು",
+  "menuShopSection": "ಅಂಗಡಿ",
+  "menuSlug": "ಲಿಂಕ್‌ನಲ್ಲಿರುವ ಮೆನು ಹೆಸರು",
+  "menuBaseUrl": "ಮೆನು ವೆಬ್ ವಿಳಾಸ",
+  "menuTableCount": "ಟೇಬಲ್‌ಗಳು",
+  "menuTaxPercent": "GST %",
+  "menuGstin": "GSTIN",
+  "menuAcceptOrders": "QR ಆರ್ಡರ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸಿ",
+  "menuSaved": "ಮೆನು ಸೆಟ್ಟಿಂಗ್ಸ್ ಸೇವ್ ಆಗಿದೆ",
+  "menuQrSheet": "QR ಶೀಟ್ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "menuLinkSection": "ಅಂಗಡಿ QR",
+  "menuItemsSection": "ಮೆನುವಿನಲ್ಲಿರುವ ಐಟಂಗಳು",
+  "menuSoldOut": "ಖಾಲಿಯಾಗಿದೆ",
+  "menuPublished": "ಮೆನುವಿನಲ್ಲಿದೆ",
+  "menuCounterQr": "ಕೌಂಟರ್",
+  "menuScanHint": "ಮೆನು ನೋಡಿ ಆರ್ಡರ್ ಮಾಡಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "printersTitle": "ರಸೀದಿ ಪ್ರಿಂಟರ್",
+  "printersSubtitle": "ಪೇಪರ್ ಸೈಜ್, ಕನೆಕ್ಷನ್ ಮತ್ತು ಟೆಸ್ಟ್ ಪ್ರಿಂಟ್",
+  "printerWidth": "ಪೇಪರ್ ಅಗಲ",
+  "printerTransport": "ಕನೆಕ್ಷನ್",
+  "printerPdf": "PDF / ಶೇರ್",
+  "printerBluetooth": "Bluetooth",
+  "printerUsb": "USB",
+  "printerDeviceName": "ಪ್ರಿಂಟರ್ ಹೆಸರು",
+  "printerDeviceAddress": "ಪ್ರಿಂಟರ್ ವಿಳಾಸ",
+  "printerFallbackNote": "ಈ ಡಿವೈಸ್‌ಗೆ ನೇರವಾಗಿ ಪ್ರಿಂಟ್ ಮಾಡಲು ಸಿದ್ಧವಾಗಿಲ್ಲ, ಆದ್ದರಿಂದ ಬಿಲ್ PDF ಆಗಿ ತೆರೆಯುತ್ತದೆ. ನೀವು ಪ್ರಿಂಟ್ ಅಥವಾ ಶೇರ್ ಮಾಡಬಹುದು.",
+  "printerAutoPrint": "ಆಟೋಮ್ಯಾಟಿಕ್ ಆಗಿ ಬಿಲ್ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "printerKot": "ಕಿಚನ್ ಟಿಕೆಟ್ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "printerTest": "ಟೆಸ್ಟ್ ಪ್ರಿಂಟ್",
+  "printerTestSent": "ಟೆಸ್ಟ್ ರಸೀದಿ ಕಳುಹಿಸಲಾಗಿದೆ",
+  "printerPaired": "ಪೇರ್ ಆಗಿರುವ ಪ್ರಿಂಟರ್‌ಗಳು",
+  "printerScan": "ಪೇರ್ಡ್ ಪ್ರಿಂಟರ್ ಹುಡುಕಿ",
+  "printerScanning": "ಹುಡುಕಲಾಗುತ್ತಿದೆ…",
+  "printerNoDevices": "ಯಾವುದೇ ಪೇರ್ಡ್ ಪ್ರಿಂಟರ್ ಸಿಗಲಿಲ್ಲ. ಮೊದಲು Android Bluetooth ಸೆಟ್ಟಿಂಗ್ಸ್‌ನಲ್ಲಿ ಪೇರ್ ಮಾಡಿ.",
+  "printerConnect": "ಕನೆಕ್ಟ್ ಮಾಡಿ",
+  "printerConnected": "ಪ್ರಿಂಟರ್ ಕನೆಕ್ಟ್ ಆಗಿದೆ",
+  "printerConnectFailed": "ಕನೆಕ್ಟ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ. ಪ್ರಿಂಟರ್ ಆನ್ ಮಾಡಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "printerBluetoothNote": "ಬಿಲ್‌ಗಳು ನೇರವಾಗಿ ಈ Bluetooth ಪ್ರಿಂಟರ್‌ನಲ್ಲಿ ಪ್ರಿಂಟ್ ಆಗುತ್ತವೆ. ಅದು ಆಫ್ ಆಗಿದ್ದರೆ ಅಥವಾ ರೇಂಜ್‌ನಲ್ಲಿ ಇಲ್ಲದಿದ್ದರೆ ಬಿಲ್ PDF ಆಗಿ ತೆರೆಯುತ್ತದೆ, ಯಾವುದೂ ಮಿಸ್ ಆಗಲ್ಲ.",
+  "orderToken": "ಟೋಕನ್ {token}",
+  "@orderToken": {
+    "placeholders": {
+      "token": {
+        "type": "int"
+      }
+    }
+  },
+  "orderElapsed": "{minutes} ನಿಮಿಷ",
+  "@orderElapsed": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "orderItems": "{count, plural, =1{1 ಐಟಂ} other{{count} ಐಟಂಗಳು}}",
+  "@orderItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "billSettled": "ಬಿಲ್ {number} ಸೆಟ್ಲ್ ಆಗಿದೆ",
+  "@billSettled": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOrders": "ಇಂದಿನ ಆರ್ಡರ್‌ಗಳು",
+  "dayCloseOrdersTaken": "ಸ್ವೀಕರಿಸಿದ ಆರ್ಡರ್‌ಗಳು",
+  "dayCloseOrdersCancelled": "ಕ್ಯಾನ್ಸಲ್ ಆದವು",
+  "dayCloseOrdersOpen": "ಇನ್ನೂ ಬಾಕಿ ಇವೆ",
+  "dayCloseOrdersBilled": "ಬಿಲ್ ಆದವು",
+  "dayCloseAvgTicket": "ಸರಾಸರಿ ಬಿಲ್ ಮೊತ್ತ",
+  "menuCloudSection": "ಕ್ಲೌಡ್ ಬೋರ್ಡ್",
+  "menuShopKey": "ಶಾಪ್ ಕೀ (16+ ಅಕ್ಷರಗಳು)",
+  "menuCloudSync": "ಆರ್ಡರ್‌ಗಳನ್ನು ಕ್ಲೌಡ್ ಜೊತೆ ಸಿಂಕ್ ಮಾಡಿ",
+  "menuCloudPublish": "ಮೆನುವನ್ನು ಕ್ಲೌಡ್‌ಗೆ ಪಬ್ಲಿಷ್ ಮಾಡಿ",
+  "menuCloudPublished": "ಕ್ಲೌಡ್ ಮೆನುವಿಗೆ {count} ಐಟಂಗಳನ್ನು ಪಬ್ಲಿಷ್ ಮಾಡಲಾಗಿದೆ",
+  "@menuCloudPublished": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "menuCloudFailed": "ಕ್ಲೌಡ್ ದೋಷ: {reason}",
+  "@menuCloudFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "menuCloudLive": "ಲೈವ್: QR ಆರ್ಡರ್‌ಗಳು ನೇರವಾಗಿ ಬೋರ್ಡ್‌ಗೆ ಬರುತ್ತವೆ.",
+  "menuCloudOffline": "ಲೋಕಲ್ ಮಾತ್ರ. QR ಆರ್ಡರ್‌ಗಳನ್ನು ಪಡೆಯಲು ಶಾಪ್ ಕೀ ಸೇರಿಸಿ ಸಿಂಕ್ ಆನ್ ಮಾಡಿ.",
+  "settleTitle": "ಉದ್ದರಿ ಚುಕ್ತಾ ಮಾಡಿ",
+  "settleAmountSection": "ಚುಕ್ತಾ",
+  "settleAmount": "ಮೊತ್ತ",
+  "settleCash": "ಕ್ಯಾಶ್",
+  "settleUpi": "UPI",
+  "settleLoan": "ಹೊಸ ಸಾಲ",
+  "settleNote": "ಟಿಪ್ಪಣಿ",
+  "settleCashHint": "ಬಂದ ನಗದು ಬಾಕಿಯನ್ನು ಮುಗಿಸುತ್ತದೆ ಮತ್ತು ಇಂದಿನ ಕ್ಯಾಶ್ ಲೆಕ್ಕಕ್ಕೆ ಸೇರುತ್ತದೆ.",
+  "settleUpiHint": "UPI ಮೂಲಕ ಪಡೆದು ಕನ್ಫರ್ಮ್ ಮಾಡಿ. ಬಾಕಿ ಮುಕ್ತಾಯವಾಗಿ ಇಂದಿನ UPI ಲೆಕ್ಕ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+  "settleLoanHint": "ಹಳೆಯ ಬಾಕಿ ಮುಕ್ತಾಯವಾಗಿ ಅದೇ ಮೊತ್ತ ಹೊಸ ಸಾಲವಾಗಿ ಮುಂದುವರಿಯುತ್ತದೆ.",
+  "settleConfirm": "ಚುಕ್ತಾ ಮಾಡಿ",
+  "settleDone": "ಚುಕ್ತಾ ದಾಖಲಾಗಿದೆ",
+  "settleHistory": "ಇತ್ತೀಚಿನ ಚುಕ್ತಾಗಳು",
+  "settleTooMuch": "ಬಾಕಿ ಇರುವ ₹{amount} ಗಿಂತ ಹೆಚ್ಚು",
+  "@settleTooMuch": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLedgerItem": "ಉದ್ದರಿ ಚುಕ್ತಾ ಆಗಿದೆ — {name}",
+  "@settleLedgerItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLoanItem": "ಉದ್ದರಿ ಹೊಸ ಸಾಲಕ್ಕೆ ಬದಲಾಗಿದೆ — {name}",
+  "@settleLoanItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "menuAddress": "ಅಂಗಡಿ ವಿಳಾಸ",
+  "menuPhone": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+  "menuFssai": "FSSAI ಲೈಸೆನ್ಸ್",
+  "menuGrowSection": "ಬೆಳವಣಿಗೆ ಮತ್ತು ನಿರ್ವಹಣೆ",
+  "recipesTitle": "ರೆಸಿಪಿ ಬುಕ್",
+  "recipesSubtitle": "ನಿಮ್ಮ ಅಳತೆಗಳು, ಒಮ್ಮೆ ಬರೆದಿಡಿ",
+  "recipeAdd": "ಡಿಶ್ ಸೇರಿಸಿ",
+  "recipeName": "ಡಿಶ್ ಹೆಸರು",
+  "recipeServings": "ಎಷ್ಟು ಪ್ಲೇಟ್ ಆಗುತ್ತದೆ",
+  "recipeEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಡಿಶ್ ಸೇರಿಸಿಲ್ಲ.",
+  "recipeIngredients": "ಬೇಕಾಗುವ ಪದಾರ್ಥಗಳು",
+  "recipeSteps": "ಮಾಡುವ ವಿಧಾನ",
+  "recipeAddIngredient": "ಪದಾರ್ಥ ಸೇರಿಸಿ",
+  "recipeAddStep": "ಹಂತ ಸೇರಿಸಿ",
+  "recipeQty": "ಪ್ರಮಾಣ",
+  "recipeLinkProduct": "ಸ್ಟಾಕ್‌ನಿಂದ ತೆಗೆದುಕೊಳ್ಳಿ",
+  "recipeNoLink": "ಸ್ಟಾಕ್‌ನಿಂದಲ್ಲ",
+  "recipeCost": "ಸಾಮಗ್ರಿ ವೆಚ್ಚ",
+  "recipePerServing": "ಪ್ಲೇಟ್ ವೆಚ್ಚ",
+  "recipeScale": "ಇಷ್ಟು ಪ್ಲೇಟ್‌ಗೆ ಮಾಡಿ",
+  "recipeCookBatch": "ಸ್ಟಾಕ್‌ನಿಂದ ಸಾಮಗ್ರಿಗಳನ್ನು ಕಳೆಯಿರಿ",
+  "recipeCooked": "ಸ್ಟಾಕ್‌ನಿಂದ ಸಾಮಗ್ರಿ ತೆಗೆಯಲಾಗಿದೆ",
+  "recipeStepsEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಹಂತಗಳನ್ನು ಬರೆದಿಲ್ಲ.",
+  "recipeUnlinkedWarning": "ಸ್ಟಾಕ್‌ಗೆ ಲಿಂಕ್ ಮಾಡದ ಐಟಂಗಳನ್ನು ವೆಚ್ಚದಲ್ಲಿ ಸೇರಿಸಿಲ್ಲ.",
+  "jobsTitle": "ಕಸ್ಟಮ್ ಆರ್ಡರ್‌ಗಳು",
+  "jobsSubtitle": "ಅಡ್ವಾನ್ಸ್ ಬುಕಿಂಗ್ ಮತ್ತು ಆರ್ಡರ್ ಮೇಲೆ ಮಾಡುವ ಕೆಲಸಗಳು",
+  "jobAdd": "ಆರ್ಡರ್ ತೆಗೆದುಕೊಳ್ಳಿ",
+  "jobTitleField": "ಏನು ತಯಾರು ಮಾಡಬೇಕು",
+  "jobCustomer": "ಗ್ರಾಹಕರು",
+  "jobPhone": "ಫೋನ್",
+  "jobPrice": "ಬೆಲೆ",
+  "jobAdvance": "ಪಡೆದ ಅಡ್ವಾನ್ಸ್",
+  "jobDue": "ಕೊಡುವ ದಿನ",
+  "jobEmpty": "ಇಲ್ಲಿ ಯಾವುದೇ ಆರ್ಡರ್‌ಗಳಿಲ್ಲ.",
+  "jobStatusTaken": "ತೆಗೆದುಕೊಂಡಿದ್ದು",
+  "jobStatusMaking": "ತಯಾರಾಗುತ್ತಿದೆ",
+  "jobStatusReady": "ರೆಡಿಯಾಗಿದೆ",
+  "jobStatusDelivered": "ಕೊಡಲಾಗಿದೆ",
+  "jobStatusCancelled": "ರದ್ದುಮಾಡಲಾಗಿದೆ",
+  "jobAdvanceStatus": "ಮುಂದೆ ಸರಿಸಿ",
+  "jobCancel": "ರದ್ದುಮಾಡಿ",
+  "jobRemind": "WhatsApp ನಲ್ಲಿ ಮೆಸೇಜ್ ಮಾಡಿ",
+  "jobFilterOpen": "ಓಪನ್",
+  "jobFilterToday": "ಇಂದು ಕೊಡಬೇಕು",
+  "jobFilterDone": "ಮುಗಿದಿದೆ",
+  "customersTitle": "ರೆಗ್ಯುಲರ್ ಗ್ರಾಹಕರು",
+  "customersSubtitle": "ಯಾರು ಮತ್ತೆ ಬರುತ್ತಾರೆ, ಅವರು ನಿಮ್ಮನ್ನು ಹೇಗೆ ಕಂಡುಕೊಂಡರು",
+  "customerAdd": "ಗ್ರಾಹಕರನ್ನು ಸೇರಿಸಿ",
+  "customerName": "ಹೆಸರು",
+  "customerPhone": "ಫೋನ್",
+  "sourceWalkIn": "ನೇರವಾಗಿ ಬಂದವರು",
+  "sourceInstagram": "Instagram",
+  "sourceMaps": "Google Maps",
+  "sourceReferral": "ಸ್ನೇಹಿತರು ಹೇಳಿದ್ದು",
+  "sourceOther": "ಇತರೆ",
+  "customerRecordVisit": "ಭೇಟಿ ಸೇರಿಸಿ",
+  "customerVisitAmount": "ಮೊತ್ತ",
+  "customerRewardDue": "ಫ್ರೀ ಐಟಂ ಬಾಕಿ ಇದೆ",
+  "customerGiveReward": "ಫ್ರೀ ಐಟಂ ಕೊಡಿ",
+  "customersEmpty": "ಇನ್ನೂ ಯಾವುದೇ ರೆಗ್ಯುಲರ್ ಗ್ರಾಹಕರಿಲ್ಲ.",
+  "customerSourceSplit": "ಹಣ ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ",
+  "eventsTitle": "ಈವೆಂಟ್‌ಗಳು ಮತ್ತು ಪ್ರದರ್ಶನಗಳು",
+  "eventsSubtitle": "ಸ್ಟಾಲ್‌ನಿಂದ ಲಾಭ ಆಯ್ತಾ?",
+  "eventAdd": "ಈವೆಂಟ್ ಸೇರಿಸಿ",
+  "eventName": "ಈವೆಂಟ್ ಹೆಸರು",
+  "eventPlace": "ಸ್ಥಳ",
+  "eventDay": "ದಿನಾಂಕ",
+  "eventRent": "ಸ್ಟಾಲ್ ಬಾಡಿಗೆ",
+  "eventTravel": "ಪ್ರಯಾಣ ವೆಚ್ಚ",
+  "eventOther": "ಇತರ ಖರ್ಚು",
+  "eventSales": "ಮಾರಾಟ",
+  "eventFootfall": "ಭೇಟಿ ನೀಡಿದವರು",
+  "eventProfit": "ಲಾಭ",
+  "eventLoss": "ನಷ್ಟ",
+  "eventPerVisitor": "ಪ್ರತಿ ಗ್ರಾಹಕರಿಗೆ",
+  "eventsEmpty": "ಯಾವುದೇ ಈವೆಂಟ್ ದಾಖಲಿಸಿಲ್ಲ.",
+  "staffTitle": "ಕೆಲಸಗಾರರು",
+  "staffSubtitle": "ಹಾಜರಾತಿ, ಅಡ್ವಾನ್ಸ್ ಮತ್ತು ಸಂಬಳ",
+  "staffAdd": "ಕೆಲಸಗಾರರನ್ನು ಸೇರಿಸಿ",
+  "staffName": "ಹೆಸರು",
+  "staffPhone": "ಫೋನ್",
+  "staffRole": "ಕೆಲಸ",
+  "staffWage": "ದಿನಗೂಲಿ",
+  "staffPresent": "ಹಾಜರು",
+  "staffHalf": "ಅರ್ಧ ದಿನ",
+  "staffAbsent": "ಗೈರುಹಾಜರು",
+  "staffAdvance": "ಅಡ್ವಾನ್ಸ್",
+  "staffAdvanceAdd": "ಅಡ್ವಾನ್ಸ್ ಕೊಡಿ",
+  "staffPayable": "ಈ ತಿಂಗಳ ಬಾಕಿ ಸಂಬಳ",
+  "staffEmpty": "ಯಾವ ಕೆಲಸಗಾರರನ್ನೂ ಸೇರಿಸಿಲ್ಲ.",
+  "staffRemove": "ತೆಗೆದುಹಾಕಿ",
+  "growthTitle": "ಗ್ರೋತ್ ಕಿಟ್",
+  "growthSubtitle": "ಹೆಚ್ಚು ಗ್ರಾಹಕರನ್ನು ಸೆಳೆಯಿರಿ",
+  "growthMenuLink": "ನಿಮ್ಮ ಮೆನು ಲಿಂಕ್",
+  "growthShareMenu": "ಮೆನು ಕಳುಹಿಸಿ",
+  "growthAskReview": "ರಿವ್ಯೂ ಕೇಳಿ",
+  "growthOpenMaps": "Maps ಪೇಜ್ ತೆರೆಯಿರಿ",
+  "growthWhatsappBroadcast": "WhatsApp ನಲ್ಲಿ ಗ್ರಾಹಕರಿಗೆ ತಿಳಿಸಿ",
+  "growthLinksSection": "ನಿಮ್ಮ ಲಿಂಕ್‌ಗಳು",
+  "growthMapsUrl": "Google Maps ಲಿಂಕ್",
+  "growthReviewUrl": "ರಿವ್ಯೂ ಲಿಂಕ್",
+  "growthInstagram": "Instagram ಹೆಸರು",
+  "growthLoyalty": "ಎಷ್ಟು ಬಾರಿ ಬಂದರೆ ಒಂದು ಉಚಿತ",
+  "growthIdeas": "ಈ ವಾರದ ಪೋಸ್ಟ್ ಐಡಿಯಾಗಳು",
+  "growthShareIdea": "ಕಳುಹಿಸಿ",
+  "growthIdea1": "ಬೆಳಗ್ಗೆ ಮೊದಲ ಬ್ಯಾಚ್ ರೆಡಿ ಮಾಡುವ ಸಣ್ಣ ವಿಡಿಯೋ.",
+  "growthIdea2": "ಇವತ್ತಿನ ಸ್ಪೆಷಲ್ ಜೊತೆಗೆ ಬೆಲೆಯನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಬರೆಯಿರಿ.",
+  "growthIdea3": "ಯಾವಾಗಲೂ ಬರುವ ಗ್ರಾಹಕರು ತಮ್ಮ ಇಷ್ಟದ ಆರ್ಡರ್ ಹಿಡಿದಿರುವ ಫೋಟೋ.",
+  "growthIdea4": "ಕೌಂಟರ್ ಹಿಂದೆ: ಪ್ರತಿದಿನ ಅಂಗಡಿ ಹೇಗೆ ತೆರೆಯಲಾಗುತ್ತದೆ.",
+  "growthIdea5": "ವಾರಾಂತ್ಯದ ಆಫರ್, ಎರಡು ದಿನ ಮಾತ್ರ ಇರುತ್ತದೆ.",
+  "growthSaved": "ಸೇವ್ ಆಗಿದೆ",
+  "checklistTitle": "ತೆರೆಯುವ ಮತ್ತು ಮುಚ್ಚುವ ಪಟ್ಟಿ",
+  "checklistSubtitle": "ಮರೆತರೆ ದಿನವೇ ಹಾಳಾಗುವ ಸಣ್ಣ ಪುಟ್ಟ ವಿಷಯಗಳು",
+  "checklistOpening": "ತೆರೆಯುವ ಮೊದಲು",
+  "checklistClosing": "ಮುಚ್ಚುವ ಮೊದಲು",
+  "checklistAdd": "ಪಟ್ಟಿಗೆ ಸೇರಿಸಿ",
+  "checklistItem": "ಏನು ಚೆಕ್ ಮಾಡಬೇಕು",
+  "checklistEmpty": "ಪಟ್ಟಿಯಲ್ಲಿ ಇನ್ನೂ ಏನೂ ಇಲ್ಲ.",
+  "checklistUseStarter": "ಮಾದರಿ ಪಟ್ಟಿ ಬಳಸಿ",
+  "checklistSeed1": "ಚಿಲ್ಲರೆ ಹಣ ರೆಡಿ ಇಟ್ಟುಕೊಂಡಿದೆ",
+  "checklistSeed2": "ಗ್ಯಾಸ್ ಮತ್ತು ಹಾಲು ಚೆಕ್ ಮಾಡಿದೆ",
+  "checklistSeed3": "QR ಸ್ಟ್ಯಾಂಡ್ ಮತ್ತು ರೇಟ್ ಬೋರ್ಡ್ ಹೊರಗಿಟ್ಟಿದೆ",
+  "checklistSeed4": "ನಗದು ಎಣಿಸಿ ಬರೆದಿಟ್ಟಿದೆ",
+  "checklistSeed5": "ಫ್ರಿಡ್ಜ್, ಗ್ಯಾಸ್ ಮತ್ತು ಲೈಟ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡಿದೆ",
+  "jobRemindMessage": "ನಮಸ್ಕಾರ {name}, ನಿಮ್ಮ ಆರ್ಡರ್ \"{title}\" ರೆಡಿಯಾಗಿದೆ.",
+  "@jobRemindMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "customerVisits": "{count} ಭೇಟಿಗಳು",
+  "@customerVisits": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "customerToReward": "ಇನ್ನೂ {count} ಭೇಟಿಗಳು",
+  "@customerToReward": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "growthReviewMessage": "{name} ಇಷ್ಟವಾಯಿತೇ? ದಯವಿಟ್ಟು ರಿವ್ಯೂ ನೀಡಿ: {link}",
+  "@growthReviewMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "growthBroadcastMessage": "{name} — ಇಂದಿನ ಮೆನು: {link}",
+  "@growthBroadcastMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "checklistProgress": "{total} ರಲ್ಲಿ {done} ಮುಗಿದಿದೆ",
+  "@checklistProgress": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "movementPrepared": "ಸಿದ್ಧತೆ",
+  "recipeShortStock": "ಸ್ಟಾಕ್‌ನಲ್ಲಿ ಸಾಕಷ್ಟು {item} ಇಲ್ಲ",
+  "@recipeShortStock": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "starterIdli": "ಇಡ್ಲಿ",
+  "starterDosa": "ದೋಸೆ",
+  "starterMeals": "ಊಟ",
+  "starterSnackPacket": "ಸ್ನ್ಯಾಕ್ಸ್ ಪ್ಯಾಕೆಟ್",
+  "starterWaterBottle": "ನೀರಿನ ಬಾಟಲ್",
+  "starterVegSupply": "ತರಕಾರಿಗಳು",
+  "starterGasSupply": "ಗ್ಯಾಸ್ ಸಿಲಿಂಡರ್",
+  "checklistSeedHotel": "ಹಿಟ್ಟು, ತರಕಾರಿ ಮತ್ತು ಗ್ಯಾಸ್ ರೆಡಿಯಾಗಿದೆ",
+  "checklistSeedCart": "ಗಾಡಿ ಕ್ಲೀನ್ ಮಾಡಿ ಸ್ಟಾಕ್ ತುಂಬಿದೆ",
+  "checklistSeedService": "ಸಾಮಾನು ಮತ್ತು ಚಿಲ್ಲರೆ ರೆಡಿ ಇದೆ",
+  "presetRecipeTea": "ಅಂಗಡಿ ಟೀ (10 ಕಪ್‌)",
+  "presetIngredientMilk": "ಹಾಲು",
+  "presetIngredientWater": "ನೀರು",
+  "presetIngredientTeaPowder": "ಟೀ ಪುಡಿ",
+  "presetIngredientSugar": "ಸಕ್ಕರೆ",
+  "rolesTitle": "ರೋಲ್‌ಗಳು",
+  "rolesSubtitle": "ಯಾರು ಏನು ಮಾಡಬಹುದು",
+  "rolesHint": "ಪ್ರತಿಯೊಬ್ಬ ಕೆಲಸದವರಿಗೂ ರೋಲ್ ರಚಿಸಿ, ಅವರಿಗೆ ಅನುಮತಿ ಇರುವ ಕೆಲಸವನ್ನು ಮಾತ್ರ ಟಿಕ್ ಮಾಡಿ.",
+  "rolesEmpty": "ಇನ್ನೂ ಯಾವುದೇ ರೋಲ್‌ಗಳಿಲ್ಲ",
+  "rolesOpen": "ಚಾಲ್ತಿಯಲ್ಲಿರುವ ರೋಲ್‌ಗಳು",
+  "roleNew": "ಹೊಸ ರೋಲ್",
+  "roleSuggestionsTitle": "ನಿಮ್ಮ ಅಂಗಡಿಗೆ ಸಲಹೆಗಳು",
+  "@roleSuggestionsTitle": {},
+  "roleSuggestionsHint": "ನಿಮ್ಮ ಬಿಸಿನೆಸ್‌ಗೆ ತಕ್ಕ ರೆಡಿಮೇಡ್ ರೋಲ್‌ಗಳು. ರಚಿಸಲು ಒಂದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಬದಲಾಯಿಸಿ.",
+  "@roleSuggestionsHint": {},
+  "tmplWaiter": "ವೇಟರ್",
+  "@tmplWaiter": {},
+  "tmplKitchen": "ಕಿಚನ್ / ಅಡುಗೆಯವರು",
+  "@tmplKitchen": {},
+  "tmplCashier": "ಕ್ಯಾಷಿಯರ್",
+  "@tmplCashier": {},
+  "tmplCounter": "ಕೌಂಟರ್",
+  "@tmplCounter": {},
+  "tmplSalesHelper": "ಸೇಲ್ಸ್ ಹೆಲ್ಪರ್",
+  "@tmplSalesHelper": {},
+  "tmplStockKeeper": "ಸ್ಟಾಕ್ ಕೀಪರ್",
+  "@tmplStockKeeper": {},
+  "tmplJobAssistant": "ಕೆಲಸದ ಸಹಾಯಕ",
+  "@tmplJobAssistant": {},
+  "tmplCounterHelper": "ಕೌಂಟರ್ ಹೆಲ್ಪರ್",
+  "@tmplCounterHelper": {},
+  "tmplAssistant": "ಸಹಾಯಕ",
+  "@tmplAssistant": {},
+  "roleOwner": "ಮಾಲೀಕರು",
+  "roleOwnerNote": "ಯಾವಾಗಲೂ ಪೂರ್ಣ ಆಕ್ಸೆಸ್",
+  "roleInactive": "ಬಳಕೆಯಲ್ಲಿಲ್ಲ",
+  "rolePermissionCount": "{count} ಅನುಮತಿಸಲಾಗಿದೆ",
+  "@rolePermissionCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "roleEditSubtitle": "ಹೆಸರು, ಜವಾಬ್ದಾರಿಗಳು ಮತ್ತು ಮಿತಿಗಳು",
+  "roleName": "ರೋಲ್ ಹೆಸರು",
+  "roleNote": "ಜವಾಬ್ದಾರಿ",
+  "roleLimits": "ಹಣದ ಮಿತಿಗಳು (Rs, 0 = ಮಿತಿ ಇಲ್ಲ)",
+  "roleMaxDiscount": "ಕೊಡಬಹುದಾದ ಗರಿಷ್ಠ ಡಿಸ್ಕೌಂಟ್",
+  "roleMaxCredit": "ಕೊಡಬಹುದಾದ ಗರಿಷ್ಠ ಉದ್ರಿ",
+  "roleMaxRefund": "ಕೊಡಬಹುದಾದ ಗರಿಷ್ಠ ರಿಫಂಡ್",
+  "roleLimitHint": "ಈ ಮೊತ್ತಕ್ಕಿಂತ ಹೆಚ್ಚಿನದಕ್ಕೆ ಮಾಲೀಕರ PIN ಬೇಕಾಗುತ್ತದೆ.",
+  "roleDuplicate": "ರೋಲ್ ಕಾಪಿ ಮಾಡಿ",
+  "roleDeactivate": "ಬಳಕೆ ನಿಲ್ಲಿಸಿ",
+  "areaSales": "ಸೇಲ್ಸ್",
+  "areaOrders": "ಆರ್ಡರ್‌ಗಳು ಮತ್ತು ಕಿಚನ್",
+  "areaBilling": "ಬಿಲ್‌ಗಳು",
+  "areaCredit": "ಉದ್ರಿ",
+  "areaStock": "ಸ್ಟಾಕ್",
+  "areaPurchases": "ಖರೀದಿ ಮತ್ತು ಖರ್ಚು",
+  "areaMoney": "ಹಣ ಮತ್ತು ರಿಪೋರ್ಟ್",
+  "areaCustomers": "ಗ್ರಾಹಕರು",
+  "areaStaff": "ಕೆಲಸದವರು",
+  "areaSettings": "ಸೆಟ್ಟಿಂಗ್ಸ್",
+  "permRecordSale": "ಮಾರಾಟ ದಾಖಲಿಸಿ",
+  "permQuickSale": "ಕ್ವಿಕ್ ಸೇಲ್ ಬಳಸಿ",
+  "permCollectUpi": "ಪೇಮೆಂಟ್ QR ತೋರಿಸಿ",
+  "permTakeOrder": "ಆರ್ಡರ್ ತೆಗೆದುಕೊಳ್ಳಿ",
+  "permChangeOrderStatus": "ಆರ್ಡರ್ ಸ್ಟೇಟಸ್ ಬದಲಿಸಿ",
+  "permViewKitchen": "ಕಿಚನ್ ಲಿಸ್ಟ್ ನೋಡಿ",
+  "permEditMenu": "ಮೆನು ಬದಲಿಸಿ",
+  "permMakeBill": "ಬಿಲ್ ಮಾಡಿ",
+  "permGiveDiscount": "ಡಿಸ್ಕೌಂಟ್ ಕೊಡಿ",
+  "permVoidBill": "ಬಿಲ್ ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ",
+  "permReprintBill": "ಬಿಲ್ ಮತ್ತೆ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "permGiveCredit": "ಉದ್ರಿ ಕೊಡಿ",
+  "permSettleCredit": "ಉದ್ರಿ ಚುಕ್ತಾ ಮಾಡಿ",
+  "permViewCredit": "ಉದ್ರಿ ಬಾಕಿ ನೋಡಿ",
+  "permViewStock": "ಸ್ಟಾಕ್ ನೋಡಿ",
+  "permAdjustStock": "ಸ್ಟಾಕ್ ಬದಲಿಸಿ",
+  "permEditProducts": "ಐಟಂ ಸೇರಿಸಿ ಅಥವಾ ಬದಲಿಸಿ",
+  "permChangePrice": "ಬೆಲೆ ಬದಲಿಸಿ",
+  "permCookRecipe": "ರೆಸಿಪಿ ತಯಾರಿಸಿ",
+  "permRecordExpense": "ಖರ್ಚು ಸೇರಿಸಿ",
+  "permManageSuppliers": "ಸಪ್ಲೈಯರ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ",
+  "permViewDayTotals": "ದಿನದ ಒಟ್ಟು ಮೊತ್ತ ನೋಡಿ",
+  "permViewProfit": "ಲಾಭ ನೋಡಿ",
+  "permCloseDay": "ದಿನ ಮುಕ್ತಾಯ ಮಾಡಿ",
+  "permViewReports": "ರಿಪೋರ್ಟ್ ನೋಡಿ",
+  "permViewCustomers": "ಗ್ರಾಹಕರನ್ನು ನೋಡಿ",
+  "permEditCustomers": "ಗ್ರಾಹಕರ ವಿವರ ಬದಲಿಸಿ",
+  "permManageStaff": "ಕೆಲಸದವರನ್ನು ನಿರ್ವಹಿಸಿ",
+  "permMarkAttendance": "ಹಾಜರಾತಿ ಹಾಕಿ",
+  "permPayWages": "ಸಂಬಳ ಕೊಡಿ",
+  "permManageRoles": "ರೋಲ್ ರಚಿಸಿ",
+  "permViewAudit": "ಆಕ್ಟಿವಿಟಿ ಹಿಸ್ಟರಿ ನೋಡಿ",
+  "permEditSettings": "ಸೆಟ್ಟಿಂಗ್ಸ್ ಬದಲಿಸಿ",
+  "permEditShop": "ಅಂಗಡಿ ವಿವರ ಬದಲಿಸಿ",
+  "permManagePrinters": "ಪ್ರಿಂಟರ್‌ಗಳನ್ನು ಸೆಟ್ ಮಾಡಿ",
+  "accessTitle": "ಆಕ್ಸೆಸ್ ಕಂಟ್ರೋಲ್",
+  "accessSubtitle": "ಒಂದೇ ಫೋನ್, ಬೇರೆ ಬೇರೆ ಬಳಕೆ",
+  "accessEnable": "PIN ಕೇಳಿ",
+  "accessEnableHint": "ಫೋನ್ ಬಳಸುವ ಮುನ್ನ ಪ್ರತಿಯೊಬ್ಬ ಹೆಲ್ಪರ್ ಸೈನ್ ಇನ್ ಆಗಬೇಕು.",
+  "accessNeedsOwnerPin": "ಮೊದಲು ಮಾಲೀಕರ PIN ಸೆಟ್ ಮಾಡಿ",
+  "accessOwnerPin": "ಮಾಲೀಕರ PIN",
+  "accessOwnerPinSet": "ಮಾಲೀಕರ PIN ಸೆಟ್ ಮಾಡಿ (4-6 ಅಂಕಿ)",
+  "accessOwnerPinChange": "ಮಾಲೀಕರ PIN ಬದಲಿಸಿ (4-6 ಅಂಕಿ)",
+  "accessPinSaved": "PIN ಸೇವ್ ಆಗಿದೆ",
+  "accessPinInvalid": "4 ರಿಂದ 6 ಅಂಕಿಗಳನ್ನು ಬಳಸಿ",
+  "accessAutoLock": "ಆಟೋ ಲಾಕ್",
+  "accessIdleMinutes": "ಇಷ್ಟು ಸಮಯದ ನಂತರ ಲಾಕ್ ಮಾಡಿ (ನಿಮಿಷ, 0 = ಎಂದಿಗೂ ಬೇಡ)",
+  "accessWorkers": "ಹೆಲ್ಪರ್‌ಗಳು",
+  "accessNoWorkers": "ಮೊದಲು ಹೆಲ್ಪರ್‌ಗಳನ್ನು ಸೇರಿಸಿ",
+  "accessNoRole": "ಇನ್ನೂ ರೋಲ್ ನೀಡಿಲ್ಲ",
+  "accessPinSet": "PIN ಸೆಟ್ ಆಗಿದೆ",
+  "accessPinMissing": "PIN ಇಲ್ಲ",
+  "accessAssignTitle": "ರೋಲ್ ಮತ್ತು PIN",
+  "accessWorkerPin": "ಹೊಸ PIN (4-6 ಅಂಕಿ)",
+  "accessSaved": "ಸೇವ್ ಆಗಿದೆ",
+  "accessEndShift": "ಶಿಫ್ಟ್ ಮುಗಿಸಿ",
+  "accessWrongPin": "ತಪ್ಪು PIN",
+  "lockTitle": "ಕೌಂಟರ್‌ನಲ್ಲಿ ಯಾರು ಇದ್ದಾರೆ?",
+  "lockSubtitle": "ನಿಮ್ಮ ಹೆಸರು ಆರಿಸಿ, PIN ಹಾಕಿ",
+  "lockPin": "PIN",
+  "lockUnlock": "ಶಿಫ್ಟ್ ಶುರು ಮಾಡಿ",
+  "auditTitle": "ಆಕ್ಟಿವಿಟಿ ಹಿಸ್ಟರಿ",
+  "auditSubtitle": "ಯಾರು ಏನು ಮಾಡಿದರು",
+  "auditOpen": "ಆಕ್ಟಿವಿಟಿ ಹಿಸ್ಟರಿ ನೋಡಿ",
+  "auditEveryone": "ಎಲ್ಲರೂ",
+  "auditEmpty": "ಇನ್ನೂ ಏನೂ ದಾಖಲಾಗಿಲ್ಲ",
+  "auditApproved": "ಮಾಲೀಕರು ಅನುಮೋದಿಸಿದ್ದಾರೆ",
+  "settingsGroupBusiness": "ವ್ಯಾಪಾರ",
+  "@settingsGroupBusiness": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupMoney": "ಹಣಕಾಸು",
+  "@settingsGroupMoney": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupApp": "ಆ್ಯಪ್ ಮತ್ತು ಡಿವೈಸ್‌ಗಳು",
+  "@settingsGroupApp": {
+    "description": "Settings hub label"
+  },
+  "settingsShopTitle": "ಅಂಗಡಿ ವಿವರ",
+  "@settingsShopTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsPaymentsTitle": "ಪಾವತಿಗಳು ಮತ್ತು UPI",
+  "@settingsPaymentsTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsMarketTitle": "ಮಾರುಕಟ್ಟೆ ಬೆಲೆಗಳು",
+  "@settingsMarketTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsNotSet": "ಸೆಟ್ ಮಾಡಿಲ್ಲ",
+  "@settingsNotSet": {
+    "description": "Settings hub label"
+  },
+  "settingsOn": "ಆನ್",
+  "@settingsOn": {
+    "description": "Settings hub label"
+  },
+  "settingsOff": "ಆಫ್",
+  "@settingsOff": {
+    "description": "Settings hub label"
+  },
+  "settingsSaved": "ಸೆಟ್ಟಿಂಗ್ಸ್ ಸೇವ್ ಆಗಿದೆ",
+  "@settingsSaved": {
+    "description": "Settings hub label"
+  },
+  "dashboardTitle": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+  "@dashboardTitle": {
+    "description": "Dashboard"
+  },
+  "dashboardSubtitle": "ಆರ್ಡರ್, ಹಣ, ಉದ್ಧರಿ ಮತ್ತು ಸ್ಟಾಕ್ ವಿವರಗಳು ಒಂದೇ ಕಡೆ",
+  "@dashboardSubtitle": {
+    "description": "Orders, money, credit and stock at a glance"
+  },
+  "dashboardOrders": "ಆರ್ಡರ್‌ಗಳು",
+  "@dashboardOrders": {
+    "description": "Orders"
+  },
+  "dashboardPayments": "ಬಾಕಿ ಪಾವತಿಗಳು",
+  "@dashboardPayments": {
+    "description": "Pending payments"
+  },
+  "dashboardCredit": "ಉದ್ಧರಿ ಬಾಕಿ",
+  "@dashboardCredit": {
+    "description": "Credit balances"
+  },
+  "dashboardInventory": "ಸ್ಟಾಕ್",
+  "@dashboardInventory": {
+    "description": "Inventory"
+  },
+  "dashboardShare": "ಶೇರ್",
+  "@dashboardShare": {
+    "description": "Share"
+  },
+  "dashboardPlaced": "ಆರ್ಡರ್ ಆಗಿದೆ",
+  "@dashboardPlaced": {
+    "description": "Placed"
+  },
+  "dashboardServed": "ಸರ್ವ್ ಆಗಿದೆ",
+  "@dashboardServed": {
+    "description": "Served"
+  },
+  "dashboardCancelled": "ರದ್ದಾಗಿದೆ",
+  "@dashboardCancelled": {
+    "description": "Cancelled"
+  },
+  "dashboardOpenOrders": "ಚಾಲ್ತಿ ಆರ್ಡರ್‌ಗಳು",
+  "@dashboardOpenOrders": {
+    "description": "Open orders"
+  },
+  "dashboardBilled": "ಬಿಲ್ ಆಗಿದೆ",
+  "@dashboardBilled": {
+    "description": "Billed"
+  },
+  "dashboardAvgBill": "ಸರಾಸರಿ ಬಿಲ್",
+  "@dashboardAvgBill": {
+    "description": "Average bill"
+  },
+  "dashboardCollected": "ಬಂದ ಹಣ",
+  "@dashboardCollected": {
+    "description": "Collected"
+  },
+  "dashboardUnbilled": "ಇನ್ನೂ ಬಿಲ್ ಮಾಡಿಲ್ಲ",
+  "@dashboardUnbilled": {
+    "description": "Not billed yet"
+  },
+  "dashboardPendingTotal": "ಇನ್ನೂ ಬರಬೇಕಾದ ಹಣ",
+  "@dashboardPendingTotal": {
+    "description": "Still to collect"
+  },
+  "dashboardOutstanding": "ಒಟ್ಟು ಬಾಕಿ",
+  "@dashboardOutstanding": {
+    "description": "Outstanding"
+  },
+  "dashboardCreditGiven": "ಕೊಟ್ಟ ಉದ್ಧರಿ",
+  "@dashboardCreditGiven": {
+    "description": "Credit given"
+  },
+  "dashboardCustomers": "ಗ್ರಾಹಕರು",
+  "@dashboardCustomers": {
+    "description": "Customers"
+  },
+  "dashboardOldest": "ಹಳೆಯ ಬಾಕಿ",
+  "@dashboardOldest": {
+    "description": "Oldest due"
+  },
+  "dashboardDays": "{count, plural, =0{today} =1{1 day} other{{count} days}}",
+  "@dashboardDays": {
+    "description": "Age of the oldest unpaid credit balance",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardStockValue": "ಸ್ಟಾಕ್ ಮೌಲ್ಯ",
+  "@dashboardStockValue": {
+    "description": "Stock value"
+  },
+  "dashboardLowStock": "ಕಡಿಮೆ ಸ್ಟಾಕ್",
+  "@dashboardLowStock": {
+    "description": "Low stock"
+  },
+  "dashboardExpiring": "ಬೇಗ ಎಕ್ಸ್‌ಪೈರ್ ಆಗುವಂತದ್ದು",
+  "@dashboardExpiring": {
+    "description": "Expiring soon"
+  },
+  "dashboardWastage": "ವೇಸ್ಟೇಜ್",
+  "@dashboardWastage": {
+    "description": "Wastage"
+  },
+  "dashboardPurchases": "ಖರೀದಿಗಳು",
+  "@dashboardPurchases": {
+    "description": "Purchases"
+  },
+  "dashboardTopItems": "ಟಾಪ್ ಐಟಂಗಳು",
+  "@dashboardTopItems": {
+    "description": "Top items"
+  },
+  "planTitle": "ಸಬ್‌ಸ್ಕ್ರಿಪ್ಷನ್",
+  "@planTitle": {
+    "description": "Subscription"
+  },
+  "planSubtitle": "ಈ ಅಂಗಡಿಗೆ ಕ್ಲೌಡ್ ಫೀಚರ್‌ಗಳು",
+  "@planSubtitle": {
+    "description": "Cloud features for this shop"
+  },
+  "planFree": "ಉಚಿತ",
+  "@planFree": {
+    "description": "Free"
+  },
+  "planPro": "ಪ್ರೊ",
+  "@planPro": {
+    "description": "Pro"
+  },
+  "planFreeNote": "ಈ ಫೋನ್‌ನಲ್ಲಿ ಎಲ್ಲವೂ ಉಚಿತವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ.",
+  "@planFreeNote": {
+    "description": "Everything on this phone keeps working for free."
+  },
+  "planProNote": "ಈ ಅಂಗಡಿಗೆ ಕ್ಲೌಡ್ ಫೀಚರ್‌ಗಳು ಆಕ್ಟಿವ್ ಆಗಿದೆ.",
+  "@planProNote": {
+    "description": "Cloud features are active for this shop."
+  },
+  "planCloudFeatures": "ಕ್ಲೌಡ್ ಫೀಚರ್‌ಗಳು",
+  "@planCloudFeatures": {
+    "description": "Cloud features"
+  },
+  "planFeatureAccount": "ಕ್ಲೌಡ್ ಶಾಪ್ ಖಾತೆ",
+  "@planFeatureAccount": {
+    "description": "Cloud shop account"
+  },
+  "planFeatureLiveSync": "ಲೈವ್ ಆರ್ಡರ್ ಬೋರ್ಡ್ ಸಿಂಕ್",
+  "@planFeatureLiveSync": {
+    "description": "Live order board sync"
+  },
+  "planFeatureQrOrdering": "QR ಮೆನು ಆರ್ಡರ್",
+  "@planFeatureQrOrdering": {
+    "description": "QR menu ordering"
+  },
+  "planFeatureShareLinks": "ಶೇರ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್‌ಗಳು",
+  "@planFeatureShareLinks": {
+    "description": "Shareable links"
+  },
+  "planFeatureSoundbox": "ಕ್ಲೌಡ್ ಸೌಂಡ್‌ಬಾಕ್ಸ್",
+  "@planFeatureSoundbox": {
+    "description": "Cloud soundbox"
+  },
+  "planFeatureBackup": "ಹಲವು ಡಿವೈಸ್‌ಗಳ ಬ್ಯಾಕಪ್",
+  "@planFeatureBackup": {
+    "description": "Multi-device backup"
+  },
+  "planOn": "ಆನ್",
+  "@planOn": {
+    "description": "On"
+  },
+  "planLocked": "ಲಾಕ್ ಆಗಿದೆ",
+  "@planLocked": {
+    "description": "Locked"
+  },
+  "planRefresh": "ಚಂದಾದಾರಿಕೆ ಪರಿಶೀಲಿಸಿ",
+  "@planRefresh": {
+    "description": "Check subscription"
+  },
+  "planChecking": "ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…",
+  "@planChecking": {
+    "description": "Checking…"
+  },
+  "planCheckFailed": "ಈಗ ಪರಿಶೀಲಿಸಲು ಆಗುತ್ತಿಲ್ಲ. ಹಿಂದಿನ ಸ್ಥಿತಿಯನ್ನು ಬಳಸಲಾಗಿದೆ.",
+  "@planCheckFailed": {
+    "description": "Could not check right now. Last known status is used."
+  },
+  "planNeedsShop": "ಮೊದಲು ಕ್ಲೌಡ್ ಅಂಗಡಿ ಸೆಟಪ್ ಮಾಡಿ.",
+  "@planNeedsShop": {
+    "description": "Set up the cloud shop first."
+  },
+  "planOfflineNote": "ಕೆಲವು ದಿನ ಆಫ್‌ಲೈನ್ ಇದ್ದರೂ ಪರವಾಗಿಲ್ಲ — ಗ್ರೇಸ್ ಪೀರಿಯಡ್‌ನಲ್ಲಿ ಕ್ಲೌಡ್ ಫೀಚರ್‌ಗಳು ಕೆಲಸ ಮಾಡುತ್ತವೆ.",
+  "@planOfflineNote": {
+    "description": "Offline for a few days is fine — cloud features keep working during the grace period."
+  },
+  "shopTitle": "ನನ್ನ ಅಂಗಡಿ",
+  "@shopTitle": {
+    "description": "My shop"
+  },
+  "shopSubtitle": "ನಿಮ್ಮ ವ್ಯಾಪಾರಕ್ಕೆ ತಕ್ಕಂತೆ ವರ್ಕ್‌ಫ್ಲೋ",
+  "@shopSubtitle": {
+    "description": "Workflow made for your trade"
+  },
+  "shopPickType": "ಅಂಗಡಿ ವಿಧ",
+  "@shopPickType": {
+    "description": "Shop type"
+  },
+  "shopWorkflow": "ದೈನಂದಿನ ಕೆಲಸದ ಶೈಲಿ",
+  "@shopWorkflow": {
+    "description": "Daily workflow"
+  },
+  "shopTypeRestaurant": "ರೆಸ್ಟೋರೆಂಟ್",
+  "@shopTypeRestaurant": {
+    "description": "Restaurant"
+  },
+  "shopTypeHotel": "ಹೋಟೆಲ್",
+  "@shopTypeHotel": {
+    "description": "Hotel"
+  },
+  "shopTypeStreet": "ರಸ್ತೆಬದಿಯ ಅಂಗಡಿ",
+  "@shopTypeStreet": {
+    "description": "Street stall"
+  },
+  "shopTypeDiy": "DIY / ಕರಕುಶಲ ಅಂಗಡಿ",
+  "@shopTypeDiy": {
+    "description": "DIY / craft stall"
+  },
+  "shopTypeMagnet": "ಫ್ರಿಡ್ಜ್ ಮ್ಯಾಗ್ನೆಟ್ ಅಂಗಡಿ",
+  "@shopTypeMagnet": {
+    "description": "Fridge magnet stall"
+  },
+  "shopTypeTea": "ಟೀ ಅಂಗಡಿ",
+  "@shopTypeTea": {
+    "description": "Tea shop"
+  },
+  "settingsOrderingTitle": "ಆರ್ಡರ್ ನಿಯಮಗಳು",
+  "@settingsOrderingTitle": {
+    "description": "Ordering rules"
+  },
+  "settingsOrderingSubtitle": "ಸರ್ವಿಸ್ ಶೈಲಿ, ಪಾವತಿ ಸಮಯ, ಟೇಬಲ್ ಬಟನ್‌ಗಳು",
+  "@settingsOrderingSubtitle": {
+    "description": "Service style, payment timing, table buttons"
+  },
+  "serviceStyle": "ಸರ್ವಿಸ್ ಶೈಲಿ",
+  "@serviceStyle": {
+    "description": "Service style"
+  },
+  "serviceTable": "ಟೇಬಲ್ ಸರ್ವಿಸ್",
+  "@serviceTable": {
+    "description": "Table service"
+  },
+  "serviceSelf": "ಸೆಲ್ಫ್ ಸರ್ವಿಸ್",
+  "@serviceSelf": {
+    "description": "Self service"
+  },
+  "serviceTakeaway": "ಪಾರ್ಸಲ್ ಮಾತ್ರ",
+  "@serviceTakeaway": {
+    "description": "Takeaway only"
+  },
+  "paymentTiming": "ಪಾವತಿ ಸಮಯ",
+  "@paymentTiming": {
+    "description": "Payment timing"
+  },
+  "payBefore": "ಮೊದಲು ಪಾವತಿ",
+  "@payBefore": {
+    "description": "Pay first"
+  },
+  "payAfter": "ನಂತರ ಪಾವತಿ",
+  "@payAfter": {
+    "description": "Pay after"
+  },
+  "payTimingHelp": "ಮೊದಲು ಪಾವತಿ: ಆರ್ಡರ್ ಕನ್ಫರ್ಮ್ ಆಗುವ ಮುನ್ನ ಹಣ ಕೇಳುತ್ತದೆ. ನಂತರ ಪಾವತಿ: ನೇರವಾಗಿ ಕಿಚನ್‌ಗೆ ಕಳುಹಿಸುತ್ತದೆ.",
+  "@payTimingHelp": {
+    "description": "Pay first asks the customer to pay before the order is confirmed. Pay after sends it to the kitchen straight away."
+  },
+  "customerButtons": "ಗ್ರಾಹಕರ ಸ್ಕ್ರೀನ್ ಮೇಲಿನ ಬಟನ್‌ಗಳು",
+  "@customerButtons": {
+    "description": "Buttons on the customer screen"
+  },
+  "allowCallStaff": "ಸಿಬ್ಬಂದಿಯನ್ನು ಕರೆಯಿರಿ",
+  "@allowCallStaff": {
+    "description": "Call staff"
+  },
+  "allowRequestBill": "ಬಿಲ್ ಕೇಳಿ",
+  "@allowRequestBill": {
+    "description": "Ask for the bill"
+  },
+  "customerButtonsHelp": "ಇವು ಟೇಬಲ್ ಸರ್ವಿಸ್‌ನಲ್ಲಿ ಮಾತ್ರ ಕಾಣಿಸುತ್ತವೆ.",
+  "@customerButtonsHelp": {
+    "description": "These appear only with table service."
+  },
+  "requestCallStaff": "ಸಿಬ್ಬಂದಿ ಬೇಕಾಗಿದ್ದಾರೆ",
+  "@requestCallStaff": {
+    "description": "Staff needed"
+  },
+  "requestBill": "ಬಿಲ್ ಕೊಡಿ",
+  "@requestBill": {
+    "description": "Bill please"
+  },
+  "requestTable": "ಟೇಬಲ್ {table}",
+  "@requestTable": {
+    "description": "Table label",
+    "placeholders": {
+      "table": {
+        "type": "String"
+      }
+    }
+  },
+  "requestCounter": "ಕೌಂಟರ್",
+  "@requestCounter": {
+    "description": "Counter"
+  },
+  "requestSeen": "ನೋಡಲಾಗಿದೆ",
+  "@requestSeen": {
+    "description": "Seen"
+  },
+  "payStateAwaiting": "ಪಾವತಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ",
+  "@payStateAwaiting": {
+    "description": "Awaiting payment"
+  },
+  "payStateDue": "ಕೌಂಟರ್‌ನಲ್ಲಿ ಪಾವತಿಸಿ",
+  "@payStateDue": {
+    "description": "Pay at counter"
+  },
+  "payStatePaid": "ಪಾವತಿಸಲಾಗಿದೆ",
+  "@payStatePaid": {
+    "description": "Paid"
+  },
+  "orderMarkPaid": "ಪಾವತಿಯಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+  "@orderMarkPaid": {
+    "description": "Mark paid"
+  },
+  "devicesTitle": "ಫೋನ್‌ಗಳು ಮತ್ತು ಡಿವೈಸ್‌ಗಳು",
+  "@devicesTitle": {},
+  "devicesSubtitle": "ವೇಟರ್, ಕಿಚನ್ ಮತ್ತು ಕೌಂಟರ್ ಫೋನ್‌ಗಳು ಒಂದೇ ಬೋರ್ಡ್‌ನಲ್ಲಿ",
+  "@devicesSubtitle": {},
+  "devicesPairThis": "ಈ ಫೋನ್ ಜೋಡಿಸಿ",
+  "@devicesPairThis": {},
+  "devicesShopSlug": "ಅಂಗಡಿ ಹೆಸರು (ಮೆನು ಲಿಂಕ್ ಪದ)",
+  "@devicesShopSlug": {},
+  "devicesEnterCode": "ಮಾಲೀಕರಿಂದ 6 ಅಂಕಿಯ ಕೋಡ್",
+  "@devicesEnterCode": {},
+  "devicesLabel": "ಫೋನ್ ಹೆಸರು",
+  "@devicesLabel": {},
+  "devicesPairButton": "ಫೋನ್ ಜೋಡಿಸಿ",
+  "@devicesPairButton": {},
+  "devicesPairSuccess": "ಫೋನ್ ಅಂಗಡಿಗೆ ಜೋಡಿಸಲಾಗಿದೆ",
+  "@devicesPairSuccess": {},
+  "devicesUnpair": "ಈ ಫೋನ್ ಸಂಪರ್ಕ ತೆಗೆಯಿರಿ",
+  "@devicesUnpair": {},
+  "devicesPairedAs": "{role} ಆಗಿ ಜೋಡಿಸಲಾಗಿದೆ · {shop}",
+  "@devicesPairedAs": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "devicesNewCode": "ಹೊಸ ಪೇರಿಂಗ್ ಕೋಡ್",
+  "@devicesNewCode": {},
+  "devicesCodeExpires": "15 ನಿಮಿಷಗಳವರೆಗೆ ಮಾತ್ರ ಮಾನ್ಯ · ಕಾಪಿ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ",
+  "@devicesCodeExpires": {},
+  "devicesList": "ಜೋಡಿಸಲಾದ ಫೋನ್‌ಗಳು",
+  "@devicesList": {},
+  "devicesEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಫೋನ್ ಜೋಡಿಸಿಲ್ಲ",
+  "@devicesEmpty": {},
+  "devicesRevoke": "ತೆಗೆದುಹಾಕಿ",
+  "@devicesRevoke": {},
+  "devicesRevoked": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+  "@devicesRevoked": {},
+  "devicesOnline": "ಆನ್‌ಲೈನ್",
+  "@devicesOnline": {},
+  "devicesOffline": "ಆಫ್‌ಲೈನ್",
+  "@devicesOffline": {},
+  "devicesRoleWaiter": "ವೇಟರ್",
+  "@devicesRoleWaiter": {},
+  "devicesRoleKitchen": "ಕಿಚನ್",
+  "@devicesRoleKitchen": {},
+  "devicesRoleCounter": "ಕೌಂಟರ್",
+  "@devicesRoleCounter": {},
+  "devicesProRequired": "ಮಲ್ಟಿ-ಡಿವೈಸ್ ಸಿಂಕ್ Pro ಫೀಚರ್ ಆಗಿದೆ. ವೇಟರ್, ಕಿಚನ್ ಮತ್ತು ಕೌಂಟರ್ ಫೋನ್‌ಗಳನ್ನು ಕನೆಕ್ಟ್ ಮಾಡಲು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+  "@devicesProRequired": {},
+  "cloudShopSection": "ಕ್ಲೌಡ್ ಶಾಪ್",
+  "@cloudShopSection": {},
+  "cloudShopHint": "ಸರ್ವರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಅಂಗಡಿ ರಚಿಸಿ, ಇದರಿಂದ QR ಮೆನು ಆರ್ಡರ್‌ಗಳು ಮತ್ತು ಸಿಬ್ಬಂದಿ ಫೋನ್‌ಗಳು ಒಂದೇ ಲೈವ್ ಆರ್ಡರ್ ಲಿಸ್ಟ್‌ನಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ.",
+  "@cloudShopHint": {},
+  "cloudShopSlug": "ಲಿಂಕ್‌ಗಾಗಿ ಅಂಗಡಿ ಹೆಸರು (ಉದಾ. sirpam-tea)",
+  "@cloudShopSlug": {},
+  "cloudShopKey": "ಶಾಪ್ ಕೀ (ಖಾಸಗಿ, 16+ ಅಕ್ಷರಗಳು)",
+  "@cloudShopKey": {},
+  "cloudShopGenerate": "ಕೀ ರಚಿಸಿ",
+  "@cloudShopGenerate": {},
+  "cloudShopCreate": "ಕ್ಲೌಡ್ ಶಾಪ್ ರಚಿಸಿ",
+  "@cloudShopCreate": {},
+  "cloudShopUpdate": "ಕ್ಲೌಡ್ ಶಾಪ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ",
+  "@cloudShopUpdate": {},
+  "cloudShopLive": "ಕ್ಲೌಡ್ ಶಾಪ್ ಸಿದ್ಧವಾಗಿದೆ: {slug}",
+  "@cloudShopLive": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopNone": "ಇನ್ನೂ ಕ್ಲೌಡ್ ಶಾಪ್ ಇಲ್ಲ. QR ಆರ್ಡರಿಂಗ್ ಮತ್ತು ಸಿಬ್ಬಂದಿ ಫೋನ್‌ಗಳನ್ನು ಬಳಸಲು ಒಂದನ್ನು ರಚಿಸಿ.",
+  "@cloudShopNone": {},
+  "cloudShopCreated": "ಕ್ಲೌಡ್ ಶಾಪ್ ರಚಿಸಲಾಗಿದೆ",
+  "@cloudShopCreated": {},
+  "cloudShopKeyShort": "ಅಂಗಡಿ ಹೆಸರು ಮತ್ತು ಕನಿಷ್ಠ 16 ಅಕ್ಷರಗಳ ಕೀ ನಮೂದಿಸಿ.",
+  "@cloudShopKeyShort": {},
+  "cloudShopCopyKey": "ಕೀ ಕಾಪಿ ಮಾಡಿ",
+  "@cloudShopCopyKey": {},
+  "cloudShopKeyCopied": "ಶಾಪ್ ಕೀ ಕಾಪಿ ಮಾಡಲಾಗಿದೆ",
+  "@cloudShopKeyCopied": {},
+  "approvalTitle": "ಮಾಲೀಕರ ಅನುಮೋದನೆ",
+  "@approvalTitle": {},
+  "approvalNeeded": "ಈ ಶಿಫ್ಟ್‌ನಲ್ಲಿ ಇದನ್ನು ಮಾಡಲು ಆಗಲ್ಲ: {action}. ಮಾಲೀಕರು ಒಮ್ಮೆ ಅನುಮತಿಸಬಹುದು.",
+  "@approvalNeeded": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOverLimit": "ಇದು ಈ ಶಿಫ್ಟ್‌ನ ಮಿತಿಗಿಂತ ಹೆಚ್ಚಾಗಿದೆ: {action}. ಮಾಲೀಕರು ಒಮ್ಮೆ ಅನುಮತಿಸಬಹುದು.",
+  "@approvalOverLimit": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOwnerPin": "ಮಾಲೀಕರ PIN",
+  "@approvalOwnerPin": {},
+  "approvalApprove": "ಒಮ್ಮೆ ಅನುಮತಿಸಿ",
+  "@approvalApprove": {},
+  "approvalGranted": "ಮಾಲೀಕರು ಅನುಮತಿಸಿದ್ದಾರೆ",
+  "@approvalGranted": {},
+  "approvalWrongPin": "ತಪ್ಪಾದ ಮಾಲೀಕರ PIN",
+  "@approvalWrongPin": {},
+  "approvalBlockedTitle": "ಅನುಮತಿಯಿಲ್ಲ",
+  "@approvalBlockedTitle": {},
+  "approvalBlockedBody": "ಈ ಶಿಫ್ಟ್‌ಗೆ {action} ಮಾಡುವ ಅನುಮತಿಯಿಲ್ಲ. ರೋಲ್ ಬದಲಾಯಿಸಲು ಮಾಲೀಕರನ್ನು ಕೇಳಿ.",
+  "@approvalBlockedBody": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "recurringRemove": "ತೆಗೆಯಿರಿ",
+  "@recurringRemove": {},
+  "recurringRemoved": "ಮರುಕಳಿಸುವ ಖರ್ಚು ತೆಗೆಯಲಾಗಿದೆ",
+  "@recurringRemoved": {},
+  "recurringRemoveConfirm": "ಮರುಕಳಿಸುವ ಖರ್ಚುಗಳಿಂದ {name} ತೆಗೆದುಹಾಕಬೇಕೆ?",
+  "@recurringRemoveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderEditItems": "ಐಟಂಗಳನ್ನು ಬದಲಿಸಿ",
+  "@orderEditItems": {},
+  "orderEditItemsSaved": "ಆರ್ಡರ್ ಐಟಂಗಳು ಅಪ್‌ಡೇಟ್ ಆಗಿವೆ",
+  "@orderEditItemsSaved": {},
+  "orderEditEmpty": "ಆರ್ಡರ್‌ನಲ್ಲಿ ಕನಿಷ್ಠ ಒಂದು ಐಟಂ ಇರಬೇಕು.",
+  "@orderEditEmpty": {},
+  "printerStatus": "ಪ್ರಿಂಟರ್ ಸ್ಥಿತಿ",
+  "@printerStatus": {},
+  "printerNotConnected": "ಯಾವ ಪ್ರಿಂಟರ್‌ ಕನೆಕ್ಟ್ ಆಗಿಲ್ಲ",
+  "@printerNotConnected": {},
+  "printerConnectedTo": "{name} ಗೆ ಕನೆಕ್ಟ್ ಆಗಿದೆ",
+  "@printerConnectedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printerDisconnect": "ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಿ",
+  "@printerDisconnect": {},
+  "printerDisconnected": "ಪ್ರಿಂಟರ್ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆಗಿದೆ",
+  "@printerDisconnected": {},
+  "printerForget": "ಪ್ರಿಂಟರ್ ಮರೆತುಬಿಡಿ",
+  "@printerForget": {},
+  "printerForgotten": "ಪ್ರಿಂಟರ್ ತೆಗೆಯಲಾಗಿದೆ. ಬಿಲ್‌ಗಳನ್ನು PDF ರೂಪದಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.",
+  "@printerForgotten": {},
+  "printerUnsupported": "ಈ ಫೋನ್‌ನಲ್ಲಿ Bluetooth ಮೂಲಕ ಪ್ರಿಂಟ್ ಮಾಡಲು ಆಗಲ್ಲ.",
+  "@printerUnsupported": {},
+  "printerPermissionNeeded": "ಆ್ಯಪ್ ನಿಮ್ಮ ಪ್ರಿಂಟರ್ ಹುಡುಕಲು Bluetooth ಅನುಮತಿ ನೀಡಿ.",
+  "@printerPermissionNeeded": {},
+  "printerPermissionDenied": "Bluetooth ಅನುಮತಿ ನೀಡಿಲ್ಲ.",
+  "@printerPermissionDenied": {},
+  "printerAllowBluetooth": "Bluetooth ಅನುಮತಿಸಿ",
+  "@printerAllowBluetooth": {},
+  "devicesTest": "ಕನೆಕ್ಷನ್ ಚೆಕ್ ಮಾಡಿ",
+  "@devicesTest": {},
+  "devicesTestOk": "ಅಂಗಡಿಗೆ ಕನೆಕ್ಟ್ ಆಗಿದೆ",
+  "@devicesTestOk": {},
+  "devicesTestFailed": "ಈ ಫೋನ್ ಕನೆಕ್ಟ್ ಆಗಿಲ್ಲ. ಹೊಸ ಕೋಡ್‌ಗಾಗಿ ಮಾಲೀಕರನ್ನು ಕೇಳಿ.",
+  "@devicesTestFailed": {},
+  "stockLastUpdated": "ಸ್ಟಾಕ್ ಕೊನೆಯದಾಗಿ ಅಪ್‌ಡೇಟ್ ಆಗಿದ್ದು {when}",
+  "@stockLastUpdated": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "agoJustNow": "ಈಗಷ್ಟೇ",
+  "@agoJustNow": {},
+  "agoMinutes": "{count, plural, =1{1 ನಿಮಿಷದ ಹಿಂದೆ} other{{count} ನಿಮಿಷಗಳ ಹಿಂದೆ}}",
+  "@agoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoHours": "{count, plural, =1{1 ಗಂಟೆಯ ಹಿಂದೆ} other{{count} ಗಂಟೆಗಳ ಹಿಂದೆ}}",
+  "@agoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoDays": "{count, plural, =1{1 ದಿನದ ಹಿಂದೆ} other{{count} ದಿನಗಳ ಹಿಂದೆ}}",
+  "@agoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prepTitle": "ಬೆಳಗಿನ ಸಿದ್ಧತೆ",
+  "prepSubtitle": "ಮೊದಲ ಗ್ರಾಹಕ ಬರುವ ಮುನ್ನ ಏನೆಲ್ಲ ರೆಡಿ ಇರಬೇಕು",
+  "prepPending": "ಇನ್ನೂ {count} ರೆಡಿ ಮಾಡಬೇಕು",
+  "@prepPending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "prepUseStarter": "ಆರಂಭಿಕ ಶೀಟ್ ಬಳಸಿ",
+  "prepTodaySheet": "ಇಂದಿನ ಶೀಟ್",
+  "prepAddTitle": "ಸಿದ್ಧತೆಯ ಐಟಂ ಸೇರಿಸಿ",
+  "prepItemName": "ಐಟಂ",
+  "prepPlanned": "ಪ್ಲಾನ್ ಮಾಡಿದ್ದು",
+  "prepMade": "ಮಾಡಿದ್ದು",
+  "prepUnit": "ಯೂನಿಟ್",
+  "prepAdd": "ಶೀಟ್‌ಗೆ ಸೇರಿಸಿ",
+  "prepShort": "{qty} ಕಡಿಮೆ",
+  "@prepShort": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "prepProgressLine": "{planned} {unit} ನಲ್ಲಿ {made}",
+  "@prepProgressLine": {
+    "placeholders": {
+      "made": {
+        "type": "String"
+      },
+      "planned": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "prepSeedMilk": "ಹಾಲು",
+  "prepSeedBatter": "ಹಿಟ್ಟು",
+  "prepSeedSnacks": "ಸ್ನ್ಯಾಕ್ಸ್",
+  "prepSeedChange": "ಚಿಲ್ಲರೆ ಹಣ",
+  "prepSeedDisplay": "ಡಿಸ್‌ಪ್ಲೇ ಜೋಡಿಸಿ",
+  "prepSeedStock": "ಸಾಮಾನು ಜೋಡಿಸಿ",
+  "prepUnitLitre": "ಲೀಟರ್",
+  "prepUnitPlate": "ಪ್ಲೇಟ್",
+  "prepUnitPiece": "ಪೀಸ್",
+  "prepUnitRupee": "ರೂಪಾಯಿ",
+  "insightsRush": "ರಶ್ ಸಮಯ",
+  "insightsHour": "{hour}:00",
+  "@insightsHour": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsPeakHint": "{hour}:00 ಗೆ ಅತಿ ಹೆಚ್ಚು ರಶ್ ({bills} ಬಿಲ್‌ಗಳು) — ಕೌಂಟರ್‌ನಲ್ಲಿ {staff} ಇರಲಿ",
+  "@insightsPeakHint": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      },
+      "bills": {
+        "type": "String"
+      },
+      "staff": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOpeningCash": "ಆರಂಭಿಕ ನಗದು",
+  "quickSaleSoldOutOn": "{item} ಖಾಲಿಯಾಗಿದೆ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ",
+  "@quickSaleSoldOutOn": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSoldOutOff": "{item} ಮತ್ತೆ ಮಾರಾಟಕ್ಕೆ ಲಭ್ಯವಿದೆ",
+  "@quickSaleSoldOutOff": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroes": "ಇಂದಿನ ಟಾಪ್ ಐಟಂಗಳು",
+  "insightsHeroLine": "{sold} ಮಾರಾಟವಾಗಿದೆ · {left} ಉಳಿದಿದೆ",
+  "@insightsHeroLine": {
+    "placeholders": {
+      "sold": {
+        "type": "String"
+      },
+      "left": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroRunsOut": "ಸುಮಾರು {hour}:00 ಗೆ ಖಾಲಿಯಾಗುತ್ತದೆ",
+  "@insightsHeroRunsOut": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "customerLapsedTitle": "ಇತ್ತೀಚೆಗೆ ಬಂದಿಲ್ಲದವರು",
+  "customerLapsedHint": "ಒಂದು ಸಣ್ಣ ಮೆಸೇಜ್ ಕಳುಹಿಸಿದರೆ ಅವರು ಮತ್ತೆ ಬರಬಹುದು.",
+  "customerLapsedDays": "ಬಂದು {days} ದಿನಗಳಾಗಿವೆ",
+  "@customerLapsedDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "customerNudge": "ಮೆಸೇಜ್ ಕಳುಹಿಸಿ",
+  "customerNudgeMessage": "ನಮಸ್ಕಾರ {name}, {shop} ನಲ್ಲಿ ನಿಮ್ಮ ನೆನಪಾಗುತ್ತಿದೆ! ಈ ವಾರ ನಿಮಗಾಗಿ ಹೊಸ ರುಚಿಗಳು ಕಾದಿವೆ.",
+  "@customerNudgeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "offersTitle": "ಆಫರ್‌ಗಳು",
+  "offersSubtitle": "ನೀವು ನೀಡುವ ರಿಯಾಯಿತಿಗಳು ಮತ್ತು ಅವುಗಳ ವೆಚ್ಚ.",
+  "offerAdd": "ಆಫರ್ ಸೇರಿಸಿ",
+  "offerName": "ಆಫರ್ ಹೆಸರು",
+  "offerCode": "ಗ್ರಾಹಕರು ಹೇಳುವ ಕೋಡ್ (ಐಚ್ಛಿಕ)",
+  "offerKindFlat": "ರೂಪಾಯಿ ರಿಯಾಯಿತಿ",
+  "offerKindPercent": "ಶೇಕಡಾ ರಿಯಾಯಿತಿ",
+  "offerKindCombo": "ಕಾಂಬೊ ಬೆಲೆ",
+  "offerAmount": "ರಿಯಾಯಿತಿ ಮೊತ್ತ",
+  "offerPercent": "% ರಿಯಾಯಿತಿ",
+  "offerComboPrice": "ಕಾಂಬೊ ಬೆಲೆ",
+  "offersGivenTotal": "ಇಲ್ಲಿಯವರೆಗೆ ನೀಡಿದ್ದು",
+  "offersEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಆಫರ್ ಇಲ್ಲ. ಆಫರ್ ಸೇರಿಸಿ, ಅದು ಬಿಲ್‌ನಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.",
+  "offerLive": "ಲೈವ್",
+  "offerPaused": "ಪಾಸ್ ಆಗಿದೆ",
+  "offerPause": "ಪಾಸ್ ಮಾಡಿ",
+  "offerResume": "ಮುಂದುವರಿಸಿ",
+  "offerUsed": "{count} ಬಾರಿ ಬಳಸಲಾಗಿದೆ",
+  "@offerUsed": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "offerGivenAway": "{amount} ನೀಡಲಾಗಿದೆ",
+  "@offerGivenAway": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackTitle": "ಬಿಲ್ ಫೀಡ್‌ಬ್ಯಾಕ್",
+  "feedbackSubtitle": "ಪೇಮೆಂಟ್ ನಂತರ ಮೂರೇ ಟ್ಯಾಪ್‌ನಲ್ಲಿ ರೇಟಿಂಗ್, ನೇರವಾಗಿ ನಿಮಗೆ.",
+  "feedbackQrTitle": "ಕೌಂಟರ್ QR",
+  "feedbackQrHint": "ಇದನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಿ ಕೌಂಟರ್‌ನಲ್ಲಿ ಇಡಿ, ಅಥವಾ ಪೇಮೆಂಟ್ ನಂತರ ತೋರಿಸಿ.",
+  "feedbackReviewMissing": "Growth ನಲ್ಲಿ ನಿಮ್ಮ ರಿವ್ಯೂ ಪೇಜ್ ಲಿಂಕ್ ಸೇರಿಸಿ, ಗ್ರಾಹಕರು ಪಬ್ಲಿಕ್ ಆಗಿ ಪೋಸ್ಟ್ ಮಾಡಬಹುದು.",
+  "feedbackLinkCopied": "ಲಿಂಕ್ ಕಾಪಿ ಮಾಡಲಾಗಿದೆ",
+  "feedbackScores": "ಸ್ಕೋರ್‌ಗಳು",
+  "feedbackTodayAvg": "ಇಂದು (ಸರಾಸರಿ · ಒಟ್ಟು)",
+  "feedbackWeekAvg": "ಕಳೆದ 7 ದಿನಗಳು (ಸರಾಸರಿ · ಒಟ್ಟು)",
+  "feedbackNeedsReply": "ರಿಪ್ಲೈ ಬೇಕಾಗಿದೆ",
+  "feedbackRecord": "ನೀವೇ ರೇಟಿಂಗ್ ಸೇರಿಸಿ",
+  "feedbackHappy": "ಚೆನ್ನಾಗಿದೆ",
+  "feedbackOkay": "ಪರವಾಗಿಲ್ಲ",
+  "feedbackUnhappy": "ಸರಿಯಿಲ್ಲ",
+  "feedbackRecent": "ಇತ್ತೀಚಿನ ರೇಟಿಂಗ್‌ಗಳು",
+  "feedbackEmpty": "ಇನ್ನೂ ಯಾವುದೇ ರೇಟಿಂಗ್ ಬಂದಿಲ್ಲ.",
+  "enquiriesTitle": "ವಿಚಾರಣೆಗಳು",
+  "enquiriesSubtitle": "ಯಾರು ಕೇಳಿದರು, ನೀವು ಹೇಳಿದ ಬೆಲೆ, ಏನಾಯಿತು ಎಂಬ ವಿವರ.",
+  "enquiryAdd": "ವಿಚಾರಣೆ ಸೇರಿಸಿ",
+  "enquiryName": "ಗ್ರಾಹಕರ ಹೆಸರು",
+  "enquiryPhone": "ಫೋನ್",
+  "enquiryWant": "ಅವರು ಏನು ಕೇಳಿದರು",
+  "enquiryQuote": "ನೀವು ಹೇಳಿದ ಬೆಲೆ",
+  "enquiryNoFollowUp": "ಯಾವುದೇ ರಿಮೈಂಡರ್ ಇಲ್ಲ",
+  "enquiryFollowUpDays": "{days} ದಿನಗಳಲ್ಲಿ ಫಾಲೋ ಅಪ್ ಮಾಡಿ",
+  "@enquiryFollowUpDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWinRate": "{rate}% ಮಾರಾಟವಾಗಿ ಬದಲಾಗಿದೆ",
+  "@enquiryWinRate": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWonValue": "ಮಾರಾಟವಾದ ಮೊತ್ತ",
+  "enquiryFilterToday": "ಇಂದು",
+  "enquiryFilterOpen": "ಓಪನ್",
+  "enquiryFilterWon": "ಮಾರಾಟವಾದವು",
+  "enquiryFilterLost": "ಕೈತಪ್ಪಿದ್ದು",
+  "enquiryEmpty": "ಇಲ್ಲಿ ಏನೂ ಇಲ್ಲ.",
+  "enquiryFollowUpOn": "{day} ರಂದು ಫಾಲೋ ಅಪ್ ಮಾಡಿ",
+  "@enquiryFollowUpOn": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryMessage": "ಮೆಸೇಜ್",
+  "enquiryMessageText": "ನಮಸ್ಕಾರ {name}, {item} ಬಗ್ಗೆ ವಿಚಾರಿಸಲು ಮೆಸೇಜ್ ಮಾಡಿದೆ. ನಿಮಗಾಗಿ ರೆಡಿ ಮಾಡಿ ಇಡಲಾ?",
+  "@enquiryMessageText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWon": "ಸಿಕ್ಕಿದ್ದು",
+  "enquiryLost": "ಕೈತಪ್ಪಿದ್ದು",
+  "enquiryReopen": "ಮತ್ತೆ ತೆರೆಯಿರಿ",
+  "customerRewardsDueTitle": "ಬಾಕಿ ರಿವಾರ್ಡ್‌ಗಳು",
+  "cloudShopSlugTaken": "ಆ ಲಿಂಕ್ ಹೆಸರು ಈಗಾಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ. {slug} ಥರ ಬೇರೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "@cloudShopSlugTaken": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopSlugInvalid": "ಕನಿಷ್ಠ 3 ಅಕ್ಷರ ಇರಬೇಕು; ಸಣ್ಣ ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಡ್ಯಾಶ್ (-) ಮಾತ್ರ ಬಳಸಿ.",
+  "cloudShopOffline": "ಇಂಟರ್ನೆಟ್ ಸಿಗುತ್ತಿಲ್ಲ. ಕನೆಕ್ಷನ್ ಚೆಕ್ ಮಾಡಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "cloudShopTryAgain": "ಇದು ಆಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "cloudShopLinkTitle": "ಗ್ರಾಹಕರ ಲಿಂಕ್",
+  "cloudShopCopyLink": "ಲಿಂಕ್ ಕಾಪಿ ಮಾಡಿ",
+  "cloudShopLinkCopied": "ಲಿಂಕ್ ಕಾಪಿ ಆಗಿದೆ",
+  "cloudShopShowQr": "QR ತೋರಿಸಿ",
+  "paymentQrScanTitle": "ನಿಮ್ಮ ಪೇಮೆಂಟ್ ಆ್ಯಪ್‌ನ QR ಬಳಸಿ",
+  "paymentQrScanAction": "ನನ್ನ QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "paymentQrScanHelp": "GPay, PhonePe ಅಥವಾ Paytm ನ QR ಸ್ಟಿಕ್ಕರ್ ಮೇಲೆ ಕ್ಯಾಮೆರಾ ತೋರಿಸಿ. ಅದರಲ್ಲಿನ UPI ID ಬಳಸಿ, ಬಿಲ್ ಹಾಗೂ ಕೌಂಟರ್ QR ಹಣ ಒಂದೇ ಖಾತೆಗೆ ಜಮೆ ಆಗುವಂತೆ ಮಾಡುತ್ತೇವೆ.",
+  "paymentQrScanFound": "ನಿಮ್ಮ QR ನಿಂದ UPI ID ಸಿಕ್ಕಿದೆ: {vpa}",
+  "@paymentQrScanFound": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrScanNoUpi": "ಇದು ಪೇಮೆಂಟ್ QR ಅಲ್ಲ. ನಿಮ್ಮ ಪೇಮೆಂಟ್ ಆ್ಯಪ್‌ನಲ್ಲಿರುವ QR ಅನ್ನು ಬಳಸಿ ನೋಡಿ.",
+  "receiptFeedbackLine": "ಹೇಗಿತ್ತು ಅಂತ ತಿಳಿಸಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "qrPrintCounterCard": "ಕೌಂಟರ್ ಕಾರ್ಡ್ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "qrPayCaption": "ಪೇ ಮಾಡಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "qrFeedbackCaption": "ರೇಟಿಂಗ್ ನೀಡಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "offerPrintCards": "ಆಫರ್ ಕಾರ್ಡ್ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+  "offerCardCaption": "ಈ ಆಫರ್ ನೋಡಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "devicesPairQrHint": "ಹೊಸ ಫೋನ್‌ನಿಂದ ಇದನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿಸಿ",
+  "devicesScanQr": "ಪೇರಿಂಗ್ QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "devicesScanInvalid": "ಇದು ಪೇರಿಂಗ್ QR ಅಲ್ಲ. ಮಾಲೀಕರಿಗೆ ಅದನ್ನು ಮತ್ತೆ ತೋರಿಸಲು ಹೇಳಿ.",
+  "quickSaleScan": "ಐಟಂ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "quickSaleScanTitle": "ಐಟಂ ಲೇಬಲ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+  "quickSaleScanUnknown": "{code} ಕೋಡ್‌ಗೆ ಯಾವುದೇ ಐಟಂ ಸಿಕ್ಕಿಲ್ಲ. 'ಪ್ರಾಡಕ್ಟ್‌ಗಳು'ನಲ್ಲಿ ಇದನ್ನು ಸೇರಿಸಿ.",
+  "@quickSaleScanUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "backupTitle": "ಬ್ಯಾಕಪ್ ಮತ್ತು ಎಕ್ಸ್‌ಪೋರ್ಟ್",
+  "backupSubtitle": "ನಿಮ್ಮ ಲೆಕ್ಕದ ಪ್ರತಿಯನ್ನು ಸುರಕ್ಷಿತವಾಗಿರಿಸಿ",
+  "backupNowAction": "ಈಗಲೇ ಬ್ಯಾಕಪ್ ಮಾಡಿ",
+  "backupRestoreAction": "ಫೈಲ್‌ನಿಂದ ರಿಸ್ಟೋರ್ ಮಾಡಿ",
+  "backupShareSubject": "VendorOS ಬ್ಯಾಕಪ್",
+  "backupSavedToast": "ಬ್ಯಾಕಪ್ ಫೈಲ್ ಸೇವ್ ಆಗಿದೆ",
+  "backupFailedToast": "ಬ್ಯಾಕಪ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "backupRestoredToast": "ನಿಮ್ಮ ಲೆಕ್ಕಪತ್ರವನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲಾಗಿದೆ",
+  "backupNeverSaved": "ನೀವಿನ್ನೂ ಬ್ಯಾಕಪ್ ಮಾಡಿಲ್ಲ",
+  "backupLastSaved": "ಕೊನೆಯ ಬ್ಯಾಕಪ್: {when}",
+  "@backupLastSaved": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupSizeHint": "ಸುಮಾರು {kb} KB ಸೇವ್ ಆಗುತ್ತದೆ",
+  "@backupSizeHint": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "backupRestoreWarning": "ರಿಸ್ಟೋರ್ ಮಾಡಿದರೆ ಈ ಫೋನ್‌ನಲ್ಲಿರುವ ಎಲ್ಲ ಡೇಟಾ ಅಳಿಸಿ ಫೈಲ್‌ನಲ್ಲಿರುವ ಡೇಟಾ ಬರುತ್ತದೆ.",
+  "backupRestoreConfirmTitle": "ಈ ಬ್ಯಾಕಪ್ ರಿಸ್ಟೋರ್ ಮಾಡಬೇಕೇ?",
+  "backupRestoreConfirmBody": "{when} ರ {rows} ಎಂಟ್ರಿಗಳು ಈ ಫೋನ್‌ನಲ್ಲಿರುವ ಡೇಟಾವನ್ನು ಬದಲಿಸುತ್ತವೆ.",
+  "@backupRestoreConfirmBody": {
+    "placeholders": {
+      "rows": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupErrorNotFile": "ಇದು VendorOS ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅಲ್ಲ.",
+  "backupErrorTooNew": "ಈ ಬ್ಯಾಕಪ್ ಹೊಸ ವರ್ಷನ್‌ನದ್ದು. ದಯವಿಟ್ಟು ಮೊದಲು ಆ್ಯಪ್ ಅಪ್ಡೇಟ್ ಮಾಡಿ.",
+  "backupErrorCorrupt": "ಈ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಹಾಳಾಗಿದೆ, ಬಳಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+  "backupErrorEmpty": "ಫೈಲ್ ಖಾಲಿ ಇದೆ.",
+  "exportGroupLabel": "ಸ್ಪ್ರೆಡ್‌ಶೀಟ್ ಆಗಿ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+  "exportSalesTitle": "ಸೇಲ್ಸ್",
+  "exportSalesSubtitle": "ದಿನಾಂಕ, ಐಟಂ ಮತ್ತು ಮೊತ್ತದೊಂದಿಗೆ ಪ್ರತಿಯೊಂದು ಸೇಲ್ ವಿವರ",
+  "exportBillsTitle": "ಬಿಲ್‌ಗಳು",
+  "exportBillsSubtitle": "ಬಿಲ್‌ವಾರು ಟೋಟಲ್, ಡಿಸ್ಕೌಂಟ್ ಮತ್ತು ಟ್ಯಾಕ್ಸ್",
+  "exportCreditTitle": "ಉದ್ದರಿ ಬಾಕಿ",
+  "exportCreditSubtitle": "ಯಾರು ಎಷ್ಟು ಬಾಕಿ ಕೊಡಬೇಕು ಎಂಬ ವಿವರ",
+  "exportStockTitle": "ಸ್ಟಾಕ್",
+  "exportStockSubtitle": "ಐಟಂಗಳು, ಇರುವ ಕ್ವಾಂಟಿಟಿ ಮತ್ತು ಬೆಲೆಗಳು",
+  "exportColDate": "ದಿನಾಂಕ",
+  "exportColItem": "ಐಟಂ",
+  "exportColMode": "ಪಾವತಿ",
+  "exportColCustomer": "ಗ್ರಾಹಕರು",
+  "exportColAmount": "ಮೊತ್ತ",
+  "exportColBillNo": "ಬಿಲ್ ನಂ.",
+  "exportColSubtotal": "ಸಬ್‌ಟೋಟಲ್",
+  "exportColDiscount": "ಡಿಸ್ಕೌಂಟ್",
+  "exportColTax": "ಟ್ಯಾಕ್ಸ್",
+  "exportColTotal": "ಟೋಟಲ್",
+  "exportColPayment": "ಪಾವತಿ ವಿಧಾನ",
+  "exportColStatus": "ಸ್ಟೇಟಸ್",
+  "exportColBalance": "ಬಾಕಿ",
+  "exportColCode": "ಕೋಡ್",
+  "exportColCategory": "ಕೆಟಗರಿ",
+  "exportColUnit": "ಯೂನಿಟ್",
+  "exportColQty": "ಕ್ವಾಂಟಿಟಿ",
+  "exportColCost": "ಖರೀದಿ ಬೆಲೆ",
+  "exportColPrice": "ಮಾರಾಟ ಬೆಲೆ",
+  "gstReportTitle": "GST ಸಾರಾಂಶ",
+  "gstReportSubtitle": "ನಿಮ್ಮ ಅಕೌಂಟೆಂಟ್‌ಗಾಗಿ ತಿಂಗಳ ಪ್ರಕಾರ ಟ್ಯಾಕ್ಸ್",
+  "gstReportEmpty": "ಇನ್ನೂ ಯಾವುದೇ GST ಬಿಲ್‌ಗಳಿಲ್ಲ. ಮೆನು ಸೆಟ್ಟಿಂಗ್ಸ್‌ನಲ್ಲಿ GST ಆನ್ ಮಾಡಿ, ನಂತರ ಬಿಲ್ ಮಾಡಿ.",
+  "gstColMonth": "ತಿಂಗಳು",
+  "gstColRate": "ದರ",
+  "gstColTaxable": "ಟ್ಯಾಕ್ಸ್‌ಗೆ ಒಳಪಡುವ ಮೌಲ್ಯ",
+  "gstColTax": "ಒಟ್ಟು ಟ್ಯಾಕ್ಸ್",
+  "gstBills": "ಬಿಲ್‌ಗಳು",
+  "gstSales": "ಟ್ಯಾಕ್ಸ್ ಸೇರಿ ಮಾರಾಟ",
+  "gstByRate": "ದರದ ಪ್ರಕಾರ",
+  "gstShareAction": "ಸ್ಪ್ರೆಡ್‌ಶೀಟ್ ಶೇರ್ ಮಾಡಿ",
+  "gstShareSubject": "GST ಸಾರಾಂಶ {month}",
+  "@gstShareSubject": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "appearanceTitle": "ಸ್ಕ್ರೀನ್ ಥೀಮ್",
+  "appearanceSubtitle": "ಲೈಟ್ ಅಥವಾ ಡಾರ್ಕ್ ಸ್ಕ್ರೀನ್",
+  "appearanceSystem": "ಫೋನ್ ಸೆಟ್ಟಿಂಗ್ ಪ್ರಕಾರ",
+  "appearanceLight": "ಲೈಟ್",
+  "appearanceDark": "ಡಾರ್ಕ್",
+  "appearanceChanged": "ಥೀಮ್ ಬದಲಾಗಿದೆ",
+  "purchasesTitle": "ಖರೀದಿಗಳು",
+  "purchasesSubtitle": "ಸಪ್ಲೈಯರ್ ಬಿಲ್‌ಗಳು ಮತ್ತು ಉಳಿದ ಬಾಕಿ",
+  "purchasesEmpty": "ಯಾವುದೇ ಖರೀದಿ ಬಿಲ್‌ಗಳಿಲ್ಲ. ಇತ್ತೀಚೆಗೆ ಖರೀದಿಸಿದ ಸ್ಟಾಕ್ ಸೇರಿಸಿ.",
+  "purchaseAdd": "ಖರೀದಿ ಸೇರಿಸಿ",
+  "purchaseTotalDue": "ಸಪ್ಲೈಯರ್‌ಗೆ ನೀಡಬೇಕಾದ ಬಾಕಿ",
+  "purchaseMonthSpend": "ಈ ತಿಂಗಳ ಖರೀದಿ",
+  "purchaseDuesTitle": "ಸಪ್ಲೈಯರ್ ಬಾಕಿಗಳು",
+  "purchaseNoDues": "ಎಲ್ಲಾ ಸಪ್ಲೈಯರ್ ಬಿಲ್‌ಗಳು ಪಾವತಿಯಾಗಿವೆ.",
+  "purchaseDueBills": "{bills} ಬಿಲ್(ಗಳು) · ಹಳೆಯದು {days} ದಿನ(ಗಳು)",
+  "@purchaseDueBills": {
+    "placeholders": {
+      "bills": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "purchaseBillsTitle": "ಖರೀದಿ ಬಿಲ್‌ಗಳು",
+  "purchasePaidFull": "ಪಾವತಿಸಲಾಗಿದೆ",
+  "purchaseDueOf": "{amount} ಬಾಕಿ",
+  "@purchaseDueOf": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "purchaseSupplier": "ಸಪ್ಲೈಯರ್",
+  "purchasePayTitle": "{name} ಅವರಿಗೆ ಪಾವತಿಸಿ",
+  "@purchasePayTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasePayAmount": "ಪಾವತಿಸಿದ ಹಣ",
+  "purchasePay": "ಪಾವತಿ ನಮೂದಿಸಿ",
+  "purchaseSubtotal": "ಐಟಂಗಳ ಮೊತ್ತ",
+  "purchaseTax": "ಟ್ಯಾಕ್ಸ್",
+  "purchaseTotal": "ಒಟ್ಟು ಬಿಲ್",
+  "purchaseDue": "ಇನ್ನೂ ಬಾಕಿ ಇದೆ",
+  "purchaseNewTitle": "ಹೊಸ ಖರೀದಿ ಬಿಲ್",
+  "purchaseInvoiceNo": "ಬಿಲ್ ನಂಬರ್",
+  "purchaseItems": "ಖರೀದಿಸಿದ ಐಟಂಗಳು",
+  "purchaseLinkProduct": "ನಿಮ್ಮ ಸ್ಟಾಕ್ ಲಿಸ್ಟ್‌ನಿಂದ ಆರಿಸಿ",
+  "purchaseFreeItem": "ಐಟಂ ಹೆಸರು",
+  "purchaseQty": "ಪ್ರಮಾಣ",
+  "purchaseUnitCost": "ಯೂನಿಟ್ ಬೆಲೆ",
+  "purchaseAddLine": "ಐಟಂ ಸೇರಿಸಿ",
+  "purchasePaidNow": "ಈಗ ಪಾವತಿಸಿದ್ದು",
+  "purchaseNote": "ಟಿಪ್ಪಣಿ",
+  "purchaseSaved": "ಖರೀದಿ ಸೇವ್ ಆಗಿದೆ ಮತ್ತು ಸ್ಟಾಕ್ ಅಪ್ಡೇಟ್ ಆಗಿದೆ",
+  "permRecordPurchase": "ಖರೀದಿ ಬಿಲ್ ದಾಖಲಿಸಿ",
+  "permPaySupplier": "ಸಪ್ಲೈಯರ್‌ಗಳಿಗೆ ಪಾವತಿಸಿ",
+  "backupCloudTitle": "ಆನ್‌ಲೈನ್ ಬ್ಯಾಕಪ್",
+  "backupCloudLast": "ಕೊನೆಯ ಆನ್‌ಲೈನ್ ಬ್ಯಾಕಪ್: {when}",
+  "backupCloudNever": "ಇನ್ನೂ ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಉಳಿಸಿಲ್ಲ",
+  "backupCloudNeedsShop": "ಮೊದಲು ಕ್ಲೌಡ್ ಅಂಗಡಿ ರಚಿಸಿ",
+  "backupCloudNowAction": "ಈಗ ಆನ್‌ಲೈನ್ ಬ್ಯಾಕಪ್ ಮಾಡಿ",
+  "backupCloudRestoreAction": "ಆನ್‌ಲೈನ್‌ನಿಂದ ಮರುಸ್ಥಾಪಿಸಿ",
+  "backupCloudSavedToast": "ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ",
+  "backupCloudFailedToast": "ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಲಿಲ್ಲ. ಸಿಗ್ನಲ್ ಬಂದಾಗ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "@backupCloudLast": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "billWhatsapp": "ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಕಳುಹಿಸಿ",
+  "billWhatsappFailed": "ಈ ಫೋನ್‌ನಲ್ಲಿ ವಾಟ್ಸಾಪ್ ಇಲ್ಲ.",
+  "devicesStaffRole": "ಸಿಬ್ಬಂದಿ ಪಾತ್ರ",
+  "devicesRoleDefault": "ಡೀಫಾಲ್ಟ್ (ಕೆಲಸ ಮಾತ್ರ)",
+  "devicesRolePick": "ಒಂದು ಸಿಬ್ಬಂದಿ ಪಾತ್ರವನ್ನು ಆರಿಸಿ",
+  "devicesRoleSaved": "ಪಾತ್ರವನ್ನು ಆ ಫೋನ್‌ಗೆ ಕಳುಹಿಸಲಾಗಿದೆ",
+  "devicesRoleFailed": "ಪಾತ್ರವನ್ನು ಹೊಂದಿಸಲಾಗಲಿಲ್ಲ. ಆನ್‌ಲೈನ್ ಇದ್ದಾಗ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "adminTitle": "ಮಾಲೀಕರ ವರದಿಗಳು",
+  "adminSubtitle": "ಏನಾಯಿತು, ಯಾರು ಮಾಡಿದರು, ನಗದು ಹೊಂದಿಕೆಯಾಯಿತೆ",
+  "adminExceptionsTitle": "ವಿನಾಯಿತಿಗಳು",
+  "adminExceptionsSubtitle": "ರಿಯಾಯಿತಿ, ರದ್ದಾದ ಬಿಲ್, ಮರುಮುದ್ರಣ, ಸಾಲ",
+  "adminStaffTitle": "ಸಿಬ್ಬಂದಿ ವರದಿ",
+  "adminStaffSubtitle": "ಈ ಅವಧಿಯಲ್ಲಿ ಪ್ರತಿಯೊಬ್ಬರೂ ಏನು ಮಾಡಿದರು",
+  "adminCashTitle": "ನಗದು ಪುಸ್ತಕ",
+  "adminCashSubtitle": "ನಿರೀಕ್ಷಿತ ಮತ್ತು ಎಣಿಸಿದ್ದು, ದಿನವಾರು",
+  "adminItemsTitle": "ವಸ್ತು ಅಂತರ",
+  "adminItemsSubtitle": "ಮಾರಾಟ ಮತ್ತು ದಾಸ್ತಾನಿನಿಂದ ತೆಗೆದದ್ದು",
+  "adminShopsTitle": "ಎಲ್ಲಾ ಅಂಗಡಿಗಳು",
+  "adminShopsSubtitle": "ನೀವು ನಡೆಸುವ ಪ್ರತಿ ಅಂಗಡಿಯ ಒಟ್ಟು",
+  "adminSummaryTitle": "ಇಂದಿನ ಸಾರಾಂಶ",
+  "adminSummarySend": "ಸಾರಾಂಶ ಕಳುಹಿಸಿ",
+  "adminShare": "ಹಂಚಿಕೊಳ್ಳಿ",
+  "adminNoRows": "ಈ ಅವಧಿಗೆ ಏನೂ ಇಲ್ಲ",
+  "adminFromBill": "ಬಿಲ್‌ನಿಂದ",
+  "adminOwnerApproved": "ಮಾಲೀಕರ ಅನುಮೋದನೆ",
+  "adminColActions": "ಕ್ರಿಯೆಗಳು",
+  "adminColDiscount": "ನೀಡಿದ ರಿಯಾಯಿತಿ",
+  "adminColCredit": "ನೀಡಿದ ಸಾಲ",
+  "adminColVoids": "ರದ್ದುಗೊಳಿಸಿದ ಬಿಲ್",
+  "adminColReprints": "ಮರುಮುದ್ರಣಗಳು",
+  "adminColOverrides": "ಮಾಲೀಕರ ಅನುಮೋದನೆಗಳು",
+  "adminSeeExceptions": "ಇವರ ವಿನಾಯಿತಿಗಳನ್ನು ನೋಡಿ",
+  "adminCashOpening": "ಆರಂಭಿಕ ನಗದು",
+  "adminCashExpected": "ನಿರೀಕ್ಷಿತ",
+  "adminCashCounted": "ಎಣಿಸಿದ್ದು",
+  "adminCashShort": "ಕಡಿಮೆ",
+  "adminCashOver": "ಹೆಚ್ಚು",
+  "adminCashNet": "ನಿವ್ವಳ ವ್ಯತ್ಯಾಸ",
+  "adminCashMatched": "ಹೊಂದಿಕೆಯಾದ ದಿನಗಳು",
+  "adminCashMatchedOne": "ಹೊಂದಿಕೆ",
+  "adminCashShortDays": "ಕಡಿಮೆಯಾದ ದಿನಗಳು",
+  "adminItemSold": "ಮಾರಾಟವಾದದ್ದು",
+  "adminItemStockOut": "ದಾಸ್ತಾನಿನಿಂದ ತೆಗೆದದ್ದು",
+  "adminItemGap": "ಅಂತರ",
+  "adminItemWasted": "ಹಾಳಾದದ್ದು",
+  "adminSummaryBills": "ಬಿಲ್‌ಗಳು",
+  "adminSummarySales": "ಮಾರಾಟ",
+  "adminSummaryCash": "ನಗದು",
+  "adminSummaryUpi": "UPI",
+  "adminSummaryCredit": "ಸಾಲ",
+  "adminSummaryDiscount": "ರಿಯಾಯಿತಿಗಳು",
+  "adminSummarySpend": "ಖರ್ಚು",
+  "adminSummaryCashDiff": "ನಗದು ವ್ಯತ್ಯಾಸ",
+  "adminSummaryTop": "ಹೆಚ್ಚು ಮಾರಾಟವಾದವು",
+  "adminShopsAllTotal": "ಎಲ್ಲಾ ಅಂಗಡಿಗಳು ಸೇರಿ",
+  "adminShopsOrders": "ಆರ್ಡರ್‌ಗಳು (7 ದಿನ)",
+  "adminShopsValue": "ಮೌಲ್ಯ (7 ದಿನ)",
+  "adminShopsAdd": "ಇನ್ನೊಂದು ಅಂಗಡಿ ಸೇರಿಸಿ",
+  "adminShopsAddHelp": "ಇನ್ನೊಂದು ಅಂಗಡಿಯ ಲಿಂಕ್ ಹೆಸರು ಮತ್ತು ಮಾಲೀಕರ ಕೀ ಬರೆಯಿರಿ.",
+  "adminShopsAddAction": "ಅಂಗಡಿ ಸೇರಿಸಿ",
+  "adminShopsSlug": "ಅಂಗಡಿ ಲಿಂಕ್ ಹೆಸರು",
+  "adminShopsKey": "ಮಾಲೀಕರ ಕೀ",
+  "adminShopsRemove": "ತೆಗೆದುಹಾಕಿ",
+  "adminShopsRefresh": "ರಿಫ್ರೆಶ್",
+  "adminShopsError": "ಈ ಅಂಗಡಿಯನ್ನು ಓದಲಾಗಲಿಲ್ಲ",
+  "adminShopsInvalid": "ಲಿಂಕ್ ಹೆಸರು ಮತ್ತು ಮಾಲೀಕರ ಕೀ ಪರಿಶೀಲಿಸಿ",
+  "adminShopsExists": "ಆ ಅಂಗಡಿ ಈಗಾಗಲೇ ಪಟ್ಟಿಯಲ್ಲಿದೆ",
+  "permViewCashBook": "ನಗದು ಪುಸ್ತಕ ನೋಡಿ",
+  "permExportData": "ಡೇಟಾ ರಫ್ತು",
+  "permViewStaffReport": "ಸಿಬ್ಬಂದಿ ವರದಿ ನೋಡಿ"
+}

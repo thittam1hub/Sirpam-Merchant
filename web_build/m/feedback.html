@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <title>How was it?</title>
+    <style>
+      :root { color-scheme: light; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #eef0f4;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        color: #2b2f36;
+      }
+      .card {
+        width: min(420px, 92vw);
+        padding: 28px 22px 24px;
+        border-radius: 26px;
+        background: #eef0f4;
+        box-shadow: 10px 10px 24px #d3d7de, -10px -10px 24px #ffffff;
+        text-align: center;
+      }
+      h1 { font-size: 20px; margin: 0 0 4px; }
+      p.sub { margin: 0 0 20px; font-size: 14px; color: #6b7280; }
+      .taps { display: flex; gap: 12px; justify-content: center; }
+      button {
+        flex: 1;
+        border: 0;
+        cursor: pointer;
+        padding: 16px 8px;
+        border-radius: 20px;
+        background: #eef0f4;
+        box-shadow: 6px 6px 14px #d3d7de, -6px -6px 14px #ffffff;
+        font: inherit;
+        font-weight: 700;
+        color: #2b2f36;
+      }
+      button:active { box-shadow: inset 4px 4px 10px #d3d7de, inset -4px -4px 10px #ffffff; }
+      .face { display: block; font-size: 30px; margin-bottom: 6px; }
+      textarea {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 18px;
+        padding: 12px;
+        border: 0;
+        border-radius: 16px;
+        background: #eef0f4;
+        box-shadow: inset 4px 4px 10px #d3d7de, inset -4px -4px 10px #ffffff;
+        font: inherit;
+        resize: vertical;
+        min-height: 84px;
+      }
+      .hidden { display: none; }
+      .send { margin-top: 14px; width: 100%; }
+      .thanks { font-size: 15px; line-height: 1.5; }
+      a.review { display: inline-block; margin-top: 14px; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <h1 id="shop">Thanks for visiting</h1>
+      <p class="sub" id="ask">How was it today?</p>
+      <div class="taps" id="taps">
+        <button data-score="3"><span class="face">🙂</span>Good</button>
+        <button data-score="2"><span class="face">😐</span>Okay</button>
+        <button data-score="1"><span class="face">🙁</span>Not good</button>
+      </div>
+      <div id="note-wrap" class="hidden">
+        <textarea id="note" placeholder="Tell us what went wrong — only the owner sees this."></textarea>
+        <button class="send" id="send">Send to the owner</button>
+      </div>
+      <div id="done" class="hidden">
+        <p class="thanks" id="done-text">Thank you!</p>
+        <a class="review hidden" id="review"><button>Leave a public review</button></a>
+      </div>
+    </main>
+    <script>
+      var q = new URLSearchParams(location.search);
+      var shopName = q.get('n') || '';
+      var phone = (q.get('p') || '').replace(/\D/g, '');
+      var reviewUrl = q.get('r') || '';
+      if (shopName) document.getElementById('shop').textContent = shopName;
+
+      var score = 0;
+      var taps = document.getElementById('taps');
+      var noteWrap = document.getElementById('note-wrap');
+      var done = document.getElementById('done');
+      var doneText = document.getElementById('done-text');
+      var review = document.getElementById('review');
+
+      taps.addEventListener('click', function (e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        score = Number(btn.getAttribute('data-score'));
+        taps.classList.add('hidden');
+        document.getElementById('ask').classList.add('hidden');
+        if (score === 3) {
+          done.classList.remove('hidden');
+          doneText.textContent = 'Thank you! A quick public review helps a lot.';
+          if (reviewUrl) {
+            review.href = reviewUrl;
+            review.classList.remove('hidden');
+          }
+        } else {
+          noteWrap.classList.remove('hidden');
+        }
+      });
+
+      document.getElementById('send').addEventListener('click', function () {
+        var note = document.getElementById('note').value.trim();
+        var label = score === 2 ? 'Okay' : 'Not good';
+        var text = 'Feedback for ' + (shopName || 'your shop') + ': ' + label + (note ? ' — ' + note : '');
+        if (phone) {
+          var wa = phone.length === 10 ? '91' + phone : phone;
+          location.href = 'https://wa.me/' + wa + '?text=' + encodeURIComponent(text);
+        }
+        noteWrap.classList.add('hidden');
+        done.classList.remove('hidden');
+        doneText.textContent = 'Thank you — the owner will see this.';
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2317 @@
+{
+  "@@locale": "hi",
+  "udhaarReminderMessage": "नमस्ते {name}, {stall} पर आपका Rs {amount} बकाया है। कृपया भुगतान करें। धन्यवाद।{link}",
+  "@udhaarReminderMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "stall": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "appTitle": "VendorOS",
+  "navHome": "होम",
+  "navUdhaar": "उधार",
+  "navSoundbox": "साउंड",
+  "navMandi": "मंडी",
+  "navSales": "बिक्री",
+  "navGroupOverview": "ओवरव्यू",
+  "navGroupSell": "बेचें",
+  "navGroupOperations": "ग्राहक और कामकाज",
+  "navGroupBusiness": "कारोबार",
+  "navGroupTeam": "टीम",
+  "navGroupSystem": "सिस्टम",
+  "moreLabel": "और",
+  "menuLoanReport": "लोन रिपोर्ट",
+  "menuCartLocation": "ठेले की लोकेशन",
+  "menuSettings": "सेटिंग्स",
+  "notFoundTitle": "पेज नहीं मिला",
+  "goHome": "होम पर जाएं",
+  "ok": "ठीक है",
+  "loading": "लोड हो रहा है…",
+  "storageWriteFailedKey": "सेव नहीं हो सका ({key}) — फिर कोशिश करें",
+  "@storageWriteFailedKey": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "storageWriteFailed": "सेव नहीं हो सका — फिर कोशिश करें",
+  "micUnavailable": "माइक चालू नहीं है — हाथ से दर्ज करें",
+  "voiceNothingHeard": "कुछ सुनाई नहीं दिया — दोबारा बोलें",
+  "voiceNoAmount": "रकम समझ नहीं आई — बोलें \"50 रुपये टमाटर\"",
+  "voiceZeroAmount": "रकम 0 नहीं हो सकती",
+  "modeCash": "कैश",
+  "modeUpi": "UPI",
+  "modeCredit": "उधार",
+  "saleRecorded": "{mode} ₹{amount} दर्ज हुआ",
+  "@saleRecorded": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayTotalSemantic": "आज की कुल बिक्री {amount} रुपये",
+  "@todayTotalSemantic": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayCollection": "आज का कलेक्शन",
+  "quickEntry": "तुरंत एंट्री",
+  "todayEntries": "आज की एंट्री",
+  "noEntriesYet": "अभी कोई एंट्री नहीं — माइक दबाकर बोलें",
+  "listeningTapToStop": "सुन रहे हैं, रोकने के लिए दबाएं",
+  "tapToSpeak": "बोलकर दर्ज करें",
+  "listening": "सुन रहे हैं…",
+  "speakToRecord": "🎙️ बोलकर दर्ज करें",
+  "voiceHint": "\"50 रुपये टमाटर कैश\" / \"रवि को 200 उधार\"",
+  "addSale": "बिक्री जोड़ें",
+  "saleSemantic": "{label} {amount} रुपये, {item}",
+  "@saleSemantic": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "हटाएं",
+  "locationServiceOff": "लोकेशन सेवा बंद है",
+  "locationPermissionDenied": "लोकेशन की अनुमति नहीं मिली",
+  "broadcastLive": "लाइव ब्रॉडकास्ट चालू है",
+  "locationSearching": "लोकेशन खोजी जा रही है…",
+  "permissionDenied": "अनुमति नहीं मिली",
+  "unavailable": "उपलब्ध नहीं",
+  "broadcastStopped": "ब्रॉडकास्ट बंद हुआ",
+  "locationNotFetched": "लोकेशन अभी नहीं मिली",
+  "stopBroadcast": "ब्रॉडकास्ट रोकें",
+  "startBroadcast": "ब्रॉडकास्ट शुरू करें",
+  "sendToCustomer": "ग्राहकों को भेजें",
+  "shareLocationHint": "आज ठेले की लोकेशन WhatsApp पर शेयर करें।",
+  "ourCart": "हमारा ठेला",
+  "cartLocationMessage": "{stall} आज यहाँ है 👇\n{url}",
+  "@cartLocationMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "shareOnWhatsapp": "WhatsApp पर शेयर करें",
+  "openInMaps": "Maps में खोलें",
+  "mandiKeyRejected": "data.gov.in ने अनुरोध अस्वीकार किया — API key जांचें ({status})",
+  "@mandiKeyRejected": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionFailed": "कनेक्शन नहीं हो पाया: {error}",
+  "@connectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "mandiTitle": "मंडी भाव",
+  "refresh": "रिफ्रेश करें",
+  "mandiLoading": "मंडी भाव लोड हो रहे हैं",
+  "fetchFailed": "डेटा नहीं मिल पाया",
+  "apiKeyNeeded": "data.gov.in API key ज़रूरी है",
+  "apiKeyNeededBody": "लाइव APMC भावों के लिए data.gov.in से मुफ़्त API key लें और सेटिंग्स में जोड़ें। फ़र्ज़ी भाव नहीं दिखाए जाते।",
+  "refreshFailed": "ताज़ा अपडेट नहीं हो पाया",
+  "lastUpdated": "आखिरी अपडेट: {time}",
+  "@lastUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "searchVegetable": "सब्ज़ी खोजें",
+  "loanReportHeading": "बिज़नेस लोन रिपोर्ट",
+  "reportFailed": "रिपोर्ट नहीं बन पाई: {error}",
+  "@reportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "daysWindow": "{days, plural, =1{1 दिन} other{{days} दिन}}",
+  "@daysWindow": {
+    "placeholders": {
+      "days": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "totalBusiness": "कुल बिक्री",
+  "digitalShare": "डिजिटल हिस्सा",
+  "avgDailyIncome": "रोज़ाना औसत कमाई",
+  "recordedDays": "दर्ज दिन",
+  "sha256Checksum": "SHA-256 चेकसम",
+  "noSalesYet": "अभी कोई बिक्री दर्ज नहीं है — रिपोर्ट बनाने के लिए पहले बिक्री दर्ज करें।",
+  "viewPdf": "PDF देखें",
+  "sendToBank": "बैंक में भेजें",
+  "stallName": "स्टॉल का नाम",
+  "ownerName": "मालिक का नाम",
+  "upiVpaLabel": "UPI VPA (जैसे name@okaxis)",
+  "mobileNumber": "मोबाइल नंबर",
+  "mandiMarket": "मंडी (APMC)",
+  "mandiApiKeyLabel": "data.gov.in API key",
+  "apiKeyHelp": "key पाने के लिए data.gov.in पर मुफ़्त रजिस्टर करें। बिना key के लाइव भाव नहीं दिखेंगे।",
+  "soundboxAnnounce": "साउंडबॉक्स आवाज़",
+  "save": "सेव करें",
+  "soundboxSpeech": "{amount} रुपये प्राप्त हुए",
+  "@soundboxSpeech": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "soundboxTitle": "साउंडबॉक्स",
+  "soundboxSubtitle": "UPI पेमेंट की आवाज़ अपनी भाषा में सुनें",
+  "watchedApps": "ट्रैक किए जाने वाले ऐप",
+  "soundboxTestHint": "टेस्ट: \"250 रुपये प्राप्त हुए\" सुनाई देगा",
+  "speak": "बोलकर सुनाएं",
+  "announcedPayments": "सुनाई गई पेमेंट",
+  "noUpiYet": "अभी तक कोई UPI पेमेंट नहीं मिली",
+  "soundboxRunning": "साउंडबॉक्स चालू है",
+  "notificationAccessNeeded": "नोटिफिकेशन परमिशन ज़रूरी है",
+  "soundboxAndroidHint": "PhonePe, Paytm, Google Pay और BHIM से पेमेंट आने पर आवाज़ आएगी।",
+  "soundboxGrantHint": "Android सेटिंग्स में VendorOS को नोटिफिकेशन की परमिशन दें।",
+  "grantAccess": "परमिशन दें",
+  "iosUnavailable": "iOS पर उपलब्ध नहीं है",
+  "webUnavailable": "ब्राउज़र में उपलब्ध नहीं है",
+  "iosSoundboxNote": "Apple की पाबंदियों के कारण दूसरे ऐप के नोटिफिकेशन नहीं पढ़े जा सकते। केवल हाथ से या बोलकर एंट्री करें।",
+  "webSoundboxNote": "ब्राउज़र दूसरे ऐप के UPI नोटिफिकेशन नहीं पढ़ सकता। साउंडबॉक्स के लिए Android APK इंस्टॉल करें।",
+  "serverSoundbox": "बिज़नेस UPI साउंडबॉक्स",
+  "serverSoundboxNote": "पेमेंट प्रोवाइडर से कन्फ़र्म पेमेंट यहां सुनाई देगी। कोई पेमेंट नहीं छूटेगी: जब तक यह फ़ोन बोल नहीं देता, पेमेंट सर्वर पर रहेगी।",
+  "notPaired": "यह फ़ोन अभी किसी बिज़नेस UPI खाते से नहीं जुड़ा है।",
+  "pairingCode": "पेयरिंग कोड",
+  "pair": "फ़ोन जोड़ें",
+  "unpair": "हटाएं",
+  "pairedWith": "{name} से जुड़ा है",
+  "@pairedWith": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "syncNow": "अभी चेक करें",
+  "lastChecked": "पिछली बार {time} बजे चेक किया गया",
+  "@lastChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "neverChecked": "अभी तक चेक नहीं किया गया",
+  "soundboxStale": "सर्वर से संपर्क नहीं हो पा रहा है। इंटरनेट कनेक्शन चेक करें।",
+  "queuedPayments": "{count, plural, =0{कोई पेमेंट पेंडिंग नहीं} =1{1 पेमेंट बोलना बाकी है} other{{count} पेमेंट बोलना बाकी हैं}}",
+  "@queuedPayments": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "notificationSoundbox": "नोटिफिकेशन साउंडबॉक्स (फ़ॉलबैक)",
+  "udhaarTitle": "उधार खाता",
+  "udhaarSubtitle": "ग्राहकों का बाकी",
+  "totalOutstanding": "कुल बाकी",
+  "customerCount": "{count, plural, =0{कोई ग्राहक नहीं} =1{1 ग्राहक} other{{count} ग्राहक}}",
+  "@customerCount": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "filterBy": "फ़िल्टर: {name}",
+  "@filterBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "clearFilter": "फ़िल्टर हटाएं",
+  "upiSetupHint": "UPI से पैसे मांगने के लिए सेटिंग्स में अपना VPA और दुकान का नाम जोड़ें।",
+  "noOutstanding": "कोई उधार बाकी नहीं",
+  "cannotOpen": "खुल नहीं सका: {scheme}",
+  "@cannotOpen": {
+    "placeholders": {
+      "scheme": {
+        "type": "String"
+      }
+    }
+  },
+  "askUpi": "UPI मांगें",
+  "collect": "पैसे लें",
+  "cancel": "रद्द करें",
+  "language": "भाषा",
+  "languageChanged": "भाषा बदल गई",
+  "whatsapp": "WhatsApp",
+  "creditNote": "{name} का उधार",
+  "@creditNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultStallName": "VendorOS स्टॉल",
+  "merchantOnboardingTitle": "बिज़नेस UPI जोड़ें",
+  "merchantOnboardingSubtitle": "साउंडबॉक्स से अपना बिज़नेस खाता जोड़ें",
+  "merchantStepsHint": "अपने PhonePe for Business या Paytm for Business डैशबोर्ड से डीटेल्स डालें। आपको एक पेयरिंग कोड मिलेगा और यह फ़ोन तुरंत लिंक हो जाएगा।",
+  "howToGetBusinessUpi": "बिज़नेस UPI खाता कैसे बनाएं?",
+  "merchantFormIncomplete": "बिज़नेस का नाम, Merchant ID और Secret Key भरें।",
+  "merchantRegistered": "बिज़नेस रजिस्टर हो गया",
+  "pairingCodeSaveHint": "यह पेयरिंग कोड संभाल कर रखें। दूसरा फ़ोन जोड़ने के लिए इसका इस्तेमाल करें।",
+  "callbackUrlLabel": "प्रोवाइडर डैशबोर्ड के लिए Callback URL",
+  "backToSoundbox": "साउंडबॉक्स पर वापस जाएं",
+  "copy": "कॉपी करें",
+  "copied": "कॉपी हो गया",
+  "provider": "पेमेंट प्रोवाइडर",
+  "providerPhonePe": "PhonePe",
+  "providerPaytm": "Paytm",
+  "businessName": "बिज़नेस का नाम",
+  "businessNameHint": "जो नाम बोला जाएगा और रिपोर्ट पर छपेगा",
+  "businessVpa": "बिज़नेस UPI ID",
+  "businessVpaHint": "stallname@ybl",
+  "merchantIdLabel": "Merchant ID (MID)",
+  "merchantIdHint": "प्रोवाइडर डैशबोर्ड से",
+  "saltKeyLabel": "सॉल्ट की",
+  "saltKeyHint": "PhonePe सॉल्ट की",
+  "saltIndexLabel": "सॉल्ट इंडेक्स",
+  "webhookTokenLabel": "वेबहुक टोकन",
+  "webhookTokenHint": "कोई मजबूत पासवर्ड जिसे आप Paytm डैशबोर्ड में भी डालें",
+  "secretStorageNote": "सीक्रेट की सिर्फ सर्वर पर सुरक्षित रखी जाती है और ऐप इसे दोबारा कभी नहीं पढ़ सकता।",
+  "registerBusiness": "बिजनेस UPI रजिस्टर करें",
+  "helpTitle": "मदद",
+  "helpSubtitle": "बिजनेस UPI और साउंडबॉक्स गाइड",
+  "helpWhyTitle": "बिजनेस UPI अकाउंट क्यों?",
+  "helpWhyBody": "पर्सनल UPI आईडी से पेमेंट की पुष्टि सर्वर पर नहीं हो पाती, जिससे आवाज़ छूट सकती है। बिजनेस अकाउंट से हर पेमेंट की जानकारी VendorOS तक पहुंचती है, ताकि साउंडबॉक्स कोई पेमेंट न चूके।",
+  "helpDocsTitle": "ज़रूरी चीज़ें",
+  "helpDocsAadhaar": "Aadhaar नंबर और उससे जुड़ा मोबाइल नंबर",
+  "helpDocsPan": "PAN कार्ड (छोटी दुकान या ठेले के लिए पर्सनल PAN भी चलेगा)",
+  "helpDocsBank": "खाता नंबर और IFSC (पैसे खाते में आने के लिए)",
+  "helpDocsShop": "दुकान का नाम, पता और दुकान/ठेले की फोटो",
+  "helpRegisterTitle": "कंपनी में रजिस्टर करें",
+  "helpRegisterStep1": "Play Store से PhonePe for Business या Paytm for Business इंस्टॉल करें।",
+  "helpRegisterStep2": "मोबाइल नंबर से साइन अप करें और Aadhaar व PAN से KYC पूरी करें।",
+  "helpRegisterStep3": "बैंक खाता जोड़ें ताकि पैसे सीधे खाते में आएं, और फ्री QR स्टिकर लें।",
+  "helpRegisterStep4": "ऐप में दिख रहा बिजनेस UPI एड्रेस (जैसे stallname@ybl) नोट कर लें।",
+  "helpKeysTitle": "मर्चेंट आईडी और सीक्रेट की",
+  "helpKeysPhonePe": "PhonePe: बिजनेस डैशबोर्ड खोलें, Developer सेटिंग्स में जाएं और मर्चेंट आईडी, सॉल्ट की व सॉल्ट इंडेक्स कॉपी करें।",
+  "helpKeysPaytm": "Paytm: बिजनेस डैशबोर्ड खोलें, Developer सेटिंग्स में जाएं, MID कॉपी करें और एक मजबूत वेबहुक टोकन बनाएं जिसे यहाँ भी डालें।",
+  "helpKeysCallback": "रजिस्ट्रेशन के बाद दिखने वाला कॉलबैक URL कंपनी डैशबोर्ड में पेस्ट करें ताकि पेमेंट VendorOS तक पहुंचे।",
+  "helpLinkTitle": "यह फोन लिंक करें",
+  "helpLinkStep1": "Soundbox खोलें और 'बिजनेस UPI रजिस्टर करें' दबाएं।",
+  "helpLinkStep2": "फॉर्म भरें; फोन अपने आप लिंक हो जाएगा और एक पेयरिंग कोड दिखेगा।",
+  "helpLinkStep3": "दूसरे फोन पर भी लिंक करने के लिए Soundbox में वही पेयरिंग कोड डालें।",
+  "helpSafetyTitle": "सुरक्षित रखें",
+  "helpSafetyBody": "सॉल्ट की या वेबहुक टोकन किसी को न बताएं। VendorOS इसे सिर्फ सर्वर पर सुरक्षित रखता है और दोबारा कभी नहीं दिखाता।",
+  "menuInventory": "इन्वेंट्री",
+  "productsTitle": "प्रोडक्ट्स",
+  "productsSubtitle": "कैटलॉग और स्टॉक",
+  "productsSearchHint": "नाम या कोड खोजें",
+  "productsEmpty": "अभी कोई प्रोडक्ट नहीं है। पहला आइटम जोड़ें।",
+  "productsAdd": "प्रोडक्ट जोड़ें",
+  "productsAllChip": "सभी",
+  "productsLowStockChip": "कम स्टॉक",
+  "productEditTitle": "प्रोडक्ट एडिट करें",
+  "productMissing": "यह आइटम अब लिस्ट में नहीं है।",
+  "productSaved": "सेव हो गया",
+  "productArchived": "प्रोडक्ट हटा दिया गया",
+  "formInvalid": "प्रोडक्ट का नाम लिखें",
+  "fieldName": "नाम",
+  "fieldLocalName": "तमिल में नाम",
+  "fieldCode": "कोड",
+  "fieldCodeHint": "बारकोड डालें, या नए के लिए खाली छोड़ें",
+  "fieldCategory": "कैटेगरी",
+  "fieldUnit": "यूनिट",
+  "fieldCost": "खरीद भाव",
+  "fieldPrice": "बिक्री भाव",
+  "fieldReorder": "रीऑर्डर लेवल",
+  "saveLabel": "सेव करें",
+  "discardTitle": "बदलाव रद्द करें?",
+  "discardBody": "आपके बदलाव अभी सेव नहीं हुए हैं।",
+  "discardKeep": "एडिट जारी रखें",
+  "discardLeave": "छोड़ें",
+  "cancelLabel": "रद्द करें",
+  "deleteLabel": "डिलीट करें",
+  "confirmLabel": "कन्फर्म करें",
+  "qtyLabel": "मात्रा",
+  "unitCostLabel": "प्रति यूनिट भाव",
+  "expiryLabel": "एक्सपायरी (दिनों में)",
+  "unitKg": "किग्रा",
+  "unitGram": "ग्रा",
+  "unitPiece": "पीस",
+  "unitLitre": "लीटर",
+  "unitBundle": "बंडल",
+  "detailSell": "बेचें",
+  "detailRestock": "स्टॉक जोड़ें",
+  "detailWastage": "वेस्टेज",
+  "detailCorrect": "स्टॉक गिनती",
+  "detailBatches": "बैच",
+  "detailHistory": "हिस्ट्री",
+  "detailLabel": "लेबल प्रिंट करें",
+  "historyEmpty": "अभी कोई स्टॉक हिस्ट्री नहीं है",
+  "soldRecorded": "बिक्री दर्ज हो गई",
+  "restocked": "स्टॉक जोड़ दिया",
+  "wastageRecorded": "वेस्टेज दर्ज हो गया",
+  "stockCorrected": "स्टॉक अपडेट हुआ",
+  "movementPurchase": "खरीद",
+  "movementSale": "बिक्री",
+  "movementWastage": "खराबी",
+  "movementReturn": "वापसी",
+  "movementCorrection": "सुधार",
+  "expiredTag": "एक्सपायर्ड",
+  "expiryTodayTag": "आज एक्सपायर होगा",
+  "noExpiry": "कोई एक्सपायरी नहीं",
+  "batchesTitle": "बैच",
+  "batchesSubtitle": "एक्सपायरी लिस्ट",
+  "batchesEmpty": "अभी कोई एक्सपायरी बैच नहीं है",
+  "stockTitle": "स्टॉक",
+  "stockSubtitle": "वैल्यू, अलर्ट और एक्सपायरी",
+  "stockValuation": "स्टॉक वैल्यू",
+  "stockProfit": "मुनाफ़ा (30 दिन)",
+  "stockWastage": "खराबी (30 दिन)",
+  "stockLowTitle": "कम स्टॉक",
+  "stockExpiryTitle": "एक्सपायरी",
+  "stockNothingLow": "कोई सामान कम नहीं है",
+  "stockNoExpiry": "कोई एक्सपायरी बैच नहीं",
+  "stockReorderNow": "ऑर्डर लिस्ट भेजें",
+  "suppliersTitle": "सप्लायर",
+  "suppliersSubtitle": "ऑर्डर के कॉन्टैक्ट्स",
+  "suppliersEmpty": "अभी कोई सप्लायर नहीं है",
+  "supplierAdd": "सप्लायर जोड़ें",
+  "supplierName": "नाम",
+  "supplierPhone": "फ़ोन",
+  "supplierNote": "नोट",
+  "supplierWhatsapp": "WhatsApp",
+  "scanTitle": "स्कैन",
+  "scanSubtitle": "बारकोड या QR",
+  "scanUnsupported": "यहाँ कैमरा स्कैन उपलब्ध नहीं है। नीचे कोड डालें।",
+  "scanPermission": "स्कैन करने के लिए कैमरा की अनुमति दें",
+  "scanManualHint": "कोड डालें या पेस्ट करें",
+  "scanCreateFromCode": "इस कोड से नया आइटम जोड़ें",
+  "labelsTitle": "लेबल",
+  "labelsSubtitle": "QR और बारकोड लेबल प्रिंट करें",
+  "labelsSelect": "आइटम चुनें",
+  "labelsSize": "लेबल साइज़",
+  "labelsSymbology": "सिंबल",
+  "labelsCopies": "कॉपी",
+  "labelsPrint": "शीट प्रिंट करें",
+  "labelsThermal": "प्रिंटर कोड कॉपी करें",
+  "labelsCopied": "प्रिंटर कोड कॉपी हो गया",
+  "labelsNone": "कम से कम एक आइटम चुनें",
+  "symbolQr": "QR",
+  "symbolBarcode": "बारकोड",
+  "paymentQrTitle": "पेमेंट QR",
+  "paymentQrSubtitle": "ग्राहक स्कैन करके पेमेंट कर सकते हैं",
+  "paymentQrAmountHint": "रकम (वैकल्पिक)",
+  "paymentQrNeedVpa": "पहले सेटिंग्स में अपनी UPI ID जोड़ें।",
+  "paymentQrOpenSettings": "सेटिंग्स खोलें",
+  "paymentQrPoster": "पोस्टर सेव करें",
+  "paymentQrCopy": "लिंक कॉपी करें",
+  "paymentQrCopied": "लिंक कॉपी हो गया",
+  "paymentQrNote": "स्कैन करने पर ग्राहक का UPI ऐप खुलेगा। पेमेंट तभी पक्का मानें जब साउंडबॉक्स बोले।",
+  "stockOnHand": "स्टॉक में: {qty}",
+  "@stockOnHand": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "marginLabel": "मार्जिन {pct}%",
+  "@marginLabel": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "expirySoonTag": "{days, plural, =0{Today} one{1 day} other{{days} days}}",
+  "@expirySoonTag": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiryWatchCount": "{count, plural, =0{कुछ भी जल्द एक्सपायर नहीं हो रहा} one{1 बैच पर ध्यान दें} other{{count} बैचों पर ध्यान दें}}",
+  "@expiryWatchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "batchLine": "{qty} बचे · {cost} प्रति यूनिट",
+  "@batchLine": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "sellShortfall": "स्टॉक में सिर्फ {qty} था — उतना ही दर्ज किया",
+  "@sellShortfall": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "productArchiveConfirm": "{name} को कैटलॉग से हटाएं?",
+  "@productArchiveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reorderMessage": "{stall}: कृपया {items} भेजें",
+  "@reorderMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrPayingTo": "{vpa} को पेमेंट",
+  "@paymentQrPayingTo": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "scanUnknownCode": "{code} कोड का कोई आइटम नहीं मिला",
+  "@scanUnknownCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "profileTitle": "बिजनेस प्रोफाइल",
+  "vendorCategory": "बिजनेस का प्रकार",
+  "categoryCart": "ठेला / रेहड़ी",
+  "categoryStall": "दुकान / पक्का स्टॉल",
+  "categoryHotel": "होटल / ढाबा / रेस्टोरेंट",
+  "categoryService": "सर्विस / सेवा कार्य",
+  "nicheLabel": "आप क्या बेचते या करते हैं?",
+  "districtLabel": "ज़िला",
+  "talukLabel": "तहसील / कस्बा",
+  "marketAreaLabel": "मार्केट / इलाका",
+  "fssaiLabel": "FSSAI नंबर (खाने का काम)",
+  "udyamLabel": "उद्यम रजिस्ट्रेशन (वैकल्पिक)",
+  "workingHoursLabel": "काम के घंटे",
+  "perishableLabel": "जल्दी खराब होने वाला सामान",
+  "profilePromptTitle": "दुकान की प्रोफाइल सेट करें",
+  "profilePromptBody": "बताएं कि आप क्या बेचते हैं, ताकि ऐप में सिर्फ जरूरी चीजें दिखें।",
+  "profilePromptAction": "सेट करें",
+  "profileSaved": "प्रोफाइल सेव हो गई",
+  "expensesTitle": "खर्चे",
+  "expensesSubtitle": "दूध, गैस, नाश्ता, किराया — जो भी खर्च हुआ",
+  "expenseToday": "आज का खर्च",
+  "expenseAdd": "खर्च जोड़ें",
+  "expenseAmount": "रकम",
+  "expenseNote": "नोट (वैकल्पिक)",
+  "expenseTodayList": "आज के खर्चे",
+  "expenseEmpty": "आज कोई खर्च दर्ज नहीं है",
+  "expenseMilk": "दूध",
+  "expenseGas": "गैस",
+  "expenseSnacks": "नाश्ता",
+  "expenseProvisions": "किराना / राशन",
+  "expenseWages": "मजदूरी",
+  "expenseRent": "किराया",
+  "expenseElectricity": "बिजली बिल",
+  "expenseTransport": "भाड़ा",
+  "expenseOther": "अन्य",
+  "recurringTitle": "रोज का सामान",
+  "recurringAdd": "सामान जोड़ें",
+  "recurringName": "सामान का नाम",
+  "recurringEmpty": "दूध के कैन या नाश्ते की ट्रे यहां सेव करें, ताकि एक टैप में दर्ज हो जाएं।",
+  "dayCloseTitle": "दिन की क्लोजिंग",
+  "dayCloseExpectedCash": "गल्ले में होना चाहिए इतना कैश",
+  "dayCloseBreakdown": "आज का हिसाब",
+  "dayCloseCollected": "उधारी वसूली",
+  "dayCloseWastage": "वेस्टेज / नुकसान",
+  "dayCloseProfit": "आज का मुनाफा",
+  "dayCloseCount": "गल्ला गिनें",
+  "dayCloseCountedCash": "गिना हुआ कैश",
+  "dayCloseSave": "दिन क्लोज करें",
+  "dayCloseDiscounts": "दी गई छूट",
+  "dayCloseTax": "टैक्स कलेक्शन",
+  "dayCloseLastToken": "आखिरी टोकन",
+  "dayCloseVoided": "रद्द बिल",
+  "dayCloseExport": "दिन की PDF निकालें",
+  "dayCloseVariancePosted": "कैश का अंतर खाते में दर्ज कर दिया गया।",
+  "dayCloseExportFailed": "दिन की समरी एक्सपोर्ट नहीं हो सकी।",
+  "dayCloseMatch": "कैश बिल्कुल सही मिला।",
+  "dayCloseSurplus": "हिसाब से {amount} ज़्यादा",
+  "@dayCloseSurplus": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseShort": "{amount} कम",
+  "@dayCloseShort": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsTitle": "रिपोर्ट",
+  "insightsSubtitle": "दिन, हफ़्ता, महीना और साल",
+  "windowDay": "दिन",
+  "windowWeek": "हफ़्ता",
+  "windowMonth": "महीना",
+  "windowYear": "साल",
+  "insightsTurnover": "कुल बिक्री",
+  "insightsCosts": "खर्च",
+  "insightsProfit": "मुनाफ़ा",
+  "insightsAvgDay": "प्रति दिन",
+  "insightsByDay": "दिन के हिसाब से",
+  "insightsBestDay": "सबसे अच्छा दिन",
+  "insightsTopItems": "सबसे ज़्यादा बिकने वाले",
+  "insightsCostSplit": "पैसे कहाँ खर्च हुए",
+  "insightsEmpty": "इस दौरान अभी कोई रिकॉर्ड नहीं है",
+  "insightsMarginAlert": "मार्जिन अलर्ट",
+  "insightsMarginBody": "ये आइटम लागत के बहुत करीब बिक रहे हैं। दाम बढ़ाएं या लागत घटाएं।",
+  "insightsMarginRow": "लागत {cost} · दाम {price}",
+  "@insightsMarginRow": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleTitle": "क्विक सेल",
+  "quickSaleSubtitle": "एक कप के लिए एक टैप — ज़्यादा के लिए दबाकर रखें",
+  "quickSaleQty": "मात्रा",
+  "quickSaleQtyTitle": "कितने {item}?",
+  "@quickSaleQtyTitle": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleDone": "{item} · {amount} दर्ज हुआ",
+  "@quickSaleDone": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSemantic": "{amount} में एक {item} बेचें",
+  "@quickSaleSemantic": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleEmpty": "क्विक मेन्यू इस्तेमाल करने के लिए कीमत के साथ आइटम जोड़ें।",
+  "starterPackAction": "दुकान के लिए स्टार्टर किट लोड करें",
+  "starterTea": "चाय",
+  "starterCoffee": "कॉफ़ी",
+  "starterBun": "बन",
+  "starterBiscuit": "बिस्कुट",
+  "starterBajji": "बज्जी",
+  "starterMilkSupply": "दूध की कैन",
+  "starterSnackSupply": "स्नैक ट्रे",
+  "menuDailyWork": "रोज़ का काम",
+  "stockOut": "स्टॉक खत्म",
+  "ordersTitle": "ऑर्डर",
+  "ordersSubtitle": "काउंटर और QR ऑर्डर, लाइव",
+  "orderCounterNew": "नया काउंटर ऑर्डर",
+  "orderTable": "टेबल",
+  "orderRemoveItem": "एक हटाएं",
+  "orderAddItem": "एक जोड़ें",
+  "orderCancelReason": "कैंसिल करने की वजह",
+  "orderCancel": "ऑर्डर कैंसिल करें",
+  "orderLive": "लाइव",
+  "orderHistory": "हिस्ट्री",
+  "orderEmpty": "अभी कोई ऑर्डर नहीं है।",
+  "orderNew": "नया",
+  "orderPreparing": "बन रहा है",
+  "orderServed": "सर्व हुआ",
+  "orderPaid": "पेड",
+  "orderCancelled": "कैंसिल हुआ",
+  "orderAccept": "स्वीकारें",
+  "orderServe": "सर्व करें",
+  "orderBulkAccept": "सभी नए स्वीकारें",
+  "orderBulkServe": "सभी तैयार सर्व करें",
+  "orderBill": "बिल",
+  "orderTokenShort": "टोकन",
+  "kotTitle": "किचन",
+  "kotSubtitle": "आगे क्या बनना है",
+  "kotEmpty": "किचन में कोई ऑर्डर बाकी नहीं है।",
+  "kotDone": "तैयार",
+  "billTitle": "बिल",
+  "billNumberLabel": "बिल",
+  "billSubtotal": "सबटोटल",
+  "billDiscount": "डिस्काउंट",
+  "billDiscountFlat": "डिस्काउंट रकम",
+  "billDiscountPct": "डिस्काउंट %",
+  "billTax": "GST",
+  "billTaxable": "टैक्सेबल",
+  "billCgst": "CGST",
+  "billSgst": "SGST",
+  "billIgst": "IGST",
+  "shopGstRegistered": "GST रजिस्टर्ड दुकान",
+  "shopGstRegisteredHint": "बिल पर CGST/SGST और आइटम HSN कोड दिखेगा",
+  "shopPriceIncludesTax": "कीमतों में टैक्स शामिल है",
+  "productTaxRate": "GST दर %",
+  "productHsn": "HSN / SAC कोड",
+  "productTaxHint": "दुकान की दर लागू करने के लिए खाली छोड़ें",
+  "billRounding": "राउंडिंग",
+  "billTotal": "कुल",
+  "billPaid": "जमा",
+  "billBalance": "बाकी",
+  "billReprint": "दोबारा प्रिंट",
+  "billShare": "शेयर करें",
+  "billThanks": "धन्यवाद, फिर आएं",
+  "billCustomer": "ग्राहक",
+  "billSplit": "पेमेंट",
+  "billRoundToRupee": "रुपये में राउंड करें",
+  "billFillCash": "बाकी कैश में भरें",
+  "billFullyPaid": "पूरा भुगतान",
+  "billSettle": "बिल सेटल करें",
+  "close": "बंद करें",
+  "billPreview": "पेपर प्रीव्यू",
+  "billVoid": "बिल रद्द करें",
+  "billVoidTitle": "यह बिल रद्द करें",
+  "billVoidHint": "बिल नंबर खाते में रहेगा और हिसाब उलट दिया जाएगा।",
+  "billVoidReason": "कारण",
+  "billVoidReasonRequired": "बिल रद्द करने के लिए कारण जरूरी है",
+  "billVoided": "बिल रद्द किया गया",
+  "billVoidFailed": "यह बिल रद्द नहीं हो सका",
+  "billAudit": "बिल हिस्ट्री",
+  "menuTitle": "QR मेन्यू",
+  "menuSubtitle": "स्कैन करने पर ग्राहकों को क्या दिखेगा",
+  "menuShopSection": "दुकान",
+  "menuSlug": "लिंक में मेन्यू का नाम",
+  "menuBaseUrl": "मेन्यू का वेब पता",
+  "menuTableCount": "टेबल",
+  "menuTaxPercent": "GST %",
+  "menuGstin": "GSTIN",
+  "menuAcceptOrders": "QR ऑर्डर लें",
+  "menuSaved": "मेन्यू सेटिंग्स सेव हो गईं",
+  "menuQrSheet": "QR शीट प्रिंट करें",
+  "menuLinkSection": "दुकान का QR",
+  "menuItemsSection": "मेन्यू के आइटम",
+  "menuSoldOut": "खत्म",
+  "menuPublished": "मेनू पर",
+  "menuCounterQr": "काउंटर",
+  "menuScanHint": "मेनू देखने और आर्डर करने के लिए स्कैन करें",
+  "printersTitle": "रसीद प्रिंटर",
+  "printersSubtitle": "कागज़ साइज़, कनेक्शन और टेस्ट प्रिंट",
+  "printerWidth": "कागज़ की चौड़ाई",
+  "printerTransport": "कनेक्शन",
+  "printerPdf": "PDF / शेयर",
+  "printerBluetooth": "Bluetooth",
+  "printerUsb": "USB",
+  "printerDeviceName": "प्रिंटर का नाम",
+  "printerDeviceAddress": "प्रिंटर पता",
+  "printerFallbackNote": "इस डिवाइस पर सीधा प्रिंट अभी तैयार नहीं है, इसलिए बिल PDF में खुलेगा जिसे आप प्रिंट या शेयर कर सकते हैं।",
+  "printerAutoPrint": "बिल अपने आप प्रिंट करें",
+  "printerKot": "किचन पर्ची प्रिंट करें",
+  "printerTest": "टेस्ट प्रिंट",
+  "printerTestSent": "टेस्ट रसीद भेजी गई",
+  "printerPaired": "पेयर किए गए प्रिंटर",
+  "printerScan": "पेयर प्रिंटर खोजें",
+  "printerScanning": "ढूंढ रहे हैं…",
+  "printerNoDevices": "कोई पेयर प्रिंटर नहीं मिला। पहले Android Bluetooth सेटिंग में पेयर करें।",
+  "printerConnect": "कनेक्ट करें",
+  "printerConnected": "प्रिंटर कनेक्ट हो गया",
+  "printerConnectFailed": "कनेक्ट नहीं हो सका। प्रिंटर चालू करके दोबारा कोशिश करें।",
+  "printerBluetoothNote": "बिल सीधे इस Bluetooth प्रिंटर पर प्रिंट होंगे। अगर यह बंद या रेंज से बाहर हुआ, तो बिल PDF में खुलेगा ताकि कोई रिकॉर्ड न छूटे।",
+  "orderToken": "टोकन {token}",
+  "@orderToken": {
+    "placeholders": {
+      "token": {
+        "type": "int"
+      }
+    }
+  },
+  "orderElapsed": "{minutes} मिनट",
+  "@orderElapsed": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "orderItems": "{count, plural, =1{1 आइटम} other{{count} आइटम}}",
+  "@orderItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "billSettled": "बिल {number} सेटल हुआ",
+  "@billSettled": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOrders": "आज के आर्डर",
+  "dayCloseOrdersTaken": "लिए गए आर्डर",
+  "dayCloseOrdersCancelled": "रद्द किए",
+  "dayCloseOrdersOpen": "अभी बाकी",
+  "dayCloseOrdersBilled": "बिल बने",
+  "dayCloseAvgTicket": "औसत बिल",
+  "menuCloudSection": "क्लाउड बोर्ड",
+  "menuShopKey": "शॉप की (16+ अक्षर)",
+  "menuCloudSync": "आर्डर क्लाउड से सिंक करें",
+  "menuCloudPublish": "मेनू क्लाउड पर डालें",
+  "menuCloudPublished": "क्लाउड मेनू में {count} आइटम डाले गए",
+  "@menuCloudPublished": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "menuCloudFailed": "क्लाउड गड़बड़ी: {reason}",
+  "@menuCloudFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "menuCloudLive": "लाइव: QR ऑर्डर सीधे स्क्रीन पर आएंगे।",
+  "menuCloudOffline": "सिर्फ लोकल। QR ऑर्डर पाने के लिए शॉप की (key) डालें और सिंक चालू करें।",
+  "settleTitle": "उधारी चुकता करें",
+  "settleAmountSection": "हिसाब चुकता",
+  "settleAmount": "रकम",
+  "settleCash": "कैश",
+  "settleUpi": "UPI",
+  "settleLoan": "नया उधार",
+  "settleNote": "नोट",
+  "settleCashHint": "कैश मिलने पर बकाया चुकता होगा और आज की कैश बिक्री में जुड़ेगा।",
+  "settleUpiHint": "UPI पर पैसे लेकर कन्फ़र्म करें। बकाया चुकता होगा और आज की UPI बिक्री बढ़ेगी।",
+  "settleLoanHint": "पुराना बकाया बंद होकर वही रकम नए उधार में जुड़ जाएगी।",
+  "settleConfirm": "चुकता करें",
+  "settleDone": "हिसाब चुकता दर्ज हुआ",
+  "settleHistory": "हालिया हिसाब",
+  "settleTooMuch": "बाकी ₹{amount} से ज़्यादा है",
+  "@settleTooMuch": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLedgerItem": "उधार चुकता हुआ — {name}",
+  "@settleLedgerItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLoanItem": "उधार नए लोन में बदला — {name}",
+  "@settleLoanItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "menuAddress": "दुकान का पता",
+  "menuPhone": "फ़ोन नंबर",
+  "menuFssai": "FSSAI लाइसेंस",
+  "menuGrowSection": "बढ़ाएं और संभालें",
+  "recipesTitle": "रेसिपी बुक",
+  "recipesSubtitle": "नाप-तौल का हिसाब, एक बार लिख लें",
+  "recipeAdd": "डिश जोड़ें",
+  "recipeName": "डिश का नाम",
+  "recipeServings": "कितनी प्लेट बनेगी",
+  "recipeEmpty": "अभी कोई डिश नहीं जोड़ी गई।",
+  "recipeIngredients": "क्या-क्या डलेगा",
+  "recipeSteps": "बनाने का तरीका",
+  "recipeAddIngredient": "सामान जोड़ें",
+  "recipeAddStep": "स्टेप जोड़ें",
+  "recipeQty": "मात्रा",
+  "recipeLinkProduct": "स्टॉक आइटम से लें",
+  "recipeNoLink": "स्टॉक से बाहर",
+  "recipeCost": "सामान की लागत",
+  "recipePerServing": "हर प्लेट की लागत",
+  "recipeScale": "कितना बनाना है",
+  "recipeCookBatch": "स्टॉक से सामान घटाएं",
+  "recipeCooked": "सामान स्टॉक से कट गया",
+  "recipeStepsEmpty": "अभी कोई स्टेप्स नहीं लिखे।",
+  "recipeUnlinkedWarning": "जो आइटम स्टॉक से नहीं जुड़े हैं, वे लागत में नहीं गिने जाएंगे।",
+  "jobsTitle": "कस्टम ऑर्डर",
+  "jobsSubtitle": "एडवांस बुकिंग और ऑर्डर का काम",
+  "jobAdd": "ऑर्डर लें",
+  "jobTitleField": "क्या बनाना है",
+  "jobCustomer": "ग्राहक",
+  "jobPhone": "फ़ोन",
+  "jobPrice": "कीमत",
+  "jobAdvance": "एडवांस मिला",
+  "jobDue": "कब देना है",
+  "jobEmpty": "यहाँ कोई ऑर्डर नहीं है।",
+  "jobStatusTaken": "लिया गया",
+  "jobStatusMaking": "बन रहा है",
+  "jobStatusReady": "तैयार",
+  "jobStatusDelivered": "दे दिया",
+  "jobStatusCancelled": "कैंसिल",
+  "jobAdvanceStatus": "आगे बढ़ाएं",
+  "jobCancel": "कैंसिल करें",
+  "jobRemind": "WhatsApp पर भेजें",
+  "jobFilterOpen": "चालू",
+  "jobFilterToday": "आज देना है",
+  "jobFilterDone": "पूरा हुआ",
+  "customersTitle": "पक्के ग्राहक",
+  "customersSubtitle": "कौन बार-बार आता है, और उन्हें दुकान कैसे मिली",
+  "customerAdd": "ग्राहक जोड़ें",
+  "customerName": "नाम",
+  "customerPhone": "फ़ोन",
+  "sourceWalkIn": "सीधे दुकान पर आए",
+  "sourceInstagram": "Instagram",
+  "sourceMaps": "Google Maps",
+  "sourceReferral": "किसी के बताने पर",
+  "sourceOther": "अन्य",
+  "customerRecordVisit": "विज़िट जोड़ें",
+  "customerVisitAmount": "रकम",
+  "customerRewardDue": "फ्री वाला बाकी है",
+  "customerGiveReward": "फ्री वाला दें",
+  "customersEmpty": "अभी कोई पक्का ग्राहक नहीं जुड़ा।",
+  "customerSourceSplit": "कमाई कहाँ से आ रही है",
+  "eventsTitle": "इवेंट और मेले",
+  "eventsSubtitle": "क्या स्टॉल लगाना फ़ायदेमंद रहा?",
+  "eventAdd": "इवेंट जोड़ें",
+  "eventName": "इवेंट का नाम",
+  "eventPlace": "जगह",
+  "eventDay": "तारीख",
+  "eventRent": "स्टॉल का किराया",
+  "eventTravel": "आने-जाने का खर्च",
+  "eventOther": "अन्य खर्च",
+  "eventSales": "बिक्री",
+  "eventFootfall": "विज़िटर्स",
+  "eventProfit": "मुनाफ़ा",
+  "eventLoss": "नुकसान",
+  "eventPerVisitor": "प्रति विज़िटर",
+  "eventsEmpty": "अभी कोई इवेंट दर्ज नहीं है।",
+  "staffTitle": "स्टाफ",
+  "staffSubtitle": "हाज़िरी, एडवांस और पगार",
+  "staffAdd": "स्टाफ जोड़ें",
+  "staffName": "नाम",
+  "staffPhone": "फ़ोन",
+  "staffRole": "काम",
+  "staffWage": "दिहाड़ी",
+  "staffPresent": "हाज़िर",
+  "staffHalf": "हाफ डे",
+  "staffAbsent": "गैरहाज़िर",
+  "staffAdvance": "एडवांस",
+  "staffAdvanceAdd": "एडवांस दें",
+  "staffPayable": "इस महीने की बाकी पगार",
+  "staffEmpty": "कोई स्टाफ नहीं जोड़ा गया।",
+  "staffRemove": "हटाएं",
+  "growthTitle": "ग्रोथ किट",
+  "growthSubtitle": "दुकान पर और ग्राहक लाएं",
+  "growthMenuLink": "आपके मेन्यू का लिंक",
+  "growthShareMenu": "मेन्यू भेजें",
+  "growthAskReview": "रिव्यू मांगें",
+  "growthOpenMaps": "Maps पेज खोलें",
+  "growthWhatsappBroadcast": "WhatsApp पर ग्राहकों को बताएं",
+  "growthLinksSection": "आपके लिंक्स",
+  "growthMapsUrl": "Google Maps लिंक",
+  "growthReviewUrl": "रिव्यू लिंक",
+  "growthInstagram": "Instagram नाम",
+  "growthLoyalty": "कितने विज़िट पर 1 फ़्री",
+  "growthIdeas": "इस हफ़्ते के पोस्ट आइडिया",
+  "growthShareIdea": "भेजें",
+  "growthIdea1": "सुबह की पहली खेप बनते हुए छोटी वीडियो क्लिप।",
+  "growthIdea2": "आज का स्पेशल, साफ़-साफ़ रेट के साथ।",
+  "growthIdea3": "पुराना ग्राहक अपने रोज़ के ऑर्डर के साथ।",
+  "growthIdea4": "काउंटर के पीछे: दुकान की रोज़ की शुरुआत।",
+  "growthIdea5": "वीकेंड ऑफ़र, सिर्फ़ दो दिनों के लिए।",
+  "growthSaved": "सेव हुआ",
+  "checklistTitle": "दुकान खोलने व बंद करने की लिस्ट",
+  "checklistSubtitle": "छोटी चीज़ें जो भूल जाएं तो काम बिगड़ जाए",
+  "checklistOpening": "खोलने से पहले",
+  "checklistClosing": "बंद करने से पहले",
+  "checklistAdd": "लिस्ट में जोड़ें",
+  "checklistItem": "क्या चेक करना है",
+  "checklistEmpty": "लिस्ट में अभी कुछ नहीं है।",
+  "checklistUseStarter": "तैयार लिस्ट इस्तेमाल करें",
+  "checklistSeed1": "छुट्टे पैसे तैयार रखे हैं",
+  "checklistSeed2": "गैस और दूध चेक कर लिया",
+  "checklistSeed3": "QR स्टैंड और रेट बोर्ड बाहर रखा",
+  "checklistSeed4": "कैश गिनकर लिख लिया",
+  "checklistSeed5": "फ्रिज, गैस और लाइट बंद कर दी",
+  "jobRemindMessage": "नमस्ते {name}, आपका ऑर्डर \"{title}\" तैयार है।",
+  "@jobRemindMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "customerVisits": "{count} विज़िट",
+  "@customerVisits": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "customerToReward": "{count} विज़िट और बाकी",
+  "@customerToReward": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "growthReviewMessage": "{name} पसंद आया? कृपया रिव्यू दें: {link}",
+  "@growthReviewMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "growthBroadcastMessage": "{name} — आज का मेन्यू: {link}",
+  "@growthBroadcastMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "checklistProgress": "{total} में से {done} पूरे",
+  "@checklistProgress": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "movementPrepared": "तैयारी",
+  "recipeShortStock": "स्टॉक में {item} कम है",
+  "@recipeShortStock": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "starterIdli": "इडली",
+  "starterDosa": "डोसा",
+  "starterMeals": "थाली",
+  "starterSnackPacket": "स्नैक पैकेट",
+  "starterWaterBottle": "पानी की बोतल",
+  "starterVegSupply": "सब्ज़ियां",
+  "starterGasSupply": "गैस सिलेंडर",
+  "checklistSeedHotel": "बैटर, सब्ज़ी और गैस तैयार",
+  "checklistSeedCart": "ठेला साफ़ और सामान लोड",
+  "checklistSeedService": "सामान और छुट्टे पैसे तैयार",
+  "presetRecipeTea": "दुकान की चाय (10 कप)",
+  "presetIngredientMilk": "दूध",
+  "presetIngredientWater": "पानी",
+  "presetIngredientTeaPowder": "चायपत्ती",
+  "presetIngredientSugar": "चीनी",
+  "rolesTitle": "रोल",
+  "rolesSubtitle": "कौन क्या कर सकता है",
+  "rolesHint": "हर हेल्पर के लिए रोल बनाएं, फिर चुनें कि वो क्या-क्या काम कर सकते हैं।",
+  "rolesEmpty": "अभी कोई रोल नहीं है",
+  "rolesOpen": "चालू रोल",
+  "roleNew": "नया रोल",
+  "roleSuggestionsTitle": "आपकी दुकान के लिए सुझाव",
+  "@roleSuggestionsTitle": {},
+  "roleSuggestionsHint": "आपके काम के हिसाब से बने-बनाए रोल। चुनने के लिए टैप करें, फिर बदलें।",
+  "@roleSuggestionsHint": {},
+  "tmplWaiter": "वेटर",
+  "@tmplWaiter": {},
+  "tmplKitchen": "रसोई / शेफ",
+  "@tmplKitchen": {},
+  "tmplCashier": "कैशियर",
+  "@tmplCashier": {},
+  "tmplCounter": "काउंटर",
+  "@tmplCounter": {},
+  "tmplSalesHelper": "सेल्स हेल्पर",
+  "@tmplSalesHelper": {},
+  "tmplStockKeeper": "स्टॉक कीपर",
+  "@tmplStockKeeper": {},
+  "tmplJobAssistant": "जॉब असिस्टेंट",
+  "@tmplJobAssistant": {},
+  "tmplCounterHelper": "काउंटर हेल्पर",
+  "@tmplCounterHelper": {},
+  "tmplAssistant": "असिस्टेंट",
+  "@tmplAssistant": {},
+  "roleOwner": "मालिक",
+  "roleOwnerNote": "हमेशा पूरा एक्सेस",
+  "roleInactive": "बंद है",
+  "rolePermissionCount": "{count} की अनुमति है",
+  "@rolePermissionCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "roleEditSubtitle": "नाम, काम और लिमिट",
+  "roleName": "रोल का नाम",
+  "roleNote": "जिम्मेदारी",
+  "roleLimits": "रुपयों की लिमिट (Rs, 0 = कोई लिमिट नहीं)",
+  "roleMaxDiscount": "ज्यादा से ज्यादा छूट",
+  "roleMaxCredit": "ज्यादा से ज्यादा उधारी",
+  "roleMaxRefund": "ज्यादा से ज्यादा रिफंड",
+  "roleLimitHint": "इस रकम से ऊपर मालिक का PIN लगेगा।",
+  "roleDuplicate": "रोल कॉपी करें",
+  "roleDeactivate": "बंद करें",
+  "areaSales": "बिक्री",
+  "areaOrders": "ऑर्डर और रसोई",
+  "areaBilling": "बिल",
+  "areaCredit": "उधार",
+  "areaStock": "स्टॉक",
+  "areaPurchases": "खरीद और खर्चे",
+  "areaMoney": "हिसाब और रिपोर्ट",
+  "areaCustomers": "ग्राहक",
+  "areaStaff": "हेल्पर",
+  "areaSettings": "सेटिंग्स",
+  "permRecordSale": "बिक्री दर्ज करें",
+  "permQuickSale": "क्विक सेल इस्तेमाल करें",
+  "permCollectUpi": "पेमेंट QR दिखाएं",
+  "permTakeOrder": "ऑर्डर लें",
+  "permChangeOrderStatus": "ऑर्डर आगे बढ़ाएं",
+  "permViewKitchen": "किचन लिस्ट देखें",
+  "permEditMenu": "मेनू बदलें",
+  "permMakeBill": "बिल बनाएं",
+  "permGiveDiscount": "डिस्काउंट दें",
+  "permVoidBill": "बिल कैंसल करें",
+  "permReprintBill": "बिल दोबारा प्रिंट करें",
+  "permGiveCredit": "उधार दें",
+  "permSettleCredit": "उधारी चुकता करें",
+  "permViewCredit": "उधारी का बकाया देखें",
+  "permViewStock": "स्टॉक देखें",
+  "permAdjustStock": "स्टॉक बदलें",
+  "permEditProducts": "आइटम जोड़ें या बदलें",
+  "permChangePrice": "रेट बदलें",
+  "permCookRecipe": "रेसिपी तैयार करें",
+  "permRecordExpense": "खर्चा दर्ज करें",
+  "permManageSuppliers": "सप्लायर संभालें",
+  "permViewDayTotals": "दिन का कुल हिसाब देखें",
+  "permViewProfit": "मुनाफा देखें",
+  "permCloseDay": "दिन का हिसाब बंद करें",
+  "permViewReports": "रिपोर्ट देखें",
+  "permViewCustomers": "ग्राहक देखें",
+  "permEditCustomers": "ग्राहक की जानकारी बदलें",
+  "permManageStaff": "हेल्पर संभालें",
+  "permMarkAttendance": "हाजिरी लगाएं",
+  "permPayWages": "पगार दें",
+  "permManageRoles": "रोल बनाएं",
+  "permViewAudit": "काम का रिकॉर्ड देखें",
+  "permEditSettings": "सेटिंग्स बदलें",
+  "permEditShop": "दुकान की जानकारी बदलें",
+  "permManagePrinters": "प्रिंटर सेट करें",
+  "accessTitle": "एक्सेस कंट्रोल",
+  "accessSubtitle": "फोन एक, स्टाफ अलग",
+  "accessEnable": "PIN मांगें",
+  "accessEnableHint": "फोन इस्तेमाल करने से पहले हर हेल्पर लॉगिन करेगा।",
+  "accessNeedsOwnerPin": "पहले ओनर PIN सेट करें",
+  "accessOwnerPin": "ओनर PIN",
+  "accessOwnerPinSet": "ओनर PIN सेट करें (4-6 अंक)",
+  "accessOwnerPinChange": "ओनर PIN बदलें (4-6 अंक)",
+  "accessPinSaved": "PIN सेव हो गया",
+  "accessPinInvalid": "4 से 6 अंकों का PIN डालें",
+  "accessAutoLock": "ऑटो लॉक",
+  "accessIdleMinutes": "कितने समय बाद लॉक करें (मिनट, 0 = कभी नहीं)",
+  "accessWorkers": "हेल्पर",
+  "accessNoWorkers": "पहले हेल्पर जोड़ें",
+  "accessNoRole": "कोई रोल नहीं",
+  "accessPinSet": "PIN सेट है",
+  "accessPinMissing": "PIN नहीं है",
+  "accessAssignTitle": "रोल और PIN",
+  "accessWorkerPin": "नया PIN (4-6 अंक)",
+  "accessSaved": "सेव हो गया",
+  "accessEndShift": "शिफ्ट खत्म करें",
+  "accessWrongPin": "गलत PIN",
+  "lockTitle": "काउंटर पर कौन है?",
+  "lockSubtitle": "अपना नाम चुनें और PIN डालें",
+  "lockPin": "PIN",
+  "lockUnlock": "शिफ्ट शुरू करें",
+  "auditTitle": "काम का रिकॉर्ड",
+  "auditSubtitle": "किसने क्या किया",
+  "auditOpen": "काम का रिकॉर्ड देखें",
+  "auditEveryone": "सभी",
+  "auditEmpty": "अभी कोई रिकॉर्ड नहीं है",
+  "auditApproved": "ओनर द्वारा मंजूर",
+  "settingsGroupBusiness": "बिजनेस",
+  "@settingsGroupBusiness": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupMoney": "रुपये-पैसे",
+  "@settingsGroupMoney": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupApp": "ऐप और डिवाइस",
+  "@settingsGroupApp": {
+    "description": "Settings hub label"
+  },
+  "settingsShopTitle": "दुकान की जानकारी",
+  "@settingsShopTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsPaymentsTitle": "पेमेंट और UPI",
+  "@settingsPaymentsTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsMarketTitle": "बाजार भाव",
+  "@settingsMarketTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsNotSet": "सेट नहीं है",
+  "@settingsNotSet": {
+    "description": "Settings hub label"
+  },
+  "settingsOn": "चालू",
+  "@settingsOn": {
+    "description": "Settings hub label"
+  },
+  "settingsOff": "बंद",
+  "@settingsOff": {
+    "description": "Settings hub label"
+  },
+  "settingsSaved": "सेटिंग्स सेव हो गईं",
+  "@settingsSaved": {
+    "description": "Settings hub label"
+  },
+  "dashboardTitle": "डैशबोर्ड",
+  "@dashboardTitle": {
+    "description": "Dashboard"
+  },
+  "dashboardSubtitle": "ऑर्डर, कमाई, उधारी और स्टॉक एक नज़र में",
+  "@dashboardSubtitle": {
+    "description": "Orders, money, credit and stock at a glance"
+  },
+  "dashboardOrders": "ऑर्डर",
+  "@dashboardOrders": {
+    "description": "Orders"
+  },
+  "dashboardPayments": "बाकी पेमेंट",
+  "@dashboardPayments": {
+    "description": "Pending payments"
+  },
+  "dashboardCredit": "उधारी खाता",
+  "@dashboardCredit": {
+    "description": "Credit balances"
+  },
+  "dashboardInventory": "स्टॉक",
+  "@dashboardInventory": {
+    "description": "Inventory"
+  },
+  "dashboardShare": "शेयर करें",
+  "@dashboardShare": {
+    "description": "Share"
+  },
+  "dashboardPlaced": "आए हुए",
+  "@dashboardPlaced": {
+    "description": "Placed"
+  },
+  "dashboardServed": "दिए गए",
+  "@dashboardServed": {
+    "description": "Served"
+  },
+  "dashboardCancelled": "रद्द हुए",
+  "@dashboardCancelled": {
+    "description": "Cancelled"
+  },
+  "dashboardOpenOrders": "चालू ऑर्डर",
+  "@dashboardOpenOrders": {
+    "description": "Open orders"
+  },
+  "dashboardBilled": "बिल बने",
+  "@dashboardBilled": {
+    "description": "Billed"
+  },
+  "dashboardAvgBill": "औसत बिल",
+  "@dashboardAvgBill": {
+    "description": "Average bill"
+  },
+  "dashboardCollected": "वसूल हुआ",
+  "@dashboardCollected": {
+    "description": "Collected"
+  },
+  "dashboardUnbilled": "बिल नहीं बना",
+  "@dashboardUnbilled": {
+    "description": "Not billed yet"
+  },
+  "dashboardPendingTotal": "लेना बाकी",
+  "@dashboardPendingTotal": {
+    "description": "Still to collect"
+  },
+  "dashboardOutstanding": "कुल बाकी",
+  "@dashboardOutstanding": {
+    "description": "Outstanding"
+  },
+  "dashboardCreditGiven": "उधार दिया",
+  "@dashboardCreditGiven": {
+    "description": "Credit given"
+  },
+  "dashboardCustomers": "ग्राहक",
+  "@dashboardCustomers": {
+    "description": "Customers"
+  },
+  "dashboardOldest": "सबसे पुरानी उधारी",
+  "@dashboardOldest": {
+    "description": "Oldest due"
+  },
+  "dashboardDays": "{count, plural, =0{today} =1{1 day} other{{count} days}}",
+  "@dashboardDays": {
+    "description": "Age of the oldest unpaid credit balance",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardStockValue": "स्टॉक की कीमत",
+  "@dashboardStockValue": {
+    "description": "Stock value"
+  },
+  "dashboardLowStock": "कम स्टॉक",
+  "@dashboardLowStock": {
+    "description": "Low stock"
+  },
+  "dashboardExpiring": "जल्द एक्सपायर",
+  "@dashboardExpiring": {
+    "description": "Expiring soon"
+  },
+  "dashboardWastage": "वेस्टेज",
+  "@dashboardWastage": {
+    "description": "Wastage"
+  },
+  "dashboardPurchases": "खरीद",
+  "@dashboardPurchases": {
+    "description": "Purchases"
+  },
+  "dashboardTopItems": "टॉप आइटम",
+  "@dashboardTopItems": {
+    "description": "Top items"
+  },
+  "planTitle": "सब्सक्रिप्शन",
+  "@planTitle": {
+    "description": "Subscription"
+  },
+  "planSubtitle": "दुकान के लिए क्लाउड फीचर्स",
+  "@planSubtitle": {
+    "description": "Cloud features for this shop"
+  },
+  "planFree": "फ्री",
+  "@planFree": {
+    "description": "Free"
+  },
+  "planPro": "प्रो",
+  "@planPro": {
+    "description": "Pro"
+  },
+  "planFreeNote": "इस फोन पर सब कुछ हमेशा फ्री चलता रहेगा।",
+  "@planFreeNote": {
+    "description": "Everything on this phone keeps working for free."
+  },
+  "planProNote": "इस दुकान के लिए क्लाउड फीचर्स चालू हैं।",
+  "@planProNote": {
+    "description": "Cloud features are active for this shop."
+  },
+  "planCloudFeatures": "क्लाउड फीचर्स",
+  "@planCloudFeatures": {
+    "description": "Cloud features"
+  },
+  "planFeatureAccount": "क्लाउड शॉप अकाउंट",
+  "@planFeatureAccount": {
+    "description": "Cloud shop account"
+  },
+  "planFeatureLiveSync": "लाइव ऑर्डर बोर्ड सिंक",
+  "@planFeatureLiveSync": {
+    "description": "Live order board sync"
+  },
+  "planFeatureQrOrdering": "QR मेन्यू ऑर्डरिंग",
+  "@planFeatureQrOrdering": {
+    "description": "QR menu ordering"
+  },
+  "planFeatureShareLinks": "शेयर करने वाले लिंक",
+  "@planFeatureShareLinks": {
+    "description": "Shareable links"
+  },
+  "planFeatureSoundbox": "क्लाउड साउंडबॉक्स",
+  "@planFeatureSoundbox": {
+    "description": "Cloud soundbox"
+  },
+  "planFeatureBackup": "मल्टी-डिवाइस बैकअप",
+  "@planFeatureBackup": {
+    "description": "Multi-device backup"
+  },
+  "planOn": "चालू",
+  "@planOn": {
+    "description": "On"
+  },
+  "planLocked": "लॉक",
+  "@planLocked": {
+    "description": "Locked"
+  },
+  "planRefresh": "सब्सक्रिप्शन चेक करें",
+  "@planRefresh": {
+    "description": "Check subscription"
+  },
+  "planChecking": "चेक हो रहा है…",
+  "@planChecking": {
+    "description": "Checking…"
+  },
+  "planCheckFailed": "अभी चेक नहीं हो सका। पुराना स्टेटस दिखाया जा रहा है।",
+  "@planCheckFailed": {
+    "description": "Could not check right now. Last known status is used."
+  },
+  "planNeedsShop": "पहले क्लाउड शॉप सेट करें।",
+  "@planNeedsShop": {
+    "description": "Set up the cloud shop first."
+  },
+  "planOfflineNote": "कुछ दिन ऑफलाइन रहने से दिक्कत नहीं — ग्रेस पीरियड में क्लाउड फीचर्स चलते रहेंगे।",
+  "@planOfflineNote": {
+    "description": "Offline for a few days is fine — cloud features keep working during the grace period."
+  },
+  "shopTitle": "मेरी दुकान",
+  "@shopTitle": {
+    "description": "My shop"
+  },
+  "shopSubtitle": "आपके काम के हिसाब से बना सिस्टम",
+  "@shopSubtitle": {
+    "description": "Workflow made for your trade"
+  },
+  "shopPickType": "दुकान का प्रकार",
+  "@shopPickType": {
+    "description": "Shop type"
+  },
+  "shopWorkflow": "रोज़ का काम",
+  "@shopWorkflow": {
+    "description": "Daily workflow"
+  },
+  "shopTypeRestaurant": "रेस्टोरेंट",
+  "@shopTypeRestaurant": {
+    "description": "Restaurant"
+  },
+  "shopTypeHotel": "होटल",
+  "@shopTypeHotel": {
+    "description": "Hotel"
+  },
+  "shopTypeStreet": "ठेला / स्टॉल",
+  "@shopTypeStreet": {
+    "description": "Street stall"
+  },
+  "shopTypeDiy": "DIY / क्राफ्ट स्टॉल",
+  "@shopTypeDiy": {
+    "description": "DIY / craft stall"
+  },
+  "shopTypeMagnet": "फ्रिज मैग्नेट स्टॉल",
+  "@shopTypeMagnet": {
+    "description": "Fridge magnet stall"
+  },
+  "shopTypeTea": "चाय की दुकान",
+  "@shopTypeTea": {
+    "description": "Tea shop"
+  },
+  "settingsOrderingTitle": "ऑर्डर के नियम",
+  "@settingsOrderingTitle": {
+    "description": "Ordering rules"
+  },
+  "settingsOrderingSubtitle": "सर्विस का तरीका, पेमेंट टाइमिंग, टेबल बटन",
+  "@settingsOrderingSubtitle": {
+    "description": "Service style, payment timing, table buttons"
+  },
+  "serviceStyle": "सर्विस का तरीका",
+  "@serviceStyle": {
+    "description": "Service style"
+  },
+  "serviceTable": "टेबल सर्विस",
+  "@serviceTable": {
+    "description": "Table service"
+  },
+  "serviceSelf": "सेल्फ सर्विस",
+  "@serviceSelf": {
+    "description": "Self service"
+  },
+  "serviceTakeaway": "सिर्फ टेकअवे",
+  "@serviceTakeaway": {
+    "description": "Takeaway only"
+  },
+  "paymentTiming": "पेमेंट कब लें",
+  "@paymentTiming": {
+    "description": "Payment timing"
+  },
+  "payBefore": "पहले पेमेंट",
+  "@payBefore": {
+    "description": "Pay first"
+  },
+  "payAfter": "बाद में पेमेंट",
+  "@payAfter": {
+    "description": "Pay after"
+  },
+  "payTimingHelp": "'पहले पेमेंट' में ऑर्डर पक्का होने से पहले पेमेंट ली जाती है। 'बाद में पेमेंट' में ऑर्डर सीधे किचन में चला जाता है।",
+  "@payTimingHelp": {
+    "description": "Pay first asks the customer to pay before the order is confirmed. Pay after sends it to the kitchen straight away."
+  },
+  "customerButtons": "कस्टमर स्क्रीन पर बटन",
+  "@customerButtons": {
+    "description": "Buttons on the customer screen"
+  },
+  "allowCallStaff": "स्टाफ को बुलाएं",
+  "@allowCallStaff": {
+    "description": "Call staff"
+  },
+  "allowRequestBill": "बिल मांगें",
+  "@allowRequestBill": {
+    "description": "Ask for the bill"
+  },
+  "customerButtonsHelp": "ये सिर्फ टेबल सर्विस में दिखेंगे।",
+  "@customerButtonsHelp": {
+    "description": "These appear only with table service."
+  },
+  "requestCallStaff": "स्टाफ चाहिए",
+  "@requestCallStaff": {
+    "description": "Staff needed"
+  },
+  "requestBill": "बिल चाहिए",
+  "@requestBill": {
+    "description": "Bill please"
+  },
+  "requestTable": "टेबल {table}",
+  "@requestTable": {
+    "description": "Table label",
+    "placeholders": {
+      "table": {
+        "type": "String"
+      }
+    }
+  },
+  "requestCounter": "काउंटर",
+  "@requestCounter": {
+    "description": "Counter"
+  },
+  "requestSeen": "देख लिया",
+  "@requestSeen": {
+    "description": "Seen"
+  },
+  "payStateAwaiting": "पेमेंट बाकी है",
+  "@payStateAwaiting": {
+    "description": "Awaiting payment"
+  },
+  "payStateDue": "काउंटर पर पेमेंट करें",
+  "@payStateDue": {
+    "description": "Pay at counter"
+  },
+  "payStatePaid": "पेमेंट हो गया",
+  "@payStatePaid": {
+    "description": "Paid"
+  },
+  "orderMarkPaid": "पेड मार्क करें",
+  "@orderMarkPaid": {
+    "description": "Mark paid"
+  },
+  "devicesTitle": "फ़ोन और डिवाइस",
+  "@devicesTitle": {},
+  "devicesSubtitle": "वेटर, किचन और काउंटर के फ़ोन एक ही जगह",
+  "@devicesSubtitle": {},
+  "devicesPairThis": "यह फ़ोन जोड़ें",
+  "@devicesPairThis": {},
+  "devicesShopSlug": "दुकान का नाम (मेन्यू लिंक कोड)",
+  "@devicesShopSlug": {},
+  "devicesEnterCode": "मालिक से मिला 6-अंकों का कोड",
+  "@devicesEnterCode": {},
+  "devicesLabel": "फ़ोन का नाम",
+  "@devicesLabel": {},
+  "devicesPairButton": "फ़ोन जोड़ें",
+  "@devicesPairButton": {},
+  "devicesPairSuccess": "फ़ोन दुकान से जुड़ गया",
+  "@devicesPairSuccess": {},
+  "devicesUnpair": "फ़ोन हटाएं",
+  "@devicesUnpair": {},
+  "devicesPairedAs": "{role} के रूप में जुड़ा · {shop}",
+  "@devicesPairedAs": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "devicesNewCode": "नया पेयरिंग कोड",
+  "@devicesNewCode": {},
+  "devicesCodeExpires": "15 मिनट के लिए मान्य · कॉपी करने के लिए टैप करें",
+  "@devicesCodeExpires": {},
+  "devicesList": "जुड़े हुए फ़ोन",
+  "@devicesList": {},
+  "devicesEmpty": "अभी कोई फ़ोन नहीं जुड़ा है",
+  "@devicesEmpty": {},
+  "devicesRevoke": "हटाएं",
+  "@devicesRevoke": {},
+  "devicesRevoked": "हटा दिया",
+  "@devicesRevoked": {},
+  "devicesOnline": "ऑनलाइन",
+  "@devicesOnline": {},
+  "devicesOffline": "ऑफ़लाइन",
+  "@devicesOffline": {},
+  "devicesRoleWaiter": "वेटर",
+  "@devicesRoleWaiter": {},
+  "devicesRoleKitchen": "किचन",
+  "@devicesRoleKitchen": {},
+  "devicesRoleCounter": "काउंटर",
+  "@devicesRoleCounter": {},
+  "devicesProRequired": "मल्टी-डिवाइस सिंक Pro फ़ीचर है। वेटर, किचन और काउंटर फ़ोन जोड़ने के लिए अपग्रेड करें।",
+  "@devicesProRequired": {},
+  "cloudShopSection": "क्लाउड शॉप",
+  "@cloudShopSection": {},
+  "cloudShopHint": "सर्वर पर दुकान बनाएं ताकि QR मेन्यू ऑर्डर और स्टाफ फ़ोन पर एक ही लाइव ऑर्डर लिस्ट दिखे।",
+  "@cloudShopHint": {},
+  "cloudShopSlug": "लिंक के लिए दुकान का नाम (उदा. sirpam-tea)",
+  "@cloudShopSlug": {},
+  "cloudShopKey": "शॉप की (प्राइवेट, 16+ अक्षर)",
+  "@cloudShopKey": {},
+  "cloudShopGenerate": "की बनाएं",
+  "@cloudShopGenerate": {},
+  "cloudShopCreate": "क्लाउड शॉप बनाएं",
+  "@cloudShopCreate": {},
+  "cloudShopUpdate": "क्लाउड शॉप अपडेट करें",
+  "@cloudShopUpdate": {},
+  "cloudShopLive": "क्लाउड शॉप तैयार: {slug}",
+  "@cloudShopLive": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopNone": "अभी कोई क्लाउड शॉप नहीं है। QR ऑर्डर और स्टाफ फ़ोन के लिए शॉप बनाएं।",
+  "@cloudShopNone": {},
+  "cloudShopCreated": "क्लाउड शॉप बन गई",
+  "@cloudShopCreated": {},
+  "cloudShopKeyShort": "दुकान का नाम और कम से कम 16 अक्षरों की 'की' डालें।",
+  "@cloudShopKeyShort": {},
+  "cloudShopCopyKey": "की कॉपी करें",
+  "@cloudShopCopyKey": {},
+  "cloudShopKeyCopied": "शॉप की कॉपी हो गई",
+  "@cloudShopKeyCopied": {},
+  "approvalTitle": "मालिक की मंज़ूरी",
+  "@approvalTitle": {},
+  "approvalNeeded": "इस शिफ्ट में यह करने की अनुमति नहीं है: {action}। मालिक एक बार मंज़ूरी दे सकते हैं।",
+  "@approvalNeeded": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOverLimit": "यह इस शिफ्ट की लिमिट से ज़्यादा है: {action}। मालिक एक बार मंज़ूरी दे सकते हैं।",
+  "@approvalOverLimit": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOwnerPin": "मालिक का PIN",
+  "@approvalOwnerPin": {},
+  "approvalApprove": "एक बार अनुमति दें",
+  "@approvalApprove": {},
+  "approvalGranted": "मालिक ने मंज़ूरी दे दी",
+  "@approvalGranted": {},
+  "approvalWrongPin": "गलत मालिक PIN",
+  "@approvalWrongPin": {},
+  "approvalBlockedTitle": "अनुमति नहीं है",
+  "@approvalBlockedTitle": {},
+  "approvalBlockedBody": "इस शिफ्ट में {action} का अधिकार नहीं है। मालिक से रोल बदलने को कहें।",
+  "@approvalBlockedBody": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "recurringRemove": "हटाएं",
+  "@recurringRemove": {},
+  "recurringRemoved": "रेकरिंग खर्च हटा दिया गया",
+  "@recurringRemoved": {},
+  "recurringRemoveConfirm": "क्या {name} को रेकरिंग खर्च से हटाना है?",
+  "@recurringRemoveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderEditItems": "आइटम बदलें",
+  "@orderEditItems": {},
+  "orderEditItemsSaved": "ऑर्डर के आइटम अपडेट हो गए",
+  "@orderEditItemsSaved": {},
+  "orderEditEmpty": "ऑर्डर में कम से कम एक आइटम होना चाहिए।",
+  "@orderEditEmpty": {},
+  "printerStatus": "प्रिंटर स्टेटस",
+  "@printerStatus": {},
+  "printerNotConnected": "कोई प्रिंटर कनेक्ट नहीं है",
+  "@printerNotConnected": {},
+  "printerConnectedTo": "{name} से कनेक्टेड",
+  "@printerConnectedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printerDisconnect": "डिस्कनेक्ट करें",
+  "@printerDisconnect": {},
+  "printerDisconnected": "प्रिंटर डिस्कनेक्ट हो गया",
+  "@printerDisconnected": {},
+  "printerForget": "प्रिंटर हटाएं",
+  "@printerForget": {},
+  "printerForgotten": "प्रिंटर हटा दिया गया। बिल PDF में शेयर होंगे।",
+  "@printerForgotten": {},
+  "printerUnsupported": "यह फोन ब्लूटूथ से प्रिंट नहीं कर सकता।",
+  "@printerUnsupported": {},
+  "printerPermissionNeeded": "प्रिंटर खोजने के लिए ब्लूटूथ की अनुमति दें।",
+  "@printerPermissionNeeded": {},
+  "printerPermissionDenied": "ब्लूटूथ की अनुमति नहीं मिली।",
+  "@printerPermissionDenied": {},
+  "printerAllowBluetooth": "ब्लूटूथ की अनुमति दें",
+  "@printerAllowBluetooth": {},
+  "devicesTest": "कनेक्शन टेस्ट करें",
+  "@devicesTest": {},
+  "devicesTestOk": "दुकान से कनेक्टेड है",
+  "@devicesTestOk": {},
+  "devicesTestFailed": "यह फोन कनेक्टेड नहीं है। मालिक से नया कोड मांगें।",
+  "@devicesTestFailed": {},
+  "stockLastUpdated": "स्टॉक आखिरी बार अपडेट: {when}",
+  "@stockLastUpdated": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "agoJustNow": "अभी-अभी",
+  "@agoJustNow": {},
+  "agoMinutes": "{count, plural, =1{1 मिनट पहले} other{{count} मिनट पहले}}",
+  "@agoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoHours": "{count, plural, =1{1 घंटा पहले} other{{count} घंटे पहले}}",
+  "@agoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoDays": "{count, plural, =1{1 दिन पहले} other{{count} दिन पहले}}",
+  "@agoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prepTitle": "सुबह की तैयारी",
+  "prepSubtitle": "पहले ग्राहक से पहले क्या तैयार होना चाहिए",
+  "prepPending": "{count} तैयार करना बाकी है",
+  "@prepPending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "prepUseStarter": "शुरुआती लिस्ट इस्तेमाल करें",
+  "prepTodaySheet": "आज की लिस्ट",
+  "prepAddTitle": "तैयारी का आइटम जोड़ें",
+  "prepItemName": "आइटम",
+  "prepPlanned": "तय",
+  "prepMade": "बनाया",
+  "prepUnit": "यूनिट",
+  "prepAdd": "शीट में जोड़ें",
+  "prepShort": "{qty} कम",
+  "@prepShort": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "prepProgressLine": "{planned} {unit} में से {made}",
+  "@prepProgressLine": {
+    "placeholders": {
+      "made": {
+        "type": "String"
+      },
+      "planned": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "prepSeedMilk": "दूध",
+  "prepSeedBatter": "घोल / आटा",
+  "prepSeedSnacks": "स्नैक्स",
+  "prepSeedChange": "छुट्टे पैसे",
+  "prepSeedDisplay": "डिस्प्ले लगाएं",
+  "prepSeedStock": "शेल्फ भरें",
+  "prepUnitLitre": "लीटर",
+  "prepUnitPlate": "प्लेट",
+  "prepUnitPiece": "पीस",
+  "prepUnitRupee": "रुपये",
+  "insightsRush": "भीड़ का समय",
+  "insightsHour": "{hour}:00",
+  "@insightsHour": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsPeakHint": "{hour}:00 बजे सबसे ज़्यादा भीड़ ({bills} बिल) — काउंटर पर {staff} को रखें",
+  "@insightsPeakHint": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      },
+      "bills": {
+        "type": "String"
+      },
+      "staff": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOpeningCash": "शुरुआती कैश",
+  "quickSaleSoldOutOn": "{item} खत्म मार्क किया गया",
+  "@quickSaleSoldOutOn": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSoldOutOff": "{item} वापस बिक्री में उपलब्ध",
+  "@quickSaleSoldOutOff": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroes": "आज के टॉप आइटम",
+  "insightsHeroLine": "{sold} बिके · {left} बचे",
+  "@insightsHeroLine": {
+    "placeholders": {
+      "sold": {
+        "type": "String"
+      },
+      "left": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroRunsOut": "लगभग {hour}:00 बजे खत्म हो जाएगा",
+  "@insightsHeroRunsOut": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "customerLapsedTitle": "काफ़ी समय से नहीं आए",
+  "customerLapsedHint": "एक छोटा मैसेज भेजने से ज़्यादातर ग्राहक लौट आते हैं।",
+  "customerLapsedDays": "आखिरी विज़िट को {days} दिन हुए",
+  "@customerLapsedDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "customerNudge": "मैसेज भेजें",
+  "customerNudgeMessage": "नमस्ते {name}, {shop} पर आपकी याद आ रही है! इस हफ्ते आपके लिए कुछ ताज़ा तैयार है।",
+  "@customerNudgeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "offersTitle": "ऑफ़र",
+  "offersSubtitle": "आपके चालू डिस्काउंट और उन पर होने वाला खर्च।",
+  "offerAdd": "ऑफ़र जोड़ें",
+  "offerName": "ऑफ़र का नाम",
+  "offerCode": "ग्राहक द्वारा बोला जाने वाला कोड (वैकल्पिक)",
+  "offerKindFlat": "रुपये की छूट",
+  "offerKindPercent": "% छूट",
+  "offerKindCombo": "कॉम्बो कीमत",
+  "offerAmount": "छूट की रकम",
+  "offerPercent": "% छूट",
+  "offerComboPrice": "कॉम्बो रेट",
+  "offersGivenTotal": "अब तक दी गई छूट",
+  "offersEmpty": "अभी कोई ऑफर नहीं है। नया जोड़ें और यह बिल पर दिखेगा।",
+  "offerLive": "चालू",
+  "offerPaused": "रोका हुआ",
+  "offerPause": "रोकें",
+  "offerResume": "फिर चालू करें",
+  "offerUsed": "{count} बार इस्तेमाल हुआ",
+  "@offerUsed": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "offerGivenAway": "{amount} की छूट दी",
+  "@offerGivenAway": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackTitle": "बिल फीडबैक",
+  "feedbackSubtitle": "पेमेंट के बाद आसान रेटिंग, सीधे आपके पास।",
+  "feedbackQrTitle": "काउंटर QR",
+  "feedbackQrHint": "प्रिंट करके काउंटर पर रखें, या पेमेंट के बाद दिखाएं।",
+  "feedbackReviewMissing": "Growth में रिव्यू लिंक जोड़ें ताकि खुश ग्राहक ऑनलाइन रिव्यू दे सकें।",
+  "feedbackLinkCopied": "लिंक कॉपी हो गया",
+  "feedbackScores": "स्कोर",
+  "feedbackTodayAvg": "आज (औसत · गिनती)",
+  "feedbackWeekAvg": "पिछले 7 दिन (औसत · गिनती)",
+  "feedbackNeedsReply": "जवाब देना बाकी",
+  "feedbackRecord": "खुद रेटिंग दर्ज करें",
+  "feedbackHappy": "अच्छा",
+  "feedbackOkay": "ठीक-ठाक",
+  "feedbackUnhappy": "अच्छा नहीं",
+  "feedbackRecent": "हाल की रेटिंग",
+  "feedbackEmpty": "अभी कोई रेटिंग नहीं है।",
+  "enquiriesTitle": "पूछताछ",
+  "enquiriesSubtitle": "किसने पूछा, क्या रेट दिया और क्या बात बनी।",
+  "enquiryAdd": "पूछताछ जोड़ें",
+  "enquiryName": "ग्राहक का नाम",
+  "enquiryPhone": "फ़ोन",
+  "enquiryWant": "क्या सामान चाहिए",
+  "enquiryQuote": "दिया गया रेट",
+  "enquiryNoFollowUp": "कोई रिमाइंडर नहीं",
+  "enquiryFollowUpDays": "{days} दिन बाद फॉलो-अप",
+  "@enquiryFollowUpDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWinRate": "{rate}% बिक्री में बदलीं",
+  "@enquiryWinRate": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWonValue": "बिक्री वैल्यू",
+  "enquiryFilterToday": "आज",
+  "enquiryFilterOpen": "ओपन",
+  "enquiryFilterWon": "पक्की हुई",
+  "enquiryFilterLost": "रद्द",
+  "enquiryEmpty": "यहाँ कुछ नहीं है।",
+  "enquiryFollowUpOn": "{day} को बात करें",
+  "@enquiryFollowUpOn": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryMessage": "मैसेज",
+  "enquiryMessageText": "नमस्ते {name}, {item} के बारे में पूछना था। क्या आपके लिए तैयार रखूँ?",
+  "@enquiryMessageText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWon": "पक्की हुई",
+  "enquiryLost": "रद्द",
+  "enquiryReopen": "फिर खोलें",
+  "customerRewardsDueTitle": "बाकी रिवॉर्ड्स",
+  "cloudShopSlugTaken": "यह लिंक नाम पहले से किसी और का है। {slug} जैसा कुछ आज़माएँ।",
+  "@cloudShopSlugTaken": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopSlugInvalid": "सिर्फ छोटे अक्षर, नंबर और डैश (-) डालें, कम से कम 3 अक्षर।",
+  "cloudShopOffline": "इंटरनेट बंद है। कनेक्शन चेक करके दोबारा कोशिश करें।",
+  "cloudShopTryAgain": "काम नहीं हो पाया। कृपया थोड़ी देर में फिर कोशिश करें।",
+  "cloudShopLinkTitle": "ग्राहक लिंक",
+  "cloudShopCopyLink": "लिंक कॉपी करें",
+  "cloudShopLinkCopied": "लिंक कॉपी हो गया",
+  "cloudShopShowQr": "QR दिखाएँ",
+  "paymentQrScanTitle": "अपने पेमेंट ऐप का QR इस्तेमाल करें",
+  "paymentQrScanAction": "अपना QR स्कैन करें",
+  "paymentQrScanHelp": "कैमरा GPay, PhonePe या Paytm के QR स्टीकर पर रखें। हम उससे UPI ID ले लेंगे, ताकि बिल और काउंटर QR के पैसे उसी खाते में आएँ।",
+  "paymentQrScanFound": "आपके QR से मिली UPI ID: {vpa}",
+  "@paymentQrScanFound": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrScanNoUpi": "यह पेमेंट QR नहीं है। अपने पेमेंट ऐप में दिखने वाला QR आज़माएँ।",
+  "receiptFeedbackLine": "कैसा लगा, बताने के लिए स्कैन करें",
+  "qrPrintCounterCard": "काउंटर कार्ड प्रिंट करें",
+  "qrPayCaption": "पेमेंट के लिए स्कैन करें",
+  "qrFeedbackCaption": "रेटिंग देने के लिए स्कैन करें",
+  "offerPrintCards": "ऑफ़र कार्ड प्रिंट करें",
+  "offerCardCaption": "यह ऑफ़र पाने के लिए स्कैन करें",
+  "devicesPairQrHint": "नए फ़ोन से इसे स्कैन कराएँ",
+  "devicesScanQr": "पेयरिंग QR स्कैन करें",
+  "devicesScanInvalid": "यह पेयरिंग QR नहीं है। ओनर से दोबारा दिखाने को कहें।",
+  "quickSaleScan": "सामान स्कैन करें",
+  "quickSaleScanTitle": "सामान का लेबल स्कैन करें",
+  "quickSaleScanUnknown": "कोड {code} का कोई सामान नहीं मिला। इसे 'प्रोडक्ट्स' में जोड़ें।",
+  "@quickSaleScanUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "backupTitle": "बैकअप और एक्सपोर्ट",
+  "backupSubtitle": "अपने खाते की एक कॉपी सुरक्षित रखें",
+  "backupNowAction": "अभी बैकअप लें",
+  "backupRestoreAction": "फ़ाइल से रीस्टोर करें",
+  "backupShareSubject": "VendorOS बैकअप",
+  "backupSavedToast": "बैकअप फ़ाइल बन गई",
+  "backupFailedToast": "बैकअप नहीं बन सका। कृपया फिर कोशिश करें।",
+  "backupRestoredToast": "आपका हिसाब-किताब रीस्टोर हो गया है",
+  "backupNeverSaved": "कभी बैकअप नहीं लिया गया",
+  "backupLastSaved": "आख़िरी बैकअप: {when}",
+  "@backupLastSaved": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupSizeHint": "लगभग {kb} KB सेव होगा",
+  "@backupSizeHint": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "backupRestoreWarning": "रीस्टोर करने से इस फ़ोन का सारा डेटा फ़ाइल वाले डेटा से बदल जाएगा।",
+  "backupRestoreConfirmTitle": "यह बैकअप रीस्टोर करें?",
+  "backupRestoreConfirmBody": "{when} की {rows} एंट्रीज़ से इस फ़ोन का डेटा बदल जाएगा।",
+  "@backupRestoreConfirmBody": {
+    "placeholders": {
+      "rows": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupErrorNotFile": "यह VendorOS बैकअप फ़ाइल नहीं है।",
+  "backupErrorTooNew": "यह बैकअप नए वर्शन का है। कृपया पहले ऐप अपडेट करें।",
+  "backupErrorCorrupt": "यह बैकअप फ़ाइल खराब है और इस्तेमाल नहीं हो सकती।",
+  "backupErrorEmpty": "फ़ाइल खाली है।",
+  "exportGroupLabel": "स्प्रेडशीट में एक्सपोर्ट करें",
+  "exportSalesTitle": "बिक्री",
+  "exportSalesSubtitle": "तारीख़, सामान और रकम के साथ हर बिक्री",
+  "exportBillsTitle": "बिल",
+  "exportBillsSubtitle": "बिल के हिसाब से कुल रकम, छूट और टैक्स",
+  "exportCreditTitle": "उधारी बाकी",
+  "exportCreditSubtitle": "किस पर कितनी उधारी बाकी है",
+  "exportStockTitle": "स्टॉक",
+  "exportStockSubtitle": "सामान, बचा हुआ स्टॉक और कीमतें",
+  "exportColDate": "तारीख़",
+  "exportColItem": "सामान",
+  "exportColMode": "पेमेंट",
+  "exportColCustomer": "ग्राहक",
+  "exportColAmount": "रकम",
+  "exportColBillNo": "बिल नं.",
+  "exportColSubtotal": "सबटोटल",
+  "exportColDiscount": "छूट",
+  "exportColTax": "टैक्स",
+  "exportColTotal": "कुल",
+  "exportColPayment": "पेमेंट का तरीका",
+  "exportColStatus": "स्टेटस",
+  "exportColBalance": "बाकी",
+  "exportColCode": "कोड",
+  "exportColCategory": "कैटेगरी",
+  "exportColUnit": "यूनिट",
+  "exportColQty": "मात्रा",
+  "exportColCost": "लागत",
+  "exportColPrice": "कीमत",
+  "gstReportTitle": "GST सारांश",
+  "gstReportSubtitle": "अकाउंटेंट के लिए महीने का टैक्स",
+  "gstReportEmpty": "अभी कोई GST बिल नहीं है। मेन्यू सेटिंग्स में GST ऑन करें, फिर बिल बनाएं।",
+  "gstColMonth": "महीना",
+  "gstColRate": "रेट",
+  "gstColTaxable": "टैक्सेबल रकम",
+  "gstColTax": "कुल टैक्स",
+  "gstBills": "बिल",
+  "gstSales": "टैक्स सहित बिक्री",
+  "gstByRate": "रेट अनुसार",
+  "gstShareAction": "स्प्रेडशीट शेयर करें",
+  "gstShareSubject": "GST सारांश {month}",
+  "@gstShareSubject": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "appearanceTitle": "थीम",
+  "appearanceSubtitle": "लाइट या डार्क स्क्रीन",
+  "appearanceSystem": "फ़ोन जैसा",
+  "appearanceLight": "लाइट",
+  "appearanceDark": "डार्क",
+  "appearanceChanged": "थीम बदल दी गई",
+  "purchasesTitle": "खरीदारी",
+  "purchasesSubtitle": "सप्लायर बिल और बाकी रकम",
+  "purchasesEmpty": "अभी कोई खरीद बिल नहीं है। हाल में खरीदा माल जोड़ें।",
+  "purchaseAdd": "खरीद जोड़ें",
+  "purchaseTotalDue": "सप्लायर का बाकी",
+  "purchaseMonthSpend": "इस महीने की खरीद",
+  "purchaseDuesTitle": "सप्लायर का बकाया",
+  "purchaseNoDues": "सप्लायर के सभी बिल चुकता हैं।",
+  "purchaseDueBills": "{bills} बिल · सबसे पुराना {days} दिन",
+  "@purchaseDueBills": {
+    "placeholders": {
+      "bills": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "purchaseBillsTitle": "खरीद बिल",
+  "purchasePaidFull": "चुकता",
+  "purchaseDueOf": "{amount} बाकी",
+  "@purchaseDueOf": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "purchaseSupplier": "सप्लायर",
+  "purchasePayTitle": "{name} को पेमेंट",
+  "@purchasePayTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasePayAmount": "दी गई रकम",
+  "purchasePay": "पेमेंट दर्ज करें",
+  "purchaseSubtotal": "सामान का कुल",
+  "purchaseTax": "टैक्स",
+  "purchaseTotal": "कुल बिल",
+  "purchaseDue": "अभी बाकी",
+  "purchaseNewTitle": "नया खरीद बिल",
+  "purchaseInvoiceNo": "बिल नंबर",
+  "purchaseItems": "खरीदा गया सामान",
+  "purchaseLinkProduct": "स्टॉक लिस्ट से चुनें",
+  "purchaseFreeItem": "आइटम का नाम",
+  "purchaseQty": "मात्रा",
+  "purchaseUnitCost": "प्रति यूनिट रेट",
+  "purchaseAddLine": "आइटम जोड़ें",
+  "purchasePaidNow": "अभी दिया",
+  "purchaseNote": "नोट",
+  "purchaseSaved": "खरीद सेव हुई और स्टॉक अपडेट हुआ",
+  "permRecordPurchase": "खरीद बिल दर्ज करें",
+  "permPaySupplier": "सप्लायर को पेमेंट करें",
+  "backupCloudTitle": "ऑनलाइन बैकअप",
+  "backupCloudLast": "पिछला ऑनलाइन बैकअप: {when}",
+  "backupCloudNever": "अभी तक ऑनलाइन सेव नहीं हुआ",
+  "backupCloudNeedsShop": "पहले क्लाउड दुकान बनाएँ",
+  "backupCloudNowAction": "अभी ऑनलाइन बैकअप लें",
+  "backupCloudRestoreAction": "ऑनलाइन से वापस लाएँ",
+  "backupCloudSavedToast": "ऑनलाइन सेव हो गया",
+  "backupCloudFailedToast": "ऑनलाइन सेव नहीं हो सका। नेटवर्क आने पर दोबारा कोशिश करें।",
+  "@backupCloudLast": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "billWhatsapp": "व्हाट्सएप पर भेजें",
+  "billWhatsappFailed": "इस फ़ोन में व्हाट्सएप नहीं है।",
+  "devicesStaffRole": "स्टाफ भूमिका",
+  "devicesRoleDefault": "डिफ़ॉल्ट (सिर्फ़ काम)",
+  "devicesRolePick": "एक स्टाफ भूमिका चुनें",
+  "devicesRoleSaved": "भूमिका उस फ़ोन को भेज दी गई",
+  "devicesRoleFailed": "भूमिका सेट नहीं हो सकी। ऑनलाइन होने पर फिर कोशिश करें।",
+  "adminTitle": "मालिक की रिपोर्ट",
+  "adminSubtitle": "क्या हुआ, किसने किया, और नकद मिला या नहीं",
+  "adminExceptionsTitle": "अपवाद",
+  "adminExceptionsSubtitle": "छूट, रद्द बिल, दोबारा प्रिंट और उधार",
+  "adminStaffTitle": "स्टाफ रिपोर्ट",
+  "adminStaffSubtitle": "इस अवधि में हर व्यक्ति ने क्या किया",
+  "adminCashTitle": "नकद बही",
+  "adminCashSubtitle": "अनुमानित बनाम गिना गया, हर दिन",
+  "adminItemsTitle": "आइटम अंतर",
+  "adminItemsSubtitle": "बिका हुआ बनाम स्टॉक से निकला",
+  "adminShopsTitle": "सभी दुकानें",
+  "adminShopsSubtitle": "आपकी हर दुकान का कुल",
+  "adminSummaryTitle": "आज का सारांश",
+  "adminSummarySend": "सारांश भेजें",
+  "adminShare": "साझा करें",
+  "adminNoRows": "इस अवधि के लिए कुछ नहीं",
+  "adminFromBill": "बिल से",
+  "adminOwnerApproved": "मालिक ने मंजूरी दी",
+  "adminColActions": "कार्य",
+  "adminColDiscount": "दी गई छूट",
+  "adminColCredit": "दिया गया उधार",
+  "adminColVoids": "रद्द बिल",
+  "adminColReprints": "दोबारा प्रिंट",
+  "adminColOverrides": "मालिक की मंजूरियां",
+  "adminSeeExceptions": "इनके अपवाद देखें",
+  "adminCashOpening": "शुरुआती नकद",
+  "adminCashExpected": "अनुमानित",
+  "adminCashCounted": "गिना गया",
+  "adminCashShort": "कम",
+  "adminCashOver": "अधिक",
+  "adminCashNet": "कुल अंतर",
+  "adminCashMatched": "मिले हुए दिन",
+  "adminCashMatchedOne": "मिला",
+  "adminCashShortDays": "कम वाले दिन",
+  "adminItemSold": "बिका",
+  "adminItemStockOut": "स्टॉक से निकला",
+  "adminItemGap": "अंतर",
+  "adminItemWasted": "बर्बाद",
+  "adminSummaryBills": "बिल",
+  "adminSummarySales": "बिक्री",
+  "adminSummaryCash": "नकद",
+  "adminSummaryUpi": "UPI",
+  "adminSummaryCredit": "उधार",
+  "adminSummaryDiscount": "छूट",
+  "adminSummarySpend": "खर्च",
+  "adminSummaryCashDiff": "नकद अंतर",
+  "adminSummaryTop": "टॉप आइटम",
+  "adminShopsAllTotal": "सभी दुकानें मिलाकर",
+  "adminShopsOrders": "ऑर्डर (7 दिन)",
+  "adminShopsValue": "मूल्य (7 दिन)",
+  "adminShopsAdd": "दूसरी दुकान जोड़ें",
+  "adminShopsAddHelp": "दूसरी दुकान का लिंक नाम और मालिक की कुंजी लिखें।",
+  "adminShopsAddAction": "दुकान जोड़ें",
+  "adminShopsSlug": "दुकान लिंक नाम",
+  "adminShopsKey": "मालिक की कुंजी",
+  "adminShopsRemove": "हटाएं",
+  "adminShopsRefresh": "ताज़ा करें",
+  "adminShopsError": "यह दुकान नहीं पढ़ पाए",
+  "adminShopsInvalid": "लिंक नाम और मालिक की कुंजी जांचें",
+  "adminShopsExists": "वह दुकान पहले से सूची में है",
+  "permViewCashBook": "नकद बही देखें",
+  "permExportData": "डेटा निर्यात करें",
+  "permViewStaffReport": "स्टाफ रिपोर्ट देखें"
+}

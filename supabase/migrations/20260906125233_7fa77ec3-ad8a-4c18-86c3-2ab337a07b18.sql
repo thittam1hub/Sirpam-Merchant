@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.shop_board_notify() FROM anon, authenticated, PUBLIC;

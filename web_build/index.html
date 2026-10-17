@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="VendorOS — custom 3D printing, scan-to-buy UPI checkout and doorstep delivery across India.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="VendorOS">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>VendorOS</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!--
+    Safe fallback locale.
+
+    Headless Chrome (and some embedded webviews) report an empty or malformed
+    navigator.language, which makes Flutter's locale parser throw
+    "Incorrect locale information provided" before the first frame renders.
+    Normalise the value *before* flutter_bootstrap.js runs.
+  -->
+  <script>
+    (function () {
+      var FALLBACK = 'en-US';
+      var VALID = /^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$/;
+      function ok(value) { return typeof value === 'string' && VALID.test(value); }
+      try {
+        if (!ok(navigator.language)) {
+          Object.defineProperty(navigator, 'language', {
+            configurable: true,
+            get: function () { return FALLBACK; }
+          });
+        }
+        var langs = navigator.languages;
+        if (!Array.isArray(langs) || langs.length === 0 || !langs.every(ok)) {
+          Object.defineProperty(navigator, 'languages', {
+            configurable: true,
+            get: function () { return [FALLBACK]; }
+          });
+        }
+      } catch (e) {
+        console.warn('[vendoros] locale fallback could not be installed', e);
+      }
+    })();
+  </script>
+
+  <style>
+    html, body { height: 100%; margin: 0; background: #e8edf5; }
+    @media (prefers-color-scheme: dark) {
+      html, body { background: #121212; }
+    }
+  </style>
+  <!-- <model-viewer> runtime for the AR/3D stages (model_viewer_plus) -->
+  <script type="module" src="./assets/packages/model_viewer_plus/assets/model-viewer.min.js" defer></script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

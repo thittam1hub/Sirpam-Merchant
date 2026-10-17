@@ -1,0 +1,2317 @@
+{
+  "@@locale": "te",
+  "udhaarReminderMessage": "నమస్కారం {name}, {stall} వద్ద మీ బాకీ Rs {amount}. దయచేసి చెల్లించండి. ధన్యవాదాలు.{link}",
+  "@udhaarReminderMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "stall": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "appTitle": "VendorOS",
+  "navHome": "హోమ్",
+  "navUdhaar": "అప్పు",
+  "navSoundbox": "సౌండ్",
+  "navMandi": "మార్కెట్",
+  "navSales": "అమ్మకాలు",
+  "navGroupOverview": "ఓవర్‌వ్యూ",
+  "navGroupSell": "అమ్మకం",
+  "navGroupOperations": "కస్టమర్లు & పనులు",
+  "navGroupBusiness": "వ్యాపారం",
+  "navGroupTeam": "టీమ్",
+  "navGroupSystem": "సిస్టమ్",
+  "moreLabel": "మరిన్ని",
+  "menuLoanReport": "లోన్ రిపోర్ట్",
+  "menuCartLocation": "బండి లొకేషన్",
+  "menuSettings": "సెట్టింగ్స్",
+  "notFoundTitle": "పేజీ దొరకలేదు",
+  "goHome": "హోమ్‌కి వెళ్లండి",
+  "ok": "సరే",
+  "loading": "లోడ్ అవుతోంది…",
+  "storageWriteFailedKey": "సేవ్ కాలేదు ({key}) — మళ్లీ ప్రయత్నించండి",
+  "@storageWriteFailedKey": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "storageWriteFailed": "సేవ్ కాలేదు — మళ్లీ ప్రయత్నించండి",
+  "micUnavailable": "మైక్రోఫోన్ పని చేయడం లేదు — చేత్తో ఎంటర్ చేయండి",
+  "voiceNothingHeard": "ఏమీ వినిపించలేదు — మళ్లీ మాట్లాడండి",
+  "voiceNoAmount": "మొత్తం వినిపించలేదు — \"50 రూపాయల టమాటా\" అని చెప్పండి",
+  "voiceZeroAmount": "మొత్తం సున్నా కాకూడదు",
+  "modeCash": "నగదు",
+  "modeUpi": "UPI",
+  "modeCredit": "అప్పు",
+  "saleRecorded": "{mode} ₹{amount} నమోదైంది",
+  "@saleRecorded": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayTotalSemantic": "ఈరోజు మొత్తం వ్యాపారం {amount} రూపాయలు",
+  "@todayTotalSemantic": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayCollection": "ఈరోజు కలెక్షన్",
+  "quickEntry": "క్విక్ ఎంట్రీ",
+  "todayEntries": "ఈరోజు ఎంట్రీలు",
+  "noEntriesYet": "ఇంకా ఎంట్రీలు లేవు — మైక్ నొక్కి మాట్లాడండి",
+  "listeningTapToStop": "వింటోంది, ఆపడానికి నొక్కండి",
+  "tapToSpeak": "రికార్డ్ చేయడానికి మాట్లాడండి",
+  "listening": "వింటోంది…",
+  "speakToRecord": "🎙️ రికార్డ్ చేయడానికి మాట్లాడండి",
+  "voiceHint": "\"50 రూపాయలు టమాటా క్యాష్\" / \"రవి కి 200 అప్పు\"",
+  "addSale": "సేల్ జోడించండి",
+  "saleSemantic": "{label} {amount} రూపాయలు, {item}",
+  "@saleSemantic": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "డిలీట్",
+  "locationServiceOff": "లొకేషన్ సర్వీస్ ఆఫ్ చేయబడింది",
+  "locationPermissionDenied": "లొకేషన్ పర్మిషన్ ఇవ్వలేదు",
+  "broadcastLive": "లైవ్ షేరింగ్ అవుతోంది",
+  "locationSearching": "లొకేషన్ వెతుకుతోంది…",
+  "permissionDenied": "పర్మిషన్ ఇవ్వలేదు",
+  "unavailable": "అందుబాటులో లేదు",
+  "broadcastStopped": "షేరింగ్ ఆగిపోయింది",
+  "locationNotFetched": "లొకేషన్ ఇంకా అందలేదు",
+  "stopBroadcast": "షేరింగ్ ఆపండి",
+  "startBroadcast": "షేరింగ్ ప్రారంభించండి",
+  "sendToCustomer": "కస్టమర్లకు పంపండి",
+  "shareLocationHint": "ఈరోజు బండి లొకేషన్ WhatsAppలో షేర్ చేయండి.",
+  "ourCart": "మన బండి",
+  "cartLocationMessage": "{stall} ఈరోజు ఇక్కడ ఉంది 👇\n{url}",
+  "@cartLocationMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "shareOnWhatsapp": "WhatsAppలో షేర్ చేయండి",
+  "openInMaps": "Mapsలో చూడండి",
+  "mandiKeyRejected": "data.gov.in రిక్వెస్ట్‌ను తిరస్కరించింది — API కీ సరిచూసుకోండి ({status})",
+  "@mandiKeyRejected": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionFailed": "కనెక్షన్ విఫలమైంది: {error}",
+  "@connectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "mandiTitle": "మార్కెట్ ధరలు",
+  "refresh": "రీఫ్రెష్",
+  "mandiLoading": "మార్కెట్ ధరలు లోడ్ అవుతున్నాయి",
+  "fetchFailed": "డేటా రావడం లేదు",
+  "apiKeyNeeded": "data.gov.in API కీ అవసరం",
+  "apiKeyNeededBody": "లైవ్ APMC ధరల కోసం ఉచిత data.gov.in API కీని సెట్టింగ్స్‌లో జోడించండి. నకిలీ ధరలు చూపబడవు.",
+  "refreshFailed": "రీఫ్రెష్ కాలేదు",
+  "lastUpdated": "చివరి అప్‌డేట్: {time}",
+  "@lastUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "searchVegetable": "కూరగాయను వెతకండి",
+  "loanReportHeading": "వ్యాపార లోన్ రిపోర్ట్",
+  "reportFailed": "రిపోర్ట్ రాలేదు: {error}",
+  "@reportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "daysWindow": "{days, plural, =1{1 రోజు} other{{days} రోజులు}}",
+  "@daysWindow": {
+    "placeholders": {
+      "days": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "totalBusiness": "మొత్తం వ్యాపారం",
+  "digitalShare": "డిజిటల్ వాటా",
+  "avgDailyIncome": "సగటు రోజువారీ ఆదాయం",
+  "recordedDays": "నమోదైన రోజులు",
+  "sha256Checksum": "SHA-256 చెక్‌సమ్",
+  "noSalesYet": "ఇంకా ఎలాంటి సేల్స్ నమోదు కాలేదు — రిపోర్ట్ కోసం మొదట సేల్స్ నమోదు చేయండి.",
+  "viewPdf": "PDF చూడండి",
+  "sendToBank": "బ్యాంకుకు పంపండి",
+  "stallName": "స్టాల్ పేరు",
+  "ownerName": "యజమాని పేరు",
+  "upiVpaLabel": "UPI VPA (ఉదా. name@okaxis)",
+  "mobileNumber": "మొబైల్ నంబర్",
+  "mandiMarket": "మార్కెట్ (APMC)",
+  "mandiApiKeyLabel": "data.gov.in API కీ",
+  "apiKeyHelp": "కీ కోసం data.gov.in లో ఉచితంగా రిజిస్టర్ అవ్వండి. కీ లేకపోతే తాజా ధరలు కనిపించవు.",
+  "soundboxAnnounce": "సౌండ్‌బాక్స్ ప్రకటనలు",
+  "save": "సేవ్ చేయండి",
+  "soundboxSpeech": "{amount} రూపాయలు వచ్చాయి",
+  "@soundboxSpeech": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "soundboxTitle": "సౌండ్‌బాక్స్",
+  "soundboxSubtitle": "UPI పేమెంట్లు మీ భాషలోనే వినిపిస్తాయి",
+  "watchedApps": "ట్రాక్ చేసే యాప్‌లు",
+  "soundboxTestHint": "టెస్ట్: \"250 రూపాయలు వచ్చాయి\" అని వినిపిస్తుంది",
+  "speak": "వినిపించండి",
+  "announcedPayments": "ప్రకటించిన పేమెంట్లు",
+  "noUpiYet": "ఇంకా UPI పేమెంట్లు ఏవీ రాలేదు",
+  "soundboxRunning": "సౌండ్‌బాక్స్ నడుస్తోంది",
+  "notificationAccessNeeded": "నోటిఫికేషన్ పర్మిషన్ అవసరం",
+  "soundboxAndroidHint": "PhonePe, Paytm, Google Pay మరియు BHIM ద్వారా వచ్చే పేమెంట్లు ఆటోమేటిక్‌గా వినిపిస్తాయి.",
+  "soundboxGrantHint": "Android సెట్టింగ్స్‌లో VendorOSకి నోటిఫికేషన్ పర్మిషన్ ఇవ్వండి.",
+  "grantAccess": "పర్మిషన్ ఇవ్వండి",
+  "iosUnavailable": "iOSలో అందుబాటులో లేదు",
+  "webUnavailable": "బ్రౌజర్‌లో అందుబాటులో లేదు",
+  "iosSoundboxNote": "Apple నిబంధనల వల్ల ఇతర యాప్‌ల నోటిఫికేషన్లు చదవలేము. మాన్యువల్ లేదా వాయిస్ ఎంట్రీ మాత్రమే.",
+  "webSoundboxNote": "బ్రౌజర్ ఇతర యాప్‌ల UPI నోటిఫికేషన్లను చదవలేదు. సౌండ్‌బాక్స్ కోసం Android యాప్ ఇన్‌స్టాల్ చేసుకోండి.",
+  "serverSoundbox": "బిజినెస్ UPI సౌండ్‌బాక్స్",
+  "serverSoundboxNote": "మీ పేమెంట్ ప్రొవైడర్ నిర్ధారించిన పేమెంట్లు ఇక్కడ వినిపిస్తాయి. ఏదీ మిస్ అవ్వదు: ఈ ఫోన్ వినిపించేంత వరకు పేమెంట్ సర్వర్‌లో వేచి ఉంటుంది.",
+  "notPaired": "ఈ ఫోన్ ఇంకా బిజినెస్ UPI ఖాతాకు లింక్ కాలేదు.",
+  "pairingCode": "పేరింగ్ కోడ్",
+  "pair": "ఫోన్ లింక్ చేయండి",
+  "unpair": "లింక్ తీసివేయండి",
+  "pairedWith": "{name}కి లింక్ చేయబడింది",
+  "@pairedWith": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "syncNow": "ఇప్పుడే చెక్ చేయండి",
+  "lastChecked": "చివరిసారి {time}కి చెక్ చేసాము",
+  "@lastChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "neverChecked": "ఇంకా చెక్ చేయలేదు",
+  "soundboxStale": "కొంతసేపటి నుండి సర్వర్‌తో కనెక్షన్ లేదు. ఇంటర్నెట్ సరిచూసుకోండి.",
+  "queuedPayments": "{count, plural, =0{ఏవీ వేచి లేవు} =1{ప్రకటించడానికి 1 పేమెంట్ వేచి ఉంది} other{ప్రకటించడానికి {count} పేమెంట్లు వేచి ఉన్నాయి}}",
+  "@queuedPayments": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "notificationSoundbox": "నోటిఫికేషన్ సౌండ్‌బాక్స్ (ఫాల్‌బ్యాక్)",
+  "udhaarTitle": "ఉద్దెర ఖాతా",
+  "udhaarSubtitle": "కస్టమర్ బకాయిలు",
+  "totalOutstanding": "మొత్తం బకాయి",
+  "customerCount": "{count, plural, =0{కస్టమర్లు లేరు} =1{1 కస్టమర్} other{{count} కస్టమర్లు}}",
+  "@customerCount": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "filterBy": "ఫిల్టర్: {name}",
+  "@filterBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "clearFilter": "ఫిల్టర్ తీసివేయి",
+  "upiSetupHint": "UPI కోసం సెట్టింగ్స్‌లో మీ VPA మరియు దుకాణం పేరును జోడించండి.",
+  "noOutstanding": "బకాయిలు ఏమీ లేవు",
+  "cannotOpen": "ఓపెన్ కాలేదు: {scheme}",
+  "@cannotOpen": {
+    "placeholders": {
+      "scheme": {
+        "type": "String"
+      }
+    }
+  },
+  "askUpi": "UPI అడగండి",
+  "collect": "వసూలు",
+  "cancel": "రద్దు",
+  "language": "భాష",
+  "languageChanged": "భాష మార్చబడింది",
+  "whatsapp": "WhatsApp",
+  "creditNote": "ఉద్దెర {name}",
+  "@creditNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultStallName": "VendorOS స్టాల్",
+  "merchantOnboardingTitle": "బిజినెస్ UPI నమోదు చేయండి",
+  "merchantOnboardingSubtitle": "మీ బిజినెస్ ఖాతాను సౌండ్‌బాక్స్‌కు లింక్ చేయండి",
+  "merchantStepsHint": "మీ PhonePe for Business లేదా Paytm for Business డాష్‌బోర్డ్ వివరాలను ఎంటర్ చేయండి. మీకు పెయిరింగ్ కోడ్ వస్తుంది, వెంటనే ఈ ఫోన్ లింక్ అవుతుంది.",
+  "howToGetBusinessUpi": "బిజినెస్ UPI ఖాతా ఎలా పొందాలి?",
+  "merchantFormIncomplete": "బిజినెస్ పేరు, మర్చంట్ ఐడీ మరియు సీక్రెట్ కీ ఎంటర్ చేయండి.",
+  "merchantRegistered": "వ్యాపారం నమోదైంది",
+  "pairingCodeSaveHint": "ఈ పెయిరింగ్ కోడ్‌ను దాచుకోండి. రెండో ఫోన్‌ను లింక్ చేయడానికి దీన్ని వాడండి.",
+  "callbackUrlLabel": "ప్రొవైడర్ డాష్‌బోర్డ్ కోసం Callback URL",
+  "backToSoundbox": "తిరిగి సౌండ్‌బాక్స్‌కు",
+  "copy": "కాపీ",
+  "copied": "కాపీ అయింది",
+  "provider": "పేమెంట్ ప్రొవైడర్",
+  "providerPhonePe": "PhonePe",
+  "providerPaytm": "Paytm",
+  "businessName": "వ్యాపారం పేరు",
+  "businessNameHint": "వాయిస్‌లో పలికే మరియు రిపోర్ట్‌లలో ప్రింట్ అయ్యే పేరు",
+  "businessVpa": "బిజినెస్ UPI అడ్రస్",
+  "businessVpaHint": "stallname@ybl",
+  "merchantIdLabel": "మర్చంట్ ఐడీ (MID)",
+  "merchantIdHint": "ప్రొవైడర్ డాష్‌బోర్డ్ నుండి",
+  "saltKeyLabel": "Salt key",
+  "saltKeyHint": "PhonePe salt key",
+  "saltIndexLabel": "Salt index",
+  "webhookTokenLabel": "Webhook token",
+  "webhookTokenHint": "Paytm డాష్‌బోర్డ్‌లో కూడా పేస్ట్ చేసే ఏదైనా బలమైన పాస్‌వర్డ్",
+  "secretStorageNote": "సీక్రెట్ కీ సర్వర్‌లో మాత్రమే భద్రపరుచబడుతుంది, యాప్ దాన్ని ఎప్పటికీ తిరిగి చూపించదు.",
+  "registerBusiness": "బిజినెస్ UPI రిజిస్టర్ చేయండి",
+  "helpTitle": "సహాయం",
+  "helpSubtitle": "బిజినెస్ UPI మరియు సౌండ్‌బాక్స్ గైడ్",
+  "helpWhyTitle": "బిజినెస్ UPI ఖాతా ఎందుకు?",
+  "helpWhyBody": "పర్సనల్ UPI ID పేమెంట్లను సర్వర్‌కు కన్ఫర్మ్ చేయలేదు, కాబట్టి సౌండ్‌బాక్స్ అనౌన్స్‌మెంట్లు మిస్ కావచ్చు. బిజినెస్ ఖాతా ప్రతి పేమెంట్‌ను VendorOSకి పంపుతుంది, కాబట్టి సౌండ్‌బాక్స్ ఏదీ మిస్ చేయదు.",
+  "helpDocsTitle": "కావాల్సినవి",
+  "helpDocsAadhaar": "ఆధార్ నంబర్ మరియు దానికి లింక్ చేసిన మొబైల్ నంబర్",
+  "helpDocsPan": "పాన్ కార్డ్ (చిన్న దుకాణాలకు పర్సనల్ పాన్ సరిపోతుంది)",
+  "helpDocsBank": "డబ్బులు జమ కావడానికి బ్యాంక్ ఖాతా నంబర్ మరియు IFSC",
+  "helpDocsShop": "దుకాణం పేరు, అడ్రస్ మరియు దుకాణం ఫోటో",
+  "helpRegisterTitle": "ప్రొవైడర్‌తో రిజిస్టర్ చేయండి",
+  "helpRegisterStep1": "Play Store నుండి PhonePe for Business లేదా Paytm for Business ఇన్‌స్టాల్ చేసుకోండి.",
+  "helpRegisterStep2": "మొబైల్ నంబర్‌తో సైన్ అప్ చేసి, ఆధార్ మరియు పాన్‌తో KYC పూర్తి చేయండి.",
+  "helpRegisterStep3": "డబ్బు జమ కావడానికి బ్యాంక్ ఖాతాను జోడించి, ఉచిత QR స్టిక్కర్ తీసుకోండి.",
+  "helpRegisterStep4": "యాప్‌లో కనిపించే బిజినెస్ UPI అడ్రస్ (ఉదాహరణకు stallname@ybl) నోట్ చేసుకోండి.",
+  "helpKeysTitle": "Merchant ID మరియు సీక్రెట్ కీ",
+  "helpKeysPhonePe": "PhonePe: బిజినెస్ డాష్‌బోర్డ్ తెరిచి, Developer settingsకి వెళ్లి, merchant id, salt key మరియు salt index కాపీ చేయండి.",
+  "helpKeysPaytm": "Paytm: బిజినెస్ డాష్‌బోర్డ్ తెరిచి, Developer settingsకి వెళ్లి, MID కాపీ చేయండి, అలాగే ఇక్కడ ఇచ్చే బలమైన webhook token రూపొందించండి.",
+  "helpKeysCallback": "పేమెంట్లు VendorOSకి చేరేందుకు రిజిస్ట్రేషన్ తర్వాత కనిపించే కాల్‌బ్యాక్ URLను ప్రొవైడర్ డాష్‌బోర్డ్‌లో పేస్ట్ చేయండి.",
+  "helpLinkTitle": "ఈ ఫోన్‌ను లింక్ చేయండి",
+  "helpLinkStep1": "Soundbox తెరిచి, 'బిజినెస్ UPI రిజిస్టర్ చేయండి' పై నొక్కండి.",
+  "helpLinkStep2": "ఫారమ్ నింపండి; ఫోన్ ఆటోమేటిక్‌గా లింక్ అయ్యి పేరింగ్ కోడ్ కనిపిస్తుంది.",
+  "helpLinkStep3": "మరొక ఫోన్‌లో కూడా సౌండ్‌బాక్స్ తెరిచి, ఆ పేరింగ్ కోడ్ ఎంటర్ చేసి లింక్ చేయండి.",
+  "helpSafetyTitle": "భద్రంగా ఉంచండి",
+  "helpSafetyBody": "Salt key లేదా webhook token ఎవరితోనూ పంచుకోవద్దు. VendorOS దీన్ని సర్వర్‌లో మాత్రమే భద్రపరుస్తుంది, మళ్లీ ఎప్పటికీ చూపించదు.",
+  "menuInventory": "స్టాక్",
+  "productsTitle": "వస్తువులు",
+  "productsSubtitle": "జాబితా మరియు స్టాక్",
+  "productsSearchHint": "పేరు లేదా కోడ్ వెతకండి",
+  "productsEmpty": "ఇంకా వస్తువులేవీ లేవు. మీ మొదటి ఐటెమ్‌ను జోడించండి.",
+  "productsAdd": "వస్తువును జోడించండి",
+  "productsAllChip": "అన్నీ",
+  "productsLowStockChip": "తక్కువ స్టాక్",
+  "productEditTitle": "వస్తువును సవరించండి",
+  "productMissing": "ఈ ప్రోడక్ట్ లిస్ట్‌లో లేదు.",
+  "productSaved": "సేవ్ అయ్యింది",
+  "productArchived": "ప్రోడక్ట్ తీసేశారు",
+  "formInvalid": "ప్రోడక్ట్ పేరు ఇవ్వండి",
+  "fieldName": "పేరు",
+  "fieldLocalName": "తమిళంలో పేరు",
+  "fieldCode": "కోడ్",
+  "fieldCodeHint": "బార్‌కోడ్, లేదా కొత్తదాని కోసం ఖాళీగా ఉంచండి",
+  "fieldCategory": "కేటగిరీ",
+  "fieldUnit": "యూనిట్",
+  "fieldCost": "కొనుగోలు ధర",
+  "fieldPrice": "అమ్మకం ధర",
+  "fieldReorder": "రీఆర్డర్ లెవల్",
+  "saveLabel": "సేవ్",
+  "discardTitle": "మార్పులను రద్దు చేయాలా?",
+  "discardBody": "సేవ్ చేయని మార్పులు ఉన్నాయి.",
+  "discardKeep": "ఎడిట్ చేస్తూ ఉండండి",
+  "discardLeave": "రద్దు చేయి",
+  "cancelLabel": "రద్దు",
+  "deleteLabel": "డిలీట్",
+  "confirmLabel": "కన్ఫర్మ్",
+  "qtyLabel": "క్వాంటిటీ",
+  "unitCostLabel": "ఒక్కో యూనిట్ ధర",
+  "expiryLabel": "ఎక్స్‌పైరీ (రోజుల్లో)",
+  "unitKg": "కేజీ",
+  "unitGram": "గ్రా",
+  "unitPiece": "పీస్",
+  "unitLitre": "లీటర్",
+  "unitBundle": "కట్ట",
+  "detailSell": "అమ్మకం",
+  "detailRestock": "రీస్టాక్",
+  "detailWastage": "వేస్టేజ్",
+  "detailCorrect": "స్టాక్ లెక్క",
+  "detailBatches": "బ్యాచ్‌లు",
+  "detailHistory": "హిస్టరీ",
+  "detailLabel": "లేబుల్ ప్రింట్",
+  "historyEmpty": "ఇంకా స్టాక్ వివరాలేమీ లేవు",
+  "soldRecorded": "అమ్మకం నమోదైంది",
+  "restocked": "స్టాక్ చేర్చబడింది",
+  "wastageRecorded": "వేస్టేజ్ నమోదైంది",
+  "stockCorrected": "స్టాక్ అప్‌డేట్ అయింది",
+  "movementPurchase": "కొనుగోలు",
+  "movementSale": "అమ్మకం",
+  "movementWastage": "వేస్టేజ్",
+  "movementReturn": "రిటర్న్",
+  "movementCorrection": "సవరణ",
+  "expiredTag": "ఎక్స్‌పైర్ అయింది",
+  "expiryTodayTag": "ఈరోజే ఎక్స్‌పైర్ అవుతుంది",
+  "noExpiry": "ఎక్స్‌పైరీ లేదు",
+  "batchesTitle": "బ్యాచ్‌లు",
+  "batchesSubtitle": "ఎక్స్‌పైరీ వివరాలు",
+  "batchesEmpty": "తేదీ ఉన్న బ్యాచ్‌లు లేవు",
+  "stockTitle": "స్టాక్",
+  "stockSubtitle": "విలువ, అలర్ట్‌లు మరియు ఎక్స్‌పైరీ",
+  "stockValuation": "స్టాక్ విలువ",
+  "stockProfit": "లాభం (30 రోజులు)",
+  "stockWastage": "వేస్టేజ్ (30 రోజులు)",
+  "stockLowTitle": "స్టాక్ తక్కువగా ఉంది",
+  "stockExpiryTitle": "ఎక్స్‌పైరీ",
+  "stockNothingLow": "స్టాక్ కొరత ఏమీ లేదు",
+  "stockNoExpiry": "తేదీ ఉన్న బ్యాచ్‌లు లేవు",
+  "stockReorderNow": "రీఆర్డర్ లిస్ట్ పంపండి",
+  "suppliersTitle": "సప్లయర్లు",
+  "suppliersSubtitle": "రీఆర్డర్ కాంటాక్ట్‌లు",
+  "suppliersEmpty": "సప్లయర్లు ఎవరూ లేరు",
+  "supplierAdd": "సప్లయర్‌ని జోడించండి",
+  "supplierName": "పేరు",
+  "supplierPhone": "ఫోన్",
+  "supplierNote": "నోట్",
+  "supplierWhatsapp": "WhatsApp",
+  "scanTitle": "స్కాన్",
+  "scanSubtitle": "బార్‌కోడ్ లేదా QR",
+  "scanUnsupported": "ఇక్కడ కెమెరా స్కానింగ్ పనిచేయదు. కింద కోడ్ టైప్ చేయండి.",
+  "scanPermission": "స్కాన్ చేయడానికి కెమెరా పర్మిషన్ ఇవ్వండి",
+  "scanManualHint": "కోడ్ టైప్ చేయండి లేదా పేస్ట్ చేయండి",
+  "scanCreateFromCode": "ఈ కోడ్‌తో ప్రొడక్ట్ జోడించండి",
+  "labelsTitle": "లేబుల్స్",
+  "labelsSubtitle": "QR మరియు బార్‌కోడ్ లేబుల్స్ ప్రింట్ చేయండి",
+  "labelsSelect": "ప్రొడక్ట్‌లను ఎంచుకోండి",
+  "labelsSize": "లేబుల్ సైజు",
+  "labelsSymbology": "సింబల్",
+  "labelsCopies": "కాపీలు",
+  "labelsPrint": "ప్రింట్ షీట్",
+  "labelsThermal": "ప్రింటర్ కోడ్ కాపీ చేయండి",
+  "labelsCopied": "ప్రింటర్ కోడ్ కాపీ అయింది",
+  "labelsNone": "కనీసం ఒక ప్రొడక్ట్ ఎంచుకోండి",
+  "symbolQr": "QR",
+  "symbolBarcode": "బార్‌కోడ్",
+  "paymentQrTitle": "పేమెంట్ QR",
+  "paymentQrSubtitle": "కస్టమర్లకు స్కాన్ చేసి పే చేసే వీలు కల్పించండి",
+  "paymentQrAmountHint": "మొత్తం (ఆప్షనల్)",
+  "paymentQrNeedVpa": "ముందుగా సెట్టింగ్స్‌లో మీ UPI ID జోడించండి.",
+  "paymentQrOpenSettings": "సెట్టింగ్స్ తెరవండి",
+  "paymentQrPoster": "పోస్టర్ సేవ్ చేయండి",
+  "paymentQrCopy": "లింక్ కాపీ చేయండి",
+  "paymentQrCopied": "లింక్ కాపీ అయింది",
+  "paymentQrNote": "స్కాన్ చేస్తే కస్టమర్ UPI యాప్ ఓపెన్ అవుతుంది. సౌండ్‌బాక్స్ చెప్పినప్పుడే పేమెంట్ వచ్చినట్లు లెక్క.",
+  "stockOnHand": "స్టాక్ ఉంది: {qty}",
+  "@stockOnHand": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "marginLabel": "మార్జిన్ {pct}%",
+  "@marginLabel": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "expirySoonTag": "{days, plural, =0{Today} one{1 day} other{{days} days}}",
+  "@expirySoonTag": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiryWatchCount": "{count, plural, =0{త్వరలో ఎక్స్‌పైర్ అయ్యేవి లేవు} one{1 బ్యాచ్‌ను చూసుకోవాలి} other{{count} బ్యాచ్‌లను చూసుకోవాలి}}",
+  "@expiryWatchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "batchLine": "{qty} మిగిలింది · ఒక్కోదానికి {cost}",
+  "@batchLine": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "sellShortfall": "స్టాక్‌లో {qty} మాత్రమే ఉంది — అంతే రికార్డ్ చేశాము",
+  "@sellShortfall": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "productArchiveConfirm": "లిస్ట్ నుండి {name} తొలగించాలా?",
+  "@productArchiveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reorderMessage": "{stall}: దయచేసి {items} పంపించండి",
+  "@reorderMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrPayingTo": "{vpa} కి చెల్లింపు",
+  "@paymentQrPayingTo": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "scanUnknownCode": "{code} కోడ్‌తో ఏ ప్రొడక్ట్ లేదు",
+  "@scanUnknownCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "profileTitle": "బిజినెస్ ప్రొఫైల్",
+  "vendorCategory": "వ్యాపారం రకం",
+  "categoryCart": "తోపుడు బండి",
+  "categoryStall": "షాప్ / స్టాల్",
+  "categoryHotel": "హోటల్ / టిఫిన్ సెంటర్",
+  "categoryService": "సర్వీస్ పని",
+  "nicheLabel": "మీరు ఏం అమ్ముతారు లేదా ఏం పని చేస్తారు?",
+  "districtLabel": "జిల్లా",
+  "talukLabel": "తాలూకా / ఊరు",
+  "marketAreaLabel": "మార్కెట్ / ఏరియా",
+  "fssaiLabel": "FSSAI నంబర్ (ఫుడ్ బిజినెస్)",
+  "udyamLabel": "UDYAM రిజిస్ట్రేషన్ (ఆప్షనల్)",
+  "workingHoursLabel": "పని వేళలు",
+  "perishableLabel": "త్వరగా పాడైపోయే సరుకులు",
+  "profilePromptTitle": "మీ వ్యాపార ప్రొఫైల్ సెట్ చేసుకోండి",
+  "profilePromptBody": "మీరు ఏం అమ్ముతారో చెబితే, యాప్ మీకు కావాల్సినవే చూపిస్తుంది.",
+  "profilePromptAction": "సెట్ చేయండి",
+  "profileSaved": "ప్రొఫైల్ సేవ్ అయ్యింది",
+  "expensesTitle": "ఖర్చులు",
+  "expensesSubtitle": "పాలు, గ్యాస్, స్నాక్స్, అద్దె — మీ ఖర్చుల వివరాలు",
+  "expenseToday": "నేటి ఖర్చు",
+  "expenseAdd": "ఖర్చు రాయండి",
+  "expenseAmount": "మొత్తం",
+  "expenseNote": "నోట్ (ఆప్షనల్)",
+  "expenseTodayList": "ఈరోజు ఖర్చులు",
+  "expenseEmpty": "ఈరోజు ఎలాంటి ఖర్చులు రాయలేదు",
+  "expenseMilk": "పాలు",
+  "expenseGas": "గ్యాస్",
+  "expenseSnacks": "స్నాక్స్",
+  "expenseProvisions": "కిరాణా సరుకులు",
+  "expenseWages": "కూలీ / జీతాలు",
+  "expenseRent": "అద్దె",
+  "expenseElectricity": "కరెంట్ బిల్లు",
+  "expenseTransport": "రవాణా",
+  "expenseOther": "ఇతరాలు",
+  "recurringTitle": "రోజువారీ సరుకులు",
+  "recurringAdd": "సరుకు కలపండి",
+  "recurringName": "సరుకు పేరు",
+  "recurringEmpty": "పాల క్యాన్లు లేదా స్నాక్స్‌ను ఇక్కడ సేవ్ చేసుకుని ఒకే ట్యాప్‌తో నమోదు చేయండి.",
+  "dayCloseTitle": "డే క్లోజ్",
+  "dayCloseExpectedCash": "గల్లాలో ఉండాల్సిన క్యాష్",
+  "dayCloseBreakdown": "ఈరోజు లెక్కలు",
+  "dayCloseCollected": "వసూలైన బాకీ",
+  "dayCloseWastage": "వేస్టేజ్",
+  "dayCloseProfit": "ఈరోజు లాభం",
+  "dayCloseCount": "గల్లా లెక్కించండి",
+  "dayCloseCountedCash": "లెక్కించిన క్యాష్",
+  "dayCloseSave": "రోజు ముగించండి",
+  "dayCloseDiscounts": "ఇచ్చిన డిస్కౌంట్లు",
+  "dayCloseTax": "వసూలైన ట్యాక్స్",
+  "dayCloseLastToken": "చివరి టోకెన్",
+  "dayCloseVoided": "రద్దు చేసిన బిల్లులు",
+  "dayCloseExport": "రోజు PDF ఎక్స్‌పోర్ట్",
+  "dayCloseVariancePosted": "క్యాష్ తేడా లెడ్జర్‌లో చేర్చబడింది.",
+  "dayCloseExportFailed": "రోజు సమ్మరీ ఎక్స్‌పోర్ట్ చేయడం కుదరలేదు.",
+  "dayCloseMatch": "క్యాష్ సరిగ్గా సరిపోయింది.",
+  "dayCloseSurplus": "{amount} ఎక్కువగా ఉంది",
+  "@dayCloseSurplus": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseShort": "{amount} తక్కువైంది",
+  "@dayCloseShort": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsTitle": "లెక్కలు",
+  "insightsSubtitle": "రోజు, వారం, నెల మరియు సంవత్సరం",
+  "windowDay": "రోజు",
+  "windowWeek": "వారం",
+  "windowMonth": "నెల",
+  "windowYear": "సంవత్సరం",
+  "insightsTurnover": "టర్నోవర్",
+  "insightsCosts": "ఖర్చులు",
+  "insightsProfit": "లాభం",
+  "insightsAvgDay": "రోజుకు",
+  "insightsByDay": "రోజువారీగా",
+  "insightsBestDay": "బెస్ట్ రోజు",
+  "insightsTopItems": "ఎక్కువగా అమ్ముడైనవి",
+  "insightsCostSplit": "డబ్బు ఎందులోకి ఖర్చయింది",
+  "insightsEmpty": "ఈ సమయంలో ఎలాంటి రికార్డులు లేవు",
+  "insightsMarginAlert": "మార్జిన్ హెచ్చరిక",
+  "insightsMarginBody": "ఈ ఐటమ్స్ ఖర్చుకి చాలా దగ్గర ధరకే అమ్ముడవుతున్నాయి. ధర పెంచండి లేదా ఖర్చు తగ్గించండి.",
+  "insightsMarginRow": "ఖర్చు {cost} · ధర {price}",
+  "@insightsMarginRow": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleTitle": "క్విక్ సేల్",
+  "quickSaleSubtitle": "కప్పుకు ఒక ట్యాప్ — పెద్ద ఆర్డర్ కోసం లాంగ్ ప్రెస్ చేయండి",
+  "quickSaleQty": "క్వాంటిటీ",
+  "quickSaleQtyTitle": "ఎన్ని {item}?",
+  "@quickSaleQtyTitle": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleDone": "{item} · {amount} రికార్డ్ అయింది",
+  "@quickSaleDone": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSemantic": "ఒక {item}ని {amount}కి అమ్మండి",
+  "@quickSaleSemantic": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleEmpty": "క్విక్ మెనూ వాడటానికి ధరతో ఐటమ్స్ యాడ్ చేయండి.",
+  "starterPackAction": "నా షాప్ కోసం స్టార్టర్ కిట్ లోడ్ చేయండి",
+  "starterTea": "టీ",
+  "starterCoffee": "కాఫీ",
+  "starterBun": "బన్",
+  "starterBiscuit": "బిస్కెట్",
+  "starterBajji": "బజ్జీ",
+  "starterMilkSupply": "పాల క్యాన్లు",
+  "starterSnackSupply": "స్నాక్స్ ట్రే",
+  "menuDailyWork": "రోజువారీ పనులు",
+  "stockOut": "స్టాక్ అయిపోయింది",
+  "ordersTitle": "ఆర్డర్లు",
+  "ordersSubtitle": "కౌంటర్ మరియు QR ఆర్డర్లు, లైవ్",
+  "orderCounterNew": "కొత్త కౌంటర్ ఆర్డర్",
+  "orderTable": "టేబుల్",
+  "orderRemoveItem": "ఒకటి తగ్గించు",
+  "orderAddItem": "ఒకటి జోడించు",
+  "orderCancelReason": "రద్దు చేయడానికి కారణం",
+  "orderCancel": "ఆర్డర్ రద్దు చేయి",
+  "orderLive": "లైవ్",
+  "orderHistory": "హిస్టరీ",
+  "orderEmpty": "ఇంకా ఆర్డర్లు లేవు.",
+  "orderNew": "కొత్తది",
+  "orderPreparing": "తయారవుతోంది",
+  "orderServed": "సర్వ్ అయింది",
+  "orderPaid": "చెల్లించారు",
+  "orderCancelled": "రద్దయింది",
+  "orderAccept": "స్వీకరించు",
+  "orderServe": "సర్వ్ చేయండి",
+  "orderBulkAccept": "కొత్తవన్నీ స్వీకరించు",
+  "orderBulkServe": "రెడీ అయినవన్నీ సర్వ్ చేయి",
+  "orderBill": "బిల్లు",
+  "orderTokenShort": "టోకెన్",
+  "kotTitle": "కిచెన్",
+  "kotSubtitle": "తర్వాత ఏం తయారు చేయాలి",
+  "kotEmpty": "కిచెన్‌లో ఏమీ పెండింగ్ లేదు.",
+  "kotDone": "రెడీ",
+  "billTitle": "బిల్లు",
+  "billNumberLabel": "బిల్లు",
+  "billSubtotal": "సబ్‌టోటల్",
+  "billDiscount": "డిస్కౌంట్",
+  "billDiscountFlat": "డిస్కౌంట్ మొత్తం",
+  "billDiscountPct": "డిస్కౌంట్ %",
+  "billTax": "GST",
+  "billTaxable": "టాక్సబుల్ మొత్తం",
+  "billCgst": "CGST",
+  "billSgst": "SGST",
+  "billIgst": "IGST",
+  "shopGstRegistered": "GST రిజిస్టర్డ్ షాపు",
+  "shopGstRegisteredHint": "బిల్లులపై CGST/SGST విభజన మరియు వస్తువు HSN కోడ్‌లు కనిపిస్తాయి",
+  "shopPriceIncludesTax": "ధరలలో పన్ను కలిసి ఉంది",
+  "productTaxRate": "GST రేటు %",
+  "productHsn": "HSN / SAC కోడ్",
+  "productTaxHint": "షాప్ రేటు వాడాలంటే ఖాళీగా ఉంచండి",
+  "billRounding": "రౌండింగ్",
+  "billTotal": "మొత్తం",
+  "billPaid": "చెల్లించినది",
+  "billBalance": "బాకీ",
+  "billReprint": "రీప్రింట్",
+  "billShare": "షేర్ చేయండి",
+  "billThanks": "ధన్యవాదాలు, మళ్లీ రండి",
+  "billCustomer": "కస్టమర్",
+  "billSplit": "పేమెంట్",
+  "billRoundToRupee": "రూపాయికి రౌండ్ చేయండి",
+  "billFillCash": "మిగిలినది క్యాష్‌గా వేయండి",
+  "billFullyPaid": "పూర్తిగా చెల్లించారు",
+  "billSettle": "బిల్లు సెటిల్ చేయండి",
+  "close": "మూసివేయి",
+  "billPreview": "పేపర్ ప్రివ్యూ",
+  "billVoid": "బిల్లు రద్దు చేయండి",
+  "billVoidTitle": "ఈ బిల్లును రద్దు చేయండి",
+  "billVoidHint": "బిల్లు నంబర్ లెక్కల్లోనే ఉంటుంది, లెడ్జర్ ఎంట్రీలు రివర్స్ అవుతాయి.",
+  "billVoidReason": "కారణం",
+  "billVoidReasonRequired": "బిల్లు రద్దు చేయడానికి కారణం రాయాలి",
+  "billVoided": "బిల్లు రద్దయింది",
+  "billVoidFailed": "ఈ బిల్లు రద్దు కాలేదు",
+  "billAudit": "బిల్లు హిస్టరీ",
+  "menuTitle": "QR మెనూ",
+  "menuSubtitle": "స్కాన్ చేసినప్పుడు కస్టమర్లకు కనిపించేది",
+  "menuShopSection": "షాప్",
+  "menuSlug": "లింక్‌లో మెనూ పేరు",
+  "menuBaseUrl": "మెనూ వెబ్ అడ్రస్",
+  "menuTableCount": "టేబుల్స్",
+  "menuTaxPercent": "GST %",
+  "menuGstin": "GSTIN",
+  "menuAcceptOrders": "QR ఆర్డర్లు స్వీకరించండి",
+  "menuSaved": "మెనూ సెట్టింగ్స్ సేవ్ అయ్యాయి",
+  "menuQrSheet": "QR షీట్ ప్రింట్ చేయండి",
+  "menuLinkSection": "షాప్ QR",
+  "menuItemsSection": "మెనూలోని ఐటమ్స్",
+  "menuSoldOut": "అయిపోయింది",
+  "menuPublished": "మెనూలో ఉంది",
+  "menuCounterQr": "కౌంటర్",
+  "menuScanHint": "మెనూ చూసి ఆర్డర్ చేయడానికి స్కాన్ చేయండి",
+  "printersTitle": "రసీదు ప్రింటర్",
+  "printersSubtitle": "పేపర్ సైజు, కనెక్షన్ మరియు టెస్ట్ ప్రింట్",
+  "printerWidth": "పేపర్ వెడల్పు",
+  "printerTransport": "కనెక్షన్",
+  "printerPdf": "PDF / షేర్",
+  "printerBluetooth": "బ్లూటూత్",
+  "printerUsb": "USB",
+  "printerDeviceName": "ప్రింటర్ పేరు",
+  "printerDeviceAddress": "ప్రింటర్ అడ్రస్",
+  "printerFallbackNote": "ఈ డివైజ్‌కి డైరెక్ట్ ప్రింట్ ఇంకా అందుబాటులో లేదు, కాబట్టి బిల్లు PDF రూపంలో ఓపెన్ అవుతుంది. మీరు ప్రింట్ లేదా షేర్ చేసుకోవచ్చు.",
+  "printerAutoPrint": "బిల్లు ఆటోమేటిక్‌గా ప్రింట్ చేయి",
+  "printerKot": "కిచెన్ టికెట్ ప్రింట్ చేయి",
+  "printerTest": "టెస్ట్ ప్రింట్",
+  "printerTestSent": "టెస్ట్ రసీదు పంపబడింది",
+  "printerPaired": "పెయిర్ చేసిన ప్రింటర్లు",
+  "printerScan": "పెయిర్ చేసిన ప్రింటర్లను వెతకండి",
+  "printerScanning": "వెతుకుతోంది…",
+  "printerNoDevices": "పెయిర్ అయిన ప్రింటర్ ఏదీ దొరకలేదు. ముందుగా ఆండ్రాయిడ్ బ్లూటూత్ సెట్టింగ్స్‌లో పెయిర్ చేయండి.",
+  "printerConnect": "కనెక్ట్ చేయి",
+  "printerConnected": "ప్రింటర్ కనెక్ట్ అయింది",
+  "printerConnectFailed": "కనెక్ట్ కాలేదు. ప్రింటర్ ఆన్ చేసి మళ్లీ ప్రయత్నించండి.",
+  "printerBluetoothNote": "బిల్లులు నేరుగా ఈ బ్లూటూత్ ప్రింటర్‌లో ప్రింట్ అవుతాయి. ఒకవేళ అది ఆఫ్ అయినా లేదా దూరంగా ఉన్నా, బిల్లు PDF రూపంలో ఓపెన్ అవుతుంది.",
+  "orderToken": "టోకెన్ {token}",
+  "@orderToken": {
+    "placeholders": {
+      "token": {
+        "type": "int"
+      }
+    }
+  },
+  "orderElapsed": "{minutes} నిమి",
+  "@orderElapsed": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "orderItems": "{count, plural, =1{1 ఐటమ్} other{{count} ఐటమ్స్}}",
+  "@orderItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "billSettled": "బిల్లు {number} సెటిల్ అయింది",
+  "@billSettled": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOrders": "ఈరోజు ఆర్డర్లు",
+  "dayCloseOrdersTaken": "తీసుకున్న ఆర్డర్లు",
+  "dayCloseOrdersCancelled": "క్యాన్సిల్ అయినవి",
+  "dayCloseOrdersOpen": "ఇంకా ఓపెన్‌లో ఉన్నవి",
+  "dayCloseOrdersBilled": "బిల్ అయినవి",
+  "dayCloseAvgTicket": "సగటు బిల్లు",
+  "menuCloudSection": "క్లౌడ్ బోర్డ్",
+  "menuShopKey": "షాప్ కీ (16+ అక్షరాలు)",
+  "menuCloudSync": "ఆర్డర్లను క్లౌడ్‌తో సింక్ చేయండి",
+  "menuCloudPublish": "మెనూను క్లౌడ్‌లో పబ్లిష్ చేయండి",
+  "menuCloudPublished": "క్లౌడ్ మెనూకి {count} ఐటమ్స్ పబ్లిష్ అయ్యాయి",
+  "@menuCloudPublished": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "menuCloudFailed": "క్లౌడ్ ఎర్రర్: {reason}",
+  "@menuCloudFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "menuCloudLive": "లైవ్: QR ఆర్డర్‌లు నేరుగా బోర్డుకి వస్తాయి.",
+  "menuCloudOffline": "లోకల్ మాత్రమే. QR ఆర్డర్‌లు రావాలంటే షాప్ కీని జోడించి సింక్ ఆన్ చేయండి.",
+  "settleTitle": "బాకీ క్లియర్ చేయండి",
+  "settleAmountSection": "చెల్లింపు",
+  "settleAmount": "మొత్తం",
+  "settleCash": "నగదు",
+  "settleUpi": "UPI",
+  "settleLoan": "కొత్త అప్పు",
+  "settleNote": "నోట్",
+  "settleCashHint": "నగదు రాగానే బాకీ క్లోజ్ అవుతుంది, ఈరోజు క్యాష్ కలెక్షన్‌కి కలుస్తుంది.",
+  "settleUpiHint": "UPI లో తీసుకుని కన్ఫర్మ్ చేయండి. బాకీ క్లోజ్ అయి ఈరోజు UPI కలెక్షన్ పెరుగుతుంది.",
+  "settleLoanHint": "పాత బాకీ క్లోజ్ అయ్యి, అదే మొత్తం కొత్త అప్పుగా మారుతుంది.",
+  "settleConfirm": "సెటిల్ చేయండి",
+  "settleDone": "చెల్లింపు నమోదైంది",
+  "settleHistory": "ఇటీవలి చెల్లింపులు",
+  "settleTooMuch": "మిగిలిన బాకీ ₹{amount} కంటే ఎక్కువ ఉంది",
+  "@settleTooMuch": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLedgerItem": "బాకీ చెల్లించారు — {name}",
+  "@settleLedgerItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLoanItem": "బాకీ కొత్త అప్పుగా మార్చబడింది — {name}",
+  "@settleLoanItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "menuAddress": "షాపు అడ్రస్",
+  "menuPhone": "ఫోన్ నంబర్",
+  "menuFssai": "FSSAI లైసెన్స్",
+  "menuGrowSection": "వృద్ధి & నిర్వహణ",
+  "recipesTitle": "రెసిపీల పుస్తకం",
+  "recipesSubtitle": "మీ కొలతలు, ఒక్కసారి రాసి పెట్టుకోండి",
+  "recipeAdd": "వంటకాన్ని చేర్చండి",
+  "recipeName": "వంటకం పేరు",
+  "recipeServings": "ఎన్ని ప్లేట్లు వస్తుంది",
+  "recipeEmpty": "ఇంకా ఏ వంటకం రాయలేదు.",
+  "recipeIngredients": "కావలసిన సరుకులు",
+  "recipeSteps": "చేసే విధానం",
+  "recipeAddIngredient": "సరుకు చేర్చండి",
+  "recipeAddStep": "స్టెప్ చేర్చండి",
+  "recipeQty": "పరిమాణం",
+  "recipeLinkProduct": "స్టాక్ ఐటమ్ నుండి తీసుకోండి",
+  "recipeNoLink": "స్టాక్ నుండి కాదు",
+  "recipeCost": "సరుకుల ఖర్చు",
+  "recipePerServing": "ప్లేట్ ఖర్చు",
+  "recipeScale": "ఎన్ని ప్లేట్లకు చేయాలి",
+  "recipeCookBatch": "సరుకులను స్టాక్ నుండి తీయండి",
+  "recipeCooked": "స్టాక్ నుండి సరుకు తీసేశారు",
+  "recipeStepsEmpty": "ఇంకా స్టెప్స్ రాయలేదు.",
+  "recipeUnlinkedWarning": "స్టాక్‌కి లింక్ చేయని ఐటమ్స్ ఖర్చులో కలపలేదు.",
+  "jobsTitle": "కస్టమ్ ఆర్డర్లు",
+  "jobsSubtitle": "అడ్వాన్స్ బుకింగ్‌లు మరియు ప్రత్యేక ఆర్డర్ పనులు",
+  "jobAdd": "ఆర్డర్ తీసుకోండి",
+  "jobTitleField": "ఏం తయారు చేయాలి",
+  "jobCustomer": "కస్టమర్",
+  "jobPhone": "ఫోన్",
+  "jobPrice": "ధర",
+  "jobAdvance": "తీసుకున్న అడ్వాన్స్",
+  "jobDue": "ఇచ్చే తేదీ",
+  "jobEmpty": "ఇక్కడ ఆర్డర్లు ఏమీ లేవు.",
+  "jobStatusTaken": "తీసుకున్నారు",
+  "jobStatusMaking": "చేస్తున్నారు",
+  "jobStatusReady": "రెడీ",
+  "jobStatusDelivered": "ఇచ్చేశారు",
+  "jobStatusCancelled": "క్యాన్సిల్ అయ్యింది",
+  "jobAdvanceStatus": "ముందుకు జరపండి",
+  "jobCancel": "క్యాన్సిల్",
+  "jobRemind": "WhatsAppలో మెసేజ్ చేయండి",
+  "jobFilterOpen": "ఓపెన్",
+  "jobFilterToday": "ఈరోజే ఇవ్వాలి",
+  "jobFilterDone": "పూర్తయినవి",
+  "customersTitle": "రెగ్యులర్ కస్టమర్లు",
+  "customersSubtitle": "ఎవరు మళ్లీ వస్తున్నారు, మీ షాప్ ఎలా తెలిసింది",
+  "customerAdd": "కస్టమర్‌ని కలపండి",
+  "customerName": "పేరు",
+  "customerPhone": "ఫోన్",
+  "sourceWalkIn": "నేరుగా వచ్చారు",
+  "sourceInstagram": "Instagram",
+  "sourceMaps": "Google Maps",
+  "sourceReferral": "తెలిసినవాళ్లు చెప్పారు",
+  "sourceOther": "ఇతర",
+  "customerRecordVisit": "విజిట్ కలపండి",
+  "customerVisitAmount": "మొత్తం",
+  "customerRewardDue": "ఫ్రీ ఐటమ్ ఇవ్వాలి",
+  "customerGiveReward": "ఫ్రీ ఐటమ్ ఇవ్వండి",
+  "customersEmpty": "రెగ్యులర్ కస్టమర్లు ఇంకా ఎవరూ లేరు.",
+  "customerSourceSplit": "డబ్బులు ఎక్కడి నుంచి వస్తున్నాయి",
+  "eventsTitle": "ఈవెంట్లు & ఎగ్జిబిషన్లు",
+  "eventsSubtitle": "స్టాల్ వేయడం వల్ల లాభం వచ్చిందా?",
+  "eventAdd": "ఈవెంట్ జోడించండి",
+  "eventName": "ఈవెంట్ పేరు",
+  "eventPlace": "ప్రదేశం",
+  "eventDay": "తేదీ",
+  "eventRent": "స్టాల్ అద్దె",
+  "eventTravel": "ప్రయాణం",
+  "eventOther": "ఇతర ఖర్చు",
+  "eventSales": "అమ్మకాలు",
+  "eventFootfall": "వచ్చిన జనం",
+  "eventProfit": "లాభం",
+  "eventLoss": "నష్టం",
+  "eventPerVisitor": "ఒక్కో విజిటర్‌కి",
+  "eventsEmpty": "ఇంకా ఏ ఈవెంట్‌ను నమోదు చేయలేదు.",
+  "staffTitle": "వర్కర్లు",
+  "staffSubtitle": "హాజరు, అడ్వాన్సులు మరియు జీతాలు",
+  "staffAdd": "వర్కర్‌ను జోడించండి",
+  "staffName": "పేరు",
+  "staffPhone": "ఫోన్",
+  "staffRole": "చేసే పని",
+  "staffWage": "రోజువారీ కూలీ",
+  "staffPresent": "హాజరు",
+  "staffHalf": "హాఫ్ డే",
+  "staffAbsent": "రాలేదు",
+  "staffAdvance": "అడ్వాన్స్",
+  "staffAdvanceAdd": "అడ్వాన్స్ ఇవ్వండి",
+  "staffPayable": "ఈ నెలకు ఇవ్వాల్సిన కూలీ",
+  "staffEmpty": "వర్కర్లెవరూ లేరు.",
+  "staffRemove": "తీసివేయండి",
+  "growthTitle": "గ్రోత్ కిట్",
+  "growthSubtitle": "ఎక్కువ మంది కస్టమర్లను రప్పించండి",
+  "growthMenuLink": "మీ మెనూ లింక్",
+  "growthShareMenu": "మెనూ పంపండి",
+  "growthAskReview": "రివ్యూ అడగండి",
+  "growthOpenMaps": "Maps పేజీ తెరవండి",
+  "growthWhatsappBroadcast": "WhatsAppలో కస్టమర్లకు చెప్పండి",
+  "growthLinksSection": "మీ లింక్‌లు",
+  "growthMapsUrl": "Google Maps లింక్",
+  "growthReviewUrl": "రివ్యూ లింక్",
+  "growthInstagram": "Instagram పేరు",
+  "growthLoyalty": "ఎన్ని విజిట్స్ తర్వాత ఒకటి ఉచితం",
+  "growthIdeas": "ఈ వారం పోస్ట్ ఐడియాలు",
+  "growthShareIdea": "పంపండి",
+  "growthIdea1": "ఉదయం మొదటి బ్యాచ్ తయారవుతున్న చిన్న వీడియో.",
+  "growthIdea2": "ధర స్పష్టంగా రాసి ఉన్న నేటి స్పెషల్.",
+  "growthIdea3": "రెగ్యులర్ కస్టమర్ తమ ఆర్డర్‌తో ఉన్న ఫోటో.",
+  "growthIdea4": "కౌంటర్ వెనుక: రోజూ షాప్ ఎలా మొదలవుతుందో చూపించండి.",
+  "growthIdea5": "రెండు రోజులు మాత్రమే ఉండే వీకెండ్ ఆఫర్.",
+  "growthSaved": "సేవ్ అయింది",
+  "checklistTitle": "షాప్ తెరిచే & మూసే చెక్‌లిస్ట్",
+  "checklistSubtitle": "మర్చిపోతే ఇబ్బంది పెట్టే చిన్న చిన్న పనులు",
+  "checklistOpening": "తెరిచే ముందు",
+  "checklistClosing": "మూసే ముందు",
+  "checklistAdd": "లిస్ట్‌కి జోడించండి",
+  "checklistItem": "ఏం చెక్ చేయాలి",
+  "checklistEmpty": "లిస్ట్‌లో ఇంకా ఏమీ లేదు.",
+  "checklistUseStarter": "స్టార్టర్ లిస్ట్ వాడండి",
+  "checklistSeed1": "చిల్లర డబ్బులు రెడీగా పెట్టుకోవడం",
+  "checklistSeed2": "గ్యాస్ మరియు పాలు సరిచూసుకోవడం",
+  "checklistSeed3": "QR స్టాండ్, రేట్ల బోర్డు బయట పెట్టడం",
+  "checklistSeed4": "క్యాష్ లెక్కించి రాసిపెట్టుకోవడం",
+  "checklistSeed5": "ఫ్రిజ్, గ్యాస్, లైట్లు స్విచ్ ఆఫ్ చేయడం",
+  "jobRemindMessage": "నమస్తే {name}, మీ ఆర్డర్ \"{title}\" రెడీగా ఉంది.",
+  "@jobRemindMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "customerVisits": "{count} విజిట్స్",
+  "@customerVisits": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "customerToReward": "ఇంకా {count} విజిట్స్",
+  "@customerToReward": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "growthReviewMessage": "{name} నచ్చిందా? దయచేసి రివ్యూ ఇవ్వండి: {link}",
+  "@growthReviewMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "growthBroadcastMessage": "{name} — నేటి మెనూ: {link}",
+  "@growthBroadcastMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "checklistProgress": "{total} లో {done} పూర్తయ్యాయి",
+  "@checklistProgress": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "movementPrepared": "తయారీ",
+  "recipeShortStock": "స్టాక్‌లో సరిపడా {item} లేదు",
+  "@recipeShortStock": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "starterIdli": "ఇడ్లీ",
+  "starterDosa": "దోశ",
+  "starterMeals": "భోజనం",
+  "starterSnackPacket": "స్నాక్ ప్యాకెట్",
+  "starterWaterBottle": "వాటర్ బాటిల్",
+  "starterVegSupply": "కూరగాయలు",
+  "starterGasSupply": "గ్యాస్ సిలిండర్",
+  "checklistSeedHotel": "పిండి, కూరగాయలు, గ్యాస్ సిద్ధం చేసుకోవడం",
+  "checklistSeedCart": "బండి శుభ్రం చేసి స్టాక్ పెట్టుకోవడం",
+  "checklistSeedService": "సామాన్లు, చిల్లర రెడీ",
+  "presetRecipeTea": "షాప్ టీ (10 కప్పులు)",
+  "presetIngredientMilk": "పాలు",
+  "presetIngredientWater": "నీళ్లు",
+  "presetIngredientTeaPowder": "టీ పొడి",
+  "presetIngredientSugar": "చక్కెర",
+  "rolesTitle": "రోల్స్",
+  "rolesSubtitle": "ఎవరు ఏమి చేయవచ్చు",
+  "rolesHint": "ఒక్కో హెల్పర్ రకానికి ఒక రోల్ తయారు చేసి, వారు చేసే పనిని మాత్రమే టిక్ చేయండి.",
+  "rolesEmpty": "ఇంకా రోల్స్ లేవు",
+  "rolesOpen": "యాక్టివ్ రోల్స్",
+  "roleNew": "కొత్త రోల్",
+  "roleSuggestionsTitle": "మీ షాప్ కోసం సూచనలు",
+  "@roleSuggestionsTitle": {},
+  "roleSuggestionsHint": "మీ బిజినెస్‌కు తగిన రోల్స్ సిద్ధంగా ఉన్నాయి. ఒకదాన్ని ఎంచుకుని, అవసరమైతే మార్చుకోండి.",
+  "@roleSuggestionsHint": {},
+  "tmplWaiter": "వెయిటర్",
+  "@tmplWaiter": {},
+  "tmplKitchen": "కిచెన్ / చెఫ్",
+  "@tmplKitchen": {},
+  "tmplCashier": "క్యాషియర్",
+  "@tmplCashier": {},
+  "tmplCounter": "కౌంటర్",
+  "@tmplCounter": {},
+  "tmplSalesHelper": "సేల్స్ హెల్పర్",
+  "@tmplSalesHelper": {},
+  "tmplStockKeeper": "స్టాక్ కీపర్",
+  "@tmplStockKeeper": {},
+  "tmplJobAssistant": "జాబ్ అసిస్టెంట్",
+  "@tmplJobAssistant": {},
+  "tmplCounterHelper": "కౌంటర్ హెల్పర్",
+  "@tmplCounterHelper": {},
+  "tmplAssistant": "అసిస్టెంట్",
+  "@tmplAssistant": {},
+  "roleOwner": "ఓనర్",
+  "roleOwnerNote": "ఎల్లప్పుడూ పూర్తి యాక్సెస్",
+  "roleInactive": "వాడకంలో లేదు",
+  "rolePermissionCount": "{count} అనుమతించబడ్డాయి",
+  "@rolePermissionCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "roleEditSubtitle": "పేరు, బాధ్యతలు మరియు పరిమితులు",
+  "roleName": "రోల్ పేరు",
+  "roleNote": "బాధ్యత",
+  "roleLimits": "డబ్బు పరిమితులు (Rs, 0 = పరిమితి లేదు)",
+  "roleMaxDiscount": "అనుమతించే గరిష్ట డిస్కౌంట్",
+  "roleMaxCredit": "అనుమతించే గరిష్ట అప్పు",
+  "roleMaxRefund": "అనుమతించే గరిష్ట రీఫండ్",
+  "roleLimitHint": "ఈ మొత్తం మించితే ఓనర్ PIN అవసరం.",
+  "roleDuplicate": "రోల్ కాపీ చేయండి",
+  "roleDeactivate": "వాడకం ఆపండి",
+  "areaSales": "సేల్స్",
+  "areaOrders": "ఆర్డర్లు మరియు కిచెన్",
+  "areaBilling": "బిల్లులు",
+  "areaCredit": "అప్పు",
+  "areaStock": "స్టాక్",
+  "areaPurchases": "కొనుగోళ్లు & ఖర్చులు",
+  "areaMoney": "డబ్బు & రిపోర్టులు",
+  "areaCustomers": "కస్టమర్లు",
+  "areaStaff": "సిబ్బంది",
+  "areaSettings": "సెట్టింగ్స్",
+  "permRecordSale": "అమ్మకాన్ని నమోదు చేయండి",
+  "permQuickSale": "క్విక్ సేల్ వాడండి",
+  "permCollectUpi": "పేమెంట్ QR చూపించండి",
+  "permTakeOrder": "ఆర్డర్ తీసుకోండి",
+  "permChangeOrderStatus": "ఆర్డర్ స్టేటస్ మార్చండి",
+  "permViewKitchen": "కిచెన్ లిస్ట్ చూడండి",
+  "permEditMenu": "మెనూ మార్చండి",
+  "permMakeBill": "బిల్లు వేయండి",
+  "permGiveDiscount": "డిస్కౌంట్ ఇవ్వండి",
+  "permVoidBill": "బిల్లు రద్దు చేయండి",
+  "permReprintBill": "బిల్లు మళ్లీ ప్రింట్ చేయండి",
+  "permGiveCredit": "అప్పు ఇవ్వండి",
+  "permSettleCredit": "అప్పు జమ చేయండి",
+  "permViewCredit": "అప్పు బాకీలు చూడండి",
+  "permViewStock": "స్టాక్ చూడండి",
+  "permAdjustStock": "స్టాక్ మార్చండి",
+  "permEditProducts": "ఐటమ్స్ చేర్చండి లేదా మార్చండి",
+  "permChangePrice": "ధరలు మార్చండి",
+  "permCookRecipe": "రెసిపీ తయారు చేయండి",
+  "permRecordExpense": "ఖర్చు నమోదు చేయండి",
+  "permManageSuppliers": "సప్లయర్లను మేనేజ్ చేయండి",
+  "permViewDayTotals": "రోజు టోటల్ చూడండి",
+  "permViewProfit": "లాభం చూడండి",
+  "permCloseDay": "రోజును ముగించండి",
+  "permViewReports": "రిపోర్టులు చూడండి",
+  "permViewCustomers": "కస్టమర్లను చూడండి",
+  "permEditCustomers": "కస్టమర్ వివరాలు మార్చండి",
+  "permManageStaff": "సిబ్బందిని మేనేజ్ చేయండి",
+  "permMarkAttendance": "హాజరు వేయండి",
+  "permPayWages": "జీతాలు ఇవ్వండి",
+  "permManageRoles": "రోల్స్ క్రియేట్ చేయండి",
+  "permViewAudit": "యాక్టివిటీ హిస్టరీ చూడండి",
+  "permEditSettings": "సెట్టింగ్స్ మార్చండి",
+  "permEditShop": "షాప్ వివరాలు మార్చండి",
+  "permManagePrinters": "ప్రింటర్లు సెటప్ చేయండి",
+  "accessTitle": "యాక్సెస్ కంట్రోల్",
+  "accessSubtitle": "ఒకే ఫోన్, వేర్వేరు వ్యక్తులు",
+  "accessEnable": "PIN అడగండి",
+  "accessEnableHint": "ఈ ఫోన్ వాడే ముందు ప్రతి హెల్పర్ సైన్ ఇన్ అవ్వాలి.",
+  "accessNeedsOwnerPin": "ముందు ఓనర్ PIN సెట్ చేయండి",
+  "accessOwnerPin": "ఓనర్ PIN",
+  "accessOwnerPinSet": "ఓనర్ PIN సెట్ చేయండి (4-6 అంకెలు)",
+  "accessOwnerPinChange": "ఓనర్ PIN మార్చండి (4-6 అంకెలు)",
+  "accessPinSaved": "PIN సేవ్ అయింది",
+  "accessPinInvalid": "4 నుండి 6 అంకెలు ఉండాలి",
+  "accessAutoLock": "ఆటో లాక్",
+  "accessIdleMinutes": "ఇంత సమయం తర్వాత లాక్ అవ్వాలి (నిమిషాలు, 0 = ఎప్పటికీ వద్దు)",
+  "accessWorkers": "హెల్పర్లు",
+  "accessNoWorkers": "ముందు హెల్పర్లను జోడించండి",
+  "accessNoRole": "ఇంకా రోల్ ఇవ్వలేదు",
+  "accessPinSet": "PIN సెట్ అయింది",
+  "accessPinMissing": "PIN లేదు",
+  "accessAssignTitle": "రోల్ మరియు PIN",
+  "accessWorkerPin": "కొత్త PIN (4-6 అంకెలు)",
+  "accessSaved": "సేవ్ అయింది",
+  "accessEndShift": "షిఫ్ట్ ముగించు",
+  "accessWrongPin": "తప్పుడు PIN",
+  "lockTitle": "కౌంటర్‌లో ఎవరున్నారు?",
+  "lockSubtitle": "మీ పేరు ఎంచుకుని PIN ఎంటర్ చేయండి",
+  "lockPin": "PIN",
+  "lockUnlock": "షిఫ్ట్ మొదలుపెట్టు",
+  "auditTitle": "యాక్టివిటీ హిస్టరీ",
+  "auditSubtitle": "ఎవరు ఏం చేశారు",
+  "auditOpen": "యాక్టివిటీ హిస్టరీ చూడండి",
+  "auditEveryone": "అందరూ",
+  "auditEmpty": "ఇంకా ఏమీ రికార్డ్ కాలేదు",
+  "auditApproved": "ఓనర్ అప్రూవ్ చేశారు",
+  "settingsGroupBusiness": "బిజినెస్",
+  "@settingsGroupBusiness": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupMoney": "డబ్బులు",
+  "@settingsGroupMoney": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupApp": "యాప్ & డివైస్‌లు",
+  "@settingsGroupApp": {
+    "description": "Settings hub label"
+  },
+  "settingsShopTitle": "షాప్ వివరాలు",
+  "@settingsShopTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsPaymentsTitle": "పేమెంట్లు & UPI",
+  "@settingsPaymentsTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsMarketTitle": "మార్కెట్ ధరలు",
+  "@settingsMarketTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsNotSet": "సెట్ చేయలేదు",
+  "@settingsNotSet": {
+    "description": "Settings hub label"
+  },
+  "settingsOn": "ఆన్",
+  "@settingsOn": {
+    "description": "Settings hub label"
+  },
+  "settingsOff": "ఆఫ్",
+  "@settingsOff": {
+    "description": "Settings hub label"
+  },
+  "settingsSaved": "సెట్టింగ్స్ సేవ్ అయ్యాయి",
+  "@settingsSaved": {
+    "description": "Settings hub label"
+  },
+  "dashboardTitle": "డ్యాష్‌బోర్డ్",
+  "@dashboardTitle": {
+    "description": "Dashboard"
+  },
+  "dashboardSubtitle": "ఆర్డర్లు, పేమెంట్లు, ఖాతా బాకీలు, స్టాక్ వివరాలు",
+  "@dashboardSubtitle": {
+    "description": "Orders, money, credit and stock at a glance"
+  },
+  "dashboardOrders": "ఆర్డర్లు",
+  "@dashboardOrders": {
+    "description": "Orders"
+  },
+  "dashboardPayments": "రావాల్సిన పేమెంట్లు",
+  "@dashboardPayments": {
+    "description": "Pending payments"
+  },
+  "dashboardCredit": "ఖాతా బాకీలు",
+  "@dashboardCredit": {
+    "description": "Credit balances"
+  },
+  "dashboardInventory": "స్టాక్",
+  "@dashboardInventory": {
+    "description": "Inventory"
+  },
+  "dashboardShare": "షేర్",
+  "@dashboardShare": {
+    "description": "Share"
+  },
+  "dashboardPlaced": "వచ్చినవి",
+  "@dashboardPlaced": {
+    "description": "Placed"
+  },
+  "dashboardServed": "ఇచ్చినవి",
+  "@dashboardServed": {
+    "description": "Served"
+  },
+  "dashboardCancelled": "రద్దైనవి",
+  "@dashboardCancelled": {
+    "description": "Cancelled"
+  },
+  "dashboardOpenOrders": "ఓపెన్ ఆర్డర్లు",
+  "@dashboardOpenOrders": {
+    "description": "Open orders"
+  },
+  "dashboardBilled": "బిల్ అయినవి",
+  "@dashboardBilled": {
+    "description": "Billed"
+  },
+  "dashboardAvgBill": "సగటు బిల్లు",
+  "@dashboardAvgBill": {
+    "description": "Average bill"
+  },
+  "dashboardCollected": "వసూలైనవి",
+  "@dashboardCollected": {
+    "description": "Collected"
+  },
+  "dashboardUnbilled": "ఇంకా బిల్ చేయలేదు",
+  "@dashboardUnbilled": {
+    "description": "Not billed yet"
+  },
+  "dashboardPendingTotal": "ఇంకా రావాల్సినవి",
+  "@dashboardPendingTotal": {
+    "description": "Still to collect"
+  },
+  "dashboardOutstanding": "మొత్తం బాకీ",
+  "@dashboardOutstanding": {
+    "description": "Outstanding"
+  },
+  "dashboardCreditGiven": "ఇచ్చిన అప్పు",
+  "@dashboardCreditGiven": {
+    "description": "Credit given"
+  },
+  "dashboardCustomers": "కస్టమర్లు",
+  "@dashboardCustomers": {
+    "description": "Customers"
+  },
+  "dashboardOldest": "పాత బాకీ",
+  "@dashboardOldest": {
+    "description": "Oldest due"
+  },
+  "dashboardDays": "{count, plural, =0{today} =1{1 day} other{{count} days}}",
+  "@dashboardDays": {
+    "description": "Age of the oldest unpaid credit balance",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardStockValue": "స్టాక్ విలువ",
+  "@dashboardStockValue": {
+    "description": "Stock value"
+  },
+  "dashboardLowStock": "తక్కువ స్టాక్",
+  "@dashboardLowStock": {
+    "description": "Low stock"
+  },
+  "dashboardExpiring": "త్వరలో ఎక్స్‌పైర్ అయ్యేవి",
+  "@dashboardExpiring": {
+    "description": "Expiring soon"
+  },
+  "dashboardWastage": "వేస్టేజ్",
+  "@dashboardWastage": {
+    "description": "Wastage"
+  },
+  "dashboardPurchases": "కొనుగోళ్లు",
+  "@dashboardPurchases": {
+    "description": "Purchases"
+  },
+  "dashboardTopItems": "ఎక్కువగా అమ్ముడైనవి",
+  "@dashboardTopItems": {
+    "description": "Top items"
+  },
+  "planTitle": "సబ్‌స్క్రిప్షన్",
+  "@planTitle": {
+    "description": "Subscription"
+  },
+  "planSubtitle": "ఈ దుకాణానికి క్లౌడ్ ఫీచర్లు",
+  "@planSubtitle": {
+    "description": "Cloud features for this shop"
+  },
+  "planFree": "ఉచితం",
+  "@planFree": {
+    "description": "Free"
+  },
+  "planPro": "ప్రో",
+  "@planPro": {
+    "description": "Pro"
+  },
+  "planFreeNote": "ఈ ఫోన్‌లో అన్నీ ఉచితంగా పనిచేస్తూనే ఉంటాయి.",
+  "@planFreeNote": {
+    "description": "Everything on this phone keeps working for free."
+  },
+  "planProNote": "ఈ దుకాణానికి క్లౌడ్ ఫీచర్లు యాక్టివ్‌గా ఉన్నాయి.",
+  "@planProNote": {
+    "description": "Cloud features are active for this shop."
+  },
+  "planCloudFeatures": "క్లౌడ్ ఫీచర్లు",
+  "@planCloudFeatures": {
+    "description": "Cloud features"
+  },
+  "planFeatureAccount": "క్లౌడ్ షాప్ అకౌంట్",
+  "@planFeatureAccount": {
+    "description": "Cloud shop account"
+  },
+  "planFeatureLiveSync": "లైవ్ ఆర్డర్ బోర్డ్ సింక్",
+  "@planFeatureLiveSync": {
+    "description": "Live order board sync"
+  },
+  "planFeatureQrOrdering": "QR మెనూ ఆర్డరింగ్",
+  "@planFeatureQrOrdering": {
+    "description": "QR menu ordering"
+  },
+  "planFeatureShareLinks": "షేర్ చేయదగిన లింక్‌లు",
+  "@planFeatureShareLinks": {
+    "description": "Shareable links"
+  },
+  "planFeatureSoundbox": "క్లౌడ్ సౌండ్‌బాక్స్",
+  "@planFeatureSoundbox": {
+    "description": "Cloud soundbox"
+  },
+  "planFeatureBackup": "మల్టీ-డివైస్ బ్యాకప్",
+  "@planFeatureBackup": {
+    "description": "Multi-device backup"
+  },
+  "planOn": "ఆన్",
+  "@planOn": {
+    "description": "On"
+  },
+  "planLocked": "లాక్ చేయబడింది",
+  "@planLocked": {
+    "description": "Locked"
+  },
+  "planRefresh": "సబ్‌స్క్రిప్షన్ తనిఖీ చేయండి",
+  "@planRefresh": {
+    "description": "Check subscription"
+  },
+  "planChecking": "తనిఖీ చేస్తోంది…",
+  "@planChecking": {
+    "description": "Checking…"
+  },
+  "planCheckFailed": "ఇప్పుడు తనిఖీ చేయడం వీలుపడలేదు. మునుపటి స్టేటస్ చూపబడుతోంది.",
+  "@planCheckFailed": {
+    "description": "Could not check right now. Last known status is used."
+  },
+  "planNeedsShop": "ముందుగా క్లౌడ్ షాప్‌ని సెటప్ చేయండి.",
+  "@planNeedsShop": {
+    "description": "Set up the cloud shop first."
+  },
+  "planOfflineNote": "కొన్ని రోజులు ఆఫ్‌లైన్‌లో ఉన్నా ఫర్వాలేదు — గ్రేస్ పీరియడ్‌లో క్లౌడ్ ఫీచర్లు పనిచేస్తాయి.",
+  "@planOfflineNote": {
+    "description": "Offline for a few days is fine — cloud features keep working during the grace period."
+  },
+  "shopTitle": "నా దుకాణం",
+  "@shopTitle": {
+    "description": "My shop"
+  },
+  "shopSubtitle": "మీ వ్యాపారానికి తగిన వర్క్‌ఫ్లో",
+  "@shopSubtitle": {
+    "description": "Workflow made for your trade"
+  },
+  "shopPickType": "షాప్ రకం",
+  "@shopPickType": {
+    "description": "Shop type"
+  },
+  "shopWorkflow": "రోజువారీ వర్క్‌ఫ్లో",
+  "@shopWorkflow": {
+    "description": "Daily workflow"
+  },
+  "shopTypeRestaurant": "రెస్టారెంట్",
+  "@shopTypeRestaurant": {
+    "description": "Restaurant"
+  },
+  "shopTypeHotel": "హోటల్",
+  "@shopTypeHotel": {
+    "description": "Hotel"
+  },
+  "shopTypeStreet": "స్ట్రీట్ స్టాల్",
+  "@shopTypeStreet": {
+    "description": "Street stall"
+  },
+  "shopTypeDiy": "DIY / క్రాఫ్ట్ స్టాల్",
+  "@shopTypeDiy": {
+    "description": "DIY / craft stall"
+  },
+  "shopTypeMagnet": "ఫ్రిజ్ మాగ్నెట్ స్టాల్",
+  "@shopTypeMagnet": {
+    "description": "Fridge magnet stall"
+  },
+  "shopTypeTea": "టీ షాప్",
+  "@shopTypeTea": {
+    "description": "Tea shop"
+  },
+  "settingsOrderingTitle": "ఆర్డరింగ్ నిబంధనలు",
+  "@settingsOrderingTitle": {
+    "description": "Ordering rules"
+  },
+  "settingsOrderingSubtitle": "సర్వీస్ రకం, పేమెంట్ సమయం, టేబుల్ బటన్లు",
+  "@settingsOrderingSubtitle": {
+    "description": "Service style, payment timing, table buttons"
+  },
+  "serviceStyle": "సర్వీస్ రకం",
+  "@serviceStyle": {
+    "description": "Service style"
+  },
+  "serviceTable": "టేబుల్ సర్వీస్",
+  "@serviceTable": {
+    "description": "Table service"
+  },
+  "serviceSelf": "సెల్ఫ్ సర్వీస్",
+  "@serviceSelf": {
+    "description": "Self service"
+  },
+  "serviceTakeaway": "టేక్‌అవే మాత్రమే",
+  "@serviceTakeaway": {
+    "description": "Takeaway only"
+  },
+  "paymentTiming": "పేమెంట్ సమయం",
+  "@paymentTiming": {
+    "description": "Payment timing"
+  },
+  "payBefore": "ముందే చెల్లించండి",
+  "@payBefore": {
+    "description": "Pay first"
+  },
+  "payAfter": "తర్వాత చెల్లించండి",
+  "@payAfter": {
+    "description": "Pay after"
+  },
+  "payTimingHelp": "'ముందే చెల్లించండి' అంటే ఆర్డర్ కన్ఫర్మ్ అయ్యే ముందే పేమెంట్ అడుగుతుంది. 'తర్వాత చెల్లించండి' అంటే నేరుగా కిచెన్‌కి పంపుతుంది.",
+  "@payTimingHelp": {
+    "description": "Pay first asks the customer to pay before the order is confirmed. Pay after sends it to the kitchen straight away."
+  },
+  "customerButtons": "కస్టమర్ స్క్రీన్‌పై బటన్లు",
+  "@customerButtons": {
+    "description": "Buttons on the customer screen"
+  },
+  "allowCallStaff": "స్టాఫ్‌ని పిలవండి",
+  "@allowCallStaff": {
+    "description": "Call staff"
+  },
+  "allowRequestBill": "బిల్ అడగండి",
+  "@allowRequestBill": {
+    "description": "Ask for the bill"
+  },
+  "customerButtonsHelp": "ఇవి టేబుల్ సర్వీస్‌తో మాత్రమే కనిపిస్తాయి.",
+  "@customerButtonsHelp": {
+    "description": "These appear only with table service."
+  },
+  "requestCallStaff": "స్టాఫ్ కావాలి",
+  "@requestCallStaff": {
+    "description": "Staff needed"
+  },
+  "requestBill": "బిల్ ఇవ్వండి",
+  "@requestBill": {
+    "description": "Bill please"
+  },
+  "requestTable": "టేబుల్ {table}",
+  "@requestTable": {
+    "description": "Table label",
+    "placeholders": {
+      "table": {
+        "type": "String"
+      }
+    }
+  },
+  "requestCounter": "కౌంటర్",
+  "@requestCounter": {
+    "description": "Counter"
+  },
+  "requestSeen": "చూశారు",
+  "@requestSeen": {
+    "description": "Seen"
+  },
+  "payStateAwaiting": "పేమెంట్ రావాలి",
+  "@payStateAwaiting": {
+    "description": "Awaiting payment"
+  },
+  "payStateDue": "కౌంటర్ వద్ద చెల్లించండి",
+  "@payStateDue": {
+    "description": "Pay at counter"
+  },
+  "payStatePaid": "చెల్లించారు",
+  "@payStatePaid": {
+    "description": "Paid"
+  },
+  "orderMarkPaid": "చెల్లించినట్లు మార్క్ చేయండి",
+  "@orderMarkPaid": {
+    "description": "Mark paid"
+  },
+  "devicesTitle": "ఫోన్లు & డివైజ్‌లు",
+  "@devicesTitle": {},
+  "devicesSubtitle": "వెయిటర్, కిచెన్, కౌంటర్ ఫోన్లు ఒకే చోట",
+  "@devicesSubtitle": {},
+  "devicesPairThis": "ఈ ఫోన్‌ను లింక్ చేయండి",
+  "@devicesPairThis": {},
+  "devicesShopSlug": "షాపు పేరు (మెనూ లింక్ పదం)",
+  "@devicesShopSlug": {},
+  "devicesEnterCode": "ఓనర్ ఇచ్చే 6 అంకెల కోడ్",
+  "@devicesEnterCode": {},
+  "devicesLabel": "ఫోన్ పేరు",
+  "@devicesLabel": {},
+  "devicesPairButton": "ఫోన్‌ను లింక్ చేయండి",
+  "@devicesPairButton": {},
+  "devicesPairSuccess": "ఫోన్ షాపునకు లింక్ అయింది",
+  "@devicesPairSuccess": {},
+  "devicesUnpair": "ఈ ఫోన్ లింక్ తీసివేయండి",
+  "@devicesUnpair": {},
+  "devicesPairedAs": "{role} గా లింక్ అయింది · {shop}",
+  "@devicesPairedAs": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "devicesNewCode": "కొత్త పెయిరింగ్ కోడ్",
+  "@devicesNewCode": {},
+  "devicesCodeExpires": "15 నిమిషాలు పనిచేస్తుంది · కాపీ చేయడానికి నొక్కండి",
+  "@devicesCodeExpires": {},
+  "devicesList": "లింక్ చేసిన ఫోన్లు",
+  "@devicesList": {},
+  "devicesEmpty": "ఇంకా ఏ ఫోన్లు లింక్ చేయలేదు",
+  "@devicesEmpty": {},
+  "devicesRevoke": "తీసివేయండి",
+  "@devicesRevoke": {},
+  "devicesRevoked": "తీసివేశారు",
+  "@devicesRevoked": {},
+  "devicesOnline": "ఆన్‌లైన్",
+  "@devicesOnline": {},
+  "devicesOffline": "ఆఫ్‌లైన్",
+  "@devicesOffline": {},
+  "devicesRoleWaiter": "వెయిటర్",
+  "@devicesRoleWaiter": {},
+  "devicesRoleKitchen": "కిచెన్",
+  "@devicesRoleKitchen": {},
+  "devicesRoleCounter": "కౌంటర్",
+  "@devicesRoleCounter": {},
+  "devicesProRequired": "మల్టీ-డివైజ్ సింక్ అనేది Pro ఫీచర్. వెయిటర్, కిచెన్, కౌంటర్ ఫోన్లను కనెక్ట్ చేయడానికి అప్‌గ్రేడ్ చేయండి.",
+  "@devicesProRequired": {},
+  "cloudShopSection": "క్లౌడ్ షాప్",
+  "@cloudShopSection": {},
+  "cloudShopHint": "QR మెనూ ఆర్డర్లు, స్టాఫ్ ఫోన్లు ఒకే లైవ్ ఆర్డర్ లిస్ట్‌ను షేర్ చేసుకోవడానికి సర్వర్‌లో మీ షాప్‌ను క్రియేట్ చేయండి.",
+  "@cloudShopHint": {},
+  "cloudShopSlug": "లింక్‌ల కోసం షాపు పేరు (ఉదా. sirpam-tea)",
+  "@cloudShopSlug": {},
+  "cloudShopKey": "షాప్ కీ (ప్రైవేట్, 16+ అక్షరాలు)",
+  "@cloudShopKey": {},
+  "cloudShopGenerate": "కీని జనరేట్ చేయండి",
+  "@cloudShopGenerate": {},
+  "cloudShopCreate": "క్లౌడ్ షాప్ క్రియేట్ చేయండి",
+  "@cloudShopCreate": {},
+  "cloudShopUpdate": "క్లౌడ్ షాప్ అప్‌డేట్ చేయండి",
+  "@cloudShopUpdate": {},
+  "cloudShopLive": "క్లౌడ్ షాప్ రెడీ: {slug}",
+  "@cloudShopLive": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopNone": "ఇంకా క్లౌడ్ షాప్ లేదు. QR ఆర్డర్లు, స్టాఫ్ ఫోన్లు వాడటానికి ఒకటి క్రియేట్ చేయండి.",
+  "@cloudShopNone": {},
+  "cloudShopCreated": "క్లౌడ్ షాప్ క్రియేట్ అయింది",
+  "@cloudShopCreated": {},
+  "cloudShopKeyShort": "షాపు పేరు మరియు కనీసం 16 అక్షరాల కీని ఎంటర్ చేయండి.",
+  "@cloudShopKeyShort": {},
+  "cloudShopCopyKey": "కీ కాపీ చేయండి",
+  "@cloudShopCopyKey": {},
+  "cloudShopKeyCopied": "షాప్ కీ కాపీ అయింది",
+  "@cloudShopKeyCopied": {},
+  "approvalTitle": "ఓనర్ అప్రూవల్",
+  "@approvalTitle": {},
+  "approvalNeeded": "ఈ షిఫ్ట్‌లో ఇది చేయలేరు: {action}. ఓనర్ ఒక్కసారి అనుమతించవచ్చు.",
+  "@approvalNeeded": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOverLimit": "ఈ షిఫ్ట్ లిమిట్ కంటే ఎక్కువ ఉంది: {action}. ఓనర్ ఒక్కసారి అనుమతించవచ్చు.",
+  "@approvalOverLimit": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOwnerPin": "ఓనర్ PIN",
+  "@approvalOwnerPin": {},
+  "approvalApprove": "ఒక్కసారి అనుమతించు",
+  "@approvalApprove": {},
+  "approvalGranted": "ఓనర్ అనుమతించారు",
+  "@approvalGranted": {},
+  "approvalWrongPin": "తప్పుడు ఓనర్ PIN",
+  "@approvalWrongPin": {},
+  "approvalBlockedTitle": "అనుమతి లేదు",
+  "@approvalBlockedTitle": {},
+  "approvalBlockedBody": "ఈ షిఫ్ట్‌కు {action} చేసే యాక్సెస్ లేదు. రోల్ మార్చమని ఓనర్‌ను అడగండి.",
+  "@approvalBlockedBody": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "recurringRemove": "తీసివేయి",
+  "@recurringRemove": {},
+  "recurringRemoved": "రెగ్యులర్ ఖర్చు తొలగించబడింది",
+  "@recurringRemoved": {},
+  "recurringRemoveConfirm": "రెగ్యులర్ ఖర్చుల నుండి {name}ని తీసివేయాలా?",
+  "@recurringRemoveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderEditItems": "ఐటమ్స్ మార్చు",
+  "@orderEditItems": {},
+  "orderEditItemsSaved": "ఆర్డర్ ఐటమ్స్ అప్‌డేట్ అయ్యాయి",
+  "@orderEditItemsSaved": {},
+  "orderEditEmpty": "ఆర్డర్‌లో కనీసం ఒక ఐటమ్ ఉండాలి.",
+  "@orderEditEmpty": {},
+  "printerStatus": "ప్రింటర్ స్టేటస్",
+  "@printerStatus": {},
+  "printerNotConnected": "ప్రింటర్ కనెక్ట్ కాలేదు",
+  "@printerNotConnected": {},
+  "printerConnectedTo": "{name}కి కనెక్ట్ అయింది",
+  "@printerConnectedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printerDisconnect": "డిస్‌కనెక్ట్ చేయి",
+  "@printerDisconnect": {},
+  "printerDisconnected": "ప్రింటర్ డిస్‌కనెక్ట్ అయింది",
+  "@printerDisconnected": {},
+  "printerForget": "ప్రింటర్‌ను తీసివేయి",
+  "@printerForget": {},
+  "printerForgotten": "ప్రింటర్ తీసివేయబడింది. బిల్లులు PDF రూపంలో షేర్ చేయబడతాయి.",
+  "@printerForgotten": {},
+  "printerUnsupported": "ఈ ఫోన్ నుండి బ్లూటూత్ ద్వారా ప్రింట్ చేయలేరు.",
+  "@printerUnsupported": {},
+  "printerPermissionNeeded": "యాప్ ప్రింటర్‌ను గుర్తించడానికి బ్లూటూత్ అనుమతి ఇవ్వండి.",
+  "@printerPermissionNeeded": {},
+  "printerPermissionDenied": "బ్లూటూత్ అనుమతి ఇవ్వలేదు.",
+  "@printerPermissionDenied": {},
+  "printerAllowBluetooth": "బ్లూటూత్ అనుమతించు",
+  "@printerAllowBluetooth": {},
+  "devicesTest": "కనెక్షన్ టెస్ట్ చేయి",
+  "@devicesTest": {},
+  "devicesTestOk": "షాపుకి కనెక్ట్ అయింది",
+  "@devicesTestOk": {},
+  "devicesTestFailed": "ఈ ఫోన్ కనెక్ట్ కాలేదు. ఓనర్‌ను కొత్త కోడ్ అడగండి.",
+  "@devicesTestFailed": {},
+  "stockLastUpdated": "స్టాక్ చివరిగా అప్‌డేట్ చేసింది {when}",
+  "@stockLastUpdated": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "agoJustNow": "ఇప్పుడే",
+  "@agoJustNow": {},
+  "agoMinutes": "{count, plural, =1{1 నిమిషం క్రితం} other{{count} నిమిషాల క్రితం}}",
+  "@agoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoHours": "{count, plural, =1{1 గంట క్రితం} other{{count} గంటల క్రితం}}",
+  "@agoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoDays": "{count, plural, =1{1 రోజు క్రితం} other{{count} రోజుల క్రితం}}",
+  "@agoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prepTitle": "ఉదయం ప్రిపరేషన్",
+  "prepSubtitle": "మొదటి కస్టమర్ వచ్చేసరికి సిద్ధంగా ఉండాల్సినవి",
+  "prepPending": "ఇంకా {count} సిద్ధం చేయాలి",
+  "@prepPending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "prepUseStarter": "స్టార్టర్ షీట్ వాడండి",
+  "prepTodaySheet": "ఈరోజు షీట్",
+  "prepAddTitle": "ప్రిపరేషన్ ఐటమ్ జోడించు",
+  "prepItemName": "ఐటమ్",
+  "prepPlanned": "ప్లాన్ చేసినవి",
+  "prepMade": "చేసినవి",
+  "prepUnit": "యూనిట్",
+  "prepAdd": "షీట్‌లో చేర్చండి",
+  "prepShort": "{qty} తక్కువయ్యాయి",
+  "@prepShort": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "prepProgressLine": "{planned} {unit}లలో {made}",
+  "@prepProgressLine": {
+    "placeholders": {
+      "made": {
+        "type": "String"
+      },
+      "planned": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "prepSeedMilk": "పాలు",
+  "prepSeedBatter": "పిండి",
+  "prepSeedSnacks": "స్నాక్స్",
+  "prepSeedChange": "చిల్లర",
+  "prepSeedDisplay": "డిస్‌ప్లే సర్దండి",
+  "prepSeedStock": "షెల్ఫ్‌లు నింపండి",
+  "prepUnitLitre": "లీటర్",
+  "prepUnitPlate": "ప్లేట్",
+  "prepUnitPiece": "పీస్",
+  "prepUnitRupee": "రూపాయి",
+  "insightsRush": "రద్దీ సమయాలు",
+  "insightsHour": "{hour}:00",
+  "@insightsHour": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsPeakHint": "{hour}:00 గంటలకు {bills} బిల్లులతో ఫుల్ రద్దీ — కౌంటర్ దగ్గర {staff} ఉండేలా చూసుకోండి",
+  "@insightsPeakHint": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      },
+      "bills": {
+        "type": "String"
+      },
+      "staff": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOpeningCash": "ఓపెనింగ్ క్యాష్",
+  "quickSaleSoldOutOn": "{item} అయిపోయినట్లు మార్క్ చేయబడింది",
+  "@quickSaleSoldOutOn": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSoldOutOff": "{item} మళ్లీ అమ్మకానికి సిద్ధం",
+  "@quickSaleSoldOutOff": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroes": "ఈ రోజు టాప్ ఐటమ్స్",
+  "insightsHeroLine": "{sold} అమ్మారు · {left} మిగిలాయి",
+  "@insightsHeroLine": {
+    "placeholders": {
+      "sold": {
+        "type": "String"
+      },
+      "left": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroRunsOut": "దాదాపు {hour}:00 గంటలకు అయిపోవచ్చు",
+  "@insightsHeroRunsOut": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "customerLapsedTitle": "ఈ మధ్య రానివాళ్లు",
+  "customerLapsedHint": "ఓ చిన్న మెసేజ్ పంపితే మళ్లీ వచ్చే అవకాశం ఉంది.",
+  "customerLapsedDays": "వచ్చి {days} రోజులు అయింది",
+  "@customerLapsedDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "customerNudge": "మెసేజ్ పంపండి",
+  "customerNudgeMessage": "హలో {name}, {shop}కి రాక చాలా రోజులైంది! ఈ వారం మీ కోసం కొత్త వెరైటీలు సిద్ధంగా ఉన్నాయి.",
+  "@customerNudgeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "offersTitle": "ఆఫర్లు",
+  "offersSubtitle": "మీరు ఇచ్చే డిస్కౌంట్లు, వాటి వల్ల మీకు అయ్యే ఖర్చు.",
+  "offerAdd": "ఆఫర్‌ను జోడించండి",
+  "offerName": "ఆఫర్ పేరు",
+  "offerCode": "కస్టమర్ చెప్పే కోడ్ (ఐచ్ఛికం)",
+  "offerKindFlat": "రూపాయల్లో తగ్గింపు",
+  "offerKindPercent": "శాతంలో తగ్గింపు (%)",
+  "offerKindCombo": "కాంబో ధర",
+  "offerAmount": "తగ్గింపు మొత్తం",
+  "offerPercent": "శాతం తగ్గింపు",
+  "offerComboPrice": "కాంబో ధర",
+  "offersGivenTotal": "ఇప్పటివరకు ఇచ్చినవి",
+  "offersEmpty": "ఇంకా ఆఫర్లు ఏమీ లేవు. ఆఫర్ జోడిస్తే బిల్లుపై కనిపిస్తుంది.",
+  "offerLive": "లైవ్",
+  "offerPaused": "పాజ్ అయింది",
+  "offerPause": "పాజ్ చేయండి",
+  "offerResume": "మళ్లీ ప్రారంభించండి",
+  "offerUsed": "{count} సార్లు వాడారు",
+  "@offerUsed": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "offerGivenAway": "{amount} తగ్గింపు ఇచ్చారు",
+  "@offerGivenAway": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackTitle": "బిల్లు ఫీడ్‌బ్యాక్",
+  "feedbackSubtitle": "చెల్లించాక 3 ట్యాప్‌లలో ఇచ్చే రేటింగ్, నేరుగా మీకే వస్తుంది.",
+  "feedbackQrTitle": "కౌంటర్ QR",
+  "feedbackQrHint": "దీన్ని ప్రింట్ తీసి కౌంటర్‌పై పెట్టండి, లేదా పేమెంట్ తర్వాత చూపించండి.",
+  "feedbackReviewMissing": "కస్టమర్లు పబ్లిక్‌గా రివ్యూ ఇవ్వడానికి 'గ్రోత్'లో మీ రివ్యూ పేజీ లింక్‌ను చేర్చండి.",
+  "feedbackLinkCopied": "లింక్ కాపీ అయింది",
+  "feedbackScores": "స్కోర్లు",
+  "feedbackTodayAvg": "ఈరోజు (సగటు · సంఖ్య)",
+  "feedbackWeekAvg": "గత 7 రోజులు (సగటు · సంఖ్య)",
+  "feedbackNeedsReply": "రిప్లై ఇవ్వాలి",
+  "feedbackRecord": "మీరే రేటింగ్ జోడించండి",
+  "feedbackHappy": "బాగుంది",
+  "feedbackOkay": "పర్వాలేదు",
+  "feedbackUnhappy": "బాగోలేదు",
+  "feedbackRecent": "ఇటీవలి రేటింగ్‌లు",
+  "feedbackEmpty": "ఇంకా రేటింగ్‌లు లేవు.",
+  "enquiriesTitle": "ఎంక్వైరీలు",
+  "enquiriesSubtitle": "ఎవరు అడిగారు, మీరు ఎంత చెప్పారు, తర్వాత ఏమైంది.",
+  "enquiryAdd": "ఎంక్వైరీని జోడించండి",
+  "enquiryName": "కస్టమర్ పేరు",
+  "enquiryPhone": "ఫోన్",
+  "enquiryWant": "వారు ఏమి అడిగారు",
+  "enquiryQuote": "మీరు చెప్పిన ధర",
+  "enquiryNoFollowUp": "రిమైండర్ లేదు",
+  "enquiryFollowUpDays": "{days} రోజుల్లో ఫాలో అప్ చేయండి",
+  "@enquiryFollowUpDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWinRate": "{rate}% అమ్మకాలుగా మారాయి",
+  "@enquiryWinRate": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWonValue": "వచ్చిన సేల్స్ విలువ",
+  "enquiryFilterToday": "ఈరోజు",
+  "enquiryFilterOpen": "ఓపెన్",
+  "enquiryFilterWon": "సేల్ అయింది",
+  "enquiryFilterLost": "మిస్ అయినవి",
+  "enquiryEmpty": "ఇక్కడ ఏమీ లేదు.",
+  "enquiryFollowUpOn": "{day}న ఫాలో అప్ చేయండి",
+  "@enquiryFollowUpOn": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryMessage": "మెసేజ్",
+  "enquiryMessageText": "నమస్తే {name}, {item} గురించి కనుక్కుంటున్నాం. మీ కోసం రెడీగా ఉంచమంటారా?",
+  "@enquiryMessageText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWon": "సక్సెస్",
+  "enquiryLost": "మిస్ అయింది",
+  "enquiryReopen": "మళ్లీ తెరవండి",
+  "customerRewardsDueTitle": "ఇవ్వాల్సిన రివార్డులు",
+  "cloudShopSlugTaken": "ఆ లింక్ పేరు ఇప్పటికే వాడకంలో ఉంది. {slug} లాంటిది ట్రై చేయండి.",
+  "@cloudShopSlugTaken": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopSlugInvalid": "కనీసం 3 అక్షరాలు ఉండాలి. చిన్న అక్షరాలు, నంబర్లు, డాష్‌లు (-) మాత్రమే వాడండి.",
+  "cloudShopOffline": "ప్రస్తుతం ఇంటర్నెట్ లేదు. కనెక్షన్ చూసుకుని మళ్లీ ప్రయత్నించండి.",
+  "cloudShopTryAgain": "పని కాలేదు. కాసేపటి తర్వాత మళ్లీ ప్రయత్నించండి.",
+  "cloudShopLinkTitle": "కస్టమర్ లింక్",
+  "cloudShopCopyLink": "లింక్ కాపీ చేయండి",
+  "cloudShopLinkCopied": "లింక్ కాపీ అయింది",
+  "cloudShopShowQr": "QR చూపించండి",
+  "paymentQrScanTitle": "మీ పేమెంట్ యాప్ QR వాడండి",
+  "paymentQrScanAction": "నా QR స్కాన్ చేయండి",
+  "paymentQrScanHelp": "GPay, PhonePe లేదా Paytm QR స్టిక్కర్‌పై కెమెరా పెట్టండి. దాని నుండి UPI ID తీసుకుంటాం, అప్పుడు బిల్లులు, కౌంటర్ QR చెల్లింపులు ఒకే ఖాతాలోకి వస్తాయి.",
+  "paymentQrScanFound": "మీ QR నుండి వచ్చిన UPI ID: {vpa}",
+  "@paymentQrScanFound": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrScanNoUpi": "ఇది పేమెంట్ QR కాదు. మీ పేమెంట్ యాప్‌లో కనిపించే QRని ట్రై చేయండి.",
+  "receiptFeedbackLine": "మీ అభిప్రాయం చెప్పడానికి స్కాన్ చేయండి",
+  "qrPrintCounterCard": "కౌంటర్ కార్డ్ ప్రింట్ చేయండి",
+  "qrPayCaption": "చెల్లించడానికి స్కాన్ చేయండి",
+  "qrFeedbackCaption": "రేటింగ్ ఇవ్వడానికి స్కాన్ చేయండి",
+  "offerPrintCards": "ఆఫర్ కార్డులు ప్రింట్ చేయండి",
+  "offerCardCaption": "ఈ ఆఫర్ పొందడానికి స్కాన్ చేయండి",
+  "devicesPairQrHint": "కొత్త ఫోన్‌తో దీన్ని స్కాన్ చేయించండి",
+  "devicesScanQr": "పెయిరింగ్ QR స్కాన్ చేయండి",
+  "devicesScanInvalid": "ఇది పెయిరింగ్ QR కాదు. ఓనర్‌ని మళ్లీ చూపించమనండి.",
+  "quickSaleScan": "ఐటమ్ స్కాన్ చేయండి",
+  "quickSaleScanTitle": "ఐటమ్ లేబుల్ స్కాన్ చేయండి",
+  "quickSaleScanUnknown": "{code} కోడ్‌తో ఏ ఐటమ్ దొరకలేదు. ప్రోడక్ట్స్‌లో దీన్ని యాడ్ చేయండి.",
+  "@quickSaleScanUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "backupTitle": "బ్యాకప్ & ఎక్స్‌పోర్ట్",
+  "backupSubtitle": "మీ ఖాతా పుస్తకాల కాపీని భద్రంగా ఉంచుకోండి",
+  "backupNowAction": "ఇప్పుడే బ్యాకప్ తీయండి",
+  "backupRestoreAction": "ఫైల్ నుండి రీస్టోర్ చేయండి",
+  "backupShareSubject": "VendorOS బ్యాకప్",
+  "backupSavedToast": "బ్యాకప్ ఫైల్ తయారైంది",
+  "backupFailedToast": "బ్యాకప్ చేయడం కుదరలేదు. దయచేసి మళ్ళీ ప్రయత్నించండి.",
+  "backupRestoredToast": "మీ ఖాతా లెక్కలు రీస్టోర్ అయ్యాయి",
+  "backupNeverSaved": "ఎప్పుడూ బ్యాకప్ చేయలేదు",
+  "backupLastSaved": "చివరి బ్యాకప్: {when}",
+  "@backupLastSaved": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupSizeHint": "దాదాపు {kb} KB సేవ్ అవుతుంది",
+  "@backupSizeHint": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "backupRestoreWarning": "రీస్టోర్ చేస్తే ఈ ఫోన్‌లోని సమాచారం పోయి ఫైల్‌లోనివి వస్తాయి.",
+  "backupRestoreConfirmTitle": "ఈ బ్యాకప్‌ను రీస్టోర్ చేయాలా?",
+  "backupRestoreConfirmBody": "{when} నాటి {rows} ఎంట్రీలు ఈ ఫోన్‌లోని డేటాను రీప్లేస్ చేస్తాయి.",
+  "@backupRestoreConfirmBody": {
+    "placeholders": {
+      "rows": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupErrorNotFile": "ఇది VendorOS బ్యాకప్ ఫైల్ కాదు.",
+  "backupErrorTooNew": "ఈ బ్యాకప్ కొత్త వెర్షన్‌ది. దయచేసి ముందుగా యాప్‌ను అప్‌డేట్ చేయండి.",
+  "backupErrorCorrupt": "ఈ బ్యాకప్ ఫైల్ పాడైంది, పని చేయదు.",
+  "backupErrorEmpty": "ఫైల్ ఖాళీగా ఉంది.",
+  "exportGroupLabel": "స్ప్రెడ్‌షీట్‌గా ఎక్స్‌పోర్ట్ చేయండి",
+  "exportSalesTitle": "అమ్మకాలు",
+  "exportSalesSubtitle": "తేదీ, ఐటమ్ మరియు మొత్తంతో ప్రతి అమ్మకం వివరాలు",
+  "exportBillsTitle": "బిల్లులు",
+  "exportBillsSubtitle": "బిల్లుల వారీగా మొత్తం, డిస్కౌంట్ మరియు ట్యాక్స్",
+  "exportCreditTitle": "బాకీ బ్యాలెన్స్‌లు",
+  "exportCreditSubtitle": "ఎవరు ఎంత బాకీ ఉన్నారో వివరాలు",
+  "exportStockTitle": "స్టాక్",
+  "exportStockSubtitle": "ఐటమ్‌లు, ఉన్న స్టాక్ మరియు ధరలు",
+  "exportColDate": "తేదీ",
+  "exportColItem": "ఐటమ్",
+  "exportColMode": "చెల్లింపు",
+  "exportColCustomer": "కస్టమర్",
+  "exportColAmount": "మొత్తం",
+  "exportColBillNo": "బిల్లు నం.",
+  "exportColSubtotal": "సబ్ టోటల్",
+  "exportColDiscount": "డిస్కౌంట్",
+  "exportColTax": "ట్యాక్స్",
+  "exportColTotal": "మొత్తం",
+  "exportColPayment": "చెల్లించిన విధానం",
+  "exportColStatus": "స్టేటస్",
+  "exportColBalance": "బ్యాలెన్స్",
+  "exportColCode": "కోడ్",
+  "exportColCategory": "కేటగిరీ",
+  "exportColUnit": "యూనిట్",
+  "exportColQty": "క్వాంటిటీ",
+  "exportColCost": "కొన్న ధర",
+  "exportColPrice": "ధర",
+  "gstReportTitle": "GST సారాంశం",
+  "gstReportSubtitle": "మీ అకౌంటెంట్ కోసం నెలవారీ ట్యాక్స్",
+  "gstReportEmpty": "ఇంకా GST బిల్లులు లేవు. Menu సెట్టింగ్స్‌లో GST ఆన్ చేసి, ఐటెమ్ బిల్ చేయండి.",
+  "gstColMonth": "నెల",
+  "gstColRate": "రేటు",
+  "gstColTaxable": "ట్యాక్సబుల్ విలువ",
+  "gstColTax": "మొత్తం ట్యాక్స్",
+  "gstBills": "బిల్లులు",
+  "gstSales": "ట్యాక్స్‌తో అమ్మకాలు",
+  "gstByRate": "రేటు ప్రకారం",
+  "gstShareAction": "స్ప్రెడ్‌షీట్ షేర్ చేయండి",
+  "gstShareSubject": "GST సారాంశం {month}",
+  "@gstShareSubject": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "appearanceTitle": "అప్పియరెన్స్",
+  "appearanceSubtitle": "లైట్ లేదా డార్క్ స్క్రీన్",
+  "appearanceSystem": "ఫోన్ లాగే",
+  "appearanceLight": "లైట్",
+  "appearanceDark": "డార్క్",
+  "appearanceChanged": "అప్పియరెన్స్ మారింది",
+  "purchasesTitle": "కొనుగోళ్లు",
+  "purchasesSubtitle": "సప్లయర్ బిల్లులు మరియు బాకీ వివరాలు",
+  "purchasesEmpty": "ఇంకా కొనుగోలు బిల్లులు లేవు. మీరు కొన్న చివరి స్టాక్ వివరాలు చేర్చండి.",
+  "purchaseAdd": "కొనుగోలు చేర్చండి",
+  "purchaseTotalDue": "సప్లయర్లకు బాకీ",
+  "purchaseMonthSpend": "ఈ నెల కొన్నది",
+  "purchaseDuesTitle": "సప్లయర్ బాకీలు",
+  "purchaseNoDues": "సప్లయర్ బిల్లులన్నీ చెల్లించబడ్డాయి.",
+  "purchaseDueBills": "{bills} బిల్లు(లు) · పాతది {days} రోజు(లు)",
+  "@purchaseDueBills": {
+    "placeholders": {
+      "bills": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "purchaseBillsTitle": "కొనుగోలు బిల్లులు",
+  "purchasePaidFull": "చెల్లించారు",
+  "purchaseDueOf": "{amount} బాకీ",
+  "@purchaseDueOf": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "purchaseSupplier": "సప్లయర్",
+  "purchasePayTitle": "{name}కి చెల్లించండి",
+  "@purchasePayTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasePayAmount": "చెల్లించిన మొత్తం",
+  "purchasePay": "పేమెంట్ నమోదు చేయండి",
+  "purchaseSubtotal": "ఐటెమ్ మొత్తం",
+  "purchaseTax": "ట్యాక్స్",
+  "purchaseTotal": "బిల్లు మొత్తం",
+  "purchaseDue": "మిగిలిన బాకీ",
+  "purchaseNewTitle": "కొత్త కొనుగోలు బిల్లు",
+  "purchaseInvoiceNo": "బిల్లు నంబర్",
+  "purchaseItems": "కొన్న సరుకులు",
+  "purchaseLinkProduct": "స్టాక్ లిస్ట్ నుండి ఎంచుకోండి",
+  "purchaseFreeItem": "ఐటమ్ పేరు",
+  "purchaseQty": "పరిమాణం",
+  "purchaseUnitCost": "ఒక్కోదాని ధర",
+  "purchaseAddLine": "ఐటమ్ జోడించండి",
+  "purchasePaidNow": "ఇప్పుడు చెల్లించినది",
+  "purchaseNote": "నోట్",
+  "purchaseSaved": "కొనుగోలు సేవ్ అయ్యింది, స్టాక్ అప్‌డేట్ అయ్యింది",
+  "permRecordPurchase": "కొనుగోలు బిల్లులను నమోదు చేయండి",
+  "permPaySupplier": "సప్లయర్లకు చెల్లించండి",
+  "backupCloudTitle": "ఆన్‌లైన్ బ్యాకప్",
+  "backupCloudLast": "చివరి ఆన్‌లైన్ బ్యాకప్: {when}",
+  "backupCloudNever": "ఇంకా ఆన్‌లైన్‌లో సేవ్ కాలేదు",
+  "backupCloudNeedsShop": "ముందుగా క్లౌడ్ షాప్ సృష్టించండి",
+  "backupCloudNowAction": "ఇప్పుడు ఆన్‌లైన్ బ్యాకప్ తీసుకోండి",
+  "backupCloudRestoreAction": "ఆన్‌లైన్ నుండి పునరుద్ధరించండి",
+  "backupCloudSavedToast": "ఆన్‌లైన్‌లో సేవ్ అయింది",
+  "backupCloudFailedToast": "ఆన్‌లైన్‌లో సేవ్ కాలేదు. సిగ్నల్ వచ్చాక మళ్లీ ప్రయత్నించండి.",
+  "@backupCloudLast": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "billWhatsapp": "వాట్సాప్‌లో పంపండి",
+  "billWhatsappFailed": "ఈ ఫోన్‌లో వాట్సాప్ లేదు.",
+  "devicesStaffRole": "సిబ్బంది పాత్ర",
+  "devicesRoleDefault": "డిఫాల్ట్ (పని మాత్రమే)",
+  "devicesRolePick": "ఒక సిబ్బంది పాత్రను ఎంచుకోండి",
+  "devicesRoleSaved": "పాత్ర ఆ ఫోన్‌కు పంపబడింది",
+  "devicesRoleFailed": "పాత్రను సెట్ చేయలేకపోయాం. ఆన్‌లైన్‌లో ఉన్నప్పుడు మళ్లీ ప్రయత్నించండి.",
+  "adminTitle": "యజమాని నివేదికలు",
+  "adminSubtitle": "ఏం జరిగింది, ఎవరు చేశారు, నగదు సరిపోయిందా",
+  "adminExceptionsTitle": "మినహాయింపులు",
+  "adminExceptionsSubtitle": "డిస్కౌంట్, రద్దు బిల్లులు, రీప్రింట్, అప్పు",
+  "adminStaffTitle": "సిబ్బంది నివేదిక",
+  "adminStaffSubtitle": "ఈ కాలంలో ఎవరు ఏం చేశారు",
+  "adminCashTitle": "నగదు పుస్తకం",
+  "adminCashSubtitle": "అంచనా వర్సెస్ లెక్కించినది, రోజువారీ",
+  "adminItemsTitle": "వస్తువుల తేడా",
+  "adminItemsSubtitle": "అమ్మినది వర్సెస్ స్టాక్ నుండి తీసినది",
+  "adminShopsTitle": "అన్ని దుకాణాలు",
+  "adminShopsSubtitle": "మీరు నడిపే ప్రతి దుకాణం మొత్తం",
+  "adminSummaryTitle": "ఈరోజు సారాంశం",
+  "adminSummarySend": "సారాంశం పంపండి",
+  "adminShare": "పంచుకోండి",
+  "adminNoRows": "ఈ కాలానికి ఏమీ లేదు",
+  "adminFromBill": "బిల్లు నుండి",
+  "adminOwnerApproved": "యజమాని ఆమోదించారు",
+  "adminColActions": "చర్యలు",
+  "adminColDiscount": "ఇచ్చిన డిస్కౌంట్",
+  "adminColCredit": "ఇచ్చిన అప్పు",
+  "adminColVoids": "రద్దు చేసిన బిల్లులు",
+  "adminColReprints": "రీప్రింట్లు",
+  "adminColOverrides": "యజమాని ఆమోదాలు",
+  "adminSeeExceptions": "వీరి మినహాయింపులు చూడండి",
+  "adminCashOpening": "ప్రారంభ నగదు",
+  "adminCashExpected": "అంచనా",
+  "adminCashCounted": "లెక్కించినది",
+  "adminCashShort": "తక్కువ",
+  "adminCashOver": "ఎక్కువ",
+  "adminCashNet": "నికర తేడా",
+  "adminCashMatched": "సరిపోయిన రోజులు",
+  "adminCashMatchedOne": "సరిపోయింది",
+  "adminCashShortDays": "తక్కువ ఉన్న రోజులు",
+  "adminItemSold": "అమ్మినది",
+  "adminItemStockOut": "స్టాక్ నుండి తీసినది",
+  "adminItemGap": "తేడా",
+  "adminItemWasted": "వృథా",
+  "adminSummaryBills": "బిల్లులు",
+  "adminSummarySales": "అమ్మకాలు",
+  "adminSummaryCash": "నగదు",
+  "adminSummaryUpi": "UPI",
+  "adminSummaryCredit": "అప్పు",
+  "adminSummaryDiscount": "డిస్కౌంట్లు",
+  "adminSummarySpend": "ఖర్చు",
+  "adminSummaryCashDiff": "నగదు తేడా",
+  "adminSummaryTop": "టాప్ వస్తువులు",
+  "adminShopsAllTotal": "అన్ని దుకాణాలు కలిపి",
+  "adminShopsOrders": "ఆర్డర్లు (7 రోజులు)",
+  "adminShopsValue": "విలువ (7 రోజులు)",
+  "adminShopsAdd": "మరో దుకాణం జోడించండి",
+  "adminShopsAddHelp": "ఇతర దుకాణం లింక్ పేరు, యజమాని కీ టైప్ చేయండి.",
+  "adminShopsAddAction": "దుకాణం జోడించు",
+  "adminShopsSlug": "దుకాణం లింక్ పేరు",
+  "adminShopsKey": "యజమాని కీ",
+  "adminShopsRemove": "తీసివేయి",
+  "adminShopsRefresh": "రిఫ్రెష్",
+  "adminShopsError": "ఈ దుకాణం చదవలేకపోయాం",
+  "adminShopsInvalid": "లింక్ పేరు, యజమాని కీ చూడండి",
+  "adminShopsExists": "ఆ దుకాణం ఇప్పటికే జాబితాలో ఉంది",
+  "permViewCashBook": "నగదు పుస్తకం చూడు",
+  "permExportData": "డేటా ఎగుమతి",
+  "permViewStaffReport": "సిబ్బంది నివేదికలు చూడు"
+}

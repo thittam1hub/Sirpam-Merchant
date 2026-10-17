@@ -1,0 +1,482 @@
+import 'package:flutter/material.dart';
+
+import '../core/l10n/l10n_extension.dart';
+import '../features/access/domain/permission.dart';
+import '../features/devices/domain/device_link.dart';
+import 'routes.dart';
+
+enum AppNavGroup {
+  overview,
+  sell,
+  inventory,
+  operations,
+  business,
+  team,
+  grow,
+  system,
+}
+
+enum AppNavId {
+  home,
+  dashboard,
+  orders,
+  sales,
+  credit,
+  soundbox,
+  stock,
+  products,
+  scan,
+  batches,
+  suppliers,
+  purchases,
+  labels,
+  customers,
+  menu,
+  kitchen,
+  recipes,
+  jobs,
+  events,
+  expenses,
+  dayClose,
+  insights,
+  report,
+  market,
+  location,
+  staff,
+  access,
+  audit,
+  admin,
+  devices,
+  growth,
+  checklist,
+  prep,
+  offers,
+  feedback,
+  enquiries,
+  shop,
+  plan,
+  settings,
+  help,
+  more,
+}
+
+class AppNavDestination {
+  final AppNavId id;
+  final AppNavGroup group;
+  final String path;
+  final IconData icon;
+  final IconData selectedIcon;
+  final Permission? permission;
+  final bool inventoryOnly;
+  final Set<DeviceRole> staffRoles;
+
+  const AppNavDestination({
+    required this.id,
+    required this.group,
+    required this.path,
+    required this.icon,
+    required this.selectedIcon,
+    this.permission,
+    this.inventoryOnly = false,
+    this.staffRoles = const {},
+  });
+
+  String label(BuildContext context) {
+    final l10n = context.l10n;
+    return switch (id) {
+      AppNavId.home => l10n.navHome,
+      AppNavId.dashboard => l10n.dashboardTitle,
+      AppNavId.orders => l10n.ordersTitle,
+      AppNavId.sales => l10n.navSales,
+      AppNavId.credit => l10n.navUdhaar,
+      AppNavId.soundbox => l10n.navSoundbox,
+      AppNavId.stock => l10n.stockTitle,
+      AppNavId.products => l10n.productsTitle,
+      AppNavId.scan => l10n.scanTitle,
+      AppNavId.batches => l10n.batchesTitle,
+      AppNavId.suppliers => l10n.suppliersTitle,
+      AppNavId.purchases => l10n.purchasesTitle,
+      AppNavId.labels => l10n.labelsTitle,
+      AppNavId.customers => l10n.customersTitle,
+      AppNavId.menu => l10n.menuTitle,
+      AppNavId.kitchen => l10n.kotTitle,
+      AppNavId.recipes => l10n.recipesTitle,
+      AppNavId.jobs => l10n.jobsTitle,
+      AppNavId.events => l10n.eventsTitle,
+      AppNavId.expenses => l10n.expensesTitle,
+      AppNavId.dayClose => l10n.dayCloseTitle,
+      AppNavId.insights => l10n.insightsTitle,
+      AppNavId.report => l10n.menuLoanReport,
+      AppNavId.market => l10n.navMandi,
+      AppNavId.location => l10n.menuCartLocation,
+      AppNavId.staff => l10n.staffTitle,
+      AppNavId.access => l10n.accessTitle,
+      AppNavId.audit => l10n.auditTitle,
+      AppNavId.admin => l10n.adminTitle,
+      AppNavId.devices => l10n.devicesTitle,
+      AppNavId.growth => l10n.growthTitle,
+      AppNavId.checklist => l10n.checklistTitle,
+      AppNavId.prep => l10n.prepTitle,
+      AppNavId.offers => l10n.offersTitle,
+      AppNavId.feedback => l10n.feedbackTitle,
+      AppNavId.enquiries => l10n.enquiriesTitle,
+      AppNavId.shop => l10n.shopTitle,
+      AppNavId.plan => l10n.planTitle,
+      AppNavId.settings => l10n.menuSettings,
+      AppNavId.help => l10n.helpTitle,
+      AppNavId.more => l10n.moreLabel,
+    };
+  }
+}
+
+class AppNavigationRegistry {
+  const AppNavigationRegistry._();
+
+  static const destinations = <AppNavDestination>[
+    AppNavDestination(
+      id: AppNavId.home,
+      group: AppNavGroup.overview,
+      path: AppPaths.home,
+      icon: Icons.home_outlined,
+      selectedIcon: Icons.home_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.dashboard,
+      group: AppNavGroup.overview,
+      path: AppPaths.dashboard,
+      icon: Icons.dashboard_outlined,
+      selectedIcon: Icons.dashboard_rounded,
+      permission: Permission.viewDayTotals,
+    ),
+    AppNavDestination(
+      id: AppNavId.orders,
+      group: AppNavGroup.sell,
+      path: AppPaths.orders,
+      icon: Icons.receipt_long_outlined,
+      selectedIcon: Icons.receipt_long_rounded,
+      permission: Permission.takeOrder,
+      staffRoles: {DeviceRole.waiter, DeviceRole.counter},
+    ),
+    AppNavDestination(
+      id: AppNavId.sales,
+      group: AppNavGroup.sell,
+      path: AppPaths.sales,
+      icon: Icons.point_of_sale_outlined,
+      selectedIcon: Icons.point_of_sale_rounded,
+      permission: Permission.recordSale,
+      staffRoles: {DeviceRole.counter},
+    ),
+    AppNavDestination(
+      id: AppNavId.credit,
+      group: AppNavGroup.sell,
+      path: AppPaths.udhaar,
+      icon: Icons.schedule_outlined,
+      selectedIcon: Icons.schedule_rounded,
+      permission: Permission.viewCredit,
+      staffRoles: {DeviceRole.counter},
+    ),
+    AppNavDestination(
+      id: AppNavId.soundbox,
+      group: AppNavGroup.sell,
+      path: AppPaths.soundbox,
+      icon: Icons.volume_up_outlined,
+      selectedIcon: Icons.volume_up_rounded,
+      permission: Permission.collectUpi,
+      staffRoles: {DeviceRole.counter},
+    ),
+    AppNavDestination(
+      id: AppNavId.stock,
+      group: AppNavGroup.inventory,
+      path: AppPaths.stock,
+      icon: Icons.inventory_2_outlined,
+      selectedIcon: Icons.inventory_2_rounded,
+      permission: Permission.viewStock,
+      inventoryOnly: true,
+    ),
+    AppNavDestination(
+      id: AppNavId.products,
+      group: AppNavGroup.inventory,
+      path: AppPaths.products,
+      icon: Icons.category_outlined,
+      selectedIcon: Icons.category_rounded,
+      permission: Permission.editProducts,
+      inventoryOnly: true,
+    ),
+    AppNavDestination(
+      id: AppNavId.scan,
+      group: AppNavGroup.inventory,
+      path: AppPaths.scan,
+      icon: Icons.qr_code_scanner_outlined,
+      selectedIcon: Icons.qr_code_scanner_rounded,
+      permission: Permission.editProducts,
+      inventoryOnly: true,
+    ),
+    AppNavDestination(
+      id: AppNavId.batches,
+      group: AppNavGroup.inventory,
+      path: AppPaths.batches,
+      icon: Icons.layers_outlined,
+      selectedIcon: Icons.layers_rounded,
+      permission: Permission.viewStock,
+      inventoryOnly: true,
+    ),
+    AppNavDestination(
+      id: AppNavId.suppliers,
+      group: AppNavGroup.inventory,
+      path: AppPaths.suppliers,
+      icon: Icons.local_shipping_outlined,
+      selectedIcon: Icons.local_shipping_rounded,
+      permission: Permission.manageSuppliers,
+      inventoryOnly: true,
+    ),
+    AppNavDestination(
+      id: AppNavId.purchases,
+      group: AppNavGroup.inventory,
+      path: AppPaths.purchases,
+      icon: Icons.receipt_long_outlined,
+      selectedIcon: Icons.receipt_long_rounded,
+      permission: Permission.recordPurchase,
+    ),
+    AppNavDestination(
+      id: AppNavId.labels,
+      group: AppNavGroup.inventory,
+      path: AppPaths.labels,
+      icon: Icons.sell_outlined,
+      selectedIcon: Icons.sell_rounded,
+      permission: Permission.editProducts,
+      inventoryOnly: true,
+    ),
+    AppNavDestination(
+      id: AppNavId.customers,
+      group: AppNavGroup.operations,
+      path: AppPaths.customers,
+      icon: Icons.groups_outlined,
+      selectedIcon: Icons.groups_rounded,
+      permission: Permission.viewCustomers,
+    ),
+    AppNavDestination(
+      id: AppNavId.menu,
+      group: AppNavGroup.operations,
+      path: AppPaths.menu,
+      icon: Icons.qr_code_2_outlined,
+      selectedIcon: Icons.qr_code_2_rounded,
+      permission: Permission.takeOrder,
+      staffRoles: {DeviceRole.waiter},
+    ),
+    AppNavDestination(
+      id: AppNavId.kitchen,
+      group: AppNavGroup.operations,
+      path: AppPaths.kot,
+      icon: Icons.soup_kitchen_outlined,
+      selectedIcon: Icons.soup_kitchen_rounded,
+      permission: Permission.viewKitchen,
+      staffRoles: {DeviceRole.kitchen},
+    ),
+    AppNavDestination(
+      id: AppNavId.recipes,
+      group: AppNavGroup.operations,
+      path: AppPaths.recipes,
+      icon: Icons.menu_book_outlined,
+      selectedIcon: Icons.menu_book_rounded,
+      permission: Permission.cookRecipe,
+      staffRoles: {DeviceRole.kitchen},
+    ),
+    AppNavDestination(
+      id: AppNavId.jobs,
+      group: AppNavGroup.operations,
+      path: AppPaths.jobs,
+      icon: Icons.assignment_outlined,
+      selectedIcon: Icons.assignment_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.events,
+      group: AppNavGroup.operations,
+      path: AppPaths.events,
+      icon: Icons.event_outlined,
+      selectedIcon: Icons.event_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.expenses,
+      group: AppNavGroup.business,
+      path: AppPaths.expenses,
+      icon: Icons.payments_outlined,
+      selectedIcon: Icons.payments_rounded,
+      permission: Permission.recordExpense,
+    ),
+    AppNavDestination(
+      id: AppNavId.dayClose,
+      group: AppNavGroup.business,
+      path: AppPaths.dayClose,
+      icon: Icons.nightlight_outlined,
+      selectedIcon: Icons.nightlight_round,
+      permission: Permission.closeDay,
+    ),
+    AppNavDestination(
+      id: AppNavId.insights,
+      group: AppNavGroup.business,
+      path: AppPaths.insights,
+      icon: Icons.insights_outlined,
+      selectedIcon: Icons.insights_rounded,
+      permission: Permission.viewProfit,
+    ),
+    AppNavDestination(
+      id: AppNavId.report,
+      group: AppNavGroup.business,
+      path: AppPaths.report,
+      icon: Icons.picture_as_pdf_outlined,
+      selectedIcon: Icons.picture_as_pdf_rounded,
+      permission: Permission.viewReports,
+    ),
+    AppNavDestination(
+      id: AppNavId.location,
+      group: AppNavGroup.business,
+      path: AppPaths.location,
+      icon: Icons.location_on_outlined,
+      selectedIcon: Icons.location_on_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.staff,
+      group: AppNavGroup.team,
+      path: AppPaths.staff,
+      icon: Icons.badge_outlined,
+      selectedIcon: Icons.badge_rounded,
+      permission: Permission.manageStaff,
+    ),
+    AppNavDestination(
+      id: AppNavId.access,
+      group: AppNavGroup.team,
+      path: AppPaths.access,
+      icon: Icons.admin_panel_settings_outlined,
+      selectedIcon: Icons.admin_panel_settings_rounded,
+      permission: Permission.manageRoles,
+    ),
+    AppNavDestination(
+      id: AppNavId.admin,
+      group: AppNavGroup.business,
+      path: AppPaths.admin,
+      icon: Icons.insights_outlined,
+      selectedIcon: Icons.insights_rounded,
+      permission: Permission.viewReports,
+    ),
+    AppNavDestination(
+      id: AppNavId.audit,
+      group: AppNavGroup.team,
+      path: AppPaths.audit,
+      icon: Icons.fact_check_outlined,
+      selectedIcon: Icons.fact_check_rounded,
+      permission: Permission.viewAudit,
+    ),
+    AppNavDestination(
+      id: AppNavId.devices,
+      group: AppNavGroup.team,
+      path: AppPaths.devices,
+      icon: Icons.devices_outlined,
+      selectedIcon: Icons.devices_rounded,
+      permission: Permission.editSettings,
+    ),
+    AppNavDestination(
+      id: AppNavId.growth,
+      group: AppNavGroup.grow,
+      path: AppPaths.growth,
+      icon: Icons.campaign_outlined,
+      selectedIcon: Icons.campaign_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.checklist,
+      group: AppNavGroup.grow,
+      path: AppPaths.checklist,
+      icon: Icons.checklist_outlined,
+      selectedIcon: Icons.checklist_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.prep,
+      group: AppNavGroup.operations,
+      path: AppPaths.prep,
+      icon: Icons.soup_kitchen_outlined,
+      selectedIcon: Icons.soup_kitchen_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.offers,
+      group: AppNavGroup.grow,
+      path: AppPaths.offers,
+      icon: Icons.local_offer_outlined,
+      selectedIcon: Icons.local_offer_rounded,
+      permission: Permission.giveDiscount,
+    ),
+    AppNavDestination(
+      id: AppNavId.feedback,
+      group: AppNavGroup.grow,
+      path: AppPaths.feedback,
+      icon: Icons.reviews_outlined,
+      selectedIcon: Icons.reviews_rounded,
+      permission: Permission.viewCustomers,
+    ),
+    AppNavDestination(
+      id: AppNavId.enquiries,
+      group: AppNavGroup.grow,
+      path: AppPaths.enquiries,
+      icon: Icons.contact_phone_outlined,
+      selectedIcon: Icons.contact_phone_rounded,
+      permission: Permission.editCustomers,
+    ),
+    AppNavDestination(
+      id: AppNavId.shop,
+      group: AppNavGroup.grow,
+      path: AppPaths.shop,
+      icon: Icons.store_outlined,
+      selectedIcon: Icons.store_rounded,
+      permission: Permission.editShop,
+    ),
+    AppNavDestination(
+      id: AppNavId.plan,
+      group: AppNavGroup.grow,
+      path: AppPaths.plan,
+      icon: Icons.workspace_premium_outlined,
+      selectedIcon: Icons.workspace_premium_rounded,
+    ),
+    AppNavDestination(
+      id: AppNavId.settings,
+      group: AppNavGroup.system,
+      path: AppPaths.settings,
+      icon: Icons.settings_outlined,
+      selectedIcon: Icons.settings_rounded,
+      permission: Permission.editSettings,
+    ),
+    AppNavDestination(
+      id: AppNavId.help,
+      group: AppNavGroup.system,
+      path: AppPaths.help,
+      icon: Icons.help_outline_rounded,
+      selectedIcon: Icons.help_rounded,
+    ),
+    // Hub tab, never listed in the sidebar (see [visible]).
+    AppNavDestination(
+      id: AppNavId.more,
+      group: AppNavGroup.system,
+      path: AppPaths.more,
+      icon: Icons.grid_view_outlined,
+      selectedIcon: Icons.grid_view_rounded,
+      staffRoles: {DeviceRole.waiter, DeviceRole.kitchen, DeviceRole.counter},
+    ),
+  ];
+
+  static List<AppNavDestination> visible({
+    required bool owner,
+    required bool usesInventory,
+    DeviceRole? role,
+    required bool Function(Permission) can,
+  }) => [
+    for (final item in destinations)
+      if (item.id != AppNavId.more &&
+          (!item.inventoryOnly || usesInventory) &&
+          (owner ||
+              (role != null &&
+                  item.staffRoles.contains(role) &&
+                  (item.permission == null || can(item.permission!)))))
+        item,
+  ];
+
+
+  static AppNavDestination byId(AppNavId id) =>
+      destinations.firstWhere((item) => item.id == id);
+}

@@ -1,0 +1,2322 @@
+{
+  "udhaarReminderMessage": "Hello {name}, your outstanding balance at {stall} is Rs {amount}. Please pay. Thank you.{link}",
+  "@udhaarReminderMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "stall": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "@@locale": "en",
+  "appTitle": "VendorOS",
+  "navHome": "Home",
+  "navUdhaar": "Credit",
+  "navSoundbox": "Sound",
+  "navMandi": "Market",
+  "navSales": "Sales",
+  "navGroupOverview": "Overview",
+  "navGroupSell": "Sell",
+  "navGroupOperations": "Customers & operations",
+  "navGroupBusiness": "Business",
+  "navGroupTeam": "Team",
+  "navGroupSystem": "System",
+  "moreLabel": "More",
+  "menuLoanReport": "Loan report",
+  "menuCartLocation": "Cart location",
+  "menuSettings": "Settings",
+  "notFoundTitle": "Page not found",
+  "goHome": "Go home",
+  "ok": "OK",
+  "loading": "Loading…",
+  "storageWriteFailedKey": "Could not save ({key}) — please try again",
+  "@storageWriteFailedKey": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "storageWriteFailed": "Could not save — please try again",
+  "micUnavailable": "Microphone unavailable — please enter manually",
+  "voiceNothingHeard": "Nothing heard — please speak again",
+  "voiceNoAmount": "No amount heard — say \"50 rupees tomato\"",
+  "voiceZeroAmount": "Amount cannot be zero",
+  "modeCash": "Cash",
+  "modeUpi": "UPI",
+  "modeCredit": "Credit",
+  "saleRecorded": "{mode} ₹{amount} recorded",
+  "@saleRecorded": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayTotalSemantic": "Today's total business {amount} rupees",
+  "@todayTotalSemantic": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todayCollection": "Today's collection",
+  "quickEntry": "Quick entry",
+  "todayEntries": "Today's entries",
+  "noEntriesYet": "No entries yet — press the mic and speak",
+  "listeningTapToStop": "Listening, tap to stop",
+  "tapToSpeak": "Speak to record",
+  "listening": "Listening…",
+  "speakToRecord": "🎙️ Speak to record",
+  "voiceHint": "\"50 rupees tomato cash\" / \"ravi ku 200 credit\"",
+  "addSale": "Add sale",
+  "saleSemantic": "{label} {amount} rupees, {item}",
+  "@saleSemantic": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "Delete",
+  "locationServiceOff": "Location service is turned off",
+  "locationPermissionDenied": "Location permission denied",
+  "broadcastLive": "Broadcasting live",
+  "locationSearching": "Finding location…",
+  "permissionDenied": "Permission denied",
+  "unavailable": "Unavailable",
+  "broadcastStopped": "Broadcast stopped",
+  "locationNotFetched": "Location not fetched yet",
+  "stopBroadcast": "Stop broadcast",
+  "startBroadcast": "Start broadcast",
+  "sendToCustomer": "Send to customers",
+  "shareLocationHint": "Share today's cart spot over WhatsApp.",
+  "ourCart": "Our cart",
+  "cartLocationMessage": "{stall} is here today 👇\n{url}",
+  "@cartLocationMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "shareOnWhatsapp": "Share on WhatsApp",
+  "openInMaps": "Open in Maps",
+  "mandiKeyRejected": "data.gov.in rejected the request — check the API key ({status})",
+  "@mandiKeyRejected": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionFailed": "Connection failed: {error}",
+  "@connectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "mandiTitle": "Market prices",
+  "refresh": "Refresh",
+  "mandiLoading": "Loading market prices",
+  "fetchFailed": "Could not fetch data",
+  "apiKeyNeeded": "data.gov.in API key required",
+  "apiKeyNeededBody": "Get a free data.gov.in API key for live APMC prices and add it in Settings. No mock prices are shown.",
+  "refreshFailed": "Latest refresh failed",
+  "lastUpdated": "Last updated: {time}",
+  "@lastUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "searchVegetable": "Search vegetable",
+  "loanReportHeading": "Business loan report",
+  "reportFailed": "Report failed: {error}",
+  "@reportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "daysWindow": "{days, plural, =1{1 day} other{{days} days}}",
+  "@daysWindow": {
+    "placeholders": {
+      "days": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "totalBusiness": "Total business",
+  "digitalShare": "Digital share",
+  "avgDailyIncome": "Average daily income",
+  "recordedDays": "Recorded days",
+  "sha256Checksum": "SHA-256 checksum",
+  "noSalesYet": "No sales recorded yet — record sales first to generate a report.",
+  "viewPdf": "View PDF",
+  "sendToBank": "Send to bank",
+  "stallName": "Stall name",
+  "ownerName": "Owner name",
+  "upiVpaLabel": "UPI VPA (e.g. name@okaxis)",
+  "mobileNumber": "Mobile number",
+  "mandiMarket": "Market (APMC)",
+  "mandiApiKeyLabel": "data.gov.in API key",
+  "apiKeyHelp": "Register free at data.gov.in to get a key. Without a key live prices are not shown.",
+  "soundboxAnnounce": "Soundbox announcements",
+  "save": "Save",
+  "soundboxSpeech": "Rupees {amount} received",
+  "@soundboxSpeech": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "soundboxTitle": "Soundbox",
+  "soundboxSubtitle": "UPI payments announced in your language",
+  "watchedApps": "Watched apps",
+  "soundboxTestHint": "Test: \"Rupees 250 received\" will be spoken",
+  "speak": "Speak",
+  "announcedPayments": "Announced payments",
+  "noUpiYet": "No UPI payments received yet",
+  "soundboxRunning": "Soundbox is running",
+  "notificationAccessNeeded": "Notification access required",
+  "soundboxAndroidHint": "Payments via PhonePe, Paytm, Google Pay and BHIM are announced automatically.",
+  "soundboxGrantHint": "Give VendorOS notification access in Android settings.",
+  "grantAccess": "Grant access",
+  "iosUnavailable": "Not available on iOS",
+  "webUnavailable": "Not available in the browser",
+  "iosSoundboxNote": "Apple's background restrictions prevent reading other apps' notifications. Manual/voice entry only.",
+  "webSoundboxNote": "The browser cannot read UPI notifications from other apps. Install the Android APK for the soundbox.",
+  "serverSoundbox": "Business UPI soundbox",
+  "serverSoundboxNote": "Payments confirmed by your payment provider are announced here. Nothing is missed: a payment stays queued on the server until this phone speaks it.",
+  "notPaired": "This phone is not linked to a business UPI account yet.",
+  "pairingCode": "Pairing code",
+  "pair": "Link phone",
+  "unpair": "Unlink",
+  "pairedWith": "Linked to {name}",
+  "@pairedWith": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "syncNow": "Check now",
+  "lastChecked": "Last checked at {time}",
+  "@lastChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "neverChecked": "Not checked yet",
+  "soundboxStale": "No contact with the server recently. Check the internet connection.",
+  "queuedPayments": "{count, plural, =0{Nothing waiting} =1{1 payment waiting to be announced} other{{count} payments waiting to be announced}}",
+  "@queuedPayments": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "notificationSoundbox": "Notification soundbox (fallback)",
+  "udhaarTitle": "Credit book",
+  "udhaarSubtitle": "Customer balances",
+  "totalOutstanding": "Total outstanding",
+  "customerCount": "{count, plural, =0{No customers} =1{1 customer} other{{count} customers}}",
+  "@customerCount": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "filterBy": "Filter: {name}",
+  "@filterBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "clearFilter": "Clear filter",
+  "upiSetupHint": "Add your VPA and stall name in Settings to request UPI.",
+  "noOutstanding": "No outstanding credit",
+  "cannotOpen": "Could not open: {scheme}",
+  "@cannotOpen": {
+    "placeholders": {
+      "scheme": {
+        "type": "String"
+      }
+    }
+  },
+  "askUpi": "Ask UPI",
+  "collect": "Collect",
+  "cancel": "Cancel",
+  "language": "Language",
+  "languageChanged": "Language changed",
+  "whatsapp": "WhatsApp",
+  "creditNote": "Credit {name}",
+  "@creditNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultStallName": "VendorOS Stall",
+  "merchantOnboardingTitle": "Register business UPI",
+  "merchantOnboardingSubtitle": "Link your business account to the soundbox",
+  "merchantStepsHint": "Enter the details from your PhonePe for Business or Paytm for Business dashboard. You get a pairing code and this phone is linked right away.",
+  "howToGetBusinessUpi": "How do I get a business UPI account?",
+  "merchantFormIncomplete": "Fill the business name, merchant id and secret key.",
+  "merchantRegistered": "Business registered",
+  "pairingCodeSaveHint": "Save this pairing code. Use it to link a second phone.",
+  "callbackUrlLabel": "Callback URL for the provider dashboard",
+  "backToSoundbox": "Back to soundbox",
+  "copy": "Copy",
+  "copied": "Copied",
+  "provider": "Payment provider",
+  "providerPhonePe": "PhonePe",
+  "providerPaytm": "Paytm",
+  "businessName": "Business name",
+  "businessNameHint": "Name spoken and printed on reports",
+  "businessVpa": "Business UPI address",
+  "businessVpaHint": "stallname@ybl",
+  "merchantIdLabel": "Merchant id (MID)",
+  "merchantIdHint": "From the provider dashboard",
+  "saltKeyLabel": "Salt key",
+  "saltKeyHint": "PhonePe salt key",
+  "saltIndexLabel": "Salt index",
+  "webhookTokenLabel": "Webhook token",
+  "webhookTokenHint": "Any strong password you also paste in the Paytm dashboard",
+  "secretStorageNote": "The secret key is stored on the server only and can never be read back by the app.",
+  "registerBusiness": "Register business UPI",
+  "helpTitle": "Help",
+  "helpSubtitle": "Business UPI and soundbox guide",
+  "helpWhyTitle": "Why a business UPI account?",
+  "helpWhyBody": "A personal UPI id cannot confirm payments to a server, so announcements can be missed. A business account sends every successful payment to VendorOS, so the soundbox never loses one.",
+  "helpDocsTitle": "What you need",
+  "helpDocsAadhaar": "Aadhaar number and a mobile number linked to it",
+  "helpDocsPan": "PAN card (personal PAN is fine for a small stall)",
+  "helpDocsBank": "Bank account number and IFSC for settlement",
+  "helpDocsShop": "Shop name, address and a photo of the stall",
+  "helpRegisterTitle": "Register with a provider",
+  "helpRegisterStep1": "Install PhonePe for Business or Paytm for Business from the Play Store.",
+  "helpRegisterStep2": "Sign up with your mobile number and complete the KYC steps with Aadhaar and PAN.",
+  "helpRegisterStep3": "Add your bank account so money settles to it, and collect the free QR sticker.",
+  "helpRegisterStep4": "Note the business UPI address (for example stallname@ybl) shown in the app.",
+  "helpKeysTitle": "Merchant id and secret key",
+  "helpKeysPhonePe": "PhonePe: open the business dashboard, go to Developer settings, and copy the merchant id, salt key and salt index.",
+  "helpKeysPaytm": "Paytm: open the business dashboard, go to Developer settings, copy the MID, and create a strong webhook token you also enter here.",
+  "helpKeysCallback": "Paste the callback URL shown after registration into the provider dashboard so payments reach VendorOS.",
+  "helpLinkTitle": "Link this phone",
+  "helpLinkStep1": "Open Soundbox and tap Register business UPI.",
+  "helpLinkStep2": "Fill the form; the phone links automatically and shows a pairing code.",
+  "helpLinkStep3": "On another phone, enter that pairing code in Soundbox to link it too.",
+  "helpSafetyTitle": "Keep it safe",
+  "helpSafetyBody": "Never share the salt key or webhook token with anyone. VendorOS stores it on the server only and never shows it again.",
+  "menuInventory": "Inventory",
+  "productsTitle": "Products",
+  "productsSubtitle": "Catalogue and stock",
+  "productsSearchHint": "Search name or code",
+  "productsEmpty": "No products yet. Add your first item.",
+  "productsAdd": "Add product",
+  "productsAllChip": "All",
+  "productsLowStockChip": "Low stock",
+  "productEditTitle": "Edit product",
+  "productMissing": "This product is no longer in the catalogue.",
+  "productSaved": "Saved",
+  "productArchived": "Product removed",
+  "formInvalid": "Enter a product name",
+  "fieldName": "Name",
+  "fieldLocalName": "Name in Tamil",
+  "fieldCode": "Code",
+  "fieldCodeHint": "Barcode, or leave blank for a new one",
+  "fieldCategory": "Category",
+  "fieldUnit": "Unit",
+  "fieldCost": "Purchase price",
+  "fieldPrice": "Selling price",
+  "fieldReorder": "Reorder level",
+  "saveLabel": "Save",
+  "discardTitle": "Discard changes?",
+  "discardBody": "You have unsaved changes on this screen.",
+  "discardKeep": "Keep editing",
+  "discardLeave": "Discard",
+  "cancelLabel": "Cancel",
+  "deleteLabel": "Delete",
+  "confirmLabel": "Confirm",
+  "qtyLabel": "Quantity",
+  "unitCostLabel": "Cost per unit",
+  "expiryLabel": "Expires in (days)",
+  "unitKg": "kg",
+  "unitGram": "g",
+  "unitPiece": "piece",
+  "unitLitre": "litre",
+  "unitBundle": "bundle",
+  "detailSell": "Sell",
+  "detailRestock": "Restock",
+  "detailWastage": "Wastage",
+  "detailCorrect": "Stock count",
+  "detailBatches": "Batches",
+  "detailHistory": "History",
+  "detailLabel": "Print label",
+  "historyEmpty": "No stock movements yet",
+  "soldRecorded": "Sale recorded",
+  "restocked": "Stock added",
+  "wastageRecorded": "Wastage recorded",
+  "stockCorrected": "Stock updated",
+  "movementPurchase": "Purchase",
+  "movementSale": "Sale",
+  "movementWastage": "Wastage",
+  "movementReturn": "Return",
+  "movementCorrection": "Correction",
+  "expiredTag": "Expired",
+  "expiryTodayTag": "Expires today",
+  "noExpiry": "No expiry",
+  "batchesTitle": "Batches",
+  "batchesSubtitle": "Expiry watch",
+  "batchesEmpty": "No dated batches yet",
+  "stockTitle": "Stock",
+  "stockSubtitle": "Value, alerts and expiry",
+  "stockValuation": "Stock value",
+  "stockProfit": "Profit (30 days)",
+  "stockWastage": "Wastage (30 days)",
+  "stockLowTitle": "Running low",
+  "stockExpiryTitle": "Expiry",
+  "stockNothingLow": "Nothing is running low",
+  "stockNoExpiry": "No dated batches",
+  "stockReorderNow": "Send reorder list",
+  "suppliersTitle": "Suppliers",
+  "suppliersSubtitle": "Reorder contacts",
+  "suppliersEmpty": "No suppliers yet",
+  "supplierAdd": "Add supplier",
+  "supplierName": "Name",
+  "supplierPhone": "Phone",
+  "supplierNote": "Note",
+  "supplierWhatsapp": "WhatsApp",
+  "scanTitle": "Scan",
+  "scanSubtitle": "Barcode or QR",
+  "scanUnsupported": "Camera scanning is not available here. Type the code below.",
+  "scanPermission": "Allow camera access to scan",
+  "scanManualHint": "Type or paste a code",
+  "scanCreateFromCode": "Add a product with this code",
+  "labelsTitle": "Labels",
+  "labelsSubtitle": "Print QR and barcode labels",
+  "labelsSelect": "Choose products",
+  "labelsSize": "Label size",
+  "labelsSymbology": "Symbol",
+  "labelsCopies": "Copies",
+  "labelsPrint": "Print sheet",
+  "labelsThermal": "Copy printer code",
+  "labelsCopied": "Printer code copied",
+  "labelsNone": "Select at least one product",
+  "symbolQr": "QR",
+  "symbolBarcode": "Barcode",
+  "paymentQrTitle": "Payment QR",
+  "paymentQrSubtitle": "Let customers scan and pay",
+  "paymentQrAmountHint": "Amount (optional)",
+  "paymentQrNeedVpa": "Add your UPI ID in Settings first.",
+  "paymentQrOpenSettings": "Open settings",
+  "paymentQrPoster": "Save poster",
+  "paymentQrCopy": "Copy link",
+  "paymentQrCopied": "Link copied",
+  "paymentQrNote": "Scanning opens the customer's UPI app. A payment counts only when the soundbox announces it.",
+  "stockOnHand": "In stock: {qty}",
+  "@stockOnHand": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "marginLabel": "Margin {pct}%",
+  "@marginLabel": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "expirySoonTag": "{days, plural, =0{Today} one{1 day} other{{days} days}}",
+  "@expirySoonTag": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiryWatchCount": "{count, plural, =0{Nothing expiring soon} one{1 batch needs attention} other{{count} batches need attention}}",
+  "@expiryWatchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "batchLine": "{qty} left · {cost} per unit",
+  "@batchLine": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "sellShortfall": "Only {qty} was in stock — recorded that much",
+  "@sellShortfall": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "productArchiveConfirm": "Remove {name} from the catalogue?",
+  "@productArchiveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reorderMessage": "{stall}: please send {items}",
+  "@reorderMessage": {
+    "placeholders": {
+      "stall": {
+        "type": "String"
+      },
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrPayingTo": "Paying to {vpa}",
+  "@paymentQrPayingTo": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "scanUnknownCode": "No product has the code {code}",
+  "@scanUnknownCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "profileTitle": "Business profile",
+  "vendorCategory": "Business type",
+  "categoryCart": "Street cart (thalluvandi)",
+  "categoryStall": "Fixed stall / shop",
+  "categoryHotel": "Hotel / eatery",
+  "categoryService": "Service work",
+  "nicheLabel": "What do you sell or do?",
+  "districtLabel": "District",
+  "talukLabel": "Taluk / town",
+  "marketAreaLabel": "Market / area",
+  "fssaiLabel": "FSSAI number (food business)",
+  "udyamLabel": "UDYAM registration (optional)",
+  "workingHoursLabel": "Working hours",
+  "perishableLabel": "Sells perishable goods",
+  "profilePromptTitle": "Set up your business profile",
+  "profilePromptBody": "Tell us what you sell so the app shows only what you need.",
+  "profilePromptAction": "Set up",
+  "profileSaved": "Profile saved",
+  "expensesTitle": "Expenses",
+  "expensesSubtitle": "Milk, gas, snacks, rent — what you pay out",
+  "expenseToday": "Spent today",
+  "expenseAdd": "Add expense",
+  "expenseAmount": "Amount",
+  "expenseNote": "Note (optional)",
+  "expenseTodayList": "Today's expenses",
+  "expenseEmpty": "No expense recorded today",
+  "expenseMilk": "Milk",
+  "expenseGas": "Gas",
+  "expenseSnacks": "Snacks",
+  "expenseProvisions": "Provisions",
+  "expenseWages": "Wages",
+  "expenseRent": "Rent",
+  "expenseElectricity": "Current bill",
+  "expenseTransport": "Transport",
+  "expenseOther": "Other",
+  "recurringTitle": "Daily supplies",
+  "recurringAdd": "Add supply",
+  "recurringName": "Supply name",
+  "recurringEmpty": "Save milk cans or the snack tray here to book them in one tap.",
+  "dayCloseTitle": "Day close",
+  "dayCloseExpectedCash": "Cash that should be in the box",
+  "dayCloseBreakdown": "Today's movement",
+  "dayCloseCollected": "Credit collected",
+  "dayCloseWastage": "Wastage",
+  "dayCloseProfit": "Profit today",
+  "dayCloseCount": "Count the box",
+  "dayCloseCountedCash": "Cash counted",
+  "dayCloseSave": "Close the day",
+  "dayCloseDiscounts": "Discounts given",
+  "dayCloseTax": "Tax collected",
+  "dayCloseLastToken": "Last token",
+  "dayCloseVoided": "Voided bills",
+  "dayCloseExport": "Export day PDF",
+  "dayCloseVariancePosted": "Cash difference posted to the ledger.",
+  "dayCloseExportFailed": "Could not export the day summary.",
+  "dayCloseMatch": "Cash matches exactly.",
+  "dayCloseSurplus": "{amount} more than expected",
+  "@dayCloseSurplus": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseShort": "{amount} short",
+  "@dayCloseShort": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsTitle": "Insights",
+  "insightsSubtitle": "Day, week, month and year",
+  "windowDay": "Day",
+  "windowWeek": "Week",
+  "windowMonth": "Month",
+  "windowYear": "Year",
+  "insightsTurnover": "Turnover",
+  "insightsCosts": "Costs",
+  "insightsProfit": "Profit",
+  "insightsAvgDay": "Per day",
+  "insightsByDay": "Day by day",
+  "insightsBestDay": "Best day",
+  "insightsTopItems": "Best sellers",
+  "insightsCostSplit": "Where the money went",
+  "insightsEmpty": "Nothing recorded in this period yet",
+  "insightsMarginAlert": "Margin warning",
+  "insightsMarginBody": "These items sell too close to their cost. Raise the price or lower the cost.",
+  "insightsMarginRow": "cost {cost} · price {price}",
+  "@insightsMarginRow": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleTitle": "Quick sale",
+  "quickSaleSubtitle": "One tap per cup — long press for a bigger order",
+  "quickSaleQty": "Quantity",
+  "quickSaleQtyTitle": "How many {item}?",
+  "@quickSaleQtyTitle": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleDone": "{item} · {amount} recorded",
+  "@quickSaleDone": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSemantic": "Sell one {item} for {amount}",
+  "@quickSaleSemantic": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleEmpty": "Add items with a price to use the quick menu.",
+  "starterPackAction": "Load starter kit for my shop",
+  "starterTea": "Tea",
+  "starterCoffee": "Coffee",
+  "starterBun": "Bun",
+  "starterBiscuit": "Biscuit",
+  "starterBajji": "Bajji",
+  "starterMilkSupply": "Milk cans",
+  "starterSnackSupply": "Snack tray",
+  "menuDailyWork": "Daily running",
+  "stockOut": "Out of stock",
+  "ordersTitle": "Orders",
+  "ordersSubtitle": "Counter and QR orders, live",
+  "orderCounterNew": "New counter order",
+  "orderTable": "Table",
+  "orderRemoveItem": "Remove one",
+  "orderAddItem": "Add one",
+  "orderCancelReason": "Reason for cancelling",
+  "orderCancel": "Cancel order",
+  "orderLive": "Live",
+  "orderHistory": "History",
+  "orderEmpty": "No orders yet.",
+  "orderNew": "New",
+  "orderPreparing": "Preparing",
+  "orderServed": "Served",
+  "orderPaid": "Paid",
+  "orderCancelled": "Cancelled",
+  "orderAccept": "Accept",
+  "orderServe": "Served",
+  "orderBulkAccept": "Accept all new",
+  "orderBulkServe": "Serve all ready",
+  "orderBill": "Bill",
+  "orderTokenShort": "Token",
+  "kotTitle": "Kitchen",
+  "kotSubtitle": "What has to be cooked next",
+  "kotEmpty": "Kitchen queue is clear.",
+  "kotDone": "Ready",
+  "billTitle": "Bill",
+  "billNumberLabel": "Bill",
+  "billSubtotal": "Subtotal",
+  "billDiscount": "Discount",
+  "billDiscountFlat": "Discount amount",
+  "billDiscountPct": "Discount %",
+  "billTax": "GST",
+  "billTaxable": "Taxable",
+  "billCgst": "CGST",
+  "billSgst": "SGST",
+  "billIgst": "IGST",
+  "shopGstRegistered": "GST registered shop",
+  "shopGstRegisteredHint": "Bills show the CGST/SGST split and item HSN codes",
+  "shopPriceIncludesTax": "Prices already include tax",
+  "productTaxRate": "GST rate %",
+  "productHsn": "HSN / SAC code",
+  "productTaxHint": "Leave blank to use the shop's rate",
+  "billRounding": "Rounding",
+  "billTotal": "Total",
+  "billPaid": "Paid",
+  "billBalance": "Balance",
+  "billReprint": "Reprint",
+  "billShare": "Share",
+  "billThanks": "Thank you, come again",
+  "billCustomer": "Customer",
+  "billSplit": "Payment",
+  "billRoundToRupee": "Round to rupee",
+  "billFillCash": "Fill balance in cash",
+  "billFullyPaid": "Fully paid",
+  "billSettle": "Settle bill",
+  "close": "Close",
+  "billPreview": "Paper preview",
+  "billVoid": "Void bill",
+  "billVoidTitle": "Void this bill",
+  "billVoidHint": "The bill number stays in the books and the ledger entries are reversed.",
+  "billVoidReason": "Reason",
+  "billVoidReasonRequired": "A reason is needed to void a bill",
+  "billVoided": "Bill voided",
+  "billVoidFailed": "This bill could not be voided",
+  "billAudit": "Bill history",
+  "menuTitle": "QR menu",
+  "menuSubtitle": "What customers see when they scan",
+  "menuShopSection": "Shop",
+  "menuSlug": "Menu name in the link",
+  "menuBaseUrl": "Menu web address",
+  "menuTableCount": "Tables",
+  "menuTaxPercent": "GST %",
+  "menuGstin": "GSTIN",
+  "menuAcceptOrders": "Accept QR orders",
+  "menuSaved": "Menu settings saved",
+  "menuQrSheet": "Print QR sheet",
+  "menuLinkSection": "Shop QR",
+  "menuItemsSection": "Items on the menu",
+  "menuSoldOut": "Sold out",
+  "menuPublished": "On menu",
+  "menuCounterQr": "Counter",
+  "menuScanHint": "Scan to see the menu and order",
+  "printersTitle": "Receipt printer",
+  "printersSubtitle": "Paper size, connection and test print",
+  "printerWidth": "Paper width",
+  "printerTransport": "Connection",
+  "printerPdf": "PDF / share",
+  "printerBluetooth": "Bluetooth",
+  "printerUsb": "USB",
+  "printerDeviceName": "Printer name",
+  "printerDeviceAddress": "Printer address",
+  "printerFallbackNote": "Direct printing to this device is not ready yet, so the bill opens as a PDF you can print or share.",
+  "printerAutoPrint": "Print bill automatically",
+  "printerKot": "Print kitchen ticket",
+  "printerTest": "Test print",
+  "printerTestSent": "Test receipt sent",
+  "printerPaired": "Paired printers",
+  "printerScan": "Find paired printers",
+  "printerScanning": "Looking…",
+  "printerNoDevices": "No paired printer found. Pair it in Android Bluetooth settings first.",
+  "printerConnect": "Connect",
+  "printerConnected": "Printer connected",
+  "printerConnectFailed": "Could not connect. Switch the printer on and try again.",
+  "printerBluetoothNote": "Bills print straight to this Bluetooth printer. If it is off or out of range, the bill opens as a PDF instead so nothing is lost.",
+  "orderToken": "Token {token}",
+  "@orderToken": {
+    "placeholders": {
+      "token": {
+        "type": "int"
+      }
+    }
+  },
+  "orderElapsed": "{minutes} min",
+  "@orderElapsed": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "orderItems": "{count, plural, =1{1 item} other{{count} items}}",
+  "@orderItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "billSettled": "Bill {number} settled",
+  "@billSettled": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOrders": "Orders today",
+  "dayCloseOrdersTaken": "Orders taken",
+  "dayCloseOrdersCancelled": "Cancelled",
+  "dayCloseOrdersOpen": "Still open",
+  "dayCloseOrdersBilled": "Billed",
+  "dayCloseAvgTicket": "Average ticket",
+  "menuCloudSection": "Cloud board",
+  "menuShopKey": "Shop key (16+ characters)",
+  "menuCloudSync": "Sync orders with the cloud",
+  "menuCloudPublish": "Publish menu to cloud",
+  "menuCloudPublished": "Published {count} items to the cloud menu",
+  "@menuCloudPublished": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "menuCloudFailed": "Cloud error: {reason}",
+  "@menuCloudFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "menuCloudLive": "Live: QR orders arrive on the board automatically.",
+  "menuCloudOffline": "Local only. Add a shop key and turn on sync to receive QR orders.",
+  "settleTitle": "Settle credit",
+  "settleAmountSection": "Settlement",
+  "settleAmount": "Amount",
+  "settleCash": "Cash",
+  "settleUpi": "UPI",
+  "settleLoan": "New loan",
+  "settleNote": "Note",
+  "settleCashHint": "Cash received closes the balance and is added to today's cash takings.",
+  "settleUpiHint": "Ask on UPI, then confirm. The balance closes and today's UPI takings go up.",
+  "settleLoanHint": "The old balance closes and the same amount reopens as a fresh credit line.",
+  "settleConfirm": "Settle",
+  "settleDone": "Settlement recorded",
+  "settleHistory": "Recent settlements",
+  "settleTooMuch": "More than the outstanding ₹{amount}",
+  "@settleTooMuch": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLedgerItem": "Credit settled — {name}",
+  "@settleLedgerItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settleLoanItem": "Credit rolled into a new loan — {name}",
+  "@settleLoanItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "menuAddress": "Shop address",
+  "menuPhone": "Contact number",
+  "menuFssai": "FSSAI licence",
+  "menuGrowSection": "Grow & manage",
+  "recipesTitle": "Recipe book",
+  "recipesSubtitle": "Your measurements, written down once",
+  "recipeAdd": "Add a dish",
+  "recipeName": "Dish name",
+  "recipeServings": "Makes (plates)",
+  "recipeEmpty": "No dishes written down yet.",
+  "recipeIngredients": "What goes in",
+  "recipeSteps": "How to make it",
+  "recipeAddIngredient": "Add item",
+  "recipeAddStep": "Add step",
+  "recipeQty": "Quantity",
+  "recipeLinkProduct": "Take from stock item",
+  "recipeNoLink": "Not from stock",
+  "recipeCost": "Material cost",
+  "recipePerServing": "Cost per plate",
+  "recipeScale": "Cook for",
+  "recipeCookBatch": "Take materials out of stock",
+  "recipeCooked": "Materials taken out of stock",
+  "recipeStepsEmpty": "No steps written yet.",
+  "recipeUnlinkedWarning": "Items not linked to stock are left out of the cost.",
+  "jobsTitle": "Custom orders",
+  "jobsSubtitle": "Advance bookings and made-to-order work",
+  "jobAdd": "Take an order",
+  "jobTitleField": "What is being made",
+  "jobCustomer": "Customer",
+  "jobPhone": "Phone",
+  "jobPrice": "Price",
+  "jobAdvance": "Advance taken",
+  "jobDue": "Give on",
+  "jobEmpty": "No orders here.",
+  "jobStatusTaken": "Taken",
+  "jobStatusMaking": "Making",
+  "jobStatusReady": "Ready",
+  "jobStatusDelivered": "Given",
+  "jobStatusCancelled": "Cancelled",
+  "jobAdvanceStatus": "Move on",
+  "jobCancel": "Cancel",
+  "jobRemind": "Message on WhatsApp",
+  "jobFilterOpen": "Open",
+  "jobFilterToday": "Due today",
+  "jobFilterDone": "Finished",
+  "customersTitle": "Regulars",
+  "customersSubtitle": "Who comes back, and how they found you",
+  "customerAdd": "Add customer",
+  "customerName": "Name",
+  "customerPhone": "Phone",
+  "sourceWalkIn": "Walked in",
+  "sourceInstagram": "Instagram",
+  "sourceMaps": "Google Maps",
+  "sourceReferral": "Told by a friend",
+  "sourceOther": "Other",
+  "customerRecordVisit": "Add a visit",
+  "customerVisitAmount": "Amount",
+  "customerRewardDue": "Free one due",
+  "customerGiveReward": "Give the free one",
+  "customersEmpty": "No regulars saved yet.",
+  "customerSourceSplit": "Where the money comes from",
+  "eventsTitle": "Events & exhibitions",
+  "eventsSubtitle": "Was the stall worth it?",
+  "eventAdd": "Add an event",
+  "eventName": "Event name",
+  "eventPlace": "Place",
+  "eventDay": "Date",
+  "eventRent": "Stall rent",
+  "eventTravel": "Travel",
+  "eventOther": "Other cost",
+  "eventSales": "Sales",
+  "eventFootfall": "Visitors",
+  "eventProfit": "Profit",
+  "eventLoss": "Loss",
+  "eventPerVisitor": "Per visitor",
+  "eventsEmpty": "No events recorded yet.",
+  "staffTitle": "Workers",
+  "staffSubtitle": "Attendance, advances and wages",
+  "staffAdd": "Add a worker",
+  "staffName": "Name",
+  "staffPhone": "Phone",
+  "staffRole": "Work",
+  "staffWage": "Daily wage",
+  "staffPresent": "Present",
+  "staffHalf": "Half day",
+  "staffAbsent": "Absent",
+  "staffAdvance": "Advance",
+  "staffAdvanceAdd": "Give advance",
+  "staffPayable": "Wage due this month",
+  "staffEmpty": "No workers added.",
+  "staffRemove": "Remove",
+  "growthTitle": "Growth kit",
+  "growthSubtitle": "Bring more customers in",
+  "growthMenuLink": "Your menu link",
+  "growthShareMenu": "Send the menu",
+  "growthAskReview": "Ask for a review",
+  "growthOpenMaps": "Open Maps page",
+  "growthWhatsappBroadcast": "Tell customers on WhatsApp",
+  "growthLinksSection": "Your links",
+  "growthMapsUrl": "Google Maps link",
+  "growthReviewUrl": "Review link",
+  "growthInstagram": "Instagram name",
+  "growthLoyalty": "Free one after how many visits",
+  "growthIdeas": "Post ideas for this week",
+  "growthShareIdea": "Send",
+  "growthIdea1": "A short clip of the first batch being made in the morning.",
+  "growthIdea2": "Today's special with the price written clearly.",
+  "growthIdea3": "A happy regular holding their usual order.",
+  "growthIdea4": "Behind the counter: how the shop opens each day.",
+  "growthIdea5": "An offer for the weekend, valid for two days only.",
+  "growthSaved": "Saved",
+  "checklistTitle": "Opening & closing list",
+  "checklistSubtitle": "The small things that spoil a day when forgotten",
+  "checklistOpening": "Before opening",
+  "checklistClosing": "Before closing",
+  "checklistAdd": "Add to the list",
+  "checklistItem": "What to check",
+  "checklistEmpty": "Nothing on the list yet.",
+  "checklistUseStarter": "Use a starter list",
+  "checklistSeed1": "Change money kept ready",
+  "checklistSeed2": "Gas and milk checked",
+  "checklistSeed3": "QR stand and price board out",
+  "checklistSeed4": "Cash counted and written down",
+  "checklistSeed5": "Fridge, gas and lights switched off",
+  "jobRemindMessage": "Hello {name}, your order \"{title}\" is ready.",
+  "@jobRemindMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "customerVisits": "{count} visits",
+  "@customerVisits": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "customerToReward": "{count} more visits",
+  "@customerToReward": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "growthReviewMessage": "Liked {name}? Please leave a review: {link}",
+  "@growthReviewMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "growthBroadcastMessage": "{name} — today's menu: {link}",
+  "@growthBroadcastMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "checklistProgress": "{done} of {total} done",
+  "@checklistProgress": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "movementPrepared": "Prep",
+  "recipeShortStock": "Not enough {item} in stock",
+  "@recipeShortStock": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "starterIdli": "Idli",
+  "starterDosa": "Dosa",
+  "starterMeals": "Meals",
+  "starterSnackPacket": "Snack packet",
+  "starterWaterBottle": "Water bottle",
+  "starterVegSupply": "Vegetables",
+  "starterGasSupply": "Gas cylinder",
+  "checklistSeedHotel": "Batter, vegetables and gas ready",
+  "checklistSeedCart": "Cart cleaned and stock loaded",
+  "checklistSeedService": "Tools and change ready",
+  "presetRecipeTea": "Shop tea (10 cups)",
+  "presetIngredientMilk": "Milk",
+  "presetIngredientWater": "Water",
+  "presetIngredientTeaPowder": "Tea powder",
+  "presetIngredientSugar": "Sugar",
+  "rolesTitle": "Roles",
+  "rolesSubtitle": "Who can do what",
+  "rolesHint": "Make a role for each kind of helper, then tick only the work they should be allowed to do.",
+  "rolesEmpty": "No roles yet",
+  "rolesOpen": "Open roles",
+  "roleNew": "New role",
+  "roleSuggestionsTitle": "Suggested for your shop",
+  "@roleSuggestionsTitle": {},
+  "roleSuggestionsHint": "Ready-made roles for your kind of business. Tap one to create it, then adjust.",
+  "@roleSuggestionsHint": {},
+  "tmplWaiter": "Waiter",
+  "@tmplWaiter": {},
+  "tmplKitchen": "Kitchen / chef",
+  "@tmplKitchen": {},
+  "tmplCashier": "Cashier",
+  "@tmplCashier": {},
+  "tmplCounter": "Counter",
+  "@tmplCounter": {},
+  "tmplSalesHelper": "Sales helper",
+  "@tmplSalesHelper": {},
+  "tmplStockKeeper": "Stock keeper",
+  "@tmplStockKeeper": {},
+  "tmplJobAssistant": "Job assistant",
+  "@tmplJobAssistant": {},
+  "tmplCounterHelper": "Counter helper",
+  "@tmplCounterHelper": {},
+  "tmplAssistant": "Assistant",
+  "@tmplAssistant": {},
+  "roleOwner": "Owner",
+  "roleOwnerNote": "Full access, always",
+  "roleInactive": "Not in use",
+  "rolePermissionCount": "{count} allowed",
+  "@rolePermissionCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "roleEditSubtitle": "Name, duties and limits",
+  "roleName": "Role name",
+  "roleNote": "Responsibility",
+  "roleLimits": "Money limits (Rs, 0 = no limit)",
+  "roleMaxDiscount": "Biggest discount allowed",
+  "roleMaxCredit": "Biggest credit allowed",
+  "roleMaxRefund": "Biggest refund allowed",
+  "roleLimitHint": "Above these amounts the owner PIN is needed.",
+  "roleDuplicate": "Copy role",
+  "roleDeactivate": "Stop using",
+  "areaSales": "Sales",
+  "areaOrders": "Orders and kitchen",
+  "areaBilling": "Bills",
+  "areaCredit": "Credit",
+  "areaStock": "Stock",
+  "areaPurchases": "Buying and expenses",
+  "areaMoney": "Money and reports",
+  "areaCustomers": "Customers",
+  "areaStaff": "Helpers",
+  "areaSettings": "Setup",
+  "permRecordSale": "Record a sale",
+  "permQuickSale": "Use quick sale",
+  "permCollectUpi": "Show payment QR",
+  "permTakeOrder": "Take an order",
+  "permChangeOrderStatus": "Move orders along",
+  "permViewKitchen": "See kitchen list",
+  "permEditMenu": "Change the menu",
+  "permMakeBill": "Make a bill",
+  "permGiveDiscount": "Give a discount",
+  "permVoidBill": "Cancel a bill",
+  "permReprintBill": "Print a bill again",
+  "permGiveCredit": "Give credit",
+  "permSettleCredit": "Settle credit",
+  "permViewCredit": "See credit balances",
+  "permViewStock": "See stock",
+  "permAdjustStock": "Change stock",
+  "permEditProducts": "Add or edit items",
+  "permChangePrice": "Change prices",
+  "permCookRecipe": "Cook a recipe",
+  "permRecordExpense": "Record an expense",
+  "permManageSuppliers": "Manage suppliers",
+  "permViewDayTotals": "See day totals",
+  "permViewProfit": "See profit",
+  "permCloseDay": "Close the day",
+  "permViewReports": "See reports",
+  "permViewCustomers": "See customers",
+  "permEditCustomers": "Edit customers",
+  "permManageStaff": "Manage helpers",
+  "permMarkAttendance": "Mark attendance",
+  "permPayWages": "Pay wages",
+  "permManageRoles": "Create roles",
+  "permViewAudit": "See the activity trail",
+  "permEditSettings": "Change settings",
+  "permEditShop": "Change shop details",
+  "permManagePrinters": "Set up printers",
+  "accessTitle": "Access control",
+  "accessSubtitle": "Shared phone, separate hands",
+  "accessEnable": "Ask for a PIN",
+  "accessEnableHint": "Each helper signs in before using this phone.",
+  "accessNeedsOwnerPin": "Set your owner PIN first",
+  "accessOwnerPin": "Owner PIN",
+  "accessOwnerPinSet": "Set owner PIN (4-6 digits)",
+  "accessOwnerPinChange": "Change owner PIN (4-6 digits)",
+  "accessPinSaved": "PIN saved",
+  "accessPinInvalid": "Use 4 to 6 digits",
+  "accessAutoLock": "Auto lock",
+  "accessIdleMinutes": "Lock after (minutes, 0 = never)",
+  "accessWorkers": "Helpers",
+  "accessNoWorkers": "Add helpers first",
+  "accessNoRole": "No role yet",
+  "accessPinSet": "PIN set",
+  "accessPinMissing": "No PIN",
+  "accessAssignTitle": "Role and PIN",
+  "accessWorkerPin": "New PIN (4-6 digits)",
+  "accessSaved": "Saved",
+  "accessEndShift": "End shift",
+  "accessWrongPin": "Wrong PIN",
+  "lockTitle": "Who is on the counter?",
+  "lockSubtitle": "Pick your name and type your PIN",
+  "lockPin": "PIN",
+  "lockUnlock": "Start shift",
+  "auditTitle": "Activity trail",
+  "auditSubtitle": "Who did what",
+  "auditOpen": "Open activity trail",
+  "auditEveryone": "Everyone",
+  "auditEmpty": "Nothing recorded yet",
+  "auditApproved": "Owner approved",
+  "settingsGroupBusiness": "Business",
+  "@settingsGroupBusiness": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupMoney": "Money",
+  "@settingsGroupMoney": {
+    "description": "Settings hub label"
+  },
+  "settingsGroupApp": "App & devices",
+  "@settingsGroupApp": {
+    "description": "Settings hub label"
+  },
+  "settingsShopTitle": "Shop details",
+  "@settingsShopTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsPaymentsTitle": "Payments & UPI",
+  "@settingsPaymentsTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsMarketTitle": "Market prices",
+  "@settingsMarketTitle": {
+    "description": "Settings hub label"
+  },
+  "settingsNotSet": "Not set",
+  "@settingsNotSet": {
+    "description": "Settings hub label"
+  },
+  "settingsOn": "On",
+  "@settingsOn": {
+    "description": "Settings hub label"
+  },
+  "settingsOff": "Off",
+  "@settingsOff": {
+    "description": "Settings hub label"
+  },
+  "settingsSaved": "Settings saved",
+  "@settingsSaved": {
+    "description": "Settings hub label"
+  },
+  "dashboardTitle": "Dashboard",
+  "@dashboardTitle": {
+    "description": "Dashboard"
+  },
+  "dashboardSubtitle": "Orders, money, credit and stock at a glance",
+  "@dashboardSubtitle": {
+    "description": "Orders, money, credit and stock at a glance"
+  },
+  "dashboardOrders": "Orders",
+  "@dashboardOrders": {
+    "description": "Orders"
+  },
+  "dashboardPayments": "Pending payments",
+  "@dashboardPayments": {
+    "description": "Pending payments"
+  },
+  "dashboardCredit": "Credit balances",
+  "@dashboardCredit": {
+    "description": "Credit balances"
+  },
+  "dashboardInventory": "Inventory",
+  "@dashboardInventory": {
+    "description": "Inventory"
+  },
+  "dashboardShare": "Share",
+  "@dashboardShare": {
+    "description": "Share"
+  },
+  "dashboardPlaced": "Placed",
+  "@dashboardPlaced": {
+    "description": "Placed"
+  },
+  "dashboardServed": "Served",
+  "@dashboardServed": {
+    "description": "Served"
+  },
+  "dashboardCancelled": "Cancelled",
+  "@dashboardCancelled": {
+    "description": "Cancelled"
+  },
+  "dashboardOpenOrders": "Open orders",
+  "@dashboardOpenOrders": {
+    "description": "Open orders"
+  },
+  "dashboardBilled": "Billed",
+  "@dashboardBilled": {
+    "description": "Billed"
+  },
+  "dashboardAvgBill": "Average bill",
+  "@dashboardAvgBill": {
+    "description": "Average bill"
+  },
+  "dashboardCollected": "Collected",
+  "@dashboardCollected": {
+    "description": "Collected"
+  },
+  "dashboardUnbilled": "Not billed yet",
+  "@dashboardUnbilled": {
+    "description": "Not billed yet"
+  },
+  "dashboardPendingTotal": "Still to collect",
+  "@dashboardPendingTotal": {
+    "description": "Still to collect"
+  },
+  "dashboardOutstanding": "Outstanding",
+  "@dashboardOutstanding": {
+    "description": "Outstanding"
+  },
+  "dashboardCreditGiven": "Credit given",
+  "@dashboardCreditGiven": {
+    "description": "Credit given"
+  },
+  "dashboardCustomers": "Customers",
+  "@dashboardCustomers": {
+    "description": "Customers"
+  },
+  "dashboardOldest": "Oldest due",
+  "@dashboardOldest": {
+    "description": "Oldest due"
+  },
+  "dashboardDays": "{count, plural, =0{today} =1{1 day} other{{count} days}}",
+  "@dashboardDays": {
+    "description": "Age of the oldest unpaid credit balance",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "dashboardStockValue": "Stock value",
+  "@dashboardStockValue": {
+    "description": "Stock value"
+  },
+  "dashboardLowStock": "Low stock",
+  "@dashboardLowStock": {
+    "description": "Low stock"
+  },
+  "dashboardExpiring": "Expiring soon",
+  "@dashboardExpiring": {
+    "description": "Expiring soon"
+  },
+  "dashboardWastage": "Wastage",
+  "@dashboardWastage": {
+    "description": "Wastage"
+  },
+  "dashboardPurchases": "Purchases",
+  "@dashboardPurchases": {
+    "description": "Purchases"
+  },
+  "dashboardTopItems": "Top items",
+  "@dashboardTopItems": {
+    "description": "Top items"
+  },
+  "planTitle": "Subscription",
+  "@planTitle": {
+    "description": "Subscription"
+  },
+  "planSubtitle": "Cloud features for this shop",
+  "@planSubtitle": {
+    "description": "Cloud features for this shop"
+  },
+  "planFree": "Free",
+  "@planFree": {
+    "description": "Free"
+  },
+  "planPro": "Pro",
+  "@planPro": {
+    "description": "Pro"
+  },
+  "planFreeNote": "Everything on this phone keeps working for free.",
+  "@planFreeNote": {
+    "description": "Everything on this phone keeps working for free."
+  },
+  "planProNote": "Cloud features are active for this shop.",
+  "@planProNote": {
+    "description": "Cloud features are active for this shop."
+  },
+  "planCloudFeatures": "Cloud features",
+  "@planCloudFeatures": {
+    "description": "Cloud features"
+  },
+  "planFeatureAccount": "Cloud shop account",
+  "@planFeatureAccount": {
+    "description": "Cloud shop account"
+  },
+  "planFeatureLiveSync": "Live order board sync",
+  "@planFeatureLiveSync": {
+    "description": "Live order board sync"
+  },
+  "planFeatureQrOrdering": "QR menu ordering",
+  "@planFeatureQrOrdering": {
+    "description": "QR menu ordering"
+  },
+  "planFeatureShareLinks": "Shareable links",
+  "@planFeatureShareLinks": {
+    "description": "Shareable links"
+  },
+  "planFeatureSoundbox": "Cloud soundbox",
+  "@planFeatureSoundbox": {
+    "description": "Cloud soundbox"
+  },
+  "planFeatureBackup": "Multi-device backup",
+  "@planFeatureBackup": {
+    "description": "Multi-device backup"
+  },
+  "planOn": "On",
+  "@planOn": {
+    "description": "On"
+  },
+  "planLocked": "Locked",
+  "@planLocked": {
+    "description": "Locked"
+  },
+  "planRefresh": "Check subscription",
+  "@planRefresh": {
+    "description": "Check subscription"
+  },
+  "planChecking": "Checking…",
+  "@planChecking": {
+    "description": "Checking…"
+  },
+  "planCheckFailed": "Could not check right now. Last known status is used.",
+  "@planCheckFailed": {
+    "description": "Could not check right now. Last known status is used."
+  },
+  "planNeedsShop": "Set up the cloud shop first.",
+  "@planNeedsShop": {
+    "description": "Set up the cloud shop first."
+  },
+  "planOfflineNote": "Offline for a few days is fine — cloud features keep working during the grace period.",
+  "@planOfflineNote": {
+    "description": "Offline for a few days is fine — cloud features keep working during the grace period."
+  },
+  "shopTitle": "My shop",
+  "@shopTitle": {
+    "description": "My shop"
+  },
+  "shopSubtitle": "Workflow made for your trade",
+  "@shopSubtitle": {
+    "description": "Workflow made for your trade"
+  },
+  "shopPickType": "Shop type",
+  "@shopPickType": {
+    "description": "Shop type"
+  },
+  "shopWorkflow": "Daily workflow",
+  "@shopWorkflow": {
+    "description": "Daily workflow"
+  },
+  "shopTypeRestaurant": "Restaurant",
+  "@shopTypeRestaurant": {
+    "description": "Restaurant"
+  },
+  "shopTypeHotel": "Hotel",
+  "@shopTypeHotel": {
+    "description": "Hotel"
+  },
+  "shopTypeStreet": "Street stall",
+  "@shopTypeStreet": {
+    "description": "Street stall"
+  },
+  "shopTypeDiy": "DIY / craft stall",
+  "@shopTypeDiy": {
+    "description": "DIY / craft stall"
+  },
+  "shopTypeMagnet": "Fridge magnet stall",
+  "@shopTypeMagnet": {
+    "description": "Fridge magnet stall"
+  },
+  "shopTypeTea": "Tea shop",
+  "@shopTypeTea": {
+    "description": "Tea shop"
+  },
+  "settingsOrderingTitle": "Ordering rules",
+  "@settingsOrderingTitle": {
+    "description": "Ordering rules"
+  },
+  "settingsOrderingSubtitle": "Service style, payment timing, table buttons",
+  "@settingsOrderingSubtitle": {
+    "description": "Service style, payment timing, table buttons"
+  },
+  "serviceStyle": "Service style",
+  "@serviceStyle": {
+    "description": "Service style"
+  },
+  "serviceTable": "Table service",
+  "@serviceTable": {
+    "description": "Table service"
+  },
+  "serviceSelf": "Self service",
+  "@serviceSelf": {
+    "description": "Self service"
+  },
+  "serviceTakeaway": "Takeaway only",
+  "@serviceTakeaway": {
+    "description": "Takeaway only"
+  },
+  "paymentTiming": "Payment timing",
+  "@paymentTiming": {
+    "description": "Payment timing"
+  },
+  "payBefore": "Pay first",
+  "@payBefore": {
+    "description": "Pay first"
+  },
+  "payAfter": "Pay after",
+  "@payAfter": {
+    "description": "Pay after"
+  },
+  "payTimingHelp": "Pay first asks the customer to pay before the order is confirmed. Pay after sends it to the kitchen straight away.",
+  "@payTimingHelp": {
+    "description": "Pay first asks the customer to pay before the order is confirmed. Pay after sends it to the kitchen straight away."
+  },
+  "customerButtons": "Buttons on the customer screen",
+  "@customerButtons": {
+    "description": "Buttons on the customer screen"
+  },
+  "allowCallStaff": "Call staff",
+  "@allowCallStaff": {
+    "description": "Call staff"
+  },
+  "allowRequestBill": "Ask for the bill",
+  "@allowRequestBill": {
+    "description": "Ask for the bill"
+  },
+  "customerButtonsHelp": "These appear only with table service.",
+  "@customerButtonsHelp": {
+    "description": "These appear only with table service."
+  },
+  "requestCallStaff": "Staff needed",
+  "@requestCallStaff": {
+    "description": "Staff needed"
+  },
+  "requestBill": "Bill please",
+  "@requestBill": {
+    "description": "Bill please"
+  },
+  "requestTable": "Table {table}",
+  "@requestTable": {
+    "description": "Table label",
+    "placeholders": {
+      "table": {
+        "type": "String"
+      }
+    }
+  },
+  "requestCounter": "Counter",
+  "@requestCounter": {
+    "description": "Counter"
+  },
+  "requestSeen": "Seen",
+  "@requestSeen": {
+    "description": "Seen"
+  },
+  "payStateAwaiting": "Awaiting payment",
+  "@payStateAwaiting": {
+    "description": "Awaiting payment"
+  },
+  "payStateDue": "Pay at counter",
+  "@payStateDue": {
+    "description": "Pay at counter"
+  },
+  "payStatePaid": "Paid",
+  "@payStatePaid": {
+    "description": "Paid"
+  },
+  "orderMarkPaid": "Mark paid",
+  "@orderMarkPaid": {
+    "description": "Mark paid"
+  },
+  "devicesTitle": "Phones & devices",
+  "@devicesTitle": {},
+  "devicesSubtitle": "Waiter, kitchen and counter phones on one board",
+  "@devicesSubtitle": {},
+  "devicesPairThis": "Pair this phone",
+  "@devicesPairThis": {},
+  "devicesShopSlug": "Shop name (menu link word)",
+  "@devicesShopSlug": {},
+  "devicesEnterCode": "6-digit code from the owner",
+  "@devicesEnterCode": {},
+  "devicesLabel": "Phone name",
+  "@devicesLabel": {},
+  "devicesPairButton": "Pair phone",
+  "@devicesPairButton": {},
+  "devicesPairSuccess": "Phone paired to the shop",
+  "@devicesPairSuccess": {},
+  "devicesUnpair": "Unpair this phone",
+  "@devicesUnpair": {},
+  "devicesPairedAs": "Paired as {role} · {shop}",
+  "@devicesPairedAs": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "devicesNewCode": "New pairing code",
+  "@devicesNewCode": {},
+  "devicesCodeExpires": "Valid for 15 minutes · tap to copy",
+  "@devicesCodeExpires": {},
+  "devicesList": "Paired phones",
+  "@devicesList": {},
+  "devicesEmpty": "No phones paired yet",
+  "@devicesEmpty": {},
+  "devicesRevoke": "Remove",
+  "@devicesRevoke": {},
+  "devicesRevoked": "Removed",
+  "@devicesRevoked": {},
+  "devicesOnline": "online",
+  "@devicesOnline": {},
+  "devicesOffline": "offline",
+  "@devicesOffline": {},
+  "devicesRoleWaiter": "Waiter",
+  "@devicesRoleWaiter": {},
+  "devicesRoleKitchen": "Kitchen",
+  "@devicesRoleKitchen": {},
+  "devicesRoleCounter": "Counter",
+  "@devicesRoleCounter": {},
+  "devicesProRequired": "Multi-device sync is a Pro feature. Upgrade to connect waiter, kitchen and counter phones.",
+  "@devicesProRequired": {},
+  "cloudShopSection": "Cloud shop",
+  "@cloudShopSection": {},
+  "cloudShopHint": "Create your shop on the server so QR menu orders and staff phones share one live order list.",
+  "@cloudShopHint": {},
+  "cloudShopSlug": "Shop name for links (e.g. sirpam-tea)",
+  "@cloudShopSlug": {},
+  "cloudShopKey": "Shop key (private, 16+ characters)",
+  "@cloudShopKey": {},
+  "cloudShopGenerate": "Generate key",
+  "@cloudShopGenerate": {},
+  "cloudShopCreate": "Create cloud shop",
+  "@cloudShopCreate": {},
+  "cloudShopUpdate": "Update cloud shop",
+  "@cloudShopUpdate": {},
+  "cloudShopLive": "Cloud shop ready: {slug}",
+  "@cloudShopLive": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopNone": "No cloud shop yet. Create one to use QR ordering and staff phones.",
+  "@cloudShopNone": {},
+  "cloudShopCreated": "Cloud shop created",
+  "@cloudShopCreated": {},
+  "cloudShopKeyShort": "Enter a shop name and a key of at least 16 characters.",
+  "@cloudShopKeyShort": {},
+  "cloudShopCopyKey": "Copy key",
+  "@cloudShopCopyKey": {},
+  "cloudShopKeyCopied": "Shop key copied",
+  "@cloudShopKeyCopied": {},
+  "approvalTitle": "Owner approval",
+  "@approvalTitle": {},
+  "approvalNeeded": "This shift cannot do this: {action}. The owner can allow it once.",
+  "@approvalNeeded": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOverLimit": "This is above the limit for this shift: {action}. The owner can allow it once.",
+  "@approvalOverLimit": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "approvalOwnerPin": "Owner PIN",
+  "@approvalOwnerPin": {},
+  "approvalApprove": "Allow once",
+  "@approvalApprove": {},
+  "approvalGranted": "Owner approved this action",
+  "@approvalGranted": {},
+  "approvalWrongPin": "Wrong owner PIN",
+  "@approvalWrongPin": {},
+  "approvalBlockedTitle": "Not allowed",
+  "@approvalBlockedTitle": {},
+  "approvalBlockedBody": "This shift does not have access to {action}. Ask the owner to change the role.",
+  "@approvalBlockedBody": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "recurringRemove": "Remove",
+  "@recurringRemove": {},
+  "recurringRemoved": "Recurring cost removed",
+  "@recurringRemoved": {},
+  "recurringRemoveConfirm": "Remove {name} from recurring costs?",
+  "@recurringRemoveConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderEditItems": "Edit items",
+  "@orderEditItems": {},
+  "orderEditItemsSaved": "Order items updated",
+  "@orderEditItemsSaved": {},
+  "orderEditEmpty": "An order needs at least one item.",
+  "@orderEditEmpty": {},
+  "printerStatus": "Printer status",
+  "@printerStatus": {},
+  "printerNotConnected": "No printer connected",
+  "@printerNotConnected": {},
+  "printerConnectedTo": "Connected to {name}",
+  "@printerConnectedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printerDisconnect": "Disconnect",
+  "@printerDisconnect": {},
+  "printerDisconnected": "Printer disconnected",
+  "@printerDisconnected": {},
+  "printerForget": "Forget printer",
+  "@printerForget": {},
+  "printerForgotten": "Printer removed. Bills will be shared as PDF.",
+  "@printerForgotten": {},
+  "printerUnsupported": "This phone cannot print over Bluetooth.",
+  "@printerUnsupported": {},
+  "printerPermissionNeeded": "Allow Bluetooth so the app can see your printer.",
+  "@printerPermissionNeeded": {},
+  "printerPermissionDenied": "Bluetooth permission was not given.",
+  "@printerPermissionDenied": {},
+  "printerAllowBluetooth": "Allow Bluetooth",
+  "@printerAllowBluetooth": {},
+  "devicesTest": "Test connection",
+  "@devicesTest": {},
+  "devicesTestOk": "Connected to the shop",
+  "@devicesTestOk": {},
+  "devicesTestFailed": "This phone is not connected. Ask the owner for a new code.",
+  "@devicesTestFailed": {},
+  "stockLastUpdated": "Stock last updated {when}",
+  "@stockLastUpdated": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "agoJustNow": "just now",
+  "@agoJustNow": {},
+  "agoMinutes": "{count, plural, =1{1 minute ago} other{{count} minutes ago}}",
+  "@agoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoHours": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@agoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "agoDays": "{count, plural, =1{1 day ago} other{{count} days ago}}",
+  "@agoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "prepTitle": "Morning prep",
+  "prepSubtitle": "What must be ready before the first customer",
+  "prepPending": "{count} still to prepare",
+  "@prepPending": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "prepUseStarter": "Use a starter sheet",
+  "prepTodaySheet": "Today's sheet",
+  "prepAddTitle": "Add a prep item",
+  "prepItemName": "Item",
+  "prepPlanned": "Planned",
+  "prepMade": "Made",
+  "prepUnit": "Unit",
+  "prepAdd": "Add to sheet",
+  "prepShort": "{qty} short",
+  "@prepShort": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "prepProgressLine": "{made} of {planned} {unit}",
+  "@prepProgressLine": {
+    "placeholders": {
+      "made": {
+        "type": "String"
+      },
+      "planned": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "prepSeedMilk": "Milk",
+  "prepSeedBatter": "Batter / dough",
+  "prepSeedSnacks": "Snacks",
+  "prepSeedChange": "Change money",
+  "prepSeedDisplay": "Set up display",
+  "prepSeedStock": "Fill shelves",
+  "prepUnitLitre": "litre",
+  "prepUnitPlate": "plate",
+  "prepUnitPiece": "piece",
+  "prepUnitRupee": "rupee",
+  "insightsRush": "Rush hours",
+  "insightsHour": "{hour}:00",
+  "@insightsHour": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsPeakHint": "Busiest at {hour}:00 with {bills} bills — keep {staff} at the counter",
+  "@insightsPeakHint": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      },
+      "bills": {
+        "type": "String"
+      },
+      "staff": {
+        "type": "String"
+      }
+    }
+  },
+  "dayCloseOpeningCash": "Opening cash",
+  "quickSaleSoldOutOn": "{item} marked sold out",
+  "@quickSaleSoldOutOn": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleSoldOutOff": "{item} is back on sale",
+  "@quickSaleSoldOutOff": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroes": "Today's heroes",
+  "insightsHeroLine": "{sold} sold · {left} left",
+  "@insightsHeroLine": {
+    "placeholders": {
+      "sold": {
+        "type": "String"
+      },
+      "left": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHeroRunsOut": "runs out around {hour}:00",
+  "@insightsHeroRunsOut": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      }
+    }
+  },
+  "customerLapsedTitle": "Not seen lately",
+  "customerLapsedHint": "A short message brings most of them back.",
+  "customerLapsedDays": "{days} days since last visit",
+  "@customerLapsedDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "customerNudge": "Send message",
+  "customerNudgeMessage": "Hi {name}, we miss you at {shop}! Something fresh is waiting for you this week.",
+  "@customerNudgeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "offersTitle": "Offers",
+  "offersSubtitle": "Discounts you run, and what each one costs you.",
+  "offerAdd": "Add an offer",
+  "offerName": "Offer name",
+  "offerCode": "Code the customer says (optional)",
+  "offerKindFlat": "Rupees off",
+  "offerKindPercent": "Percent off",
+  "offerKindCombo": "Combo price",
+  "offerAmount": "Amount off",
+  "offerPercent": "Percent off",
+  "offerComboPrice": "Combo price",
+  "offersGivenTotal": "Given away so far",
+  "offersEmpty": "No offers yet. Add one and it shows up on the bill.",
+  "offerLive": "Live",
+  "offerPaused": "Paused",
+  "offerPause": "Pause",
+  "offerResume": "Resume",
+  "offerUsed": "Used {count} times",
+  "@offerUsed": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "offerGivenAway": "{amount} given away",
+  "@offerGivenAway": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackTitle": "Bill feedback",
+  "feedbackSubtitle": "A three-tap rating after paying, straight to you.",
+  "feedbackQrTitle": "Counter QR",
+  "feedbackQrHint": "Print this and keep it on the counter, or show it after payment.",
+  "feedbackReviewMissing": "Add your review page link in Growth so happy customers can post it publicly.",
+  "feedbackLinkCopied": "Link copied",
+  "feedbackScores": "Scores",
+  "feedbackTodayAvg": "Today (average · count)",
+  "feedbackWeekAvg": "Last 7 days (average · count)",
+  "feedbackNeedsReply": "Needs a reply",
+  "feedbackRecord": "Add a rating yourself",
+  "feedbackHappy": "Good",
+  "feedbackOkay": "Okay",
+  "feedbackUnhappy": "Not good",
+  "feedbackRecent": "Recent ratings",
+  "feedbackEmpty": "No ratings yet.",
+  "enquiriesTitle": "Enquiries",
+  "enquiriesSubtitle": "Who asked, what you quoted, and what came of it.",
+  "enquiryAdd": "Add an enquiry",
+  "enquiryName": "Customer name",
+  "enquiryPhone": "Phone",
+  "enquiryWant": "What they asked for",
+  "enquiryQuote": "Price you quoted",
+  "enquiryNoFollowUp": "No reminder",
+  "enquiryFollowUpDays": "Follow up in {days} days",
+  "@enquiryFollowUpDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWinRate": "{rate}% turn into sales",
+  "@enquiryWinRate": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWonValue": "Value won",
+  "enquiryFilterToday": "Today",
+  "enquiryFilterOpen": "Open",
+  "enquiryFilterWon": "Won",
+  "enquiryFilterLost": "Lost",
+  "enquiryEmpty": "Nothing here.",
+  "enquiryFollowUpOn": "Follow up on {day}",
+  "@enquiryFollowUpOn": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryMessage": "Message",
+  "enquiryMessageText": "Hi {name}, following up about {item}. Shall I keep it ready for you?",
+  "@enquiryMessageText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "enquiryWon": "Won",
+  "enquiryLost": "Lost",
+  "enquiryReopen": "Reopen",
+  "customerRewardsDueTitle": "Rewards due",
+  "cloudShopSlugTaken": "That link name is already taken. Try something like {slug}.",
+  "@cloudShopSlugTaken": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "cloudShopSlugInvalid": "Use small letters, numbers and dashes only, at least 3 characters.",
+  "cloudShopOffline": "No internet just now. Check the connection and try again.",
+  "cloudShopTryAgain": "That did not go through. Please try again in a moment.",
+  "cloudShopLinkTitle": "Customer link",
+  "cloudShopCopyLink": "Copy link",
+  "cloudShopLinkCopied": "Link copied",
+  "cloudShopShowQr": "Show QR",
+  "paymentQrScanTitle": "Use your payment app QR",
+  "paymentQrScanAction": "Scan my QR",
+  "paymentQrScanHelp": "Point the camera at the QR sticker from GPay, PhonePe or Paytm. We read the UPI ID from it, so bills and the counter QR pay into the same account.",
+  "paymentQrScanFound": "UPI ID taken from your QR: {vpa}",
+  "@paymentQrScanFound": {
+    "placeholders": {
+      "vpa": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentQrScanNoUpi": "That is not a payment QR. Try the QR shown inside your payment app.",
+  "receiptFeedbackLine": "Scan to tell us how it was",
+  "qrPrintCounterCard": "Print counter card",
+  "qrPayCaption": "Scan to pay",
+  "qrFeedbackCaption": "Scan to rate us",
+  "offerPrintCards": "Print offer cards",
+  "offerCardCaption": "Scan to open this offer",
+  "devicesPairQrHint": "Let the new phone scan this",
+  "devicesScanQr": "Scan pairing QR",
+  "devicesScanInvalid": "That is not a pairing QR. Ask the owner to show it again.",
+  "quickSaleScan": "Scan item",
+  "quickSaleScanTitle": "Scan the item label",
+  "quickSaleScanUnknown": "No item found for code {code}. Add it in Products.",
+  "@quickSaleScanUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "backupTitle": "Backup & export",
+  "backupSubtitle": "Keep a copy of your books safe",
+  "backupNowAction": "Back up now",
+  "backupRestoreAction": "Restore from file",
+  "backupShareSubject": "VendorOS backup",
+  "backupSavedToast": "Backup file created",
+  "backupFailedToast": "Could not create the backup. Please try again.",
+  "backupRestoredToast": "Your books have been restored",
+  "backupNeverSaved": "You have never backed up",
+  "backupLastSaved": "Last backup: {when}",
+  "@backupLastSaved": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupSizeHint": "About {kb} KB will be saved",
+  "@backupSizeHint": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "backupRestoreWarning": "Restoring replaces everything on this phone with the file.",
+  "backupRestoreConfirmTitle": "Restore this backup?",
+  "backupRestoreConfirmBody": "{rows} entries from {when} will replace what is on this phone.",
+  "@backupRestoreConfirmBody": {
+    "placeholders": {
+      "rows": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "backupErrorNotFile": "This is not a VendorOS backup file.",
+  "backupErrorTooNew": "This backup is from a newer version. Please update the app first.",
+  "backupErrorCorrupt": "This backup file is damaged and cannot be used.",
+  "backupErrorEmpty": "The file is empty.",
+  "exportGroupLabel": "Export as spreadsheet",
+  "exportSalesTitle": "Sales",
+  "exportSalesSubtitle": "Every sale with date, item and amount",
+  "exportBillsTitle": "Bills",
+  "exportBillsSubtitle": "Bill-wise totals, discount and tax",
+  "exportCreditTitle": "Credit balances",
+  "exportCreditSubtitle": "Who still owes you and how much",
+  "exportStockTitle": "Stock",
+  "exportStockSubtitle": "Items, quantity on hand and prices",
+  "exportColDate": "Date",
+  "exportColItem": "Item",
+  "exportColMode": "Payment",
+  "exportColCustomer": "Customer",
+  "exportColAmount": "Amount",
+  "exportColBillNo": "Bill no",
+  "exportColSubtotal": "Subtotal",
+  "exportColDiscount": "Discount",
+  "exportColTax": "Tax",
+  "exportColTotal": "Total",
+  "exportColPayment": "Paid by",
+  "exportColStatus": "Status",
+  "exportColBalance": "Balance",
+  "exportColCode": "Code",
+  "exportColCategory": "Category",
+  "exportColUnit": "Unit",
+  "exportColQty": "Quantity",
+  "exportColCost": "Cost",
+  "exportColPrice": "Price",
+  "gstReportTitle": "GST summary",
+  "gstReportSubtitle": "Month-wise tax for your accountant",
+  "gstReportEmpty": "No GST bills yet. Turn on GST in Menu settings, then bill an item.",
+  "gstColMonth": "Month",
+  "gstColRate": "Rate",
+  "gstColTaxable": "Taxable value",
+  "gstColTax": "Total tax",
+  "gstBills": "Bills",
+  "gstSales": "Sales with tax",
+  "gstByRate": "By rate",
+  "gstShareAction": "Share spreadsheet",
+  "gstShareSubject": "GST summary {month}",
+  "@gstShareSubject": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "appearanceTitle": "Appearance",
+  "appearanceSubtitle": "Light or dark screen",
+  "appearanceSystem": "Match phone",
+  "appearanceLight": "Light",
+  "appearanceDark": "Dark",
+  "appearanceChanged": "Appearance updated",
+  "purchasesTitle": "Purchases",
+  "purchasesSubtitle": "Supplier bills and what you still owe",
+  "purchasesEmpty": "No purchase bills yet. Add the last stock you bought.",
+  "purchaseAdd": "Add purchase",
+  "purchaseTotalDue": "Owed to suppliers",
+  "purchaseMonthSpend": "Bought this month",
+  "purchaseDuesTitle": "Supplier dues",
+  "purchaseNoDues": "All supplier bills are paid.",
+  "purchaseDueBills": "{bills} bill(s) · oldest {days} day(s)",
+  "@purchaseDueBills": {
+    "placeholders": {
+      "bills": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "purchaseBillsTitle": "Purchase bills",
+  "purchasePaidFull": "Paid",
+  "purchaseDueOf": "{amount} due",
+  "@purchaseDueOf": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "purchaseSupplier": "Supplier",
+  "purchasePayTitle": "Pay {name}",
+  "@purchasePayTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasePayAmount": "Amount paid",
+  "purchasePay": "Record payment",
+  "purchaseSubtotal": "Item total",
+  "purchaseTax": "Tax",
+  "purchaseTotal": "Bill total",
+  "purchaseDue": "Still due",
+  "purchaseNewTitle": "New purchase bill",
+  "purchaseInvoiceNo": "Bill number",
+  "purchaseItems": "Items bought",
+  "purchaseLinkProduct": "Pick from your stock list",
+  "purchaseFreeItem": "Item name",
+  "purchaseQty": "Quantity",
+  "purchaseUnitCost": "Cost per unit",
+  "purchaseAddLine": "Add item",
+  "purchasePaidNow": "Paid now",
+  "purchaseNote": "Note",
+  "purchaseSaved": "Purchase saved and stock updated",
+  "permRecordPurchase": "Record purchase bills",
+  "permPaySupplier": "Pay suppliers",
+  "backupCloudTitle": "Online backup",
+  "backupCloudLast": "Last online backup: {when}",
+  "backupCloudNever": "Not saved online yet",
+  "backupCloudNeedsShop": "Create a cloud shop first",
+  "backupCloudNowAction": "Back up online now",
+  "backupCloudRestoreAction": "Restore from online",
+  "backupCloudSavedToast": "Saved online",
+  "backupCloudFailedToast": "Could not save online. Try again when you have signal.",
+  "@backupCloudLast": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "billWhatsapp": "Send on WhatsApp",
+  "billWhatsappFailed": "WhatsApp is not installed on this phone.",
+  "devicesStaffRole": "Staff role",
+  "@devicesStaffRole": {},
+  "devicesRoleDefault": "Default (job only)",
+  "@devicesRoleDefault": {},
+  "devicesRolePick": "Choose a staff role",
+  "@devicesRolePick": {},
+  "devicesRoleSaved": "Role sent to that phone",
+  "@devicesRoleSaved": {},
+  "devicesRoleFailed": "Could not set the role. Try again when online.",
+  "@devicesRoleFailed": {},
+  "adminTitle": "Owner reports",
+  "adminSubtitle": "What happened, who did it, and whether the cash matched",
+  "adminExceptionsTitle": "Exceptions",
+  "adminExceptionsSubtitle": "Discounts, cancelled bills, reprints and credit",
+  "adminStaffTitle": "Staff report",
+  "adminStaffSubtitle": "What each person did in this period",
+  "adminCashTitle": "Cash book",
+  "adminCashSubtitle": "Expected against counted, day by day",
+  "adminItemsTitle": "Item gaps",
+  "adminItemsSubtitle": "Sold against stock taken out",
+  "adminShopsTitle": "All shops",
+  "adminShopsSubtitle": "Totals from every shop you run",
+  "adminSummaryTitle": "Today's summary",
+  "adminSummarySend": "Send the summary",
+  "adminShare": "Share",
+  "adminNoRows": "Nothing to show for this period",
+  "adminFromBill": "From the bill",
+  "adminOwnerApproved": "Owner approved",
+  "adminColActions": "Actions",
+  "adminColDiscount": "Discount given",
+  "adminColCredit": "Credit given",
+  "adminColVoids": "Bills cancelled",
+  "adminColReprints": "Reprints",
+  "adminColOverrides": "Owner approvals",
+  "adminSeeExceptions": "See their exceptions",
+  "adminCashOpening": "Opening cash",
+  "adminCashExpected": "Expected",
+  "adminCashCounted": "Counted",
+  "adminCashShort": "Short",
+  "adminCashOver": "Extra",
+  "adminCashNet": "Net difference",
+  "adminCashMatched": "Days matched",
+  "adminCashMatchedOne": "Matched",
+  "adminCashShortDays": "Short days",
+  "adminItemSold": "Sold",
+  "adminItemStockOut": "Stock taken out",
+  "adminItemGap": "Gap",
+  "adminItemWasted": "Wasted",
+  "adminSummaryBills": "Bills",
+  "adminSummarySales": "Sales",
+  "adminSummaryCash": "Cash",
+  "adminSummaryUpi": "UPI",
+  "adminSummaryCredit": "Credit",
+  "adminSummaryDiscount": "Discounts",
+  "adminSummarySpend": "Spend",
+  "adminSummaryCashDiff": "Cash difference",
+  "adminSummaryTop": "Top items",
+  "adminShopsAllTotal": "All shops together",
+  "adminShopsOrders": "Orders (7 days)",
+  "adminShopsValue": "Value (7 days)",
+  "adminShopsAdd": "Add another shop",
+  "adminShopsAddHelp": "Type the other shop's link name and its owner key.",
+  "adminShopsAddAction": "Add shop",
+  "adminShopsSlug": "Shop link name",
+  "adminShopsKey": "Owner key",
+  "adminShopsRemove": "Remove",
+  "adminShopsRefresh": "Refresh",
+  "adminShopsError": "Could not read this shop",
+  "adminShopsInvalid": "Check the link name and the owner key",
+  "adminShopsExists": "That shop is already on the list",
+  "permViewCashBook": "See the cash book",
+  "permExportData": "Export data",
+  "permViewStaffReport": "See staff reports"
+}

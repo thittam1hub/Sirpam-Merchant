@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Menu · Order</title>
+<meta name="description" content="Scan, browse the shop menu and place your order from your phone. No app needed." />
+<meta name="robots" content="noindex" />
+<style>
+  :root{
+    --canvas:#e9edf2; --surface:#eef2f7; --ink:#26313d; --soft:#6b7a8c;
+    --accent:#1f7a5a; --warn:#b3651b; --line:#d7dee6;
+    --hi:rgba(255,255,255,.9); --sh:rgba(150,163,178,.55);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;background:var(--canvas);color:var(--ink);
+    font:16px/1.45 system-ui,'Noto Sans Tamil',sans-serif;padding-bottom:96px}
+  header{padding:18px 16px 10px}
+  h1{margin:0;font-size:22px;font-weight:800}
+  .sub{color:var(--soft);font-size:14px;margin-top:2px}
+  .card{background:var(--surface);border-radius:18px;padding:14px 16px;margin:12px 16px;
+    box-shadow:6px 6px 14px var(--sh),-6px -6px 14px var(--hi)}
+  .cat{margin:20px 16px 6px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+  .item{display:flex;align-items:center;gap:12px}
+  .item .name{flex:1;font-weight:700}
+  .item .price{font-weight:800}
+  .out{opacity:.45}
+  .step{display:flex;align-items:center;gap:10px}
+  button{font:inherit;border:0;background:var(--surface);color:var(--ink);border-radius:14px;
+    padding:10px 14px;font-weight:700;box-shadow:4px 4px 10px var(--sh),-4px -4px 10px var(--hi)}
+  button:active{box-shadow:inset 3px 3px 8px var(--sh),inset -3px -3px 8px var(--hi)}
+  button.primary{background:var(--accent);color:#fff}
+  button[disabled]{opacity:.5}
+  .qty{min-width:24px;text-align:center;font-weight:800}
+  input{font:inherit;width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);
+    background:var(--canvas);color:var(--ink)}
+  label{display:block;font-size:13px;color:var(--soft);margin:10px 0 4px}
+  .bar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);padding:12px 16px;
+    display:flex;gap:12px;align-items:center;box-shadow:0 -6px 18px var(--sh)}
+  .bar .total{flex:1;font-weight:800}
+  .note{color:var(--soft);font-size:13px}
+  .status{font-weight:800;color:var(--accent)}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="shopName">Menu</h1>
+  <div class="sub" id="tableLine"></div>
+</header>
+
+<main id="main">
+  <div class="card" id="loading">Loading the menu…</div>
+</main>
+
+<div class="bar hidden" id="bar">
+  <div class="total" id="total">₹0</div>
+  <button class="primary" id="placeBtn">Place order</button>
+</div>
+
+<script src="./config.js"></script>
+<script>
+(function () {
+  var cfg = window.SIRPAM_MENU_CONFIG || {};
+  var params = new URLSearchParams(location.search);
+  // /m/<slug>?t=<table>  — also accepts /m/?s=<slug> for flat hosting.
+  var seg = location.pathname.replace(/\/+$/, '').split('/').pop();
+  var slug = (seg && seg !== 'm' && seg !== 'index.html') ? seg : (params.get('s') || '');
+  var table = (params.get('t') || '').replace(/[^0-9A-Za-z-]/g, '').slice(0, 8);
+  var main = document.getElementById('main');
+  var bar = document.getElementById('bar');
+  var cart = {};
+  var shopInfo = {};
+
+  var items = [];
+
+  document.getElementById('tableLine').textContent =
+    table ? 'Table ' + table : 'Counter';
+
+  var placed = false;
+
+  function money(p) { return '₹' + (p / 100).toFixed(p % 100 ? 2 : 0); }
+
+  function card(html) { return '<div class="card">' + html + '</div>'; }
+
+  function offline(msg) {
+    main.innerHTML = card(
+      '<b>Ordering is not live yet</b><div class="note">' + msg +
+      '</div><div class="note">Please order at the counter — the shop will take care of you.</div>');
+    bar.classList.add('hidden');
+  }
+
+  function rest(path, opts) {
+    return fetch(cfg.url.replace(/\/$/, '') + path, Object.assign({
+      headers: {
+        'apikey': cfg.key,
+        'Content-Type': 'application/json',
+      }
+    }, opts || {})).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.status === 204 ? null : r.json();
+    });
+  }
+
+  function total() {
+    return items.reduce(function (a, it) {
+      return a + (cart[it.id] || 0) * it.price_paise;
+    }, 0);
+  }
+
+  function render() {
+    var groups = {};
+    items.forEach(function (it) {
+      (groups[it.category || ''] = groups[it.category || ''] || []).push(it);
+    });
+    var html = '';
+    Object.keys(groups).forEach(function (cat) {
+      if (cat) html += '<div class="cat">' + esc(cat) + '</div>';
+      groups[cat].forEach(function (it) {
+        var q = cart[it.id] || 0;
+        html += '<div class="card item' + (it.available ? '' : ' out') + '" data-id="' + esc(it.id) + '">' +
+          '<div class="name">' + esc(it.name) + '</div>' +
+          '<div class="price">' + money(it.price_paise) + '</div>' +
+          (it.available
+            ? '<div class="step"><button data-act="dec">−</button>' +
+              '<span class="qty">' + q + '</span>' +
+              '<button data-act="inc">+</button></div>'
+            : '<div class="note">Sold out</div>') +
+          '</div>';
+      });
+    });
+    html += '<div class="card">' +
+      '<label for="cname">Your name (optional)</label><input id="cname" maxlength="40" />' +
+      '<label for="cphone">Phone (optional)</label><input id="cphone" inputmode="tel" maxlength="15" />' +
+      '</div>';
+    main.innerHTML = html;
+    sync();
+  }
+
+  function sync() {
+    var t = total();
+    document.getElementById('total').textContent = money(t);
+    document.getElementById('placeBtn').disabled = t === 0;
+    document.getElementById('placeBtn').textContent =
+      shopInfo.pay_mode === 'before' ? 'Place order & pay' : 'Place order';
+    bar.classList.toggle('hidden', t === 0);
+    document.querySelectorAll('.item').forEach(function (el) {
+      var q = el.querySelector('.qty');
+      if (q) q.textContent = cart[el.dataset.id] || 0;
+    });
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  main.addEventListener('click', function (e) {
+    var btn = e.target.closest('button[data-act]');
+    if (!btn) return;
+    var id = btn.closest('.item').dataset.id;
+    var q = cart[id] || 0;
+    q = btn.dataset.act === 'inc' ? Math.min(q + 1, 99) : Math.max(q - 1, 0);
+    if (q === 0) delete cart[id]; else cart[id] = q;
+    sync();
+  });
+
+  document.getElementById('placeBtn').addEventListener('click', function () {
+    var btn = this;
+    btn.disabled = true;
+    // Prices are recomputed server-side from menu_items; the client never
+    // sends money, only item ids and quantities.
+    rest('/rest/v1/rpc/place_menu_order', {
+      method: 'POST',
+      body: JSON.stringify({
+        p_slug: slug,
+        p_table: table,
+        p_name: (document.getElementById('cname') || {}).value || '',
+        p_phone: (document.getElementById('cphone') || {}).value || '',
+        p_items: Object.keys(cart).map(function (id) {
+          return { id: id, qty: cart[id] };
+        })
+      })
+    }).then(function (res) {
+      var token = res && (res.token || (res[0] && res[0].token));
+      var amount = total();
+      var lines = items.filter(function (it) { return cart[it.id]; })
+        .map(function (it) {
+          return '<div class="item"><div class="name">' + esc(it.name) +
+            ' × ' + cart[it.id] + '</div><div class="price">' +
+            money(it.price_paise * cart[it.id]) + '</div></div>';
+        }).join('');
+      var vpa = (shopInfo.vpa || '').trim();
+      var awaiting = (res && res.payment_state) === 'awaiting';
+      var pay = '';
+      if (vpa) {
+        // Dine-in reality: the customer is already holding the phone, so a
+        // UPI intent link beats a QR they would have to scan off their own
+        // screen. Amount is the menu subtotal; the counter bill is final.
+        var uri = 'upi://pay?pa=' + encodeURIComponent(vpa) +
+          '&pn=' + encodeURIComponent(shopInfo.name || 'Shop') +
+          '&am=' + (amount / 100).toFixed(2) + '&cu=INR' +
+          '&tn=' + encodeURIComponent('Token ' + (token || ''));
+        pay = (awaiting
+            ? '<div class="note" style="margin-bottom:8px"><b>Please pay now</b> — the counter starts your order once the payment shows up.</div>'
+            : '') +
+          '<a href="' + esc(uri) + '"><button class="primary" style="width:100%">' +
+          'Pay ' + money(amount) + ' by UPI</button></a>' +
+          '<div class="note" style="margin-top:8px">' +
+          (awaiting ? 'Or pay at the counter straight away.'
+                    : 'Or pay at the counter — cash or UPI.') + '</div>';
+      } else {
+        pay = '<div class="note">' +
+          (awaiting ? 'Please pay at the counter now — your order starts after payment.'
+                    : 'Pay at the counter — cash or UPI.') + '</div>';
+      }
+      main.innerHTML = card('<b>Order placed</b>' +
+        '<div class="note">Your token number</div>' +
+        '<div class="status" style="font-size:44px">' + esc(token || '—') + '</div>' +
+        '<div class="note">' + collectLine() + '</div>') +
+        card(lines + '<div class="item" style="margin-top:8px">' +
+          '<div class="name">Total</div><div class="price">' + money(amount) + '</div></div>') +
+        card(pay) +
+        requestCard() +
+        card('<button id="againBtn" style="width:100%">Order something else</button>');
+      bar.classList.add('hidden');
+      placed = true;
+      var again = document.getElementById('againBtn');
+      if (again) again.addEventListener('click', function () {
+        cart = {}; placed = false; render(); load(false);
+      });
+    }).catch(function () {
+      btn.disabled = false;
+      alert('Could not place the order. Please try again or order at the counter.');
+    });
+  });
+
+
+
+  function serviceMode() {
+    var m = shopInfo.service_mode;
+    return (m === 'self' || m === 'takeaway') ? m : 'table';
+  }
+
+  function collectLine() {
+    var m = serviceMode();
+    if (m === 'self') return 'Your token will be called at the counter — please collect it there.';
+    if (m === 'takeaway') return 'Your parcel will be ready at the counter when this token is called.';
+    return 'The counter will call this number when it is ready.';
+  }
+
+  function requestCard() {
+    if (serviceMode() !== 'table') return '';
+    var html = '';
+    if (shopInfo.allow_call_staff !== false) {
+      html += '<button data-req="call_staff" style="width:100%">Call staff</button>';
+    }
+    if (shopInfo.allow_request_bill !== false) {
+      html += (html ? '<div style="height:10px"></div>' : '') +
+        '<button data-req="request_bill" style="width:100%">Ask for the bill</button>';
+    }
+    if (!html) return '';
+    return card(html + '<div class="note" id="reqNote" style="margin-top:8px"></div>');
+  }
+
+  main.addEventListener('click', function (e) {
+    var btn = e.target.closest('button[data-req]');
+    if (!btn) return;
+    btn.disabled = true;
+    var note = document.getElementById('reqNote');
+    rest('/rest/v1/rpc/service_request_push', {
+      method: 'POST',
+      body: JSON.stringify({ p_slug: slug, p_table: table, p_kind: btn.dataset.req })
+    }).then(function () {
+      if (note) note.textContent = 'The counter has been told. Someone is on the way.';
+    }).catch(function () {
+      if (note) note.textContent = 'Could not reach the counter — please wave to the staff.';
+    }).then(function () {
+      setTimeout(function () { btn.disabled = false; }, 20000);
+    });
+  });
+
+  if (!cfg.url || !cfg.key) {
+    offline('This shop has not switched on QR ordering.');
+    return;
+  }
+  if (!slug) { offline('This QR code is missing the shop name.'); return; }
+
+  function load(first) {
+    return rest('/rest/v1/rpc/menu_for_shop', {
+      method: 'POST',
+      body: JSON.stringify({ p_slug: slug })
+    }).then(function (res) {
+      var data = (res && (res.shop ? res : res[0])) || {};
+      if (!data.shop || data.shop.open === false) {
+        if (first) offline('The shop is closed right now.');
+        return;
+      }
+      shopInfo = data.shop || {};
+      document.getElementById('shopName').textContent = data.shop.name || 'Menu';
+
+      var next = data.items || [];
+      if (!next.length) {
+        if (first) offline('The menu is empty right now.');
+        return;
+      }
+      // Availability changes (sold out / back on) must reach the customer
+      // without a reload; drop sold-out lines from the basket too.
+      var changed = first || next.length !== items.length;
+      if (!changed) {
+        for (var i = 0; i < next.length; i++) {
+          var prev = items[i] || {};
+          if (prev.id !== next[i].id || prev.available !== next[i].available ||
+              prev.price_paise !== next[i].price_paise || prev.name !== next[i].name) {
+            changed = true;
+            break;
+          }
+        }
+      }
+      items = next;
+      if (!changed) return;
+      var live = {};
+      items.forEach(function (it) { if (it.available) live[it.id] = true; });
+      Object.keys(cart).forEach(function (id) { if (!live[id]) delete cart[id]; });
+      render();
+    }).catch(function () {
+      if (first) offline('The menu could not be loaded. Check the network and try again.');
+    });
+  }
+
+  load(true);
+  // Poll rather than socket: kirana wifi drops constantly and a poll always
+  // recovers by itself. Pauses while the tab is hidden to save the battery.
+  setInterval(function () {
+    if (!document.hidden && !placed) load(false);
+  }, 15000);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "vendoros-devhost",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "build:dev": "node scripts/build.mjs",
+    "build:web": "bash scripts/build-web.sh",
+    "build:apk": "bash scripts/build-apk.sh",
+    "smoke:web": "python3 scripts/smoke_web.py",
+    "publish:web": "node scripts/publish-web.mjs",
+    "hash:web": "node scripts/source-hash.mjs",
+    "l10n": "bash -c 'source scripts/toolchain.sh && ensure_flutter && \"$FLUTTER_ROOT/bin/flutter\" gen-l10n'",
+    "test": "bash -c 'source scripts/toolchain.sh && ensure_flutter && \"$FLUTTER_ROOT/bin/flutter\" test --no-pub'",
+    "check": "bash -c 'source scripts/toolchain.sh && ensure_flutter && \"$FLUTTER_ROOT/bin/flutter\" analyze --no-pub && \"$FLUTTER_ROOT/bin/flutter\" test --no-pub'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0"
+  }
+}

@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: flutter pub get
+      - name: Regenerate localizations and fail on drift
+        run: |
+          flutter gen-l10n
+          git diff --exit-code lib/l10n/generated \
+            || (echo "::error::Generated localizations are stale — run 'flutter gen-l10n'" && exit 1)
+      - name: Static analysis
+        run: flutter analyze --no-pub
+      - name: Tests (includes localization key audit)
+        run: flutter test --no-pub

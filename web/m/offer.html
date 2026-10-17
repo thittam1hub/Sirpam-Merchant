@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <title>Your offer</title>
+    <style>
+      :root { color-scheme: light; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #eef0f4;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        color: #2b2f36;
+      }
+      .card {
+        width: min(420px, 92vw);
+        padding: 28px 22px 26px;
+        border-radius: 26px;
+        background: #eef0f4;
+        box-shadow: 10px 10px 24px #d3d7de, -10px -10px 24px #ffffff;
+        text-align: center;
+      }
+      .shop { font-size: 14px; color: #6b7280; margin: 0 0 10px; }
+      h1 { font-size: 24px; margin: 0 0 8px; }
+      p.detail { margin: 0 0 18px; font-size: 15px; line-height: 1.5; }
+      .code {
+        display: inline-block;
+        padding: 14px 22px;
+        border-radius: 18px;
+        background: #eef0f4;
+        box-shadow: inset 4px 4px 10px #d3d7de, inset -4px -4px 10px #ffffff;
+        font-size: 26px;
+        font-weight: 800;
+        letter-spacing: 6px;
+      }
+      .hint { margin-top: 18px; font-size: 13px; color: #6b7280; }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <p class="shop" id="shop"></p>
+      <h1 id="title">Offer</h1>
+      <p class="detail" id="detail"></p>
+      <div class="code hidden" id="code"></div>
+      <p class="hint">Show this screen at the counter.</p>
+    </main>
+    <script>
+      var q = new URLSearchParams(location.search);
+      function set(id, value) {
+        var el = document.getElementById(id);
+        if (value) { el.textContent = value; el.classList.remove('hidden'); }
+        else { el.style.display = 'none'; }
+      }
+      set('shop', q.get('n'));
+      var title = q.get('o');
+      if (title) document.getElementById('title').textContent = title;
+      document.title = title ? title : 'Your offer';
+      set('detail', q.get('d'));
+      set('code', q.get('c'));
+    </script>
+  </body>
+</html>

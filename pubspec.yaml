@@ -1,0 +1,56 @@
+name: vendoros
+description: "VendorOS — offline-first operating system for Indian street vendors: voice ledger, udhaar tracking, UPI soundbox, mandi prices, loan-proof reports."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # State management (AsyncNotifier / Notifier, no codegen to keep builds hermetic)
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.6.2
+  # Typography — Noto Sans Tamil + Inter for numerals
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  # data.gov.in mandi price feed
+  http: ^1.2.2
+  # Offline-first local persistence
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.0
+  # Cart GPS broadcast
+  geolocator: ^12.0.0
+  # UPI deep links + WhatsApp share
+  url_launcher: ^6.3.0
+  # Tamil payment announcements (soundbox)
+  flutter_tts: ^4.0.2
+  # Zero-typing voice ledger
+  speech_to_text: ^7.0.0
+  # Loan-proof PDF generation + checksum
+  pdf: ^3.11.1
+  printing: ^5.13.3
+  crypto: ^3.0.5
+  share_plus: ^10.0.2
+  # QR / barcode symbol rendering (screen + label sheets)
+  barcode: ^2.2.9
+  # Camera barcode + QR scanning (Android/iOS/web)
+  mobile_scanner: ^7.0.0
+  file_picker: ^11.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/fonts/
